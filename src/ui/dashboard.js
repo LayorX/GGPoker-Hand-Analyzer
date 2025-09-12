@@ -41,13 +41,13 @@ function formatDuration(minutes) {
     const hours = Math.floor(minutes / 60);
     const mins = Math.round(minutes % 60);
     let result = '';
-    if (hours > 0) result += `${hours}h `;
+    if (hours > 0) result += `${hours}h ${mins}m`;
     if (mins > 0 || hours === 0) result += `${mins}m`;
     return result.trim();
 }
 
 function formatValue(val, type, unit = '') {
-    if (val === undefined || val === null || isNaN(val)) return '--';
+    if ((val === undefined || val === null || isNaN(val))&&type!="string") return '--';
     switch (type) {
         case 'money': return `$${(+val).toFixed(2)}`;
         case 'bb': return `${(+val).toFixed(1)} BB`;
@@ -172,7 +172,7 @@ export function renderDashboard(stats) {
 
     const sessionInfo = [
         createStatCard('total_hands', stats.totalHands, 'tooltip_total_hands', 'int'),
-        createStatCard('total_duration', formatDuration(stats.actualPlayingDurationMinutes), 'tooltip_total_duration'),
+        createStatCard('total_duration', formatDuration(stats.actualPlayingDurationMinutes), 'tooltip_total_duration','string'),
         createStatCard('hands_per_hour', stats.handsPerHour, 'tooltip_hands_per_hour', 'int'),
         createStatCard('profit_per_hour', stats.profitPerHour, 'tooltip_profit_per_hour', 'money'),
     ];

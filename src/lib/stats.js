@@ -20,7 +20,14 @@ function initStatsObject() {
             vpip: { opportunities: 0, actions: 0 }, 
             pfr: { opportunities: 0, actions: 0 },
             '3bet': { opportunities: 0, actions: 0 },
+            '4bet': { opportunities: 0, actions: 0 },
             cbetFlop: { opportunities: 0, actions: 0 },
+            coldCall: { opportunities: 0, actions: 0 },
+            squeeze: { opportunities: 0, actions: 0 },
+            limp: { opportunities: 0, actions: 0 },
+            steal: { opportunities: 0, actions: 0 },
+            foldToSteal: { opportunities: 0, actions: 0 },
+            foldVs3Bet: { opportunities: 0, actions: 0 }
         };
     });
 
@@ -107,7 +114,7 @@ export function calculateStats(parsedHands) {
         // **修正**: 總抽水和彩金只計算贏的牌局把jackpot也算到抽水裡面
         stats.totalRake += isHeroWon ? hand.info.rake+hand.info.jackpot||0:0;
         stats.totalJackpot += isHeroWon ? hand.info.jackpot||0:0;
-        if (hand.hero.result!=0) console.log(hand.info.id,stats.totalProfit,hand.hero.result, stats.totalRake,hand.info.rake, hand.info.jackpot);
+        // if (hand.hero.result!=0) console.log(hand.info.id,stats.totalProfit,hand.hero.result, stats.totalRake,hand.info.rake, hand.info.jackpot);
 
         cumulativeProfit += hand.hero.result;
         stats.profitHistory.push({ hand: stats.totalHands, profit: cumulativeProfit });
@@ -137,7 +144,10 @@ export function calculateStats(parsedHands) {
         const firstActionIndex = preflopActions.findIndex(a => a.seat === heroSeat);
         const actionsBeforeHero = firstActionIndex > -1 ? preflopActions.slice(0, firstActionIndex) : [];
         const raisesBeforeHero = actionsBeforeHero.filter(a => a.action === 'raises');
+        const callBeforeHero = actionsBeforeHero.filter(a => a.action === 'calls');
         const facedPreflopRaise = raisesBeforeHero.length > 0;
+        const raisesAfterHero = firstActionIndex > -1 && heroPreflopActions.some(a => a.action === 'raises')? preflopActions.slice(firstActionIndex + 1).filter(a => a.action === 'raises') : [];
+        const faced3Bet = raisesAfterHero.length > 0;
         
         // **[核心修正] VPIP: Voluntarily Put Money In Pot**
         // 機會：只要不是大小盲，就有機會 VPIP。大盲位只有在面對加注時才有機會「自願」投錢。
@@ -174,16 +184,83 @@ export function calculateStats(parsedHands) {
             }
         }
         
+        // 4-Bet
+        // 機會：前面剛好有 2 個玩家加注。
+        if (raisesBeforeHero.length === 2 || faced3Bet) {
+            stats['4Bet'].opportunities++;
+            if(posData) posData['4bet'].opportunities++;
+            if (heroPreflopActions.some(a => a.action === 'raises')) {
+                stats['4Bet'].actions++;
+                if(posData) posData['4bet'].actions++;
+            }
+        }
+
+        // ColdCall
+        // 機會：前面剛好有 1 個玩家加注，且沒有其他人跟注。
+        if (raisesBeforeHero.length === 1 && !actionsBeforeHero.some(a => a.action === 'calls')) {
+            stats.ColdCall.opportunities++;
+            if(posData) posData.coldCall.opportunities++;
+            if (heroPreflopActions.some(a => a.action === 'calls')) {
+                stats.ColdCall.actions++;
+                if(posData) posData.coldCall.actions++;
+            }
+        }
+
+        // Squeeze
+        // 機會：前面多位玩家，且至少有 1 個玩家跟注。
+        if (raisesBeforeHero.length > 0 || callBeforeHero.length>1&& actionsBeforeHero.some(a => a.action === 'calls')) {
+            stats.Squeeze.opportunities++;
+            if(posData) posData.squeeze.opportunities++;
+            if (heroPreflopActions.some(a => a.action === 'raises')) {
+                stats.Squeeze.actions++;
+                if(posData) posData.squeeze.actions++;
+            }
+        }
+
+        // Limp
+        // 機會：前面沒有人加注。
+        if (!facedPreflopRaise) {
+            stats.Limp.opportunities++;
+            if(posData) posData.limp.opportunities++;
+            if (heroPreflopActions.some(a => a.action === 'calls')) {
+                stats.Limp.actions++;
+                if(posData) posData.limp.actions++;
+            }   
+        }   
+
+        // Steal
+        // 機會：Hero 在CO 或 BTN，且前面沒有人加注。
+        if ((heroPos === 'CO' || heroPos === 'BTN') && !facedPreflopRaise) { 
+            stats.Steal.opportunities++;
+            if(posData) posData.steal.opportunities++;
+            if (heroPreflopActions.some(a => a.action === 'raises')) {
+                stats.Steal.actions++;
+                if(posData) posData.steal.actions++;
+            }
+        }
+
         // Fold to Steal
         // 機會：Hero 在盲注位，且面對來自 CO 或 BTN 的唯一加注。
         const lastRaiserInfo = raisesBeforeHero.length === 1 ? hand.playersBySeat[raisesBeforeHero[0].seat] : null;
         if ((heroPos === 'SB' || heroPos === 'BB') && lastRaiserInfo && (lastRaiserInfo.position === 'CO' || lastRaiserInfo.position === 'BTN')) {
             stats.FoldToSteal.opportunities++;
+            if(posData) posData.foldToSteal.opportunities++;
             if (heroPreflopActions.some(a => a.action === 'folds')) {
                 stats.FoldToSteal.actions++;
+                if(posData) posData.foldToSteal.actions++;
             }
         }
 
+        // Fold vs 3-Bet
+        // 機會：Hero 已加注，且面對唯一的加注。
+        if (heroPreflopActions.some(a => a.action === 'raises') && faced3Bet) {
+            stats.FoldVs3Bet.opportunities++;
+            if(posData) posData.foldVs3Bet.opportunities++;
+            if (heroPreflopActions.some(a => a.action === 'folds')) {
+                stats.FoldVs3Bet.actions++;
+                if(posData) posData.foldVs3Bet.actions++;
+            }
+        }
         // --- 翻後 Post-flop ---
         const sawFlop = hand.streets.flop.board.length > 0 && !heroPreflopActions.some(a => a.action === 'folds');
         if (sawFlop) {
