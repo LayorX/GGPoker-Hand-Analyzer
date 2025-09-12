@@ -68,16 +68,48 @@ function initStatsObject() {
 function createHandContext(hand) {
     const heroSeat = hand.hero.seat;
     const heroPos = hand.hero.position;
-    
+
+    // PREFLOP CONTEXT
     const preflopActions = hand.streets.preflop.actions;
     const heroPreflopActions = preflopActions.filter(a => a.seat === heroSeat);
+    const lastPreflopRaiser = [...preflopActions].filter(a => a.action === 'raises').pop();
+    const preflopAggressorSeat = lastPreflopRaiser ? lastPreflopRaiser.seat : null;
     const firstActionIndex = preflopActions.findIndex(a => a.seat === heroSeat);
     const actionsBeforeHero = firstActionIndex > -1 ? preflopActions.slice(0, firstActionIndex) : [];
     const raisesBeforeHero = actionsBeforeHero.filter(a => a.action === 'raises');
     const facedPreflopRaise = raisesBeforeHero.length > 0;
     const raisesAfterHero = firstActionIndex > -1 && heroPreflopActions.some(a => a.action === 'raises') ? preflopActions.slice(firstActionIndex + 1).filter(a => a.action === 'raises') : [];
+    
+    // POSTFLOP GENERAL
+    const sawFlop = hand.streets.flop.board.length > 0;
+    const sawTurn = sawFlop && hand.streets.turn.board.length > 0;
+    const sawRiver = sawTurn && hand.streets.river.board.length > 0;
+    const reachedShowdown = sawRiver && !hand.streets.river.actions.some(a => a.seat === heroSeat && a.action === 'folds');
 
-    const sawFlop = hand.streets.flop.board.length > 0 && !heroPreflopActions.some(a => a.action === 'folds');
+    // HERO'S ROLE
+    const isHeroPreflopAggressor = sawFlop && heroSeat === preflopAggressorSeat;
+    const heroCalledPreflop = heroPreflopActions.some(a => a.action === 'calls');
+    const isHeroPreflopCaller = sawFlop && preflopAggressorSeat !== null && heroSeat !== preflopAggressorSeat && heroCalledPreflop;
+
+    // FLOP CONTEXT
+    const flopActions = hand.streets.flop.actions;
+    const heroFlopActions = flopActions.filter(a => a.seat === heroSeat);
+    const aggressorActionOnFlop = flopActions.find(a => a.seat === preflopAggressorSeat);
+    const aggressorCBet = !!(aggressorActionOnFlop && aggressorActionOnFlop.action === 'bets');
+    const aggressorMissedCBet = !!(aggressorActionOnFlop && aggressorActionOnFlop.action === 'checks');
+    const flopCheckedThrough = sawFlop && flopActions.length > 0 && flopActions.every(a => a.action === 'checks');
+
+    // POSITION CONTEXT
+    let isHeroInPosition = false;
+    if (sawFlop && preflopAggressorSeat && preflopAggressorSeat !== heroSeat) {
+        const aggressorActionIndex = flopActions.findIndex(a => a.seat === preflopAggressorSeat);
+        const heroActionIndex = flopActions.findIndex(a => a.seat === heroSeat);
+        if (aggressorActionIndex > -1 && heroActionIndex > -1) {
+            isHeroInPosition = heroActionIndex > aggressorActionIndex;
+        } else if (hand.players.length === 2) { // Headsup pot fallback
+             isHeroInPosition = hand.hero.position === 'BTN';
+        }
+    }
 
     return {
         hand,
@@ -85,7 +117,9 @@ function createHandContext(hand) {
             seat: heroSeat,
             position: heroPos,
             result: hand.hero.result,
-            isVpipOpportunity: (heroPos !== 'BB' && heroPos !== 'SB') || (facedPreflopRaise)
+            isVpipOpportunity: heroPos !== 'BB' || facedPreflopRaise,
+            isPreflopAggressor,
+            isPreflopCaller,
         },
         preflop: {
             actions: preflopActions,
@@ -96,8 +130,12 @@ function createHandContext(hand) {
             faced3Bet: raisesAfterHero.length > 0
         },
         flop: {
-            actions: hand.streets.flop.actions,
-            heroActions: hand.streets.flop.actions.filter(a => a.seat === heroSeat)
+            actions: flopActions,
+            heroActions: heroFlopActions,
+            aggressorCBet,
+            aggressorMissedCBet,
+            wasCheckedThrough: flopCheckedThrough,
+            isHeroInPosition,
         },
         turn: {
             actions: hand.streets.turn.actions,
@@ -107,11 +145,12 @@ function createHandContext(hand) {
             actions: hand.streets.river.actions,
             heroActions: hand.streets.river.actions.filter(a => a.seat === heroSeat)
         },
+        preflopAggressorSeat,
         isHeroWinner: hand.summary.winners.some(w => w.player.includes('Hero')),
         sawFlop,
-        sawTurn: sawFlop && hand.streets.turn.board.length > 0 && !hand.streets.flop.actions.some(a => a.seat === heroSeat && a.action === 'folds'),
-        sawRiver: sawFlop && hand.streets.river.board.length > 0 && !hand.streets.turn.actions.some(a => a.seat === heroSeat && a.action === 'folds'),
-        reachedShowdown: sawFlop && hand.streets.river.board.length > 0 && !hand.streets.river.actions.some(a => a.seat === heroSeat && a.action === 'folds')
+        sawTurn,
+        sawRiver,
+        reachedShowdown,
     };
 }
 

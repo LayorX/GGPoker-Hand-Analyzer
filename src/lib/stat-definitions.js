@@ -30,6 +30,15 @@ const wasHeroPreflopAggressor = (preflopContext, heroSeat) => {
     return lastRaiser?.seat === heroSeat;
 };
 
+/**
+ * 檢查 Hero 是否為翻牌前的跟注者並看到了翻牌
+ * @param {object} handContext - 完整的手牌上下文
+ * @returns {boolean}
+ */
+const wasHeroPreflopCaller = (handContext) => {
+    return handContext.hero.isPreflopCaller;
+};
+
 
 // --- 數據定義 ---
 
@@ -157,6 +166,44 @@ export const STAT_DEFINITIONS = {
             }
         }
     },
+    fold_vs_3bet: {
+        nameKey: 'fold_vs_3bet',
+        tooltipKey: 'tooltip_fold_vs_3bet',
+        type: 'percent',
+        category: 'preflop_vs_raise',
+        init: () => ({ opportunities: 0, actions: 0 }),
+        process: (handContext, stat) => {
+            const { preflop } = handContext;
+            if (preflop.heroActions.some(a => a.action === 'raises') && preflop.faced3Bet) {
+                stat.opportunities++;
+                 if (preflop.heroActions.some(a => a.action === 'folds')) {
+                    stat.actions++;
+                }
+            }
+        }
+    },
+    fold_vs_4bet: {
+        nameKey: 'fold_vs_4bet',
+        tooltipKey: 'tooltip_fold_vs_4bet',
+        type: 'percent',
+        category: 'preflop_vs_raise',
+        init: () => ({ opportunities: 0, actions: 0 }),
+        process: (handContext, stat) => {
+            const { preflop, hero } = handContext;
+            const hero3Bet = preflop.heroActions.some(a => a.action === 'raises') && preflop.raisesBeforeHero.length === 1;
+            if (hero3Bet) {
+                 const heroActionIndex = preflop.actions.map(a => a.seat).lastIndexOf(hero.seat);
+                 const faced4Bet = preflop.actions.slice(heroActionIndex + 1).some(a => a.action === 'raises');
+                if (faced4Bet) {
+                     stat.opportunities++;
+                     const heroFinalAction = [...preflop.heroActions].pop();
+                     if (heroFinalAction && heroFinalAction.action === 'folds') {
+                        stat.actions++;
+                    }
+                }
+            }
+        }
+    },
     cold_call: {
         nameKey: 'cold_call',
         tooltipKey: 'tooltip_cold_call',
@@ -240,22 +287,6 @@ export const STAT_DEFINITIONS = {
             }
         }
     },
-    fold_vs_3bet: {
-        nameKey: 'fold_vs_3bet',
-        tooltipKey: 'tooltip_fold_vs_3bet',
-        type: 'percent',
-        category: 'preflop_vs_raise',
-        init: () => ({ opportunities: 0, actions: 0 }),
-        process: (handContext, stat) => {
-            const { preflop } = handContext;
-            if (preflop.heroActions.some(a => a.action === 'raises') && preflop.faced3Bet) {
-                stat.opportunities++;
-                 if (preflop.heroActions.some(a => a.action === 'folds')) {
-                    stat.actions++;
-                }
-            }
-        }
-    },
 
     // --- 翻後 Post-flop ---
     cbet_flop: {
@@ -265,10 +296,9 @@ export const STAT_DEFINITIONS = {
         category: 'postflop_aggressor',
         init: () => ({ opportunities: 0, actions: 0 }),
         process: (handContext, stat) => {
-            const { hero, preflop, flop } = handContext;
-            if (handContext.sawFlop && wasHeroPreflopAggressor(preflop, hero.seat)) {
+            if (handContext.hero.isPreflopAggressor) {
                 stat.opportunities++;
-                if (flop.heroActions.some(a => a.action === 'bets' || a.action === 'raises')) {
+                if (handContext.flop.heroActions.some(a => a.action === 'bets')) {
                     stat.actions++;
                 }
             }
@@ -281,11 +311,11 @@ export const STAT_DEFINITIONS = {
         category: 'postflop_aggressor',
         init: () => ({ opportunities: 0, actions: 0 }),
         process: (handContext, stat) => {
-            const { hero, preflop, flop, turn } = handContext;
-            const wasFlopCbetter = flop.heroActions.some(a => a.action === 'bets' || a.action === 'raises');
-            if (handContext.sawTurn && wasHeroPreflopAggressor(preflop, hero.seat) && wasFlopCbetter) {
+            const { hero, turn } = handContext;
+            const wasFlopCbetter = handContext.flop.heroActions.some(a => a.action === 'bets');
+            if (handContext.sawTurn && hero.isPreflopAggressor && wasFlopCbetter) {
                 stat.opportunities++;
-                if (turn.heroActions.some(a => a.action === 'bets' || a.action === 'raises')) {
+                if (turn.heroActions.some(a => a.action === 'bets')) {
                     stat.actions++;
                 }
             }
@@ -298,12 +328,12 @@ export const STAT_DEFINITIONS = {
         category: 'postflop_aggressor',
         init: () => ({ opportunities: 0, actions: 0 }),
         process: (handContext, stat) => {
-            const { hero, preflop, flop, turn, river } = handContext;
-            const wasFlopCbetter = flop.heroActions.some(a => a.action === 'bets' || a.action === 'raises');
-            const wasTurnCbetter = turn.heroActions.some(a => a.action === 'bets' || a.action === 'raises');
-            if (handContext.sawRiver && wasHeroPreflopAggressor(preflop, hero.seat) && wasFlopCbetter && wasTurnCbetter) {
+            const { hero, turn, river } = handContext;
+            const wasFlopCbetter = handContext.flop.heroActions.some(a => a.action === 'bets');
+            const wasTurnCbetter = turn.heroActions.some(a => a.action === 'bets');
+            if (handContext.sawRiver && hero.isPreflopAggressor && wasFlopCbetter && wasTurnCbetter) {
                 stat.opportunities++;
-                if (river.heroActions.some(a => a.action === 'bets' || a.action === 'raises')) {
+                if (river.heroActions.some(a => a.action === 'bets')) {
                     stat.actions++;
                 }
             }
@@ -315,13 +345,46 @@ export const STAT_DEFINITIONS = {
         type: 'percent',
         category: 'postflop_caller',
         init: () => ({ opportunities: 0, actions: 0 }),
+        process: (handContext, stat) => {
+            if (wasHeroPreflopCaller(handContext) && handContext.flop.aggressorCBet) {
+                stat.opportunities++;
+                if (handContext.flop.heroActions.some(a => a.action === 'folds')) {
+                    stat.actions++;
+                }
+            }
+        }
     },
-     check_raise_flop: {
+    raise_cbet_flop: {
+        nameKey: 'raise_cbet_flop',
+        tooltipKey: 'tooltip_raise_cbet_flop',
+        type: 'percent',
+        category: 'postflop_caller',
+        init: () => ({ opportunities: 0, actions: 0 }),
+        process: (handContext, stat) => {
+            if (wasHeroPreflopCaller(handContext) && handContext.flop.aggressorCBet) {
+                stat.opportunities++;
+                if (handContext.flop.heroActions.some(a => a.action === 'raises')) {
+                    stat.actions++;
+                }
+            }
+        }
+    },
+    check_raise_flop: {
         nameKey: 'check_raise_flop',
         tooltipKey: 'tooltip_check_raise_flop',
         type: 'percent',
         category: 'postflop_caller',
         init: () => ({ opportunities: 0, actions: 0 }),
+        process: (handContext, stat) => {
+            if (!wasHeroPreflopCaller(handContext) || handContext.flop.isHeroInPosition) return;
+            const heroChecked = handContext.flop.heroActions.some(a => a.action === 'checks');
+            if (heroChecked && handContext.flop.aggressorCBet) {
+                 stat.opportunities++;
+                if (handContext.flop.heroActions.some(a => a.action === 'raises')) {
+                    stat.actions++;
+                }
+            }
+        }
     },
     donk_bet_flop: {
         nameKey: 'donk_bet_flop',
@@ -329,6 +392,14 @@ export const STAT_DEFINITIONS = {
         type: 'percent',
         category: 'postflop_caller',
         init: () => ({ opportunities: 0, actions: 0 }),
+        process: (handContext, stat) => {
+            if (wasHeroPreflopCaller(handContext) && !handContext.flop.isHeroInPosition) {
+                stat.opportunities++;
+                if (handContext.flop.heroActions.some(a => a.action === 'bets')) {
+                    stat.actions++;
+                }
+            }
+        }
     },
     bet_vs_missed_cbet: {
         nameKey: 'bet_vs_missed_cbet',
@@ -336,6 +407,14 @@ export const STAT_DEFINITIONS = {
         type: 'percent',
         category: 'postflop_caller',
         init: () => ({ opportunities: 0, actions: 0 }),
+        process: (handContext, stat) => {
+            if (wasHeroPreflopCaller(handContext) && handContext.flop.aggressorMissedCBet) {
+                stat.opportunities++;
+                if (handContext.flop.heroActions.some(a => a.action === 'bets')) {
+                    stat.actions++;
+                }
+            }
+        }
     },
     probe_bet_turn: {
         nameKey: 'probe_bet_turn',
@@ -343,13 +422,14 @@ export const STAT_DEFINITIONS = {
         type: 'percent',
         category: 'postflop_caller',
         init: () => ({ opportunities: 0, actions: 0 }),
-    },
-    float_bet_flop: {
-        nameKey: 'float_bet_flop',
-        tooltipKey: 'tooltip_float_bet_flop',
-        type: 'percent',
-        category: 'postflop_caller',
-        init: () => ({ opportunities: 0, actions: 0 }),
+        process: (handContext, stat) => {
+            if (wasHeroPreflopCaller(handContext) && handContext.sawTurn && handContext.flop.wasCheckedThrough) {
+                stat.opportunities++;
+                if (handContext.turn.heroActions.some(a => a.action === 'bets')) {
+                    stat.actions++;
+                }
+            }
+        }
     },
     
     // --- 攤牌 Showdown ---
@@ -391,6 +471,51 @@ export const STAT_DEFINITIONS = {
         init: () => ({ opportunities: 0, actions: 0 }),
         process: (handContext, stat) => {
             if (handContext.sawFlop) {
+                stat.opportunities++;
+                if (handContext.isHeroWinner) {
+                    stat.actions++;
+                }
+            }
+        }
+    },
+    wtsd_after_cbet: {
+        nameKey: 'wtsd_after_cbet',
+        tooltipKey: 'tooltip_wtsd_after_cbet',
+        type: 'percent',
+        category: 'showdown',
+        init: () => ({ opportunities: 0, actions: 0 }),
+        process: (handContext, stat) => {
+            if (handContext.hero.isPreflopAggressor && handContext.flop.heroActions.some(a => a.action === 'bets')) {
+                stat.opportunities++;
+                if (handContext.reachedShowdown) {
+                    stat.actions++;
+                }
+            }
+        }
+    },
+    wwsf_as_pfr: {
+        nameKey: 'wwsf_as_pfr',
+        tooltipKey: 'tooltip_wwsf_as_pfr',
+        type: 'percent',
+        category: 'showdown',
+        init: () => ({ opportunities: 0, actions: 0 }),
+        process: (handContext, stat) => {
+            if (handContext.hero.isPreflopAggressor) {
+                stat.opportunities++;
+                if (handContext.isHeroWinner) {
+                    stat.actions++;
+                }
+            }
+        }
+    },
+    wwsf_as_caller: {
+        nameKey: 'wwsf_as_caller',
+        tooltipKey: 'tooltip_wwsf_as_caller',
+        type: 'percent',
+        category: 'showdown',
+        init: () => ({ opportunities: 0, actions: 0 }),
+        process: (handContext, stat) => {
+            if (wasHeroPreflopCaller(handContext)) {
                 stat.opportunities++;
                 if (handContext.isHeroWinner) {
                     stat.actions++;

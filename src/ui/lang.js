@@ -32,10 +32,12 @@ const translations = {
         session_info: "會話資訊", profit_chart_title: "總營利走勢圖 ($)",
         preflop_open: "翻前開局", preflop_vs_raise: "面對加注", steal_dynamics: "偷盲動態",
         postflop_as_aggressor: "作為翻前攻擊者", postflop_as_caller: "作為翻前跟注者",
-        showdown_stats: "攤牌數據", positional_profit: "各位置盈利能力 (BB/100)",
+        showdown_stats: "攤牌數據", aggression_stats: "各街道攻擊性",
+        positional_profit: "各位置盈利能力 (BB/100)",
         positional_style: "各位置遊戲風格", positional_aggression: "各位置 3-Bet 頻率",
         winrate_by_weekday: "按星期分析勝率 (BB/100)", winrate_by_hour: "按小時分析勝率 (BB/100)",
-        
+        player_style_radar: "玩家風格雷達圖",
+
         // --- 數據指標 & 提示 ---
         total_hands: "總手牌", tooltip_total_hands: "分析的總手牌數量。",
         total_profit: "總營利", tooltip_total_profit: "您的總盈利或虧損金額。",
@@ -50,6 +52,7 @@ const translations = {
         "3bet": "3Bet PF", tooltip_3bet: "翻前再加注率。面對一個開局加注時，您再加注的頻率。理想範圍約在 7-12%。",
         "4bet": "4Bet PF", tooltip_4bet: "翻前4Bet率。面對一個3-Bet時，您再加注的頻率。",
         fold_vs_3bet: "棄牌給3Bet", tooltip_fold_vs_3bet: "您在開局加注後，面對3-Bet時棄牌的頻率。過高 (>65%) 表示您的開局範圍易受攻擊。",
+        fold_vs_4bet: "棄牌給4Bet", tooltip_fold_vs_4bet: "您在3-Bet之後，面對對手4-Bet時棄牌的頻率。",
         cold_call: "冷跟注", tooltip_cold_call: "當您前面有玩家開局加注，而您選擇跟注時的比率。",
         squeeze: "擠壓", tooltip_squeeze: "當有開局加注和至少一個跟注玩家時，您再加注的頻率。",
 
@@ -61,19 +64,23 @@ const translations = {
         cbet_river: "CBet河牌", tooltip_cbet_river: "在轉牌圈CBet後，您在河牌圈繼續下注的頻率。",
 
         fold_to_cbet_flop: "棄牌給CBet", tooltip_fold_to_cbet_flop: "面臨對手持續下注時，您在翻牌圈棄牌的頻率。過高 (>60%) 表示您在翻後過於輕易放棄。",
+        raise_cbet_flop: "加注CBet", tooltip_raise_cbet_flop: "您在翻牌圈面對對手的持續下注時，選擇加注的頻率。",
         check_raise_flop: "過牌-加注", tooltip_check_raise_flop: "您在翻牌圈先過牌，然後在對手下注後再加注的頻率。",
         donk_bet_flop: "領先下注", tooltip_donk_bet_flop: "您在不利位置，搶在翻前攻擊者之前首先下注的頻率。此數據通常應非常低。",
         bet_vs_missed_cbet: "反主動下注", tooltip_bet_vs_missed_cbet: "當翻前攻擊者在翻牌圈過牌時，您下注的頻率。",
         probe_bet_turn: "轉牌探測下注", tooltip_probe_bet_turn: "翻牌圈所有人都過牌後，您在轉牌圈首先下注的頻率。",
-        float_bet_flop: "漂浮下注", tooltip_float_bet_flop: "您在有利位置跟注了翻前攻擊者的持續下注，意圖在後續街道奪取底池的頻率。",
-
+        
         wtsd: "攤牌率", tooltip_wtsd: "看到翻牌後，堅持到攤牌的頻率。理想範圍約 25-32%。",
         wtsd_won: "攤牌贏率", tooltip_wtsd_won: "在攤牌時獲勝的頻率。理想值應高於 50%。",
         wwsf: "看到翻牌贏率", tooltip_wwsf: "只要看到翻牌，最終贏得底池的頻率。",
-        
+        wtsd_after_cbet: "CBet後攤牌率", tooltip_wtsd_after_cbet: "您在翻牌圈C-Bet之後，最終進到攤牌的頻率。",
+        wwsf_as_pfr: "作為PFR的WWSF", tooltip_wwsf_as_pfr: "您作為翻前加注者時，只要看到翻牌就贏得底池的頻率。",
+        wwsf_as_caller: "作為跟注者的WWSF", tooltip_wwsf_as_caller: "您作為翻前跟注者時，只要看到翻牌就贏得底池的頻率。",
+
         afq_flop: "AFq翻牌", tooltip_afq_flop: "翻牌圈攻擊頻率: (Bets + Raises) / (Bets + Raises + Calls + Checks)。衡量您翻後攻擊性的指標。",
         afq_turn: "AFq轉牌", tooltip_afq_turn: "轉牌圈攻擊頻率。",
         afq_river: "AFq河牌", tooltip_afq_river: "河牌圈攻擊頻率。",
+        preflop_aggression: "翻前攻擊性",
         
         total_duration: "總時長", tooltip_total_duration: "所有獨立遊戲Session的總時長。相鄰牌局間隔超過45分鐘即視為新的Session。",
         hands_per_hour: "手牌/小時", tooltip_hands_per_hour: "平均每小時玩的手牌數量。",
@@ -161,9 +168,11 @@ const translations = {
         session_info: "Session Info", profit_chart_title: "Total Profit Chart ($)",
         preflop_open: "Preflop Open", preflop_vs_raise: "Vs. Raise", steal_dynamics: "Steal Dynamics",
         postflop_as_aggressor: "As Preflop Aggressor", postflop_as_caller: "As Preflop Caller",
-        showdown_stats: "Showdown Stats", positional_profit: "Positional Profitability (BB/100)",
+        showdown_stats: "Showdown Stats", aggression_stats: "Aggression by Street",
+        positional_profit: "Positional Profitability (BB/100)",
         positional_style: "Positional Play Style", positional_aggression: "Positional 3-Bet Freq.",
         winrate_by_weekday: "Win Rate by Day of the Week (BB/100)", winrate_by_hour: "Win Rate by Hour (BB/100)",
+        player_style_radar: "Player Style Radar Chart",
 
         // --- Metrics & Tooltips ---
         total_hands: "Total Hands", tooltip_total_hands: "The total number of hands analyzed.",
@@ -179,6 +188,7 @@ const translations = {
         "3bet": "3Bet PF", tooltip_3bet: "Preflop 3-Bet percentage. Frequency of re-raising an open-raise. Ideal range is around 7-12%.",
         "4bet": "4Bet PF", tooltip_4bet: "Preflop 4-Bet percentage. Frequency of re-raising a 3-bet.",
         fold_vs_3bet: "Fold to 3-Bet", tooltip_fold_vs_3bet: "Frequency of folding to a 3-bet after you open-raised. Too high (>65%) is exploitable.",
+        fold_vs_4bet: "Fold to 4-Bet", tooltip_fold_vs_4bet: "Frequency of folding to a 4-bet after you have 3-bet.",
         cold_call: "Cold Call", tooltip_cold_call: "Frequency of calling a raise when you haven't yet invested money in the pot.",
         squeeze: "Squeeze", tooltip_squeeze: "Frequency of re-raising when there has been a raise and one or more callers before you.",
 
@@ -190,19 +200,23 @@ const translations = {
         cbet_river: "C-Bet River", tooltip_cbet_river: "Continuation Bet on the river after c-betting the turn.",
 
         fold_to_cbet_flop: "Fold to C-Bet", tooltip_fold_to_cbet_flop: "Frequency of folding to a flop C-Bet. Too high (>60%) means you're over-folding postflop.",
+        raise_cbet_flop: "Raise C-Bet", tooltip_raise_cbet_flop: "Frequency of raising versus an opponent's continuation bet on the flop.",
         check_raise_flop: "Check-Raise", tooltip_check_raise_flop: "Frequency of checking then raising an opponent's bet on the flop.",
         donk_bet_flop: "Donk Bet", tooltip_donk_bet_flop: "Frequency of betting out of position before the preflop aggressor has acted. Should be very low.",
         bet_vs_missed_cbet: "Bet vs Missed C-Bet", tooltip_bet_vs_missed_cbet: "Frequency of betting when the preflop aggressor checks back on the flop.",
         probe_bet_turn: "Probe Bet Turn", tooltip_probe_bet_turn: "Frequency of betting on the turn when the flop was checked through.",
-        float_bet_flop: "Float Bet Flop", tooltip_float_bet_flop: "Frequency of calling a C-Bet in position with the intent to bluff on a later street.",
-
+        
         wtsd: "WTSD", tooltip_wtsd: "Went To Showdown. Frequency of reaching showdown after seeing the flop. Ideal range is 25-32%.",
         wtsd_won: "W$SD", tooltip_wtsd_won: "Won at Showdown. Frequency of winning the pot at showdown. Should be above 50%.",
         wwsf: "WWSF", tooltip_wwsf: "Won When Saw Flop. Frequency of winning the pot anytime after seeing the flop.",
+        wtsd_after_cbet: "WTSD After C-Bet", tooltip_wtsd_after_cbet: "Frequency of going to showdown after you make a continuation bet on the flop.",
+        wwsf_as_pfr: "WWSF as PFR", tooltip_wwsf_as_pfr: "Won When Saw Flop frequency when you were the pre-flop aggressor.",
+        wwsf_as_caller: "WWSF as Caller", tooltip_wwsf_as_caller: "Won When Saw Flop frequency when you were a pre-flop caller.",
         
         afq_flop: "AFq Flop", tooltip_afq_flop: "Aggression Frequency on the Flop: (Bets + Raises) / (Bets + Raises + Calls + Checks).",
         afq_turn: "AFq Turn", tooltip_afq_turn: "Aggression Frequency on the Turn.",
         afq_river: "AFq River", tooltip_afq_river: "Aggression Frequency on the River.",
+        preflop_aggression: "Preflop Aggression",
         
         total_duration: "Total Duration", tooltip_total_duration: "Total duration of all sessions. A new session starts after a 45-minute break.",
         hands_per_hour: "Hands/Hour", tooltip_hands_per_hour: "Average number of hands played per hour.",
@@ -232,6 +246,7 @@ const translations = {
         about_title: "About Us",
         about_p1: "GGPoker Hand Analyzer is not just a data tool; it's your personal poker coach. We focus on transforming complex hand history data into intuitive, actionable insights to help you make superior decisions at the table.",
         about_p2: "Unlike other tracking software like PokerTracker or Hold'em Manager, which require complex setups and subscriptions, this tool is completely free, browser-based, and privacy-focused. All analysis is done locally on your machine—no data is uploaded—allowing you to quickly and securely review your sessions to find your edge and plug your leaks.",
+        report_strengths_title: "Tool Strengths",
         report_strength1: "<strong>Completely free and open source:</strong> No cost, transparent code, highly trustworthy.",
         report_strength2: "<strong>High privacy protection:</strong> All calculations are done on the user's local machine, ensuring no data leaks.",
         report_strength3: "<strong>Cross-platform, no installation needed:</strong> Works in any modern browser on any device.",
@@ -254,8 +269,6 @@ const translations = {
         report_future8: "<strong>Simple Opponent Tagging:</strong> While not a full HUD, allow users to tag specific opponent IDs (e.g., fish, TAG) for display in future hand analyses.",
         report_future9: "<strong>Goal-Oriented Learning Modules:</strong> Automatically recommend relevant poker learning resources based on identified data weaknesses, such as 'How to Counter 3-Bets'.",
         report_future10: "<strong>Shareable Report Links:</strong> Generate read-only report page links (without sensitive details) for easy discussion with coaches or friends.",
-
-
     }
 };
 
@@ -297,4 +310,3 @@ export function updateUIText() {
         element.textContent = getLang(key);
     });
 }
-

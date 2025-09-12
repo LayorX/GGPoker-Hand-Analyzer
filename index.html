@@ -22,7 +22,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+TC:wght@400;500;700&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="/src/style.css">
+    <link rel="stylesheet" href="./src/style.css">
 </head>
 
 <body class="p-4 md:p-6 lg:p-8">
@@ -106,7 +106,7 @@
                         <p class="mt-2 text-dim" data-lang="welcome_p1"></p>
                     </div>
                     <div id="loading-spinner" class="hidden text-center">
-                        <svg class="animate-spin h-10 w-10 text-primary mx-auto" xmlns="http://www.w3.org/2000/svg"
+                        <svg class="animate-spin h-10 w-10 text-primary mx-auto" xmlns="http://www.w.org/2000/svg"
                             fill="none" viewBox="0 0 24 24">
                             <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4">
                             </circle>
@@ -167,7 +167,7 @@
         </main>
         <!-- Tooltip Modal -->
         <div id="tooltip-modal"
-            class="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center p-4 hidden z-150">
+            class="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center p-4 hidden z-50">
 
             <div class="surface rounded-lg shadow-xl max-w-md w-full p-6 relative">
 
@@ -192,6 +192,7 @@
     </div>
 
     <script type="module" src="./src/main.js"></script>
+    <script type="module" src="./src/ui/theme.js"></script>
 </body>
 
 </html>

@@ -23,27 +23,29 @@ const chartInstances = {};
 const UI_CONFIG = {
     overview: {
         sections: [
-            { titleKey: 'win_rate_stats', grid: 'grid-cols-2', statIds: ['total_profit', 'bb_per_100', 'profit_bb', 'total_rake'] },
-            { titleKey: 'session_info', grid: 'grid-cols-2', statIds: ['total_hands', 'total_duration', 'hands_per_hour', 'profit_per_hour'] },
-            { titleKey: 'preflop_style', grid: 'grid-cols-2', statIds: ['vpip', 'pfr', '3bet', 'steal_attempt'] },
-            { titleKey: 'postflop_play', grid: 'grid-cols-2', statIds: ['cbet_flop', 'wtsd', 'wtsd_won', 'afq_flop'] },
+            { titleKey: 'win_rate_stats', grid: 'grid-cols-2 md:grid-cols-4', statIds: ['total_profit', 'bb_per_100', 'profit_bb', 'total_rake'] },
+            { titleKey: 'session_info', grid: 'grid-cols-2 md:grid-cols-4', statIds: ['total_hands', 'total_duration', 'hands_per_hour', 'profit_per_hour'] },
+            { titleKey: 'preflop_style', grid: 'grid-cols-2 md:grid-cols-4', statIds: ['vpip', 'pfr', '3bet', 'steal_attempt'] },
+            { titleKey: 'postflop_play', grid: 'grid-cols-2 md:grid-cols-4', statIds: ['cbet_flop', 'wtsd', 'wtsd_won', 'afq_flop'] },
         ],
         charts: [
-            { id: 'profitChart', titleKey: 'profit_chart_title' }
+            { id: 'profitChart', titleKey: 'profit_chart_title', grid: 'xl:col-span-1' },
+            { id: 'playerStyleRadarChart', titleKey: 'player_style_radar', grid: 'xl:col-span-1' }
         ]
     },
     preflop: {
         sections: [
             { titleKey: 'preflop_open', grid: 'grid-cols-3', statIds: ['vpip', 'pfr', 'limp'] },
-            { titleKey: 'preflop_vs_raise', grid: 'grid-cols-2 md:grid-cols-5', statIds: ['3bet', '4bet', 'fold_vs_3bet', 'squeeze', 'cold_call'] },
+            { titleKey: 'preflop_vs_raise', grid: 'grid-cols-3 md:grid-cols-4', statIds: ['3bet', '4bet', 'fold_vs_3bet', 'fold_vs_4bet', 'squeeze', 'cold_call'] },
             { titleKey: 'steal_dynamics', grid: 'grid-cols-2', statIds: ['steal_attempt', 'fold_to_steal'] },
         ]
     },
     postflop: {
         sections: [
             { titleKey: 'postflop_as_aggressor', grid: 'grid-cols-3', statIds: ['cbet_flop', 'cbet_turn', 'cbet_river'] },
-            { titleKey: 'postflop_as_caller', grid: 'grid-cols-2 md:grid-cols-3', statIds: ['fold_to_cbet_flop', 'check_raise_flop', 'donk_bet_flop', 'bet_vs_missed_cbet', 'probe_bet_turn', 'float_bet_flop'] },
-            { titleKey: 'showdown_stats', grid: 'grid-cols-2 md:grid-cols-3', statIds: ['wtsd', 'wtsd_won', 'wwsf', 'afq_flop', 'afq_turn', 'afq_river'] },
+            { titleKey: 'postflop_as_caller', grid: 'grid-cols-3 md:grid-cols-4', statIds: ['fold_to_cbet_flop', 'raise_cbet_flop', 'check_raise_flop', 'donk_bet_flop', 'bet_vs_missed_cbet', 'probe_bet_turn'] },
+            { titleKey: 'showdown_stats', grid: 'grid-cols-3 md:grid-cols-5', statIds: ['wtsd', 'wtsd_won', 'wwsf', 'wtsd_after_cbet', 'wwsf_as_pfr', 'wwsf_as_caller'] },
+            { titleKey: 'aggression_stats', grid: 'grid-cols-3', statIds: ['afq_flop', 'afq_turn', 'afq_river'] },
         ]
     },
     position: {
@@ -169,7 +171,7 @@ function createChartContainer(chartConfig) {
     container.innerHTML = `
         <div class="surface p-4 rounded-lg shadow-md h-full">
             <h3 class="text-lg font-semibold mb-4" data-lang="${chartConfig.titleKey}">${getLang(chartConfig.titleKey)}</h3>
-            <div class="chart-container relative h-64">
+            <div class="chart-container relative h-64 md:h-80">
                 <canvas id="${chartConfig.id}"></canvas>
             </div>
         </div>
@@ -208,7 +210,11 @@ function renderTab(tabId, stats) {
 }
 
 // --- 特定分頁渲染器 ---
-export const renderDashboard = (stats) => { renderTab('overview', stats); renderProfitChart(stats); };
+export const renderDashboard = (stats) => { 
+    renderTab('overview', stats); 
+    renderProfitChart(stats); 
+    renderPlayerStyleRadarChart(stats);
+};
 export const renderPreflopTab = (stats) => renderTab('preflop', stats);
 export const renderPostflopTab = (stats) => renderTab('postflop', stats);
 export const renderPositionTab = (stats) => { renderTab('position', stats); renderPositionCharts(stats); };
@@ -346,6 +352,14 @@ export function updateChartsForTheme() {
         Object.assign(chart.options.scales.x.grid, { color: newOptions.scales.x.grid.color });
         Object.assign(chart.options.scales.y.ticks, { color: newOptions.scales.y.ticks.color });
         Object.assign(chart.options.scales.y.grid, { color: newOptions.scales.y.grid.color });
+        
+        if (chart.config.type === 'radar') {
+            Object.assign(chart.options.scales.r.angleLines, { color: newOptions.scales.x.grid.color });
+            Object.assign(chart.options.scales.r.grid, { color: newOptions.scales.x.grid.color });
+            Object.assign(chart.options.scales.r.pointLabels, { color: newOptions.scales.x.ticks.color });
+            Object.assign(chart.options.scales.r.ticks, { color: newOptions.scales.x.ticks.color });
+        }
+        
         chart.update();
     });
 }
@@ -469,6 +483,70 @@ function renderPositionCharts(stats) {
     });
 }
 
+function renderPlayerStyleRadarChart(stats) {
+    const chartId = 'playerStyleRadarChart';
+    destroyChart(chartId);
+    const ctx = document.getElementById(chartId)?.getContext('2d');
+    if (!ctx) return;
+    
+    const isDark = document.documentElement.classList.contains('dark');
+    const textColor = isDark ? '#e5e7eb' : '#374151';
+    const gridColor = isDark ? 'rgba(255, 255, 255, 0.2)' : 'rgba(0, 0, 0, 0.1)';
+    const angleLineColor = isDark ? 'rgba(255, 255, 255, 0.2)' : 'rgba(0, 0, 0, 0.1)';
+
+    const vpip = stats.vpip_p ?? 0;
+    const pfr = stats.pfr_p ?? 0;
+    const afq = stats.afq_flop_p ?? 0;
+    const wtsd = stats.wtsd_p ?? 0;
+    const threeBet = stats['3bet_p'] ?? 0;
+
+    const data = {
+        labels: [
+            getLang('vpip'),
+            getLang('preflop_aggression'),
+            getLang('3bet'),
+            getLang('afq_flop'),
+            getLang('wtsd'),
+        ],
+        datasets: [{
+            label: 'Player Style',
+            data: [
+                vpip,
+                vpip > 0 ? (pfr / vpip) * 100 : 0,
+                threeBet * 5, // Scale 3bet to be more visible (common values are 5-15)
+                afq,
+                wtsd
+            ],
+            backgroundColor: 'rgba(20, 184, 166, 0.2)',
+            borderColor: '#14b8a6',
+            pointBackgroundColor: '#14b8a6',
+            pointBorderColor: '#fff',
+            pointHoverBackgroundColor: '#fff',
+            pointHoverBorderColor: '#14b8a6'
+        }]
+    };
+    
+    const options = {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+            legend: { display: false }
+        },
+        scales: {
+            r: {
+                angleLines: { color: angleLineColor },
+                grid: { color: gridColor },
+                pointLabels: { color: textColor, font: { size: 12 } },
+                ticks: { color: textColor, backdropColor: 'transparent', stepSize: 25 },
+                min: 0,
+                max: 100,
+            }
+        },
+        elements: { line: { borderWidth: 2 } }
+    };
+
+    chartInstances[chartId] = new Chart(ctx, { type: 'radar', data: data, options: options });
+}
 
 export function clearAllTabs() {
     document.querySelectorAll('.main-tab-pane').forEach(pane => {
@@ -478,4 +556,3 @@ export function clearAllTabs() {
 }
 
 window.addEventListener('themeChanged', updateChartsForTheme);
-

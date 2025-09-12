@@ -52,8 +52,8 @@ body {
 .ring-primary:focus { 
     --tw-ring-color: var(--color-primary);
 }
-.hover\:bg-teal-500:hover {
-    background-color: var(--color-primary-hover);
+.hover\:bg-teal-600:hover {
+    background-color: var(--color-primary-hover) !important;
 }
 
 
@@ -104,16 +104,15 @@ body {
 .prose {
     color: var(--color-text);
 }
-.prose h2 {
+.prose h2, .prose h3, .prose h4, .prose strong {
     color: var(--color-text);
 }
-.prose p {
+.prose p, .prose ul, .prose ol {
     color: var(--color-text-dim);
 }
-.dark .prose-invert h2 {
+.dark .prose-invert h2, .dark .prose-invert h3, .dark .prose-invert h4, .dark .prose-invert strong {
      color: var(--color-text);
 }
-.dark .prose-invert p {
+.dark .prose-invert p, .dark .prose-invert ul, .dark .prose-invert ol {
      color: var(--color-text-dim);
 }
-
