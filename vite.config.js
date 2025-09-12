@@ -3,6 +3,7 @@ import { VitePWA } from 'vite-plugin-pwa';
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: './',
   // No special config needed for this simple setup
   plugins: [
     VitePWA({

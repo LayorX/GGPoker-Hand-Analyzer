@@ -188,7 +188,11 @@ function handleAnalyzeAllFiles() {
             if (txtFiles.length > 0) {
                 const txtContents = txtFiles.map(f => f.content);
                 const parsedHands = parseHandHistories(txtContents);
-                if (parsedHands.length > 0) allStatsToMerge.push(calculateStats(parsedHands));
+                console.dir(parsedHands);
+                if (parsedHands.length > 0) {
+                    AppState.rawStats = calculateStats(parsedHands);
+                    allStatsToMerge.push(AppState.rawStats);
+                }
             }
 
             jsonFiles.forEach(file => {
@@ -203,7 +207,8 @@ function handleAnalyzeAllFiles() {
                 return;
             }
             
-            AppState.rawStats = mergeStats(...allStatsToMerge);
+            jsonFiles.length>0?AppState.rawStats = mergeStats(...allStatsToMerge):console.dir(allStatsToMerge);
+            console.dir(AppState.rawStats);
             runAnalysisAndRender();
 
         } catch (error) {

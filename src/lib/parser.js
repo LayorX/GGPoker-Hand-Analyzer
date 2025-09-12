@@ -89,15 +89,18 @@ function parseSingleHand(handText) {
         action: /^(.+?): (folds|checks|bets|calls|raises) ?\$?([\d.]*)?(?: to \$?([\d.]*))?( and is all-in)?/,
         uncalledBet: /^Uncalled bet \(\$([\d.]+)\) returned to Hero/,
         board: /^\*\*\* (FLOP|TURN|RIVER) \*\*\* \[(.+)]/,
-        totalPot: /^Total pot \$([\d.]+) \| Rake \$([\d.]+)(?: | \| Jackpot \$([\d.]+))?/,
+        totalPot: /^Total pot \$([\d.]+) \| Rake \$([\d.]+) \| Jackpot \$([\d.]+)?/,
         winner: /^Seat \d+: (.+?) (won|collected) \(\$([\d.]+)\)/,
     };
 
     let currentStreet = 'preflop';
     let parsingStage = 'setup'; // 'setup', 'actions', 'summary'
-
+    let isBigBlindPosted = false;
+    let isSmallBlindPosted = false;
     // --- 3. 逐行解析 ---
     for (const line of lines) {
+
+
         // 解析標題行
         const headerMatch = line.match(regex.header);
         if (headerMatch) {
@@ -144,6 +147,7 @@ function parseSingleHand(handText) {
             continue;
         } else if (line.startsWith('*** SUMMARY ***')) {
             parsingStage = 'summary';
+            
             continue;
         }
         // --- 根據不同階段解析 ---
@@ -166,12 +170,27 @@ function parseSingleHand(handText) {
                         amount: actionMatch[4] ? parseFloat(actionMatch[4]) : parseFloat(actionMatch[3]) || 0,
                         isAllIn: !!actionMatch[5]
                     };
-                    if (currentStreet === "preflop" && (actionMatch[2] === "checks" || actionMatch[2] === "calls")) {
-                        // 把大小忙計算進去
-                        if (player.position === "SB") action.amount += hand.info.sb
-                        if (player.position === "BB") action.amount += hand.info.bb
+                    // 呼叫獨立的函數來處理前翻牌圈的特殊情況
+                    if (currentStreet === "preflop") {
+                        const blindUpdates = handlePreflopBlinds(action, player, hand.info, action.action, isSmallBlindPosted, isBigBlindPosted);
+                        action = blindUpdates.updatedAction;
+                        isSmallBlindPosted = blindUpdates.updatedIsSmallBlindPosted;
+                        isBigBlindPosted = blindUpdates.updatedIsBigBlindPosted;
                     }
-
+                    // if (currentStreet === "preflop" && actionMatch[2] === "checks" ) {
+                    //     // BIG CHECK
+                    //     if (player.position === "BB") action.amount += action.amount===0 ? hand.info.bb:0
+                    // }else if (currentStreet === "preflop" && (actionMatch[2] === "calls"|| actionMatch[2] === "folds")) {
+                    //     // 把大小CALL
+                    //     if (player.position === "SB" && !isSmallBlindPosted) {
+                    //         action.amount += hand.info.sb;
+                    //         isSmallBlindPosted = true;
+                    //     }
+                    //     if (player.position === "BB" && !isBigBlindPosted) {
+                    //         action.amount += hand.info.bb
+                    //         isBigBlindPosted = true;
+                    //     }
+                    // }
                     hand.streets[currentStreet].actions.push(action);
 
                     if (currentStreet === 'preflop' && action.action === 'raises' && !hand.preflopRaiserSeat) {
@@ -198,9 +217,25 @@ function parseSingleHand(handText) {
             if (potMatch) {
                 hand.info.totalPot = parseFloat(potMatch[1]);
                 hand.info.rake = parseFloat(potMatch[2]);
-                // Jackpot amount is optional, and the regex needs to handle this.
-                // The third capture group is for Jackpot
                 hand.info.jackpot = potMatch[3] ? parseFloat(potMatch[3]) : 0;
+                if (!isBigBlindPosted && hand.info.totalPot === hand.info.bb) {
+                    // 其他人都folds到大盲，直接收pot
+                    if (hand.players.length>1&& !isBigBlindPosted) {
+                        for (const player of hand.players) {
+                            if (player.position === "BB" ) {
+                                isBigBlindPosted = true;
+                                const action = {
+                                    seat: player.seat,
+                                    player: player.playerName,
+                                    action: "checks",
+                                    bet: 0,
+                                    amount: hand.info.bb
+                                };
+                                hand.streets['preflop'].actions.push(action);
+                            }
+                        }
+                    }
+                }
                 continue;
             }
 
@@ -211,8 +246,10 @@ function parseSingleHand(handText) {
                     amount: parseFloat(winnerMatch[3]),
                 });
             }
+                    
         }
     }
+
     
     // --- 4. 進行最終計算 ---
     calculateHeroResult(hand);
@@ -256,7 +293,9 @@ function calculateHeroResult(hand) {
         );
 
         for (const action of heroActions) {
-            if (['checks', 'bets', 'calls', 'raises'].includes(action.action)) {
+            
+            if (['folds','checks', 'bets', 'calls', 'raises'].includes(action.action)) {
+                // checks and folds still count cuz of BB and SB
                 totalInvestment += action.amount;
             }
         }
@@ -270,3 +309,39 @@ function calculateHeroResult(hand) {
     hand.hero.result = totalReturned - totalInvestment;
 }
 
+
+
+/**
+ * 處理前翻牌圈 (preflop) 的盲注相關邏輯。
+ * 這個函數會根據玩家位置和行動，更新行動物件的金額。
+ * @param {object} action - 待更新的行動物件。
+ * @param {object} player - 玩家物件。
+ * @param {object} handInfo - 手牌資訊，包含 sb 和 bb 金額。
+ * @param {string} actionType - 玩家的行動類型 (e.g., "checks", "calls", "folds")。
+ * @param {boolean} isSmallBlindPosted - 小盲注是否已下注。
+ * @param {boolean} isBigBlindPosted - 大盲注是否已下注。
+ * @returns {object} - 返回更新後的行動物件和盲注標誌。
+ */
+function handlePreflopBlinds(action, player, handInfo, actionType, isSmallBlindPosted, isBigBlindPosted) {
+    // 處理大盲注玩家的過牌 (check)
+    if (actionType === "checks" && player.position === "BB") {
+        // 大盲注玩家在過牌時，若金額為 0，則加上大盲注的金額
+        action.amount += action.amount === 0 ? handInfo.bb : 0;
+    }
+
+    // 處理小盲注或大盲注玩家的平注 (calls) 或蓋牌 (folds)
+    if (actionType === "calls" || actionType === "folds") {
+        // 若是小盲注玩家且小盲注尚未下注
+        if (player.position === "SB" && !isSmallBlindPosted) {
+            action.amount += handInfo.sb;
+            isSmallBlindPosted = true;
+        }
+        // 若是大盲注玩家且大盲注尚未下注
+        if (player.position === "BB" && !isBigBlindPosted) {
+            action.amount += handInfo.bb;
+            isBigBlindPosted = true;
+        }
+    }
+
+    return { updatedAction: action, updatedIsSmallBlindPosted: isSmallBlindPosted, updatedIsBigBlindPosted: isBigBlindPosted };
+}

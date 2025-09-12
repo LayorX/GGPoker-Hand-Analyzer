@@ -27,7 +27,7 @@ function initStatsObject() {
     return {
         rawData: [],
         gameTypes: new Set(),
-        totalHands: 0, totalProfit: 0, totalRake: 0, bbSize: 0.1, 
+        totalHands: 0, totalProfit: 0, totalRake: 0, bbSize: 0.1, totalJackpot: 0,
         actualPlayingDurationMinutes: 0, // **修正**: 實際遊戲時長
         profitHistory: [], byPosition, 
         byTime: { 
@@ -103,7 +103,12 @@ export function calculateStats(parsedHands) {
         stats.gameTypes.add(hand.info.gameType);
         stats.bbSize = hand.info.bb > 0 ? hand.info.bb : stats.bbSize;
         stats.totalProfit += hand.hero.result;
-        stats.totalRake += hand.info.rake;
+        const isHeroWon = hand.summary.winners.some(w => w.player.includes('Hero'));
+        // **修正**: 總抽水和彩金只計算贏的牌局把jackpot也算到抽水裡面
+        stats.totalRake += isHeroWon ? hand.info.rake+hand.info.jackpot||0:0;
+        stats.totalJackpot += isHeroWon ? hand.info.jackpot||0:0;
+        if (hand.hero.result!=0) console.log(hand.info.id,stats.totalProfit,hand.hero.result, stats.totalRake,hand.info.rake, hand.info.jackpot);
+
         cumulativeProfit += hand.hero.result;
         stats.profitHistory.push({ hand: stats.totalHands, profit: cumulativeProfit });
 
