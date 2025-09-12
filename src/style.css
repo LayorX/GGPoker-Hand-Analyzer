@@ -1,0 +1,119 @@
+:root {
+    --color-bg-light: #f3f4f6; 
+    --color-surface-light: #ffffff; 
+    --color-text-light: #111827; 
+    --color-dim-light: #6b7280;
+    --color-border-light: #e5e7eb;
+
+    --color-bg-dark: #111827; 
+    --color-surface-dark: #1f2937; 
+    --color-text-dark: #e5e7eb; 
+    --color-dim-dark: #9ca3af;
+    --color-border-dark: #374151;
+    
+    --color-primary: #14b8a6; /* Teal 500 */
+    --color-primary-hover: #0d9488; /* Teal 600 */
+}
+
+/* Light & Dark mode variable setup */
+.light {
+    --color-bg: var(--color-bg-light); 
+    --color-surface: var(--color-surface-light);
+    --color-text: var(--color-text-light); 
+    --color-text-dim: var(--color-dim-light);
+    --color-border: var(--color-border-light);
+}
+.dark {
+    --color-bg: var(--color-bg-dark); 
+    --color-surface: var(--color-surface-dark);
+    --color-text: var(--color-text-dark); 
+    --color-text-dim: var(--color-dim-dark);
+    --color-border: var(--color-border-dark);
+}
+
+/* Base body styles */
+body { 
+    font-family: 'Inter', 'Noto Sans TC', sans-serif; 
+    background-color: var(--color-bg); 
+    color: var(--color-text);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Shared component styles */
+.surface { 
+    background-color: var(--color-surface); 
+    border: 1px solid var(--color-border);
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+.text-dim { color: var(--color-text-dim); }
+.text-primary { color: var(--color-primary); }
+.bg-primary { background-color: var(--color-primary); }
+.border-primary { border-color: var(--color-primary); }
+.ring-primary:focus { 
+    --tw-ring-color: var(--color-primary);
+}
+.hover\:bg-teal-500:hover {
+    background-color: var(--color-primary-hover);
+}
+
+
+/* Chart container styles */
+.chart-container { 
+    position: relative; 
+    width: 100%; 
+    aspect-ratio: 16 / 9; 
+    max-height: 400px;
+}
+@media (max-width: 768px) { 
+    .chart-container { 
+        aspect-ratio: 4 / 3; 
+    } 
+}
+
+
+/* Desktop Tabs */
+.main-tab-link {
+    padding: 0.75rem 0.25rem;
+    border-bottom: 3px solid transparent;
+    color: var(--color-text-dim);
+    font-weight: 600;
+    transition: all 0.2s ease-in-out;
+    white-space: nowrap;
+}
+.main-tab-link:hover {
+    color: var(--color-text);
+}
+.main-tab-link.active {
+    color: var(--color-primary);
+    border-bottom-color: var(--color-primary);
+}
+
+/* Custom Scrollbar for file list */
+#file-list::-webkit-scrollbar {
+    width: 6px;
+}
+#file-list::-webkit-scrollbar-track {
+    background: transparent;
+}
+#file-list::-webkit-scrollbar-thumb {
+    background-color: var(--color-border);
+    border-radius: 20px;
+}
+
+/* Tailwind Prose customization */
+.prose {
+    color: var(--color-text);
+}
+.prose h2 {
+    color: var(--color-text);
+}
+.prose p {
+    color: var(--color-text-dim);
+}
+.dark .prose-invert h2 {
+     color: var(--color-text);
+}
+.dark .prose-invert p {
+     color: var(--color-text-dim);
+}
+

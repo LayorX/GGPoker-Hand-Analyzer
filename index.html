@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="zh-Hant"> <!-- 移除預設 class, 由 JS 控制 -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-lang="title">GGPoker 手牌分析儀</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script
+        src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+TC:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/src/style.css">
+</head>
+
+<body class="p-4 md:p-6 lg:p-8">
+
+    <div id="app" class="max-w-screen-2xl mx-auto">
+        <!-- Header -->
+        <header class="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-6 gap-4">
+            <div>
+                <h1 class="text-2xl lg:text-3xl font-bold" data-lang="title"></h1>
+                <p class="text-dim text-sm" data-lang="subtitle"></p>
+            </div>
+            <div class="flex items-center space-x-3">
+                <select id="language-switcher"
+                    class="surface border border-gray-300 dark:border-gray-600 rounded-md px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-primary">
+                    <option value="zh">繁體中文</option>
+                    <option value="en">English</option>
+                </select>
+                <button id="theme-switcher" title="Toggle Theme"
+                    class="surface p-2 rounded-md hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors">
+                    <!-- Icons will be injected by JS -->
+                </button>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="grid grid-cols-1 lg:grid-cols-12 gap-6">
+            <!-- Left Panel -->
+            <aside class="lg:col-span-3 surface p-4 rounded-lg self-start shadow-md">
+                <div class="mb-4">
+                    <h2 class="text-lg font-semibold mb-3" data-lang="upload_title"></h2>
+                    <label for="file-upload"
+                        class="cursor-pointer bg-gray-100 dark:bg-gray-900/50 border-2 border-dashed border-gray-300 dark:border-gray-600 rounded-lg p-6 text-center block hover:border-primary transition-colors">
+                        <span class="text-primary font-bold text-sm" data-lang="upload_click"></span>
+                        <p class="text-dim block mt-1 text-xs" data-lang="upload_drag"></p>
+                        <input id="file-upload" type="file" multiple class="hidden">
+                    </label>
+                    <p class="text-xs text-dim mt-2" data-lang="upload_supported"></p>
+                </div>
+
+                <div class="mb-4">
+                    <h3 class="text-md font-semibold mb-2" data-lang="analysis_options"></h3>
+                    <select id="game-type-selector"
+                        class="w-full surface border border-gray-300 dark:border-gray-600 rounded-md px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-primary">
+                        <option value="All" data-lang="game_type_all"></option>
+                        <option value="Hold'em" data-lang="game_type_holdem"></option>
+                        <option value="Omaha" data-lang="game_type_omaha"></option>
+                    </select>
+                </div>
+
+                <div class="mb-4">
+                    <h3 class="text-md font-semibold mb-2" data-lang="uploaded_files"></h3>
+                    <div id="file-list" class="space-y-2 max-h-48 overflow-y-auto pr-2">
+                        <p class="text-dim text-sm px-2" data-lang="no_files_uploaded"></p>
+                    </div>
+                </div>
+
+                <div class="space-y-2">
+                    <button id="analyze-button"
+                        class="w-full bg-primary hover:bg-teal-600 text-white font-bold py-2.5 px-4 rounded-md transition-colors disabled:bg-gray-400 dark:disabled:bg-gray-600 disabled:cursor-not-allowed"
+                        data-lang="analyze_data" disabled></button>
+                    <button id="download-data-button"
+                        class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-md transition-colors hidden"
+                        data-lang="download_data"></button>
+                    <button id="clear-all-button"
+                        class="w-full bg-rose-600 hover:bg-rose-700 text-white font-bold py-2 px-4 rounded-md transition-colors"
+                        data-lang="clear_all"></button>
+                </div>
+            </aside>
+
+            <!-- Right Panel -->
+            <div class="lg:col-span-9">
+                <div id="welcome-or-loading"
+                    class="min-h-[600px] flex items-center justify-center surface rounded-lg p-8 shadow-md">
+                    <div id="welcome-message" class="text-center max-w-lg">
+                        <svg class="mx-auto h-16 w-16 text-primary" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                        </svg>
+                        <h2 class="mt-4 text-2xl font-bold" data-lang="welcome_title"></h2>
+                        <p class="mt-2 text-dim" data-lang="welcome_p1"></p>
+                    </div>
+                    <div id="loading-spinner" class="hidden text-center">
+                        <svg class="animate-spin h-10 w-10 text-primary mx-auto" xmlns="http://www.w3.org/2000/svg"
+                            fill="none" viewBox="0 0 24 24">
+                            <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4">
+                            </circle>
+                            <path class="opacity-75" fill="currentColor"
+                                d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z">
+                            </path>
+                        </svg>
+                        <p class="mt-4" data-lang="loading"></p>
+                    </div>
+                </div>
+
+                <div id="dashboard-content" class="hidden">
+                    <!-- Tabs for Desktop -->
+                    <div class="hidden lg:block">
+                        <div class="border-b border-gray-200 dark:border-gray-700">
+                            <nav class="-mb-px flex space-x-6" aria-label="Tabs">
+                                <a href="#" class="main-tab-link" data-tab="overview-content"
+                                    data-lang-tab="tab_overview"></a>
+                                <a href="#" class="main-tab-link" data-tab="preflop-content"
+                                    data-lang-tab="tab_preflop"></a>
+                                <a href="#" class="main-tab-link" data-tab="postflop-content"
+                                    data-lang-tab="tab_postflop"></a>
+                                <a href="#" class="main-tab-link" data-tab="position-content"
+                                    data-lang-tab="tab_position"></a>
+                                <a href="#" class="main-tab-link" data-tab="time-content" data-lang-tab="tab_time"></a>
+                                <a href="#" class="main-tab-link" data-tab="recommendations-content"
+                                    data-lang-tab="tab_recommendations"></a>
+                                <a href="#" class="main-tab-link" data-tab="about-content"
+                                    data-lang-tab="tab_about"></a>
+                            </nav>
+                        </div>
+                    </div>
+                    <!-- Tabs for Mobile -->
+                    <div class="lg:hidden mb-4">
+                        <select id="mobile-tabs"
+                            class="w-full surface border border-gray-300 dark:border-gray-600 rounded-md px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-primary">
+                            <option value="overview-content" data-lang="tab_overview"></option>
+                            <option value="preflop-content" data-lang="tab_preflop"></option>
+                            <option value="postflop-content" data-lang="tab_postflop"></option>
+                            <option value="position-content" data-lang="tab_position"></option>
+                            <option value="time-content" data-lang="tab_time"></option>
+                            <option value="recommendations-content" data-lang="tab_recommendations"></option>
+                            <option value="about-content" data-lang="tab_about"></option>
+                        </select>
+                    </div>
+
+                    <div id="tab-panes" class="pt-6">
+                        <div id="overview-content" class="main-tab-pane space-y-6"></div>
+                        <div id="preflop-content" class="main-tab-pane hidden space-y-6"></div>
+                        <div id="postflop-content" class="main-tab-pane hidden space-y-6"></div>
+                        <div id="position-content" class="main-tab-pane hidden space-y-6"></div>
+                        <div id="time-content" class="main-tab-pane hidden space-y-6"></div>
+                        <div id="recommendations-content" class="main-tab-pane hidden"></div>
+                        <div id="about-content" class="main-tab-pane hidden"></div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!-- Tooltip Modal -->
+        <div id="tooltip-modal"
+            class="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center p-4 hidden z-150">
+
+            <div class="surface rounded-lg shadow-xl max-w-md w-full p-6 relative">
+
+                <button id="tooltip-modal-close" class="absolute top-3 right-3 text-dim hover:text-inherit">
+
+                    <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M6 18L18 6M6 6l12 12" />
+                    </svg> </button>
+                <h3 id="tooltip-modal-title" class="text-lg font-bold text-primary mb-2"></h3>
+
+                <p id="tooltip-modal-text" class="text-sm"></p>
+
+            </div>
+
+        </div>
+        <footer class="text-center mt-8 py-6 text-dim border-t border-gray-200 dark:border-gray-800 text-sm">
+            <p>© 2025 <a href="https://layorx.github.io" target="_blank"
+                    class="hover:underline text-primary">LayorX</a>. All Rights Reserved.</p>
+        </footer>
+    </div>
+
+    <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>

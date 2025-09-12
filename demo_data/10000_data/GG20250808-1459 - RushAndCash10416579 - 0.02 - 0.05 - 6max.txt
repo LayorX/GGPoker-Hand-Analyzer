@@ -1,0 +1,6354 @@
+Poker Hand #RC3792551319: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:42:24
+Table 'RushAndCash10416579' 6-max Seat #1 is the button
+Seat 1: 2386bd66 ($5.16 in chips)
+Seat 2: a5d59a6a ($6.52 in chips)
+Seat 3: 8c70e66c ($8.27 in chips)
+Seat 4: a0fee02a ($6.79 in chips)
+Seat 5: Hero ($13.8 in chips)
+Seat 6: 46281255 ($5.02 in chips)
+a5d59a6a: posts small blind $0.02
+8c70e66c: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to 2386bd66 
+Dealt to a5d59a6a 
+Dealt to 8c70e66c 
+Dealt to a0fee02a 
+Dealt to Hero [2s 2h]
+Dealt to 46281255 
+a0fee02a: folds
+Hero: folds
+46281255: folds
+2386bd66: raises $0.05 to $0.1
+a5d59a6a: folds
+8c70e66c: folds
+Uncalled bet ($0.05) returned to 2386bd66
+*** SHOWDOWN ***
+2386bd66 collected $0.12 from pot
+*** SUMMARY ***
+Total pot $0.12 | Rake $0 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: 2386bd66 (button) collected ($0.12)
+Seat 2: a5d59a6a (small blind) folded before Flop
+Seat 3: 8c70e66c (big blind) folded before Flop
+Seat 4: a0fee02a folded before Flop (didn't bet)
+Seat 5: Hero folded before Flop (didn't bet)
+Seat 6: 46281255 folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792551285: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:42:20
+Table 'RushAndCash10416545' 6-max Seat #1 is the button
+Seat 1: 235c3af ($8.73 in chips)
+Seat 2: 33e31986 ($5.03 in chips)
+Seat 3: 13a80d60 ($8.65 in chips)
+Seat 4: Hero ($13.8 in chips)
+Seat 5: b77a4dd9 ($5.23 in chips)
+Seat 6: d0f07860 ($7.05 in chips)
+33e31986: posts small blind $0.02
+13a80d60: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to 235c3af 
+Dealt to 33e31986 
+Dealt to 13a80d60 
+Dealt to Hero [Th 2s]
+Dealt to b77a4dd9 
+Dealt to d0f07860 
+Hero: folds
+b77a4dd9: folds
+d0f07860: folds
+235c3af: folds
+33e31986: folds
+Uncalled bet ($0.03) returned to 13a80d60
+*** SHOWDOWN ***
+13a80d60 collected $0.04 from pot
+*** SUMMARY ***
+Total pot $0.04 | Rake $0 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: 235c3af (button) folded before Flop (didn't bet)
+Seat 2: 33e31986 (small blind) folded before Flop
+Seat 3: 13a80d60 (big blind) collected ($0.04)
+Seat 4: Hero folded before Flop (didn't bet)
+Seat 5: b77a4dd9 folded before Flop (didn't bet)
+Seat 6: d0f07860 folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792550973: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:41:40
+Table 'RushAndCash10416233' 6-max Seat #1 is the button
+Seat 1: d63bba8b ($10.18 in chips)
+Seat 2: Hero ($13.82 in chips)
+Seat 3: a8267379 ($5.03 in chips)
+Seat 4: 1c4336f7 ($5.43 in chips)
+Seat 5: 147a559f ($4.86 in chips)
+Seat 6: 1aec98d9 ($6.53 in chips)
+Hero: posts small blind $0.02
+a8267379: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to d63bba8b 
+Dealt to Hero [2s 8h]
+Dealt to a8267379 
+Dealt to 1c4336f7 
+Dealt to 147a559f 
+Dealt to 1aec98d9 
+1c4336f7: folds
+147a559f: raises $0.07 to $0.12
+1aec98d9: folds
+d63bba8b: calls $0.12
+Hero: folds
+a8267379: folds
+*** FLOP *** [Kh 6h 5h]
+147a559f: bets $0.1
+d63bba8b: calls $0.1
+*** TURN *** [Kh 6h 5h] [Js]
+147a559f: checks
+d63bba8b: checks
+*** RIVER *** [Kh 6h 5h Js] [3h]
+147a559f: bets $0.46
+d63bba8b: folds
+Uncalled bet ($0.46) returned to 147a559f
+*** SHOWDOWN ***
+147a559f collected $0.49 from pot
+*** SUMMARY ***
+Total pot $0.51 | Rake $0.02 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Board [Kh 6h 5h Js 3h]
+Seat 1: d63bba8b (button) folded on the River
+Seat 2: Hero (small blind) folded before Flop
+Seat 3: a8267379 (big blind) folded before Flop
+Seat 4: 1c4336f7 folded before Flop (didn't bet)
+Seat 5: 147a559f won ($0.49)
+Seat 6: 1aec98d9 folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792550943: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:41:36
+Table 'RushAndCash10416203' 6-max Seat #1 is the button
+Seat 1: 6924886b ($8.13 in chips)
+Seat 2: 5d7cccb9 ($5.48 in chips)
+Seat 3: 5bd36297 ($5 in chips)
+Seat 4: Hero ($13.82 in chips)
+Seat 5: d229229a ($2.26 in chips)
+Seat 6: 59f1b00b ($6.84 in chips)
+5d7cccb9: posts small blind $0.02
+5bd36297: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to 6924886b 
+Dealt to 5d7cccb9 
+Dealt to 5bd36297 
+Dealt to Hero [7h Ad]
+Dealt to d229229a 
+Dealt to 59f1b00b 
+Hero: folds
+d229229a: folds
+59f1b00b: folds
+6924886b: folds
+5d7cccb9: folds
+Uncalled bet ($0.03) returned to 5bd36297
+*** SHOWDOWN ***
+5bd36297 collected $0.04 from pot
+*** SUMMARY ***
+Total pot $0.04 | Rake $0 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: 6924886b (button) folded before Flop (didn't bet)
+Seat 2: 5d7cccb9 (small blind) folded before Flop
+Seat 3: 5bd36297 (big blind) collected ($0.04)
+Seat 4: Hero folded before Flop (didn't bet)
+Seat 5: d229229a folded before Flop (didn't bet)
+Seat 6: 59f1b00b folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792550903: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:41:31
+Table 'RushAndCash10416163' 6-max Seat #1 is the button
+Seat 1: 28592eb3 ($5 in chips)
+Seat 2: 34eab15a ($5.34 in chips)
+Seat 3: Hero ($13.87 in chips)
+Seat 4: 45f2aae6 ($11.14 in chips)
+Seat 5: 9c51560c ($0.87 in chips)
+Seat 6: d9762dc1 ($13.82 in chips)
+34eab15a: posts small blind $0.02
+Hero: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to 28592eb3 
+Dealt to 34eab15a 
+Dealt to Hero [2s 6s]
+Dealt to 45f2aae6 
+Dealt to 9c51560c 
+Dealt to d9762dc1 
+45f2aae6: raises $0.05 to $0.1
+9c51560c: folds
+d9762dc1: raises $0.23 to $0.33
+28592eb3: folds
+34eab15a: folds
+Hero: folds
+45f2aae6: folds
+Uncalled bet ($0.23) returned to d9762dc1
+*** SHOWDOWN ***
+d9762dc1 collected $0.26 from pot
+*** SUMMARY ***
+Total pot $0.27 | Rake $0.01 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: 28592eb3 (button) folded before Flop (didn't bet)
+Seat 2: 34eab15a (small blind) folded before Flop
+Seat 3: Hero (big blind) folded before Flop
+Seat 4: 45f2aae6 folded before Flop
+Seat 5: 9c51560c folded before Flop (didn't bet)
+Seat 6: d9762dc1 collected ($0.26)
+
+
+Poker Hand #RC3792550874: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:41:27
+Table 'RushAndCash10416134' 6-max Seat #1 is the button
+Seat 1: bbc703f7 ($5.82 in chips)
+Seat 2: ac59d659 ($1.6 in chips)
+Seat 3: d90468dd ($6.79 in chips)
+Seat 4: 4467fdf8 ($6.38 in chips)
+Seat 5: Hero ($13.87 in chips)
+Seat 6: 9876d4b ($5.21 in chips)
+ac59d659: posts small blind $0.02
+d90468dd: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to bbc703f7 
+Dealt to ac59d659 
+Dealt to d90468dd 
+Dealt to 4467fdf8 
+Dealt to Hero [Qs 8s]
+Dealt to 9876d4b 
+4467fdf8: raises $0.05 to $0.1
+Hero: folds
+9876d4b: folds
+bbc703f7: raises $0.3 to $0.4
+ac59d659: folds
+d90468dd: folds
+4467fdf8: calls $0.3
+*** FLOP *** [Kd 3d 3s]
+4467fdf8: checks
+bbc703f7: bets $0.29
+4467fdf8: calls $0.29
+*** TURN *** [Kd 3d 3s] [9h]
+4467fdf8: checks
+bbc703f7: bets $1.09
+4467fdf8: calls $1.09
+*** RIVER *** [Kd 3d 3s 9h] [Kc]
+4467fdf8: checks
+bbc703f7: bets $4.04 and is all-in
+4467fdf8: calls $4.04
+bbc703f7: shows [Kh Ac] (a full house, Kings full of Threes)
+4467fdf8: shows [Ts Tc] (two pair, Kings and Tens)
+*** SHOWDOWN ***
+bbc703f7 collected $11.49 from pot
+*** SUMMARY ***
+Total pot $11.71 | Rake $0.15 | Jackpot $0.07 | Bingo $0 | Fortune $0 | Tax $0
+Board [Kd 3d 3s 9h Kc]
+Seat 1: bbc703f7 (button) showed [Kh Ac] and won ($11.49) with a full house, Kings full of Threes
+Seat 2: ac59d659 (small blind) folded before Flop
+Seat 3: d90468dd (big blind) folded before Flop
+Seat 4: 4467fdf8 showed [Ts Tc] and lost with two pair, Kings and Tens
+Seat 5: Hero folded before Flop (didn't bet)
+Seat 6: 9876d4b folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792550657: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:41:01
+Table 'RushAndCash10415917' 6-max Seat #1 is the button
+Seat 1: Hero ($13.97 in chips)
+Seat 2: 43cbb19f ($6.72 in chips)
+Seat 3: daafdd14 ($5 in chips)
+Seat 4: 9876d4b ($5 in chips)
+Seat 5: a37365b0 ($5 in chips)
+Seat 6: 30e41900 ($4.04 in chips)
+43cbb19f: posts small blind $0.02
+daafdd14: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to Hero [Kh Ts]
+Dealt to 43cbb19f 
+Dealt to daafdd14 
+Dealt to 9876d4b 
+Dealt to a37365b0 
+Dealt to 30e41900 
+9876d4b: raises $0.05 to $0.1
+a37365b0: folds
+30e41900: folds
+Hero: calls $0.1
+43cbb19f: folds
+daafdd14: calls $0.05
+*** FLOP *** [2c 9c 3c]
+daafdd14: checks
+9876d4b: bets $0.26
+Hero: folds
+daafdd14: folds
+Uncalled bet ($0.26) returned to 9876d4b
+*** SHOWDOWN ***
+9876d4b collected $0.31 from pot
+*** SUMMARY ***
+Total pot $0.32 | Rake $0.01 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Board [2c 9c 3c]
+Seat 1: Hero (button) folded on the Flop
+Seat 2: 43cbb19f (small blind) folded before Flop
+Seat 3: daafdd14 (big blind) folded on the Flop
+Seat 4: 9876d4b won ($0.31)
+Seat 5: a37365b0 folded before Flop (didn't bet)
+Seat 6: 30e41900 folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792550626: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:40:58
+Table 'RushAndCash10415886' 6-max Seat #1 is the button
+Seat 1: d9762dc1 ($13.73 in chips)
+Seat 2: e7890c67 ($5 in chips)
+Seat 3: 29f679b5 ($4.3 in chips)
+Seat 4: Hero ($13.97 in chips)
+Seat 5: 2226f382 ($19.52 in chips)
+Seat 6: a37365b0 ($5 in chips)
+e7890c67: posts small blind $0.02
+29f679b5: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to d9762dc1 
+Dealt to e7890c67 
+Dealt to 29f679b5 
+Dealt to Hero [9h 7h]
+Dealt to 2226f382 
+Dealt to a37365b0 
+Hero: folds
+2226f382: folds
+a37365b0: folds
+d9762dc1: raises $0.05 to $0.1
+e7890c67: folds
+29f679b5: calls $0.05
+*** FLOP *** [5d Kd 8c]
+29f679b5: checks
+d9762dc1: bets $0.1
+29f679b5: folds
+Uncalled bet ($0.1) returned to d9762dc1
+*** SHOWDOWN ***
+d9762dc1 collected $0.21 from pot
+*** SUMMARY ***
+Total pot $0.22 | Rake $0.01 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Board [5d Kd 8c]
+Seat 1: d9762dc1 (button) won ($0.21)
+Seat 2: e7890c67 (small blind) folded before Flop
+Seat 3: 29f679b5 (big blind) folded on the Flop
+Seat 4: Hero folded before Flop (didn't bet)
+Seat 5: 2226f382 folded before Flop (didn't bet)
+Seat 6: a37365b0 folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792550596: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:40:54
+Table 'RushAndCash10415856' 6-max Seat #1 is the button
+Seat 1: baa08d7b ($10.66 in chips)
+Seat 2: d987bc35 ($3.22 in chips)
+Seat 3: 9a6e0563 ($10.4 in chips)
+Seat 4: bbc703f7 ($5.82 in chips)
+Seat 5: 3d1ea1e7 ($5 in chips)
+Seat 6: Hero ($13.97 in chips)
+d987bc35: posts small blind $0.02
+9a6e0563: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to baa08d7b 
+Dealt to d987bc35 
+Dealt to 9a6e0563 
+Dealt to bbc703f7 
+Dealt to 3d1ea1e7 
+Dealt to Hero [5c 2c]
+bbc703f7: folds
+3d1ea1e7: raises $0.06 to $0.11
+Hero: folds
+baa08d7b: folds
+d987bc35: folds
+9a6e0563: folds
+Uncalled bet ($0.06) returned to 3d1ea1e7
+*** SHOWDOWN ***
+3d1ea1e7 collected $0.12 from pot
+*** SUMMARY ***
+Total pot $0.12 | Rake $0 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: baa08d7b (button) folded before Flop (didn't bet)
+Seat 2: d987bc35 (small blind) folded before Flop
+Seat 3: 9a6e0563 (big blind) folded before Flop
+Seat 4: bbc703f7 folded before Flop (didn't bet)
+Seat 5: 3d1ea1e7 collected ($0.12)
+Seat 6: Hero folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792550505: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:40:43
+Table 'RushAndCash10415765' 6-max Seat #1 is the button
+Seat 1: c2ad7641 ($5.41 in chips)
+Seat 2: ed9da471 ($6.18 in chips)
+Seat 3: Hero ($14.02 in chips)
+Seat 4: 51622e3a ($5.24 in chips)
+Seat 5: 914c56c6 ($4.22 in chips)
+Seat 6: c3ffe137 ($8.52 in chips)
+ed9da471: posts small blind $0.02
+Hero: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to c2ad7641 
+Dealt to ed9da471 
+Dealt to Hero [9d 3c]
+Dealt to 51622e3a 
+Dealt to 914c56c6 
+Dealt to c3ffe137 
+51622e3a: folds
+914c56c6: folds
+c3ffe137: folds
+c2ad7641: folds
+ed9da471: raises $0.11 to $0.16
+Hero: folds
+Uncalled bet ($0.11) returned to ed9da471
+*** SHOWDOWN ***
+ed9da471 collected $0.1 from pot
+*** SUMMARY ***
+Total pot $0.1 | Rake $0 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: c2ad7641 (button) folded before Flop (didn't bet)
+Seat 2: ed9da471 (small blind) collected ($0.1)
+Seat 3: Hero (big blind) folded before Flop
+Seat 4: 51622e3a folded before Flop (didn't bet)
+Seat 5: 914c56c6 folded before Flop (didn't bet)
+Seat 6: c3ffe137 folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792550273: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:40:13
+Table 'RushAndCash10415533' 6-max Seat #1 is the button
+Seat 1: Hero ($13.95 in chips)
+Seat 2: 27a7749b ($6.85 in chips)
+Seat 3: d3fe2912 ($5.04 in chips)
+Seat 4: 73889bc ($5.35 in chips)
+Seat 5: 297cfca9 ($5.25 in chips)
+Seat 6: 4748458 ($5.72 in chips)
+27a7749b: posts small blind $0.02
+d3fe2912: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to Hero [Js 9c]
+Dealt to 27a7749b 
+Dealt to d3fe2912 
+Dealt to 73889bc 
+Dealt to 297cfca9 
+Dealt to 4748458 
+73889bc: folds
+297cfca9: folds
+4748458: folds
+Hero: raises $0.1 to $0.15
+27a7749b: folds
+d3fe2912: folds
+Uncalled bet ($0.1) returned to Hero
+*** SHOWDOWN ***
+Hero collected $0.12 from pot
+*** SUMMARY ***
+Total pot $0.12 | Rake $0 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: Hero (button) collected ($0.12)
+Seat 2: 27a7749b (small blind) folded before Flop
+Seat 3: d3fe2912 (big blind) folded before Flop
+Seat 4: 73889bc folded before Flop (didn't bet)
+Seat 5: 297cfca9 folded before Flop (didn't bet)
+Seat 6: 4748458 folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792550242: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:40:09
+Table 'RushAndCash10415502' 6-max Seat #1 is the button
+Seat 1: 89c61801 ($5.04 in chips)
+Seat 2: 1abf8d68 ($4.95 in chips)
+Seat 3: 37485567 ($12.11 in chips)
+Seat 4: 1bc01b37 ($5.81 in chips)
+Seat 5: e6c7ab5a ($6.37 in chips)
+Seat 6: Hero ($13.95 in chips)
+1abf8d68: posts small blind $0.02
+37485567: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to 89c61801 
+Dealt to 1abf8d68 
+Dealt to 37485567 
+Dealt to 1bc01b37 
+Dealt to e6c7ab5a 
+Dealt to Hero [Kd 7c]
+1bc01b37: folds
+e6c7ab5a: folds
+Hero: folds
+89c61801: folds
+1abf8d68: raises $0.1 to $0.15
+37485567: raises $0.3 to $0.45
+1abf8d68: folds
+Uncalled bet ($0.3) returned to 37485567
+*** SHOWDOWN ***
+37485567 collected $0.29 from pot
+*** SUMMARY ***
+Total pot $0.3 | Rake $0.01 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: 89c61801 (button) folded before Flop (didn't bet)
+Seat 2: 1abf8d68 (small blind) folded before Flop
+Seat 3: 37485567 (big blind) collected ($0.29)
+Seat 4: 1bc01b37 folded before Flop (didn't bet)
+Seat 5: e6c7ab5a folded before Flop (didn't bet)
+Seat 6: Hero folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792550002: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:39:41
+Table 'RushAndCash10415262' 6-max Seat #1 is the button
+Seat 1: 2e9bbdac ($1.9 in chips)
+Seat 2: Hero ($13.58 in chips)
+Seat 3: 5ef14923 ($5.98 in chips)
+Seat 4: 3835dba7 ($8.15 in chips)
+Seat 5: 928c9628 ($2.71 in chips)
+Seat 6: ed6935f5 ($8.17 in chips)
+Hero: posts small blind $0.02
+5ef14923: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to 2e9bbdac 
+Dealt to Hero [Ks Ah]
+Dealt to 5ef14923 
+Dealt to 3835dba7 
+Dealt to 928c9628 
+Dealt to ed6935f5 
+3835dba7: folds
+928c9628: folds
+ed6935f5: folds
+2e9bbdac: raises $0.05 to $0.1
+Hero: raises $0.25 to $0.35
+5ef14923: folds
+2e9bbdac: calls $0.25
+*** FLOP *** [8h Th Kd]
+Hero: bets $0.32
+2e9bbdac: folds
+Uncalled bet ($0.32) returned to Hero
+*** SHOWDOWN ***
+Hero collected $0.72 from pot
+*** SUMMARY ***
+Total pot $0.75 | Rake $0.03 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Board [8h Th Kd]
+Seat 1: 2e9bbdac (button) folded on the Flop
+Seat 2: Hero (small blind) won ($0.72)
+Seat 3: 5ef14923 (big blind) folded before Flop
+Seat 4: 3835dba7 folded before Flop (didn't bet)
+Seat 5: 928c9628 folded before Flop (didn't bet)
+Seat 6: ed6935f5 folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792549842: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:39:21
+Table 'RushAndCash10415102' 6-max Seat #1 is the button
+Seat 1: ae89dd57 ($6.01 in chips)
+Seat 2: 7532f339 ($5.42 in chips)
+Seat 3: 970d1131 ($5.7 in chips)
+Seat 4: Hero ($13.51 in chips)
+Seat 5: 8f3aa39e ($11.89 in chips)
+Seat 6: 15911619 ($5 in chips)
+7532f339: posts small blind $0.02
+970d1131: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to ae89dd57 
+Dealt to 7532f339 
+Dealt to 970d1131 
+Dealt to Hero [Ah Jh]
+Dealt to 8f3aa39e 
+Dealt to 15911619 
+Hero: raises $0.05 to $0.1
+8f3aa39e: folds
+15911619: folds
+ae89dd57: folds
+7532f339: folds
+970d1131: folds
+Uncalled bet ($0.05) returned to Hero
+*** SHOWDOWN ***
+Hero collected $0.12 from pot
+*** SUMMARY ***
+Total pot $0.12 | Rake $0 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: ae89dd57 (button) folded before Flop (didn't bet)
+Seat 2: 7532f339 (small blind) folded before Flop
+Seat 3: 970d1131 (big blind) folded before Flop
+Seat 4: Hero collected ($0.12)
+Seat 5: 8f3aa39e folded before Flop (didn't bet)
+Seat 6: 15911619 folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792549813: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:39:18
+Table 'RushAndCash10415073' 6-max Seat #1 is the button
+Seat 1: 739d5d17 ($2.68 in chips)
+Seat 2: d2d2aafc ($5.23 in chips)
+Seat 3: d031f01e ($9.13 in chips)
+Seat 4: 862612ec ($19.68 in chips)
+Seat 5: 122ca3dc ($28.66 in chips)
+Seat 6: Hero ($13.51 in chips)
+d2d2aafc: posts small blind $0.02
+d031f01e: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to 739d5d17 
+Dealt to d2d2aafc 
+Dealt to d031f01e 
+Dealt to 862612ec 
+Dealt to 122ca3dc 
+Dealt to Hero [5h 3d]
+862612ec: folds
+122ca3dc: folds
+Hero: folds
+739d5d17: folds
+d2d2aafc: raises $0.1 to $0.15
+d031f01e: folds
+Uncalled bet ($0.1) returned to d2d2aafc
+*** SHOWDOWN ***
+d2d2aafc collected $0.1 from pot
+*** SUMMARY ***
+Total pot $0.1 | Rake $0 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: 739d5d17 (button) folded before Flop (didn't bet)
+Seat 2: d2d2aafc (small blind) collected ($0.1)
+Seat 3: d031f01e (big blind) folded before Flop
+Seat 4: 862612ec folded before Flop (didn't bet)
+Seat 5: 122ca3dc folded before Flop (didn't bet)
+Seat 6: Hero folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792549784: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:39:14
+Table 'RushAndCash10415044' 6-max Seat #1 is the button
+Seat 1: 42c853d6 ($3.22 in chips)
+Seat 2: b838f84 ($4.6 in chips)
+Seat 3: f9acec8e ($5 in chips)
+Seat 4: cc1292b6 ($8.29 in chips)
+Seat 5: Hero ($13.51 in chips)
+Seat 6: 78dd2a61 ($2.83 in chips)
+b838f84: posts small blind $0.02
+f9acec8e: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to 42c853d6 
+Dealt to b838f84 
+Dealt to f9acec8e 
+Dealt to cc1292b6 
+Dealt to Hero [Ah 2d]
+Dealt to 78dd2a61 
+cc1292b6: folds
+Hero: folds
+78dd2a61: folds
+42c853d6: folds
+b838f84: folds
+Uncalled bet ($0.03) returned to f9acec8e
+*** SHOWDOWN ***
+f9acec8e collected $0.04 from pot
+*** SUMMARY ***
+Total pot $0.04 | Rake $0 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: 42c853d6 (button) folded before Flop (didn't bet)
+Seat 2: b838f84 (small blind) folded before Flop
+Seat 3: f9acec8e (big blind) collected ($0.04)
+Seat 4: cc1292b6 folded before Flop (didn't bet)
+Seat 5: Hero folded before Flop (didn't bet)
+Seat 6: 78dd2a61 folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792549754: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:39:10
+Table 'RushAndCash10415014' 6-max Seat #1 is the button
+Seat 1: Hero ($13.51 in chips)
+Seat 2: 8e9ca56c ($8.14 in chips)
+Seat 3: 82c94a8d ($5.04 in chips)
+Seat 4: 6ba5f65a ($12.54 in chips)
+Seat 5: d987bc35 ($1.88 in chips)
+Seat 6: 3194041 ($4.9 in chips)
+8e9ca56c: posts small blind $0.02
+82c94a8d: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to Hero [9s 2s]
+Dealt to 8e9ca56c 
+Dealt to 82c94a8d 
+Dealt to 6ba5f65a 
+Dealt to d987bc35 
+Dealt to 3194041 
+6ba5f65a: folds
+d987bc35: folds
+3194041: folds
+Hero: folds
+8e9ca56c: folds
+Uncalled bet ($0.03) returned to 82c94a8d
+*** SHOWDOWN ***
+82c94a8d collected $0.04 from pot
+*** SUMMARY ***
+Total pot $0.04 | Rake $0 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: Hero (button) folded before Flop (didn't bet)
+Seat 2: 8e9ca56c (small blind) folded before Flop
+Seat 3: 82c94a8d (big blind) collected ($0.04)
+Seat 4: 6ba5f65a folded before Flop (didn't bet)
+Seat 5: d987bc35 folded before Flop (didn't bet)
+Seat 6: 3194041 folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792549425: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:38:29
+Table 'RushAndCash10414685' 6-max Seat #1 is the button
+Seat 1: 61e4b36e ($12.32 in chips)
+Seat 2: Hero ($13.14 in chips)
+Seat 3: 4a10c085 ($5.07 in chips)
+Seat 4: 8d187102 ($4.93 in chips)
+Seat 5: d4745526 ($6.34 in chips)
+Seat 6: 862612ec ($19.7 in chips)
+Hero: posts small blind $0.02
+4a10c085: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to 61e4b36e 
+Dealt to Hero [Ac Qh]
+Dealt to 4a10c085 
+Dealt to 8d187102 
+Dealt to d4745526 
+Dealt to 862612ec 
+8d187102: folds
+d4745526: folds
+862612ec: folds
+61e4b36e: raises $0.05 to $0.1
+Hero: raises $0.25 to $0.35
+4a10c085: folds
+61e4b36e: calls $0.25
+*** FLOP *** [5d Jd Ks]
+Hero: bets $0.25
+61e4b36e: folds
+Uncalled bet ($0.25) returned to Hero
+*** SHOWDOWN ***
+Hero collected $0.72 from pot
+*** SUMMARY ***
+Total pot $0.75 | Rake $0.03 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Board [5d Jd Ks]
+Seat 1: 61e4b36e (button) folded on the Flop
+Seat 2: Hero (small blind) won ($0.72)
+Seat 3: 4a10c085 (big blind) folded before Flop
+Seat 4: 8d187102 folded before Flop (didn't bet)
+Seat 5: d4745526 folded before Flop (didn't bet)
+Seat 6: 862612ec folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792549226: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:38:04
+Table 'RushAndCash10414486' 6-max Seat #1 is the button
+Seat 1: 47ea7862 ($1.24 in chips)
+Seat 2: 24956de7 ($5.17 in chips)
+Seat 3: Hero ($14.04 in chips)
+Seat 4: d90468dd ($6.96 in chips)
+Seat 5: 340d0977 ($3.96 in chips)
+Seat 6: 408eed8f ($1.43 in chips)
+24956de7: posts small blind $0.02
+Hero: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to 47ea7862 
+Dealt to 24956de7 
+Dealt to Hero [Ac 2d]
+Dealt to d90468dd 
+Dealt to 340d0977 
+Dealt to 408eed8f 
+d90468dd: folds
+340d0977: raises $0.1 to $0.15
+408eed8f: folds
+47ea7862: folds
+24956de7: calls $0.13
+Hero: raises $0.75 to $0.9
+340d0977: raises $0.98 to $1.88
+24956de7: folds
+Hero: folds
+Uncalled bet ($0.98) returned to 340d0977
+*** SHOWDOWN ***
+340d0977 collected $1.77 from pot
+*** SUMMARY ***
+Total pot $1.95 | Rake $0.11 | Jackpot $0.07 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: 47ea7862 (button) folded before Flop (didn't bet)
+Seat 2: 24956de7 (small blind) folded before Flop
+Seat 3: Hero (big blind) folded before Flop
+Seat 4: d90468dd folded before Flop (didn't bet)
+Seat 5: 340d0977 collected ($1.77)
+Seat 6: 408eed8f folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792549194: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:38:00
+Table 'RushAndCash10414454' 6-max Seat #1 is the button
+Seat 1: 3528db6d ($2.4 in chips)
+Seat 2: ad0458cd ($5.43 in chips)
+Seat 3: 600b68f5 ($11.54 in chips)
+Seat 4: 62ecaa0a ($10.69 in chips)
+Seat 5: Hero ($14.04 in chips)
+Seat 6: 9862a98a ($2.39 in chips)
+ad0458cd: posts small blind $0.02
+600b68f5: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to 3528db6d 
+Dealt to ad0458cd 
+Dealt to 600b68f5 
+Dealt to 62ecaa0a 
+Dealt to Hero [Ad 7s]
+Dealt to 9862a98a 
+62ecaa0a: folds
+Hero: folds
+9862a98a: folds
+3528db6d: folds
+ad0458cd: raises $0.1 to $0.15
+600b68f5: raises $0.31 to $0.46
+ad0458cd: folds
+Uncalled bet ($0.31) returned to 600b68f5
+*** SHOWDOWN ***
+600b68f5 collected $0.29 from pot
+*** SUMMARY ***
+Total pot $0.3 | Rake $0.01 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: 3528db6d (button) folded before Flop (didn't bet)
+Seat 2: ad0458cd (small blind) folded before Flop
+Seat 3: 600b68f5 (big blind) collected ($0.29)
+Seat 4: 62ecaa0a folded before Flop (didn't bet)
+Seat 5: Hero folded before Flop (didn't bet)
+Seat 6: 9862a98a folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792549160: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:37:57
+Table 'RushAndCash10414420' 6-max Seat #1 is the button
+Seat 1: Hero ($14.04 in chips)
+Seat 2: 2bf29b7a ($5.19 in chips)
+Seat 3: 4145d64c ($5.23 in chips)
+Seat 4: c0f8e1b1 ($0.91 in chips)
+Seat 5: 8c70e66c ($8.78 in chips)
+Seat 6: b13d4238 ($2.54 in chips)
+2bf29b7a: posts small blind $0.02
+4145d64c: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to Hero [Jh 3d]
+Dealt to 2bf29b7a 
+Dealt to 4145d64c 
+Dealt to c0f8e1b1 
+Dealt to 8c70e66c 
+Dealt to b13d4238 
+c0f8e1b1: raises $0.15 to $0.2
+8c70e66c: folds
+b13d4238: folds
+Hero: folds
+2bf29b7a: folds
+4145d64c: folds
+Uncalled bet ($0.15) returned to c0f8e1b1
+*** SHOWDOWN ***
+c0f8e1b1 collected $0.12 from pot
+*** SUMMARY ***
+Total pot $0.12 | Rake $0 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: Hero (button) folded before Flop (didn't bet)
+Seat 2: 2bf29b7a (small blind) folded before Flop
+Seat 3: 4145d64c (big blind) folded before Flop
+Seat 4: c0f8e1b1 collected ($0.12)
+Seat 5: 8c70e66c folded before Flop (didn't bet)
+Seat 6: b13d4238 folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792549074: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:37:46
+Table 'RushAndCash10414334' 6-max Seat #1 is the button
+Seat 1: 4746cd2d ($6.21 in chips)
+Seat 2: 737df6 ($5.96 in chips)
+Seat 3: Hero ($14.02 in chips)
+Seat 4: 7a4f7df9 ($10.84 in chips)
+Seat 5: 192a1021 ($6.66 in chips)
+Seat 6: a9e4194e ($2.36 in chips)
+737df6: posts small blind $0.02
+Hero: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to 4746cd2d 
+Dealt to 737df6 
+Dealt to Hero [Kd 7h]
+Dealt to 7a4f7df9 
+Dealt to 192a1021 
+Dealt to a9e4194e 
+7a4f7df9: folds
+192a1021: folds
+a9e4194e: folds
+4746cd2d: folds
+737df6: folds
+Uncalled bet ($0.03) returned to Hero
+*** SHOWDOWN ***
+Hero collected $0.04 from pot
+*** SUMMARY ***
+Total pot $0.04 | Rake $0 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: 4746cd2d (button) folded before Flop (didn't bet)
+Seat 2: 737df6 (small blind) folded before Flop
+Seat 3: Hero (big blind) collected ($0.04)
+Seat 4: 7a4f7df9 folded before Flop (didn't bet)
+Seat 5: 192a1021 folded before Flop (didn't bet)
+Seat 6: a9e4194e folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792548424: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:36:29
+Table 'RushAndCash10413684' 6-max Seat #1 is the button
+Seat 1: 3d04d9ba ($7.26 in chips)
+Seat 2: 5543e7c7 ($5 in chips)
+Seat 3: cd88dc4a ($5 in chips)
+Seat 4: Hero ($9.19 in chips)
+Seat 5: 1d738552 ($8.33 in chips)
+Seat 6: bfa2de8a ($8.06 in chips)
+5543e7c7: posts small blind $0.02
+cd88dc4a: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to 3d04d9ba 
+Dealt to 5543e7c7 
+Dealt to cd88dc4a 
+Dealt to Hero [As Qd]
+Dealt to 1d738552 
+Dealt to bfa2de8a 
+Hero: raises $0.05 to $0.1
+1d738552: folds
+bfa2de8a: folds
+3d04d9ba: folds
+5543e7c7: raises $0.15 to $0.25
+cd88dc4a: folds
+Hero: raises $0.55 to $0.8
+5543e7c7: calls $0.55
+*** FLOP *** [Qc 2s 6h]
+5543e7c7: checks
+Hero: bets $0.55
+5543e7c7: raises $1.82 to $2.37
+Hero: calls $1.82
+*** TURN *** [Qc 2s 6h] [Ts]
+5543e7c7: bets $1.83 and is all-in
+Hero: calls $1.83
+5543e7c7: shows [Ks Jd] (King high)
+Hero: shows [As Qd] (a pair of Queens)
+*** RIVER *** [Qc 2s 6h Ts] [3d]
+*** SHOWDOWN ***
+Hero collected $9.83 from pot
+*** SUMMARY ***
+Total pot $10.05 | Rake $0.15 | Jackpot $0.07 | Bingo $0 | Fortune $0 | Tax $0
+Board [Qc 2s 6h Ts 3d]
+Seat 1: 3d04d9ba (button) folded before Flop (didn't bet)
+Seat 2: 5543e7c7 (small blind) showed [Ks Jd] and lost with King high
+Seat 3: cd88dc4a (big blind) folded before Flop
+Seat 4: Hero showed [As Qd] and won ($9.83) with a pair of Queens
+Seat 5: 1d738552 folded before Flop (didn't bet)
+Seat 6: bfa2de8a folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792547962: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:35:35
+Table 'RushAndCash10413222' 6-max Seat #1 is the button
+Seat 1: 1d738552 ($7.67 in chips)
+Seat 2: Hero ($9.94 in chips)
+Seat 3: bf2e1380 ($10.9 in chips)
+Seat 4: dcacc675 ($5.15 in chips)
+Seat 5: 5bd36297 ($5.82 in chips)
+Seat 6: 9876d4b ($5.91 in chips)
+Hero: posts small blind $0.02
+bf2e1380: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to 1d738552 
+Dealt to Hero [Ah Qh]
+Dealt to bf2e1380 
+Dealt to dcacc675 
+Dealt to 5bd36297 
+Dealt to 9876d4b 
+dcacc675: folds
+5bd36297: folds
+9876d4b: folds
+1d738552: raises $0.08 to $0.13
+Hero: raises $0.31 to $0.44
+bf2e1380: folds
+1d738552: calls $0.31
+*** FLOP *** [Kc 4s 6d]
+Hero: bets $0.31
+1d738552: calls $0.31
+*** TURN *** [Kc 4s 6d] [Td]
+Hero: checks
+1d738552: checks
+*** RIVER *** [Kc 4s 6d Td] [9s]
+Hero: checks
+1d738552: bets $1.17
+Hero: folds
+Uncalled bet ($1.17) returned to 1d738552
+*** SHOWDOWN ***
+1d738552 collected $1.41 from pot
+*** SUMMARY ***
+Total pot $1.55 | Rake $0.07 | Jackpot $0.07 | Bingo $0 | Fortune $0 | Tax $0
+Board [Kc 4s 6d Td 9s]
+Seat 1: 1d738552 (button) won ($1.41)
+Seat 2: Hero (small blind) folded on the River
+Seat 3: bf2e1380 (big blind) folded before Flop
+Seat 4: dcacc675 folded before Flop (didn't bet)
+Seat 5: 5bd36297 folded before Flop (didn't bet)
+Seat 6: 9876d4b folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792547930: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:35:31
+Table 'RushAndCash10413190' 6-max Seat #1 is the button
+Seat 1: 32a2a759 ($9 in chips)
+Seat 2: db6db723 ($5.02 in chips)
+Seat 3: 6deba84f ($8.5 in chips)
+Seat 4: Hero ($9.94 in chips)
+Seat 5: 297cfca9 ($8.47 in chips)
+Seat 6: b659d7d5 ($10.58 in chips)
+db6db723: posts small blind $0.02
+6deba84f: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to 32a2a759 
+Dealt to db6db723 
+Dealt to 6deba84f 
+Dealt to Hero [7d Ts]
+Dealt to 297cfca9 
+Dealt to b659d7d5 
+Hero: folds
+297cfca9: folds
+b659d7d5: folds
+32a2a759: raises $0.06 to $0.11
+db6db723: folds
+6deba84f: folds
+Uncalled bet ($0.06) returned to 32a2a759
+*** SHOWDOWN ***
+32a2a759 collected $0.12 from pot
+*** SUMMARY ***
+Total pot $0.12 | Rake $0 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: 32a2a759 (button) collected ($0.12)
+Seat 2: db6db723 (small blind) folded before Flop
+Seat 3: 6deba84f (big blind) folded before Flop
+Seat 4: Hero folded before Flop (didn't bet)
+Seat 5: 297cfca9 folded before Flop (didn't bet)
+Seat 6: b659d7d5 folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792547900: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:35:28
+Table 'RushAndCash10413160' 6-max Seat #1 is the button
+Seat 1: f821a343 ($13.83 in chips)
+Seat 2: 471ee9e6 ($5.8 in chips)
+Seat 3: 86ceb323 ($5.07 in chips)
+Seat 4: Hero ($9.94 in chips)
+Seat 5: 6112f2e1 ($5.3 in chips)
+Seat 6: f361d435 ($2.93 in chips)
+471ee9e6: posts small blind $0.02
+86ceb323: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to f821a343 
+Dealt to 471ee9e6 
+Dealt to 86ceb323 
+Dealt to Hero [6s Js]
+Dealt to 6112f2e1 
+Dealt to f361d435 
+Hero: folds
+6112f2e1: raises $0.07 to $0.12
+f361d435: folds
+f821a343: folds
+471ee9e6: folds
+86ceb323: folds
+Uncalled bet ($0.07) returned to 6112f2e1
+*** SHOWDOWN ***
+6112f2e1 collected $0.12 from pot
+*** SUMMARY ***
+Total pot $0.12 | Rake $0 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: f821a343 (button) folded before Flop (didn't bet)
+Seat 2: 471ee9e6 (small blind) folded before Flop
+Seat 3: 86ceb323 (big blind) folded before Flop
+Seat 4: Hero folded before Flop (didn't bet)
+Seat 5: 6112f2e1 collected ($0.12)
+Seat 6: f361d435 folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792547872: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:35:24
+Table 'RushAndCash10413132' 6-max Seat #1 is the button
+Seat 1: 9a6e0563 ($8.8 in chips)
+Seat 2: 5635ea3b ($6.03 in chips)
+Seat 3: a736c088 ($1.62 in chips)
+Seat 4: 468b413 ($5.12 in chips)
+Seat 5: Hero ($9.94 in chips)
+Seat 6: fa7b2d51 ($5.78 in chips)
+5635ea3b: posts small blind $0.02
+a736c088: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to 9a6e0563 
+Dealt to 5635ea3b 
+Dealt to a736c088 
+Dealt to 468b413 
+Dealt to Hero [9c 6c]
+Dealt to fa7b2d51 
+468b413: folds
+Hero: folds
+fa7b2d51: folds
+9a6e0563: folds
+5635ea3b: folds
+Uncalled bet ($0.03) returned to a736c088
+*** SHOWDOWN ***
+a736c088 collected $0.04 from pot
+*** SUMMARY ***
+Total pot $0.04 | Rake $0 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: 9a6e0563 (button) folded before Flop (didn't bet)
+Seat 2: 5635ea3b (small blind) folded before Flop
+Seat 3: a736c088 (big blind) collected ($0.04)
+Seat 4: 468b413 folded before Flop (didn't bet)
+Seat 5: Hero folded before Flop (didn't bet)
+Seat 6: fa7b2d51 folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792547771: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:35:11
+Table 'RushAndCash10413031' 6-max Seat #1 is the button
+Seat 1: Hero ($9.87 in chips)
+Seat 2: f902394f ($5 in chips)
+Seat 3: dcacc675 ($5.2 in chips)
+Seat 4: 170c5863 ($5 in chips)
+Seat 5: d90468dd ($6.74 in chips)
+Seat 6: e466ad2e ($13.6 in chips)
+f902394f: posts small blind $0.02
+dcacc675: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to Hero [9c Kd]
+Dealt to f902394f 
+Dealt to dcacc675 
+Dealt to 170c5863 
+Dealt to d90468dd 
+Dealt to e466ad2e 
+170c5863: folds
+d90468dd: folds
+e466ad2e: folds
+Hero: raises $0.05 to $0.1
+f902394f: folds
+dcacc675: folds
+Uncalled bet ($0.05) returned to Hero
+*** SHOWDOWN ***
+Hero collected $0.12 from pot
+*** SUMMARY ***
+Total pot $0.12 | Rake $0 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: Hero (button) collected ($0.12)
+Seat 2: f902394f (small blind) folded before Flop
+Seat 3: dcacc675 (big blind) folded before Flop
+Seat 4: 170c5863 folded before Flop (didn't bet)
+Seat 5: d90468dd folded before Flop (didn't bet)
+Seat 6: e466ad2e folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792547435: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:34:31
+Table 'RushAndCash10412695' 6-max Seat #1 is the button
+Seat 1: 77744d60 ($9.1 in chips)
+Seat 2: 52c0ca07 ($5.78 in chips)
+Seat 3: Hero ($9.78 in chips)
+Seat 4: 47885cb1 ($15.29 in chips)
+Seat 5: 4f826e35 ($6.33 in chips)
+Seat 6: b13d4238 ($3.06 in chips)
+52c0ca07: posts small blind $0.02
+Hero: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to 77744d60 
+Dealt to 52c0ca07 
+Dealt to Hero [Qd Th]
+Dealt to 47885cb1 
+Dealt to 4f826e35 
+Dealt to b13d4238 
+47885cb1: folds
+4f826e35: folds
+b13d4238: folds
+77744d60: folds
+52c0ca07: raises $0.05 to $0.1
+Hero: calls $0.05
+*** FLOP *** [9s 6s 5c]
+52c0ca07: checks
+Hero: checks
+*** TURN *** [9s 6s 5c] [8h]
+52c0ca07: checks
+Hero: checks
+*** RIVER *** [9s 6s 5c 8h] [Ad]
+52c0ca07: checks
+Hero: bets $0.1
+52c0ca07: folds
+Uncalled bet ($0.1) returned to Hero
+*** SHOWDOWN ***
+Hero collected $0.19 from pot
+*** SUMMARY ***
+Total pot $0.2 | Rake $0.01 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Board [9s 6s 5c 8h Ad]
+Seat 1: 77744d60 (button) folded before Flop (didn't bet)
+Seat 2: 52c0ca07 (small blind) folded on the River
+Seat 3: Hero (big blind) won ($0.19)
+Seat 4: 47885cb1 folded before Flop (didn't bet)
+Seat 5: 4f826e35 folded before Flop (didn't bet)
+Seat 6: b13d4238 folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792547230: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:34:05
+Table 'RushAndCash10412490' 6-max Seat #1 is the button
+Seat 1: 25291348 ($4.78 in chips)
+Seat 2: Hero ($9.8 in chips)
+Seat 3: d6fa32f5 ($5.33 in chips)
+Seat 4: 1c4336f7 ($5.03 in chips)
+Seat 5: 8293be4d ($5.58 in chips)
+Seat 6: c3ffe137 ($8.68 in chips)
+Hero: posts small blind $0.02
+d6fa32f5: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to 25291348 
+Dealt to Hero [Jd 8c]
+Dealt to d6fa32f5 
+Dealt to 1c4336f7 
+Dealt to 8293be4d 
+Dealt to c3ffe137 
+1c4336f7: raises $0.05 to $0.1
+8293be4d: folds
+c3ffe137: folds
+25291348: folds
+Hero: folds
+d6fa32f5: folds
+Uncalled bet ($0.05) returned to 1c4336f7
+*** SHOWDOWN ***
+1c4336f7 collected $0.12 from pot
+*** SUMMARY ***
+Total pot $0.12 | Rake $0 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: 25291348 (button) folded before Flop (didn't bet)
+Seat 2: Hero (small blind) folded before Flop
+Seat 3: d6fa32f5 (big blind) folded before Flop
+Seat 4: 1c4336f7 collected ($0.12)
+Seat 5: 8293be4d folded before Flop (didn't bet)
+Seat 6: c3ffe137 folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792547202: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:34:01
+Table 'RushAndCash10412462' 6-max Seat #1 is the button
+Seat 1: 8460acb5 ($5.83 in chips)
+Seat 2: 6b50780c ($5.84 in chips)
+Seat 3: 9876d4b ($5 in chips)
+Seat 4: a768ac55 ($11.5 in chips)
+Seat 5: a4ff5192 ($11.23 in chips)
+Seat 6: Hero ($9.8 in chips)
+6b50780c: posts small blind $0.02
+9876d4b: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to 8460acb5 
+Dealt to 6b50780c 
+Dealt to 9876d4b 
+Dealt to a768ac55 
+Dealt to a4ff5192 
+Dealt to Hero [Qd 8h]
+a768ac55: folds
+a4ff5192: folds
+Hero: folds
+8460acb5: raises $0.05 to $0.1
+6b50780c: folds
+9876d4b: folds
+Uncalled bet ($0.05) returned to 8460acb5
+*** SHOWDOWN ***
+8460acb5 collected $0.12 from pot
+*** SUMMARY ***
+Total pot $0.12 | Rake $0 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: 8460acb5 (button) collected ($0.12)
+Seat 2: 6b50780c (small blind) folded before Flop
+Seat 3: 9876d4b (big blind) folded before Flop
+Seat 4: a768ac55 folded before Flop (didn't bet)
+Seat 5: a4ff5192 folded before Flop (didn't bet)
+Seat 6: Hero folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792547173: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:33:57
+Table 'RushAndCash10412433' 6-max Seat #1 is the button
+Seat 1: c3ffe137 ($8.68 in chips)
+Seat 2: 6b50780c ($5.86 in chips)
+Seat 3: 1eba1448 ($14.69 in chips)
+Seat 4: ddd130a4 ($19.16 in chips)
+Seat 5: Hero ($9.8 in chips)
+Seat 6: 38778731 ($5.14 in chips)
+6b50780c: posts small blind $0.02
+1eba1448: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to c3ffe137 
+Dealt to 6b50780c 
+Dealt to 1eba1448 
+Dealt to ddd130a4 
+Dealt to Hero [3h 8d]
+Dealt to 38778731 
+ddd130a4: folds
+Hero: folds
+38778731: folds
+c3ffe137: folds
+6b50780c: folds
+Uncalled bet ($0.03) returned to 1eba1448
+*** SHOWDOWN ***
+1eba1448 collected $0.04 from pot
+*** SUMMARY ***
+Total pot $0.04 | Rake $0 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: c3ffe137 (button) folded before Flop (didn't bet)
+Seat 2: 6b50780c (small blind) folded before Flop
+Seat 3: 1eba1448 (big blind) collected ($0.04)
+Seat 4: ddd130a4 folded before Flop (didn't bet)
+Seat 5: Hero folded before Flop (didn't bet)
+Seat 6: 38778731 folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792547082: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:33:45
+Table 'RushAndCash10412342' 6-max Seat #1 is the button
+Seat 1: 9a6e0563 ($8.87 in chips)
+Seat 2: Hero ($9.82 in chips)
+Seat 3: d631a319 ($7.11 in chips)
+Seat 4: dfcfaa36 ($4.23 in chips)
+Seat 5: 83b66c57 ($10.79 in chips)
+Seat 6: a5d59a6a ($6.03 in chips)
+Hero: posts small blind $0.02
+d631a319: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to 9a6e0563 
+Dealt to Hero [5h 8s]
+Dealt to d631a319 
+Dealt to dfcfaa36 
+Dealt to 83b66c57 
+Dealt to a5d59a6a 
+dfcfaa36: folds
+83b66c57: raises $0.1 to $0.15
+a5d59a6a: folds
+9a6e0563: folds
+Hero: folds
+d631a319: folds
+Uncalled bet ($0.1) returned to 83b66c57
+*** SHOWDOWN ***
+83b66c57 collected $0.12 from pot
+*** SUMMARY ***
+Total pot $0.12 | Rake $0 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: 9a6e0563 (button) folded before Flop (didn't bet)
+Seat 2: Hero (small blind) folded before Flop
+Seat 3: d631a319 (big blind) folded before Flop
+Seat 4: dfcfaa36 folded before Flop (didn't bet)
+Seat 5: 83b66c57 collected ($0.12)
+Seat 6: a5d59a6a folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792547056: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:33:42
+Table 'RushAndCash10412316' 6-max Seat #1 is the button
+Seat 1: d631a319 ($7.11 in chips)
+Seat 2: 9060d528 ($5 in chips)
+Seat 3: 1a027100 ($4.95 in chips)
+Seat 4: b8e63322 ($5.3 in chips)
+Seat 5: Hero ($9.82 in chips)
+Seat 6: 31267337 ($4.81 in chips)
+9060d528: posts small blind $0.02
+1a027100: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to d631a319 
+Dealt to 9060d528 
+Dealt to 1a027100 
+Dealt to b8e63322 
+Dealt to Hero [9d 6s]
+Dealt to 31267337 
+b8e63322: raises $0.08 to $0.13
+Hero: folds
+31267337: raises $0.23 to $0.36
+d631a319: folds
+9060d528: folds
+1a027100: folds
+b8e63322: calls $0.23
+*** FLOP *** [2c Jc 7h]
+b8e63322: checks
+31267337: checks
+*** TURN *** [2c Jc 7h] [8h]
+b8e63322: checks
+31267337: bets $0.44
+b8e63322: folds
+Uncalled bet ($0.44) returned to 31267337
+*** SHOWDOWN ***
+31267337 collected $0.75 from pot
+*** SUMMARY ***
+Total pot $0.79 | Rake $0.04 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Board [2c Jc 7h 8h]
+Seat 1: d631a319 (button) folded before Flop (didn't bet)
+Seat 2: 9060d528 (small blind) folded before Flop
+Seat 3: 1a027100 (big blind) folded before Flop
+Seat 4: b8e63322 folded on the Turn
+Seat 5: Hero folded before Flop (didn't bet)
+Seat 6: 31267337 won ($0.75)
+
+
+Poker Hand #RC3792546996: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:33:35
+Table 'RushAndCash10412256' 6-max Seat #1 is the button
+Seat 1: Hero ($9.82 in chips)
+Seat 2: cc4ab67d ($5 in chips)
+Seat 3: ae711d57 ($23.69 in chips)
+Seat 4: 3528db6d ($4.64 in chips)
+Seat 5: 8293be4d ($5.53 in chips)
+Seat 6: 9060d528 ($5 in chips)
+cc4ab67d: posts small blind $0.02
+ae711d57: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to Hero [9d 5s]
+Dealt to cc4ab67d 
+Dealt to ae711d57 
+Dealt to 3528db6d 
+Dealt to 8293be4d 
+Dealt to 9060d528 
+3528db6d: folds
+8293be4d: raises $0.05 to $0.1
+9060d528: folds
+Hero: folds
+cc4ab67d: folds
+ae711d57: folds
+Uncalled bet ($0.05) returned to 8293be4d
+*** SHOWDOWN ***
+8293be4d collected $0.12 from pot
+*** SUMMARY ***
+Total pot $0.12 | Rake $0 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: Hero (button) folded before Flop (didn't bet)
+Seat 2: cc4ab67d (small blind) folded before Flop
+Seat 3: ae711d57 (big blind) folded before Flop
+Seat 4: 3528db6d folded before Flop (didn't bet)
+Seat 5: 8293be4d collected ($0.12)
+Seat 6: 9060d528 folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792546965: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:33:31
+Table 'RushAndCash10412225' 6-max Seat #1 is the button
+Seat 1: 70ed18fd ($8.98 in chips)
+Seat 2: 4fe0144 ($5.54 in chips)
+Seat 3: 13a80d60 ($5.54 in chips)
+Seat 4: Hero ($9.82 in chips)
+Seat 5: ea75fc96 ($3.84 in chips)
+Seat 6: 665906ab ($1.13 in chips)
+4fe0144: posts small blind $0.02
+13a80d60: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to 70ed18fd 
+Dealt to 4fe0144 
+Dealt to 13a80d60 
+Dealt to Hero [5h Kc]
+Dealt to ea75fc96 
+Dealt to 665906ab 
+Hero: folds
+ea75fc96: folds
+665906ab: calls $0.05
+70ed18fd: raises $0.13 to $0.18
+4fe0144: folds
+13a80d60: folds
+665906ab: calls $0.13
+*** FLOP *** [Ts 4c 3d]
+665906ab: checks
+70ed18fd: bets $0.22
+665906ab: calls $0.22
+*** TURN *** [Ts 4c 3d] [9s]
+665906ab: checks
+70ed18fd: bets $8.58 and is all-in
+665906ab: folds
+Uncalled bet ($8.58) returned to 70ed18fd
+*** SHOWDOWN ***
+70ed18fd collected $0.83 from pot
+*** SUMMARY ***
+Total pot $0.87 | Rake $0.04 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Board [Ts 4c 3d 9s]
+Seat 1: 70ed18fd (button) won ($0.83)
+Seat 2: 4fe0144 (small blind) folded before Flop
+Seat 3: 13a80d60 (big blind) folded before Flop
+Seat 4: Hero folded before Flop (didn't bet)
+Seat 5: ea75fc96 folded before Flop (didn't bet)
+Seat 6: 665906ab folded on the Turn
+
+
+Poker Hand #RC3792546766: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:33:06
+Table 'RushAndCash10412026' 6-max Seat #1 is the button
+Seat 1: 9f3d23ad ($7.55 in chips)
+Seat 2: 6ec3c96e ($5 in chips)
+Seat 3: Hero ($9.87 in chips)
+Seat 4: 1da76c93 ($7.5 in chips)
+Seat 5: 3cdccbd0 ($2.93 in chips)
+Seat 6: 773611f6 ($5.81 in chips)
+6ec3c96e: posts small blind $0.02
+Hero: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to 9f3d23ad 
+Dealt to 6ec3c96e 
+Dealt to Hero [6c 8c]
+Dealt to 1da76c93 
+Dealt to 3cdccbd0 
+Dealt to 773611f6 
+1da76c93: folds
+3cdccbd0: folds
+773611f6: folds
+9f3d23ad: raises $0.05 to $0.1
+6ec3c96e: folds
+Hero: folds
+Uncalled bet ($0.05) returned to 9f3d23ad
+*** SHOWDOWN ***
+9f3d23ad collected $0.12 from pot
+*** SUMMARY ***
+Total pot $0.12 | Rake $0 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: 9f3d23ad (button) collected ($0.12)
+Seat 2: 6ec3c96e (small blind) folded before Flop
+Seat 3: Hero (big blind) folded before Flop
+Seat 4: 1da76c93 folded before Flop (didn't bet)
+Seat 5: 3cdccbd0 folded before Flop (didn't bet)
+Seat 6: 773611f6 folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792546734: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:33:03
+Table 'RushAndCash10411994' 6-max Seat #1 is the button
+Seat 1: ee5b0b0 ($16.84 in chips)
+Seat 2: 83928c0f ($5 in chips)
+Seat 3: a4b214e6 ($4.8 in chips)
+Seat 4: dae4d076 ($10.21 in chips)
+Seat 5: 5e6fb252 ($10.83 in chips)
+Seat 6: Hero ($9.87 in chips)
+83928c0f: posts small blind $0.02
+a4b214e6: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to ee5b0b0 
+Dealt to 83928c0f 
+Dealt to a4b214e6 
+Dealt to dae4d076 
+Dealt to 5e6fb252 
+Dealt to Hero [4s Qd]
+dae4d076: raises $0.05 to $0.1
+5e6fb252: folds
+Hero: folds
+ee5b0b0: folds
+83928c0f: folds
+a4b214e6: folds
+Uncalled bet ($0.05) returned to dae4d076
+*** SHOWDOWN ***
+dae4d076 collected $0.12 from pot
+*** SUMMARY ***
+Total pot $0.12 | Rake $0 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: ee5b0b0 (button) folded before Flop (didn't bet)
+Seat 2: 83928c0f (small blind) folded before Flop
+Seat 3: a4b214e6 (big blind) folded before Flop
+Seat 4: dae4d076 collected ($0.12)
+Seat 5: 5e6fb252 folded before Flop (didn't bet)
+Seat 6: Hero folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792546702: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:32:59
+Table 'RushAndCash10411962' 6-max Seat #1 is the button
+Seat 1: 773611f6 ($5.81 in chips)
+Seat 2: 5e6fb252 ($10.85 in chips)
+Seat 3: a03b925 ($8.85 in chips)
+Seat 4: 6f598792 ($9.13 in chips)
+Seat 5: aeb18ea ($5.72 in chips)
+Seat 6: Hero ($9.87 in chips)
+5e6fb252: posts small blind $0.02
+a03b925: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to 773611f6 
+Dealt to 5e6fb252 
+Dealt to a03b925 
+Dealt to 6f598792 
+Dealt to aeb18ea 
+Dealt to Hero [Jc Ad]
+6f598792: folds
+aeb18ea: folds
+Hero: folds
+773611f6: folds
+5e6fb252: folds
+Uncalled bet ($0.03) returned to a03b925
+*** SHOWDOWN ***
+a03b925 collected $0.04 from pot
+*** SUMMARY ***
+Total pot $0.04 | Rake $0 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: 773611f6 (button) folded before Flop (didn't bet)
+Seat 2: 5e6fb252 (small blind) folded before Flop
+Seat 3: a03b925 (big blind) collected ($0.04)
+Seat 4: 6f598792 folded before Flop (didn't bet)
+Seat 5: aeb18ea folded before Flop (didn't bet)
+Seat 6: Hero folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792546379: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:32:17
+Table 'RushAndCash10411639' 6-max Seat #1 is the button
+Seat 1: Hero ($9.99 in chips)
+Seat 2: 6f598792 ($9.25 in chips)
+Seat 3: 251af6a ($5.84 in chips)
+Seat 4: 8d7c1dc7 ($6.34 in chips)
+Seat 5: 2132daad ($24.77 in chips)
+Seat 6: dd89146f ($5.1 in chips)
+6f598792: posts small blind $0.02
+251af6a: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to Hero [As 8s]
+Dealt to 6f598792 
+Dealt to 251af6a 
+Dealt to 8d7c1dc7 
+Dealt to 2132daad 
+Dealt to dd89146f 
+8d7c1dc7: folds
+2132daad: folds
+dd89146f: folds
+Hero: raises $0.07 to $0.12
+6f598792: calls $0.1
+251af6a: calls $0.07
+*** FLOP *** [3d 3h Tc]
+6f598792: checks
+251af6a: checks
+Hero: checks
+*** TURN *** [3d 3h Tc] [2s]
+6f598792: checks
+251af6a: bets $0.12
+Hero: folds
+6f598792: folds
+Uncalled bet ($0.12) returned to 251af6a
+*** SHOWDOWN ***
+251af6a collected $0.35 from pot
+*** SUMMARY ***
+Total pot $0.36 | Rake $0.01 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Board [3d 3h Tc 2s]
+Seat 1: Hero (button) folded on the Turn
+Seat 2: 6f598792 (small blind) folded on the Turn
+Seat 3: 251af6a (big blind) won ($0.35)
+Seat 4: 8d7c1dc7 folded before Flop (didn't bet)
+Seat 5: 2132daad folded before Flop (didn't bet)
+Seat 6: dd89146f folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792546285: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:32:06
+Table 'RushAndCash10411545' 6-max Seat #1 is the button
+Seat 1: ff8026cd ($5 in chips)
+Seat 2: Hero ($10.01 in chips)
+Seat 3: 96c93310 ($9.34 in chips)
+Seat 4: 1a027100 ($5.17 in chips)
+Seat 5: c10d4277 ($8.55 in chips)
+Seat 6: 577b4d06 ($5.59 in chips)
+Hero: posts small blind $0.02
+96c93310: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to ff8026cd 
+Dealt to Hero [8h 4s]
+Dealt to 96c93310 
+Dealt to 1a027100 
+Dealt to c10d4277 
+Dealt to 577b4d06 
+1a027100: folds
+c10d4277: raises $0.08 to $0.13
+577b4d06: folds
+ff8026cd: folds
+Hero: folds
+96c93310: folds
+Uncalled bet ($0.08) returned to c10d4277
+*** SHOWDOWN ***
+c10d4277 collected $0.12 from pot
+*** SUMMARY ***
+Total pot $0.12 | Rake $0 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: ff8026cd (button) folded before Flop (didn't bet)
+Seat 2: Hero (small blind) folded before Flop
+Seat 3: 96c93310 (big blind) folded before Flop
+Seat 4: 1a027100 folded before Flop (didn't bet)
+Seat 5: c10d4277 collected ($0.12)
+Seat 6: 577b4d06 folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792546173: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:31:51
+Table 'RushAndCash10411433' 6-max Seat #1 is the button
+Seat 1: b41f698c ($5 in chips)
+Seat 2: f2e8b73 ($7.36 in chips)
+Seat 3: Hero ($10.05 in chips)
+Seat 4: 383fc235 ($19.43 in chips)
+Seat 5: ecab5fc2 ($6.66 in chips)
+Seat 6: c259e7c5 ($5.3 in chips)
+f2e8b73: posts small blind $0.02
+Hero: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to b41f698c 
+Dealt to f2e8b73 
+Dealt to Hero [6h Jd]
+Dealt to 383fc235 
+Dealt to ecab5fc2 
+Dealt to c259e7c5 
+383fc235: folds
+ecab5fc2: raises $0.05 to $0.1
+c259e7c5: folds
+b41f698c: raises $0.27 to $0.37
+f2e8b73: folds
+Hero: folds
+ecab5fc2: folds
+Uncalled bet ($0.27) returned to b41f698c
+*** SHOWDOWN ***
+b41f698c collected $0.26 from pot
+*** SUMMARY ***
+Total pot $0.27 | Rake $0.01 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: b41f698c (button) collected ($0.26)
+Seat 2: f2e8b73 (small blind) folded before Flop
+Seat 3: Hero (big blind) folded before Flop
+Seat 4: 383fc235 folded before Flop (didn't bet)
+Seat 5: ecab5fc2 folded before Flop
+Seat 6: c259e7c5 folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792546100: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:31:42
+Table 'RushAndCash10411360' 6-max Seat #1 is the button
+Seat 1: ae7b04c5 ($5.41 in chips)
+Seat 2: afd54c11 ($30.28 in chips)
+Seat 3: c5b7f734 ($5.14 in chips)
+Seat 4: 893ff0e9 ($14.2 in chips)
+Seat 5: Hero ($10.05 in chips)
+Seat 6: 73bb6d44 ($8.61 in chips)
+afd54c11: posts small blind $0.02
+c5b7f734: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to ae7b04c5 
+Dealt to afd54c11 
+Dealt to c5b7f734 
+Dealt to 893ff0e9 
+Dealt to Hero [Qd Js]
+Dealt to 73bb6d44 
+893ff0e9: raises $0.08 to $0.13
+Hero: folds
+73bb6d44: folds
+ae7b04c5: folds
+afd54c11: folds
+c5b7f734: folds
+Uncalled bet ($0.08) returned to 893ff0e9
+*** SHOWDOWN ***
+893ff0e9 collected $0.12 from pot
+*** SUMMARY ***
+Total pot $0.12 | Rake $0 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: ae7b04c5 (button) folded before Flop (didn't bet)
+Seat 2: afd54c11 (small blind) folded before Flop
+Seat 3: c5b7f734 (big blind) folded before Flop
+Seat 4: 893ff0e9 collected ($0.12)
+Seat 5: Hero folded before Flop (didn't bet)
+Seat 6: 73bb6d44 folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792546077: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:31:38
+Table 'RushAndCash10411337' 6-max Seat #1 is the button
+Seat 1: c5b7f734 ($5.14 in chips)
+Seat 2: b49cbd64 ($11.64 in chips)
+Seat 3: 55ef5288 ($5.68 in chips)
+Seat 4: a8c89aa0 ($5.96 in chips)
+Seat 5: a9ed48ba ($5 in chips)
+Seat 6: Hero ($10.05 in chips)
+b49cbd64: posts small blind $0.02
+55ef5288: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to c5b7f734 
+Dealt to b49cbd64 
+Dealt to 55ef5288 
+Dealt to a8c89aa0 
+Dealt to a9ed48ba 
+Dealt to Hero [9s 3c]
+a8c89aa0: folds
+a9ed48ba: folds
+Hero: folds
+c5b7f734: folds
+b49cbd64: raises $0.1 to $0.15
+55ef5288: folds
+Uncalled bet ($0.1) returned to b49cbd64
+*** SHOWDOWN ***
+b49cbd64 collected $0.1 from pot
+*** SUMMARY ***
+Total pot $0.1 | Rake $0 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: c5b7f734 (button) folded before Flop (didn't bet)
+Seat 2: b49cbd64 (small blind) collected ($0.1)
+Seat 3: 55ef5288 (big blind) folded before Flop
+Seat 4: a8c89aa0 folded before Flop (didn't bet)
+Seat 5: a9ed48ba folded before Flop (didn't bet)
+Seat 6: Hero folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792545932: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:31:18
+Table 'RushAndCash10411192' 6-max Seat #1 is the button
+Seat 1: Hero ($9.88 in chips)
+Seat 2: d3f86104 ($5.02 in chips)
+Seat 3: 8c70e66c ($7.54 in chips)
+Seat 4: 35cf6340 ($5.62 in chips)
+Seat 5: 6a802440 ($8.43 in chips)
+Seat 6: a8c89aa0 ($6.07 in chips)
+d3f86104: posts small blind $0.02
+8c70e66c: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to Hero [Ad Ks]
+Dealt to d3f86104 
+Dealt to 8c70e66c 
+Dealt to 35cf6340 
+Dealt to 6a802440 
+Dealt to a8c89aa0 
+35cf6340: folds
+6a802440: folds
+a8c89aa0: raises $0.06 to $0.11
+Hero: raises $0.29 to $0.4
+d3f86104: folds
+8c70e66c: folds
+a8c89aa0: folds
+Uncalled bet ($0.29) returned to Hero
+*** SHOWDOWN ***
+Hero collected $0.28 from pot
+*** SUMMARY ***
+Total pot $0.29 | Rake $0.01 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: Hero (button) collected ($0.28)
+Seat 2: d3f86104 (small blind) folded before Flop
+Seat 3: 8c70e66c (big blind) folded before Flop
+Seat 4: 35cf6340 folded before Flop (didn't bet)
+Seat 5: 6a802440 folded before Flop (didn't bet)
+Seat 6: a8c89aa0 folded before Flop
+
+
+Poker Hand #RC3792545616: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:30:34
+Table 'RushAndCash10410876' 6-max Seat #1 is the button
+Seat 1: a8c89aa0 ($6.18 in chips)
+Seat 2: Hero ($9.99 in chips)
+Seat 3: b061d37e ($11.96 in chips)
+Seat 4: 7d8844b9 ($14.91 in chips)
+Seat 5: 4cac4702 ($6.76 in chips)
+Seat 6: d90468dd ($5.58 in chips)
+Hero: posts small blind $0.02
+b061d37e: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to a8c89aa0 
+Dealt to Hero [9d Jd]
+Dealt to b061d37e 
+Dealt to 7d8844b9 
+Dealt to 4cac4702 
+Dealt to d90468dd 
+7d8844b9: folds
+4cac4702: folds
+d90468dd: folds
+a8c89aa0: raises $0.06 to $0.11
+Hero: calls $0.09
+b061d37e: calls $0.06
+*** FLOP *** [Kh 8c 5h]
+Hero: checks
+b061d37e: checks
+a8c89aa0: checks
+*** TURN *** [Kh 8c 5h] [5c]
+Hero: checks
+b061d37e: bets $0.26
+a8c89aa0: folds
+Hero: folds
+Uncalled bet ($0.26) returned to b061d37e
+*** SHOWDOWN ***
+b061d37e collected $0.32 from pot
+*** SUMMARY ***
+Total pot $0.33 | Rake $0.01 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Board [Kh 8c 5h 5c]
+Seat 1: a8c89aa0 (button) folded on the Turn
+Seat 2: Hero (small blind) folded on the Turn
+Seat 3: b061d37e (big blind) won ($0.32)
+Seat 4: 7d8844b9 folded before Flop (didn't bet)
+Seat 5: 4cac4702 folded before Flop (didn't bet)
+Seat 6: d90468dd folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792545586: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:30:31
+Table 'RushAndCash10410846' 6-max Seat #1 is the button
+Seat 1: ba0569c0 ($7.29 in chips)
+Seat 2: 7a4f7df9 ($8.25 in chips)
+Seat 3: 6134c2b2 ($5.05 in chips)
+Seat 4: 32a2a759 ($9.84 in chips)
+Seat 5: Hero ($9.99 in chips)
+Seat 6: 37485567 ($5.73 in chips)
+7a4f7df9: posts small blind $0.02
+6134c2b2: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to ba0569c0 
+Dealt to 7a4f7df9 
+Dealt to 6134c2b2 
+Dealt to 32a2a759 
+Dealt to Hero [2c Jd]
+Dealt to 37485567 
+32a2a759: folds
+Hero: folds
+37485567: folds
+ba0569c0: raises $0.05 to $0.1
+7a4f7df9: raises $0.5 to $0.6
+6134c2b2: folds
+ba0569c0: folds
+Uncalled bet ($0.5) returned to 7a4f7df9
+*** SHOWDOWN ***
+7a4f7df9 collected $0.24 from pot
+*** SUMMARY ***
+Total pot $0.25 | Rake $0.01 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: ba0569c0 (button) folded before Flop
+Seat 2: 7a4f7df9 (small blind) collected ($0.24)
+Seat 3: 6134c2b2 (big blind) folded before Flop
+Seat 4: 32a2a759 folded before Flop (didn't bet)
+Seat 5: Hero folded before Flop (didn't bet)
+Seat 6: 37485567 folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792545524: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:30:22
+Table 'RushAndCash10410784' 6-max Seat #1 is the button
+Seat 1: 471ee9e6 ($6.02 in chips)
+Seat 2: 4c44e6cd ($7.3 in chips)
+Seat 3: Hero ($9.97 in chips)
+Seat 4: c0fbba6 ($5.38 in chips)
+Seat 5: 6e2d20b7 ($5.18 in chips)
+Seat 6: 6fad1616 ($5.07 in chips)
+4c44e6cd: posts small blind $0.02
+Hero: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to 471ee9e6 
+Dealt to 4c44e6cd 
+Dealt to Hero [7c 7h]
+Dealt to c0fbba6 
+Dealt to 6e2d20b7 
+Dealt to 6fad1616 
+c0fbba6: folds
+6e2d20b7: folds
+6fad1616: folds
+471ee9e6: folds
+4c44e6cd: folds
+Uncalled bet ($0.03) returned to Hero
+*** SHOWDOWN ***
+Hero collected $0.04 from pot
+*** SUMMARY ***
+Total pot $0.04 | Rake $0 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: 471ee9e6 (button) folded before Flop (didn't bet)
+Seat 2: 4c44e6cd (small blind) folded before Flop
+Seat 3: Hero (big blind) collected ($0.04)
+Seat 4: c0fbba6 folded before Flop (didn't bet)
+Seat 5: 6e2d20b7 folded before Flop (didn't bet)
+Seat 6: 6fad1616 folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792545496: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:30:19
+Table 'RushAndCash10410756' 6-max Seat #1 is the button
+Seat 1: bcecaf0 ($5.53 in chips)
+Seat 2: b55ed753 ($5 in chips)
+Seat 3: 996905e5 ($8.12 in chips)
+Seat 4: 51622e3a ($5.18 in chips)
+Seat 5: Hero ($9.97 in chips)
+Seat 6: e40dd809 ($7.71 in chips)
+b55ed753: posts small blind $0.02
+996905e5: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to bcecaf0 
+Dealt to b55ed753 
+Dealt to 996905e5 
+Dealt to 51622e3a 
+Dealt to Hero [5h 5s]
+Dealt to e40dd809 
+51622e3a: folds
+Hero: folds
+e40dd809: folds
+bcecaf0: folds
+b55ed753: folds
+Uncalled bet ($0.03) returned to 996905e5
+*** SHOWDOWN ***
+996905e5 collected $0.04 from pot
+*** SUMMARY ***
+Total pot $0.04 | Rake $0 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: bcecaf0 (button) folded before Flop (didn't bet)
+Seat 2: b55ed753 (small blind) folded before Flop
+Seat 3: 996905e5 (big blind) collected ($0.04)
+Seat 4: 51622e3a folded before Flop (didn't bet)
+Seat 5: Hero folded before Flop (didn't bet)
+Seat 6: e40dd809 folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792545469: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:30:15
+Table 'RushAndCash10410729' 6-max Seat #1 is the button
+Seat 1: 723b5be5 ($5 in chips)
+Seat 2: a5d59a6a ($5.07 in chips)
+Seat 3: 862612ec ($18.4 in chips)
+Seat 4: ababf6e3 ($5.22 in chips)
+Seat 5: Hero ($9.97 in chips)
+Seat 6: 32d5e235 ($5.25 in chips)
+a5d59a6a: posts small blind $0.02
+862612ec: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to 723b5be5 
+Dealt to a5d59a6a 
+Dealt to 862612ec 
+Dealt to ababf6e3 
+Dealt to Hero [5h 8d]
+Dealt to 32d5e235 
+ababf6e3: raises $0.08 to $0.13
+Hero: folds
+32d5e235: raises $0.25 to $0.38
+723b5be5: folds
+a5d59a6a: folds
+862612ec: folds
+ababf6e3: raises $0.63 to $1.01
+32d5e235: calls $0.63
+*** FLOP *** [Jc Td 9s]
+ababf6e3: bets $4.21 and is all-in
+32d5e235: folds
+Uncalled bet ($4.21) returned to ababf6e3
+*** SHOWDOWN ***
+ababf6e3 collected $1.92 from pot
+*** SUMMARY ***
+Total pot $2.09 | Rake $0.1 | Jackpot $0.07 | Bingo $0 | Fortune $0 | Tax $0
+Board [Jc Td 9s]
+Seat 1: 723b5be5 (button) received ($0.01) from time bank card, folded before Flop (didn't bet)
+Seat 2: a5d59a6a (small blind) received ($0.01) from time bank card, folded before Flop
+Seat 3: 862612ec (big blind) received ($0.01) from time bank card, folded before Flop
+Seat 4: ababf6e3 received ($0.01) from time bank card, won ($1.92)
+Seat 5: Hero received ($0.01) from time bank card, folded before Flop (didn't bet)
+Seat 6: 32d5e235 bought time bank card ($0.05), folded on the Flop
+
+
+Poker Hand #RC3792545408: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:30:07
+Table 'RushAndCash10410668' 6-max Seat #1 is the button
+Seat 1: a768ac55 ($10.87 in chips)
+Seat 2: Hero ($9.99 in chips)
+Seat 3: c438d877 ($5.2 in chips)
+Seat 4: 95c12a74 ($6.85 in chips)
+Seat 5: b659d7d5 ($9.71 in chips)
+Seat 6: bfa2de8a ($7 in chips)
+Hero: posts small blind $0.02
+c438d877: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to a768ac55 
+Dealt to Hero [3h 9c]
+Dealt to c438d877 
+Dealt to 95c12a74 
+Dealt to b659d7d5 
+Dealt to bfa2de8a 
+95c12a74: folds
+b659d7d5: folds
+bfa2de8a: raises $0.08 to $0.13
+a768ac55: folds
+Hero: folds
+c438d877: folds
+Uncalled bet ($0.08) returned to bfa2de8a
+*** SHOWDOWN ***
+bfa2de8a collected $0.12 from pot
+*** SUMMARY ***
+Total pot $0.12 | Rake $0 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: a768ac55 (button) folded before Flop (didn't bet)
+Seat 2: Hero (small blind) folded before Flop
+Seat 3: c438d877 (big blind) folded before Flop
+Seat 4: 95c12a74 folded before Flop (didn't bet)
+Seat 5: b659d7d5 folded before Flop (didn't bet)
+Seat 6: bfa2de8a collected ($0.12)
+
+
+Poker Hand #RC3792545306: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:29:54
+Table 'RushAndCash10410566' 6-max Seat #1 is the button
+Seat 1: f2aca7e0 ($5.28 in chips)
+Seat 2: 8a11d9de ($5 in chips)
+Seat 3: 192a1021 ($6.52 in chips)
+Seat 4: 7cc6e384 ($9.83 in chips)
+Seat 5: Hero ($9.92 in chips)
+Seat 6: 862612ec ($18.4 in chips)
+8a11d9de: posts small blind $0.02
+192a1021: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to f2aca7e0 
+Dealt to 8a11d9de 
+Dealt to 192a1021 
+Dealt to 7cc6e384 
+Dealt to Hero [Ts Tc]
+Dealt to 862612ec 
+7cc6e384: folds
+Hero: raises $0.07 to $0.12
+862612ec: folds
+f2aca7e0: folds
+8a11d9de: folds
+192a1021: folds
+Uncalled bet ($0.07) returned to Hero
+*** SHOWDOWN ***
+Hero collected $0.12 from pot
+*** SUMMARY ***
+Total pot $0.12 | Rake $0 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: f2aca7e0 (button) folded before Flop (didn't bet)
+Seat 2: 8a11d9de (small blind) folded before Flop
+Seat 3: 192a1021 (big blind) folded before Flop
+Seat 4: 7cc6e384 folded before Flop (didn't bet)
+Seat 5: Hero collected ($0.12)
+Seat 6: 862612ec folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792544920: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:29:04
+Table 'RushAndCash10410180' 6-max Seat #1 is the button
+Seat 1: 862612ec ($18.5 in chips)
+Seat 2: abdcb38f ($5.35 in chips)
+Seat 3: Hero ($9.71 in chips)
+Seat 4: 96c93310 ($9.15 in chips)
+Seat 5: f2aca7e0 ($5.38 in chips)
+Seat 6: 7bab279d ($3.55 in chips)
+abdcb38f: posts small blind $0.02
+Hero: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to 862612ec 
+Dealt to abdcb38f 
+Dealt to Hero [Jc 9d]
+Dealt to 96c93310 
+Dealt to f2aca7e0 
+Dealt to 7bab279d 
+96c93310: folds
+f2aca7e0: raises $0.05 to $0.1
+7bab279d: folds
+862612ec: calls $0.1
+abdcb38f: folds
+Hero: raises $0.4 to $0.5
+f2aca7e0: folds
+862612ec: folds
+Uncalled bet ($0.4) returned to Hero
+*** SHOWDOWN ***
+Hero collected $0.31 from pot
+*** SUMMARY ***
+Total pot $0.32 | Rake $0.01 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: 862612ec (button) folded before Flop
+Seat 2: abdcb38f (small blind) folded before Flop
+Seat 3: Hero (big blind) collected ($0.31)
+Seat 4: 96c93310 folded before Flop (didn't bet)
+Seat 5: f2aca7e0 folded before Flop
+Seat 6: 7bab279d folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792544758: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:28:45
+Table 'RushAndCash10410018' 6-max Seat #1 is the button
+Seat 1: Hero ($9.71 in chips)
+Seat 2: 540b08ec ($6.19 in chips)
+Seat 3: ee7d1cda ($5 in chips)
+Seat 4: 1fb0a7f5 ($6.38 in chips)
+Seat 5: f3679c23 ($14.46 in chips)
+Seat 6: 47885cb1 ($15.17 in chips)
+540b08ec: posts small blind $0.02
+ee7d1cda: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to Hero [6h Qh]
+Dealt to 540b08ec 
+Dealt to ee7d1cda 
+Dealt to 1fb0a7f5 
+Dealt to f3679c23 
+Dealt to 47885cb1 
+1fb0a7f5: folds
+f3679c23: raises $0.07 to $0.12
+47885cb1: raises $0.31 to $0.43
+Hero: folds
+540b08ec: folds
+ee7d1cda: folds
+f3679c23: raises $0.45 to $0.88
+47885cb1: raises $0.92 to $1.8
+f3679c23: folds
+Uncalled bet ($0.92) returned to 47885cb1
+*** SHOWDOWN ***
+47885cb1 collected $1.68 from pot
+*** SUMMARY ***
+Total pot $1.83 | Rake $0.08 | Jackpot $0.07 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: Hero (button) folded before Flop (didn't bet)
+Seat 2: 540b08ec (small blind) folded before Flop
+Seat 3: ee7d1cda (big blind) folded before Flop
+Seat 4: 1fb0a7f5 folded before Flop (didn't bet)
+Seat 5: f3679c23 folded before Flop
+Seat 6: 47885cb1 collected ($1.68)
+
+
+Poker Hand #RC3792514638: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:28:29
+Table 'RushAndCash10409898' 6-max Seat #1 is the button
+Seat 1: 1f8aa7ed ($8.98 in chips)
+Seat 2: Hero ($9.73 in chips)
+Seat 3: 27a7749b ($5.22 in chips)
+Seat 4: 170c5863 ($5.02 in chips)
+Seat 5: 8887165b ($10.28 in chips)
+Seat 6: dd23e936 ($6.24 in chips)
+Hero: posts small blind $0.02
+27a7749b: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to 1f8aa7ed 
+Dealt to Hero [4s 9c]
+Dealt to 27a7749b 
+Dealt to 170c5863 
+Dealt to 8887165b 
+Dealt to dd23e936 
+170c5863: folds
+8887165b: folds
+dd23e936: folds
+1f8aa7ed: raises $0.06 to $0.11
+Hero: folds
+27a7749b: raises $0.39 to $0.5
+1f8aa7ed: folds
+Uncalled bet ($0.39) returned to 27a7749b
+*** SHOWDOWN ***
+27a7749b collected $0.23 from pot
+*** SUMMARY ***
+Total pot $0.24 | Rake $0.01 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: 1f8aa7ed (button) folded before Flop
+Seat 2: Hero (small blind) folded before Flop
+Seat 3: 27a7749b (big blind) collected ($0.23)
+Seat 4: 170c5863 folded before Flop (didn't bet)
+Seat 5: 8887165b folded before Flop (didn't bet)
+Seat 6: dd23e936 folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792514610: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:28:26
+Table 'RushAndCash10409870' 6-max Seat #1 is the button
+Seat 1: f8328aea ($5.12 in chips)
+Seat 2: b41f698c ($5 in chips)
+Seat 3: f4cafa0 ($2 in chips)
+Seat 4: 962e8b3d ($7.08 in chips)
+Seat 5: 8d187102 ($5.52 in chips)
+Seat 6: Hero ($9.73 in chips)
+b41f698c: posts small blind $0.02
+f4cafa0: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to f8328aea 
+Dealt to b41f698c 
+Dealt to f4cafa0 
+Dealt to 962e8b3d 
+Dealt to 8d187102 
+Dealt to Hero [8h 5s]
+962e8b3d: folds
+8d187102: folds
+Hero: folds
+f8328aea: raises $0.06 to $0.11
+b41f698c: folds
+f4cafa0: folds
+Uncalled bet ($0.06) returned to f8328aea
+*** SHOWDOWN ***
+f8328aea collected $0.12 from pot
+*** SUMMARY ***
+Total pot $0.12 | Rake $0 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: f8328aea (button) collected ($0.12)
+Seat 2: b41f698c (small blind) folded before Flop
+Seat 3: f4cafa0 (big blind) folded before Flop
+Seat 4: 962e8b3d folded before Flop (didn't bet)
+Seat 5: 8d187102 folded before Flop (didn't bet)
+Seat 6: Hero folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792514438: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:28:04
+Table 'RushAndCash10409698' 6-max Seat #1 is the button
+Seat 1: 3d18e9f1 ($8.47 in chips)
+Seat 2: c3ffe137 ($10.44 in chips)
+Seat 3: Hero ($9.78 in chips)
+Seat 4: 16db53eb ($6.92 in chips)
+Seat 5: 88576787 ($1.93 in chips)
+Seat 6: 3e66aa2b ($24.33 in chips)
+c3ffe137: posts small blind $0.02
+Hero: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to 3d18e9f1 
+Dealt to c3ffe137 
+Dealt to Hero [9c 6s]
+Dealt to 16db53eb 
+Dealt to 88576787 
+Dealt to 3e66aa2b 
+16db53eb: folds
+88576787: calls $0.05
+3e66aa2b: folds
+3d18e9f1: folds
+c3ffe137: folds
+Hero: checks
+*** FLOP *** [Ah 5c Jc]
+Hero: checks
+88576787: bets $0.06
+Hero: folds
+Uncalled bet ($0.06) returned to 88576787
+*** SHOWDOWN ***
+88576787 collected $0.12 from pot
+*** SUMMARY ***
+Total pot $0.12 | Rake $0 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Board [Ah 5c Jc]
+Seat 1: 3d18e9f1 (button) folded before Flop (didn't bet)
+Seat 2: c3ffe137 (small blind) folded before Flop
+Seat 3: Hero (big blind) folded on the Flop
+Seat 4: 16db53eb folded before Flop (didn't bet)
+Seat 5: 88576787 won ($0.12)
+Seat 6: 3e66aa2b folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792514409: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:28:00
+Table 'RushAndCash10409669' 6-max Seat #1 is the button
+Seat 1: 63727ceb ($5.07 in chips)
+Seat 2: 28dafa5b ($5.08 in chips)
+Seat 3: 36ac0f03 ($5.41 in chips)
+Seat 4: b794a400 ($6.37 in chips)
+Seat 5: Hero ($9.78 in chips)
+Seat 6: 4bbf9783 ($6.9 in chips)
+28dafa5b: posts small blind $0.02
+36ac0f03: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to 63727ceb 
+Dealt to 28dafa5b 
+Dealt to 36ac0f03 
+Dealt to b794a400 
+Dealt to Hero [3c 6c]
+Dealt to 4bbf9783 
+b794a400: raises $0.05 to $0.1
+Hero: folds
+4bbf9783: folds
+63727ceb: folds
+28dafa5b: folds
+36ac0f03: folds
+Uncalled bet ($0.05) returned to b794a400
+*** SHOWDOWN ***
+b794a400 collected $0.12 from pot
+*** SUMMARY ***
+Total pot $0.12 | Rake $0 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: 63727ceb (button) folded before Flop (didn't bet)
+Seat 2: 28dafa5b (small blind) folded before Flop
+Seat 3: 36ac0f03 (big blind) folded before Flop
+Seat 4: b794a400 collected ($0.12)
+Seat 5: Hero folded before Flop (didn't bet)
+Seat 6: 4bbf9783 folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792514273: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:27:44
+Table 'RushAndCash10409533' 6-max Seat #1 is the button
+Seat 1: Hero ($9.78 in chips)
+Seat 2: 2fb73e42 ($5 in chips)
+Seat 3: 7bab279d ($3.32 in chips)
+Seat 4: efc83381 ($18.5 in chips)
+Seat 5: f902394f ($6.9 in chips)
+Seat 6: bcc8e33d ($4.64 in chips)
+2fb73e42: posts small blind $0.02
+7bab279d: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to Hero [4s Qd]
+Dealt to 2fb73e42 
+Dealt to 7bab279d 
+Dealt to efc83381 
+Dealt to f902394f 
+Dealt to bcc8e33d 
+efc83381: raises $0.05 to $0.1
+f902394f: folds
+bcc8e33d: folds
+Hero: folds
+2fb73e42: folds
+7bab279d: folds
+Uncalled bet ($0.05) returned to efc83381
+*** SHOWDOWN ***
+efc83381 collected $0.12 from pot
+*** SUMMARY ***
+Total pot $0.12 | Rake $0 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: Hero (button) folded before Flop (didn't bet)
+Seat 2: 2fb73e42 (small blind) folded before Flop
+Seat 3: 7bab279d (big blind) folded before Flop
+Seat 4: efc83381 collected ($0.12)
+Seat 5: f902394f folded before Flop (didn't bet)
+Seat 6: bcc8e33d folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792514243: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:27:40
+Table 'RushAndCash10409503' 6-max Seat #1 is the button
+Seat 1: 3183978c ($5.59 in chips)
+Seat 2: 595454b0 ($5.09 in chips)
+Seat 3: 6a866c56 ($5.04 in chips)
+Seat 4: c2899619 ($4.94 in chips)
+Seat 5: b6be6ff8 ($4.5 in chips)
+Seat 6: Hero ($9.78 in chips)
+595454b0: posts small blind $0.02
+6a866c56: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to 3183978c 
+Dealt to 595454b0 
+Dealt to 6a866c56 
+Dealt to c2899619 
+Dealt to b6be6ff8 
+Dealt to Hero [3d Qc]
+c2899619: folds
+b6be6ff8: folds
+Hero: folds
+3183978c: folds
+595454b0: raises $0.1 to $0.15
+6a866c56: folds
+Uncalled bet ($0.1) returned to 595454b0
+*** SHOWDOWN ***
+595454b0 collected $0.1 from pot
+*** SUMMARY ***
+Total pot $0.1 | Rake $0 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: 3183978c (button) folded before Flop (didn't bet)
+Seat 2: 595454b0 (small blind) collected ($0.1)
+Seat 3: 6a866c56 (big blind) folded before Flop
+Seat 4: c2899619 folded before Flop (didn't bet)
+Seat 5: b6be6ff8 folded before Flop (didn't bet)
+Seat 6: Hero folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792514214: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:27:36
+Table 'RushAndCash10409474' 6-max Seat #1 is the button
+Seat 1: d2b6c639 ($5.12 in chips)
+Seat 2: 17d7a840 ($8.39 in chips)
+Seat 3: e40dd809 ($7.76 in chips)
+Seat 4: 6fad1616 ($5.05 in chips)
+Seat 5: Hero ($9.78 in chips)
+Seat 6: f6128abe ($5.6 in chips)
+17d7a840: posts small blind $0.02
+e40dd809: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to d2b6c639 
+Dealt to 17d7a840 
+Dealt to e40dd809 
+Dealt to 6fad1616 
+Dealt to Hero [3h Ks]
+Dealt to f6128abe 
+6fad1616: folds
+Hero: folds
+f6128abe: folds
+d2b6c639: folds
+17d7a840: folds
+Uncalled bet ($0.03) returned to e40dd809
+*** SHOWDOWN ***
+e40dd809 collected $0.04 from pot
+*** SUMMARY ***
+Total pot $0.04 | Rake $0 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: d2b6c639 (button) folded before Flop (didn't bet)
+Seat 2: 17d7a840 (small blind) folded before Flop
+Seat 3: e40dd809 (big blind) collected ($0.04)
+Seat 4: 6fad1616 folded before Flop (didn't bet)
+Seat 5: Hero folded before Flop (didn't bet)
+Seat 6: f6128abe folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792514183: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:27:32
+Table 'RushAndCash10409443' 6-max Seat #1 is the button
+Seat 1: 7a0d216f ($7.41 in chips)
+Seat 2: e7861585 ($5 in chips)
+Seat 3: 69196ac ($4.95 in chips)
+Seat 4: dcc7b352 ($6.71 in chips)
+Seat 5: 776764c9 ($4.73 in chips)
+Seat 6: Hero ($9.78 in chips)
+e7861585: posts small blind $0.02
+69196ac: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to 7a0d216f 
+Dealt to e7861585 
+Dealt to 69196ac 
+Dealt to dcc7b352 
+Dealt to 776764c9 
+Dealt to Hero [Kc 8h]
+dcc7b352: folds
+776764c9: raises $0.05 to $0.1
+Hero: folds
+7a0d216f: calls $0.1
+e7861585: raises $0.45 to $0.55
+69196ac: folds
+776764c9: folds
+7a0d216f: folds
+Uncalled bet ($0.45) returned to e7861585
+*** SHOWDOWN ***
+e7861585 collected $0.34 from pot
+*** SUMMARY ***
+Total pot $0.35 | Rake $0.01 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: 7a0d216f (button) folded before Flop
+Seat 2: e7861585 (small blind) collected ($0.34)
+Seat 3: 69196ac (big blind) folded before Flop
+Seat 4: dcc7b352 folded before Flop (didn't bet)
+Seat 5: 776764c9 folded before Flop
+Seat 6: Hero folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792514152: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:27:29
+Table 'RushAndCash10409412' 6-max Seat #1 is the button
+Seat 1: 28325b94 ($5 in chips)
+Seat 2: 32d5e235 ($5 in chips)
+Seat 3: d63bba8b ($5.92 in chips)
+Seat 4: b55ed753 ($5.05 in chips)
+Seat 5: 17f19813 ($5.07 in chips)
+Seat 6: Hero ($9.78 in chips)
+32d5e235: posts small blind $0.02
+d63bba8b: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to 28325b94 
+Dealt to 32d5e235 
+Dealt to d63bba8b 
+Dealt to b55ed753 
+Dealt to 17f19813 
+Dealt to Hero [Jc 9c]
+b55ed753: folds
+17f19813: raises $0.05 to $0.1
+Hero: folds
+28325b94: folds
+32d5e235: folds
+d63bba8b: folds
+Uncalled bet ($0.05) returned to 17f19813
+*** SHOWDOWN ***
+17f19813 collected $0.12 from pot
+*** SUMMARY ***
+Total pot $0.12 | Rake $0 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: 28325b94 (button) folded before Flop (didn't bet)
+Seat 2: 32d5e235 (small blind) folded before Flop
+Seat 3: d63bba8b (big blind) folded before Flop
+Seat 4: b55ed753 folded before Flop (didn't bet)
+Seat 5: 17f19813 collected ($0.12)
+Seat 6: Hero folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792514036: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:27:15
+Table 'RushAndCash10409296' 6-max Seat #1 is the button
+Seat 1: a4b214e6 ($3.33 in chips)
+Seat 2: Hero ($9.8 in chips)
+Seat 3: f2aca7e0 ($5.24 in chips)
+Seat 4: 5a92dc48 ($5 in chips)
+Seat 5: 25c7fa91 ($4.33 in chips)
+Seat 6: 70198979 ($6.14 in chips)
+Hero: posts small blind $0.02
+f2aca7e0: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to a4b214e6 
+Dealt to Hero [7d Js]
+Dealt to f2aca7e0 
+Dealt to 5a92dc48 
+Dealt to 25c7fa91 
+Dealt to 70198979 
+5a92dc48: folds
+25c7fa91: folds
+70198979: folds
+a4b214e6: raises $0.05 to $0.1
+Hero: folds
+f2aca7e0: folds
+Uncalled bet ($0.05) returned to a4b214e6
+*** SHOWDOWN ***
+a4b214e6 collected $0.12 from pot
+*** SUMMARY ***
+Total pot $0.12 | Rake $0 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: a4b214e6 (button) collected ($0.12)
+Seat 2: Hero (small blind) folded before Flop
+Seat 3: f2aca7e0 (big blind) folded before Flop
+Seat 4: 5a92dc48 folded before Flop (didn't bet)
+Seat 5: 25c7fa91 folded before Flop (didn't bet)
+Seat 6: 70198979 folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792513938: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:27:03
+Table 'RushAndCash10409198' 6-max Seat #1 is the button
+Seat 1: 69196ac ($4.97 in chips)
+Seat 2: fa7b2d51 ($6.08 in chips)
+Seat 3: Hero ($9.85 in chips)
+Seat 4: fe923d26 ($5.1 in chips)
+Seat 5: 6112f2e1 ($6.46 in chips)
+Seat 6: 109c5c0a ($5.47 in chips)
+fa7b2d51: posts small blind $0.02
+Hero: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to 69196ac 
+Dealt to fa7b2d51 
+Dealt to Hero [Qd 2d]
+Dealt to fe923d26 
+Dealt to 6112f2e1 
+Dealt to 109c5c0a 
+fe923d26: folds
+6112f2e1: raises $0.07 to $0.12
+109c5c0a: folds
+69196ac: folds
+fa7b2d51: folds
+Hero: folds
+Uncalled bet ($0.07) returned to 6112f2e1
+*** SHOWDOWN ***
+6112f2e1 collected $0.12 from pot
+*** SUMMARY ***
+Total pot $0.12 | Rake $0 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: 69196ac (button) folded before Flop (didn't bet)
+Seat 2: fa7b2d51 (small blind) folded before Flop
+Seat 3: Hero (big blind) folded before Flop
+Seat 4: fe923d26 folded before Flop (didn't bet)
+Seat 5: 6112f2e1 collected ($0.12)
+Seat 6: 109c5c0a folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792513898: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:26:58
+Table 'RushAndCash10409158' 6-max Seat #1 is the button
+Seat 1: Hero ($9.85 in chips)
+Seat 2: bc6b4f90 ($5.56 in chips)
+Seat 3: f5948edb ($6 in chips)
+Seat 4: 78dd2a61 ($1.81 in chips)
+Seat 5: a1fd0263 ($7.02 in chips)
+Seat 6: fe24f034 ($3.95 in chips)
+bc6b4f90: posts small blind $0.02
+f5948edb: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to Hero [3d Qs]
+Dealt to bc6b4f90 
+Dealt to f5948edb 
+Dealt to 78dd2a61 
+Dealt to a1fd0263 
+Dealt to fe24f034 
+78dd2a61: folds
+a1fd0263: folds
+fe24f034: folds
+Hero: folds
+bc6b4f90: raises $0.07 to $0.12
+f5948edb: folds
+Uncalled bet ($0.07) returned to bc6b4f90
+*** SHOWDOWN ***
+bc6b4f90 collected $0.1 from pot
+*** SUMMARY ***
+Total pot $0.1 | Rake $0 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: Hero (button) folded before Flop (didn't bet)
+Seat 2: bc6b4f90 (small blind) collected ($0.1)
+Seat 3: f5948edb (big blind) folded before Flop
+Seat 4: 78dd2a61 folded before Flop (didn't bet)
+Seat 5: a1fd0263 folded before Flop (didn't bet)
+Seat 6: fe24f034 folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792513863: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:26:54
+Table 'RushAndCash10409123' 6-max Seat #1 is the button
+Seat 1: 7f2942cd ($5 in chips)
+Seat 2: 580413cd ($21.05 in chips)
+Seat 3: e466ad2e ($13.38 in chips)
+Seat 4: Hero ($9.85 in chips)
+Seat 5: f8328aea ($5.19 in chips)
+Seat 6: 1aaec44f ($6.19 in chips)
+580413cd: posts small blind $0.02
+e466ad2e: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to 7f2942cd 
+Dealt to 580413cd 
+Dealt to e466ad2e 
+Dealt to Hero [6c Kh]
+Dealt to f8328aea 
+Dealt to 1aaec44f 
+Hero: folds
+f8328aea: folds
+1aaec44f: raises $0.08 to $0.13
+7f2942cd: raises $0.42 to $0.55
+580413cd: folds
+e466ad2e: folds
+1aaec44f: folds
+Uncalled bet ($0.42) returned to 7f2942cd
+*** SHOWDOWN ***
+7f2942cd collected $0.32 from pot
+*** SUMMARY ***
+Total pot $0.33 | Rake $0.01 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: 7f2942cd (button) collected ($0.32)
+Seat 2: 580413cd (small blind) folded before Flop
+Seat 3: e466ad2e (big blind) folded before Flop
+Seat 4: Hero folded before Flop (didn't bet)
+Seat 5: f8328aea folded before Flop (didn't bet)
+Seat 6: 1aaec44f folded before Flop
+
+
+Poker Hand #RC3792513767: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:26:43
+Table 'RushAndCash10409027' 6-max Seat #1 is the button
+Seat 1: Hero ($9.85 in chips)
+Seat 2: ec5fce46 ($5 in chips)
+Seat 3: 94672c86 ($2.78 in chips)
+Seat 4: 6d8fc48a ($5.75 in chips)
+Seat 5: 893ff0e9 ($13.86 in chips)
+Seat 6: b075ad13 ($5.44 in chips)
+ec5fce46: posts small blind $0.02
+94672c86: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to Hero [Qs 3h]
+Dealt to ec5fce46 
+Dealt to 94672c86 
+Dealt to 6d8fc48a 
+Dealt to 893ff0e9 
+Dealt to b075ad13 
+6d8fc48a: folds
+893ff0e9: folds
+b075ad13: raises $0.05 to $0.1
+Hero: folds
+ec5fce46: raises $0.38 to $0.48
+94672c86: calls $0.43
+b075ad13: calls $0.38
+*** FLOP *** [Kc 4s 8s]
+ec5fce46: checks
+94672c86: checks
+b075ad13: bets $0.48
+ec5fce46: folds
+94672c86: raises $1.82 to $2.3 and is all-in
+b075ad13: calls $1.82
+94672c86: shows [9c 9h] (a pair of Nines)
+b075ad13: shows [8c 8d] (three of a kind, Eights)
+*** TURN *** [Kc 4s 8s] [8h]
+*** RIVER *** [Kc 4s 8s 8h] [5h]
+*** SHOWDOWN ***
+b075ad13 collected $5.82 from pot
+*** SUMMARY ***
+Total pot $6.04 | Rake $0.15 | Jackpot $0.07 | Bingo $0 | Fortune $0 | Tax $0
+Board [Kc 4s 8s 8h 5h]
+Seat 1: Hero (button) folded before Flop (didn't bet)
+Seat 2: ec5fce46 (small blind) folded on the Flop
+Seat 3: 94672c86 (big blind) showed [9c 9h] and lost with two pair, Nines and Eights
+Seat 4: 6d8fc48a folded before Flop (didn't bet)
+Seat 5: 893ff0e9 folded before Flop (didn't bet)
+Seat 6: b075ad13 showed [8c 8d] and won ($5.82) with four of a kind, Eights
+
+
+Poker Hand #RC3792513737: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:26:39
+Table 'RushAndCash10408997' 6-max Seat #1 is the button
+Seat 1: d9e3d0f0 ($5.46 in chips)
+Seat 2: 75569ffc ($5.02 in chips)
+Seat 3: acd51b53 ($6.81 in chips)
+Seat 4: 17d7a840 ($7.61 in chips)
+Seat 5: Hero ($9.85 in chips)
+Seat 6: d7f9d0bc ($5 in chips)
+75569ffc: posts small blind $0.02
+acd51b53: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to d9e3d0f0 
+Dealt to 75569ffc 
+Dealt to acd51b53 
+Dealt to 17d7a840 
+Dealt to Hero [9s 3c]
+Dealt to d7f9d0bc 
+17d7a840: raises $0.06 to $0.11
+Hero: folds
+d7f9d0bc: folds
+d9e3d0f0: folds
+75569ffc: folds
+acd51b53: folds
+Uncalled bet ($0.06) returned to 17d7a840
+*** SHOWDOWN ***
+17d7a840 collected $0.12 from pot
+*** SUMMARY ***
+Total pot $0.12 | Rake $0 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: d9e3d0f0 (button) folded before Flop (didn't bet)
+Seat 2: 75569ffc (small blind) folded before Flop
+Seat 3: acd51b53 (big blind) folded before Flop
+Seat 4: 17d7a840 collected ($0.12)
+Seat 5: Hero folded before Flop (didn't bet)
+Seat 6: d7f9d0bc folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792513709: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:26:35
+Table 'RushAndCash10408969' 6-max Seat #1 is the button
+Seat 1: ad0458cd ($5 in chips)
+Seat 2: 78dd2a61 ($1.83 in chips)
+Seat 3: f7662d9b ($3.63 in chips)
+Seat 4: 6112f2e1 ($6.39 in chips)
+Seat 5: 6ba5f65a ($6.42 in chips)
+Seat 6: Hero ($9.85 in chips)
+78dd2a61: posts small blind $0.02
+f7662d9b: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to ad0458cd 
+Dealt to 78dd2a61 
+Dealt to f7662d9b 
+Dealt to 6112f2e1 
+Dealt to 6ba5f65a 
+Dealt to Hero [8h Th]
+6112f2e1: folds
+6ba5f65a: raises $0.05 to $0.1
+Hero: folds
+ad0458cd: raises $0.3 to $0.4
+78dd2a61: folds
+f7662d9b: folds
+6ba5f65a: folds
+Uncalled bet ($0.3) returned to ad0458cd
+*** SHOWDOWN ***
+ad0458cd collected $0.26 from pot
+*** SUMMARY ***
+Total pot $0.27 | Rake $0.01 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: ad0458cd (button) collected ($0.26)
+Seat 2: 78dd2a61 (small blind) folded before Flop
+Seat 3: f7662d9b (big blind) folded before Flop
+Seat 4: 6112f2e1 folded before Flop (didn't bet)
+Seat 5: 6ba5f65a folded before Flop
+Seat 6: Hero folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792513314: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:25:45
+Table 'RushAndCash10408574' 6-max Seat #1 is the button
+Seat 1: 69bd24de ($12.01 in chips)
+Seat 2: e5cfb23e ($5.39 in chips)
+Seat 3: Hero ($9.64 in chips)
+Seat 4: 2a4c35de ($9.23 in chips)
+Seat 5: a8203b6f ($5.6 in chips)
+Seat 6: f7662d9b ($3.84 in chips)
+e5cfb23e: posts small blind $0.02
+Hero: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to 69bd24de 
+Dealt to e5cfb23e 
+Dealt to Hero [3c 3s]
+Dealt to 2a4c35de 
+Dealt to a8203b6f 
+Dealt to f7662d9b 
+2a4c35de: folds
+a8203b6f: folds
+f7662d9b: raises $0.07 to $0.12
+69bd24de: folds
+e5cfb23e: folds
+Hero: calls $0.07
+*** FLOP *** [4h 6s Qc]
+Hero: bets $0.09
+f7662d9b: calls $0.09
+*** TURN *** [4h 6s Qc] [6d]
+Hero: bets $0.22
+f7662d9b: folds
+Uncalled bet ($0.22) returned to Hero
+*** SHOWDOWN ***
+Hero collected $0.42 from pot
+*** SUMMARY ***
+Total pot $0.44 | Rake $0.02 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Board [4h 6s Qc 6d]
+Seat 1: 69bd24de (button) folded before Flop (didn't bet)
+Seat 2: e5cfb23e (small blind) folded before Flop
+Seat 3: Hero (big blind) won ($0.42)
+Seat 4: 2a4c35de folded before Flop (didn't bet)
+Seat 5: a8203b6f folded before Flop (didn't bet)
+Seat 6: f7662d9b folded on the Turn
+
+
+Poker Hand #RC3792512847: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:24:48
+Table 'RushAndCash10408107' 6-max Seat #1 is the button
+Seat 1: f4b15cc1 ($11.73 in chips)
+Seat 2: Hero ($9.36 in chips)
+Seat 3: e5cfb23e ($5.54 in chips)
+Seat 4: 72b796ef ($9.29 in chips)
+Seat 5: f2aca7e0 ($5.07 in chips)
+Seat 6: 6bc8cb6b ($5.05 in chips)
+Hero: posts small blind $0.02
+e5cfb23e: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to f4b15cc1 
+Dealt to Hero [7s 7c]
+Dealt to e5cfb23e 
+Dealt to 72b796ef 
+Dealt to f2aca7e0 
+Dealt to 6bc8cb6b 
+72b796ef: folds
+f2aca7e0: folds
+6bc8cb6b: folds
+f4b15cc1: raises $0.1 to $0.15
+Hero: calls $0.13
+e5cfb23e: calls $0.1
+*** FLOP *** [2d Kd Qd]
+Hero: checks
+e5cfb23e: checks
+f4b15cc1: checks
+*** TURN *** [2d Kd Qd] [7d]
+Hero: bets $0.15
+e5cfb23e: folds
+f4b15cc1: folds
+Uncalled bet ($0.15) returned to Hero
+*** SHOWDOWN ***
+Hero collected $0.43 from pot
+*** SUMMARY ***
+Total pot $0.45 | Rake $0.02 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Board [2d Kd Qd 7d]
+Seat 1: f4b15cc1 (button) folded on the Turn
+Seat 2: Hero (small blind) won ($0.43)
+Seat 3: e5cfb23e (big blind) folded on the Turn
+Seat 4: 72b796ef folded before Flop (didn't bet)
+Seat 5: f2aca7e0 folded before Flop (didn't bet)
+Seat 6: 6bc8cb6b folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792512821: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:24:44
+Table 'RushAndCash10408081' 6-max Seat #1 is the button
+Seat 1: be881572 ($5.6 in chips)
+Seat 2: cc1292b6 ($9.24 in chips)
+Seat 3: 73bb6d44 ($8.69 in chips)
+Seat 4: 5f5e1e25 ($5.3 in chips)
+Seat 5: 27a7749b ($5.07 in chips)
+Seat 6: Hero ($9.36 in chips)
+cc1292b6: posts small blind $0.02
+73bb6d44: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to be881572 
+Dealt to cc1292b6 
+Dealt to 73bb6d44 
+Dealt to 5f5e1e25 
+Dealt to 27a7749b 
+Dealt to Hero [3h 5s]
+5f5e1e25: folds
+27a7749b: folds
+Hero: folds
+be881572: calls $0.05
+cc1292b6: folds
+73bb6d44: checks
+*** FLOP *** [Qc Td Ts]
+73bb6d44: checks
+be881572: checks
+*** TURN *** [Qc Td Ts] [7d]
+73bb6d44: checks
+be881572: checks
+*** RIVER *** [Qc Td Ts 7d] [Kd]
+73bb6d44: bets $0.05
+be881572: calls $0.05
+73bb6d44: shows [4d Ad] (a flush Ace high)
+be881572: shows [Kh 8d] (two pair, Kings and Tens)
+*** SHOWDOWN ***
+73bb6d44 collected $0.21 from pot
+*** SUMMARY ***
+Total pot $0.22 | Rake $0.01 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Board [Qc Td Ts 7d Kd]
+Seat 1: be881572 (button) showed [Kh 8d] and lost with two pair, Kings and Tens
+Seat 2: cc1292b6 (small blind) folded before Flop
+Seat 3: 73bb6d44 (big blind) showed [4d Ad] and won ($0.21) with a flush Ace high
+Seat 4: 5f5e1e25 folded before Flop (didn't bet)
+Seat 5: 27a7749b folded before Flop (didn't bet)
+Seat 6: Hero folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792512793: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:24:41
+Table 'RushAndCash10408053' 6-max Seat #1 is the button
+Seat 1: 84a1e9e ($5.03 in chips)
+Seat 2: a2be1665 ($5 in chips)
+Seat 3: efbf76ed ($6.07 in chips)
+Seat 4: be881572 ($5.6 in chips)
+Seat 5: 7d6ffc94 ($6.38 in chips)
+Seat 6: Hero ($9.36 in chips)
+a2be1665: posts small blind $0.02
+efbf76ed: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to 84a1e9e 
+Dealt to a2be1665 
+Dealt to efbf76ed 
+Dealt to be881572 
+Dealt to 7d6ffc94 
+Dealt to Hero [4h 7s]
+be881572: folds
+7d6ffc94: folds
+Hero: folds
+84a1e9e: raises $0.1 to $0.15
+a2be1665: folds
+efbf76ed: calls $0.1
+*** FLOP *** [2c Qd 9c]
+efbf76ed: checks
+84a1e9e: checks
+*** TURN *** [2c Qd 9c] [2d]
+efbf76ed: checks
+84a1e9e: bets $0.11
+efbf76ed: folds
+Uncalled bet ($0.11) returned to 84a1e9e
+*** SHOWDOWN ***
+84a1e9e collected $0.31 from pot
+*** SUMMARY ***
+Total pot $0.32 | Rake $0.01 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Board [2c Qd 9c 2d]
+Seat 1: 84a1e9e (button) won ($0.31)
+Seat 2: a2be1665 (small blind) folded before Flop
+Seat 3: efbf76ed (big blind) folded on the Turn
+Seat 4: be881572 folded before Flop (didn't bet)
+Seat 5: 7d6ffc94 folded before Flop (didn't bet)
+Seat 6: Hero folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792512755: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:24:36
+Table 'RushAndCash10408015' 6-max Seat #1 is the button
+Seat 1: dc4b7e58 ($5 in chips)
+Seat 2: 3a752de8 ($4.04 in chips)
+Seat 3: 5d18a07c ($5.77 in chips)
+Seat 4: 85ab9776 ($10.28 in chips)
+Seat 5: 95c12a74 ($5.07 in chips)
+Seat 6: Hero ($9.36 in chips)
+3a752de8: posts small blind $0.02
+5d18a07c: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to dc4b7e58 
+Dealt to 3a752de8 
+Dealt to 5d18a07c 
+Dealt to 85ab9776 
+Dealt to 95c12a74 
+Dealt to Hero [4c 8s]
+85ab9776: raises $0.05 to $0.1
+95c12a74: folds
+Hero: folds
+dc4b7e58: folds
+3a752de8: folds
+5d18a07c: folds
+Uncalled bet ($0.05) returned to 85ab9776
+*** SHOWDOWN ***
+85ab9776 collected $0.12 from pot
+*** SUMMARY ***
+Total pot $0.12 | Rake $0 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: dc4b7e58 (button) folded before Flop (didn't bet)
+Seat 2: 3a752de8 (small blind) folded before Flop
+Seat 3: 5d18a07c (big blind) folded before Flop
+Seat 4: 85ab9776 collected ($0.12)
+Seat 5: 95c12a74 folded before Flop (didn't bet)
+Seat 6: Hero folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792512689: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:24:29
+Table 'RushAndCash10407949' 6-max Seat #1 is the button
+Seat 1: Hero ($9.36 in chips)
+Seat 2: 1d738552 ($5.02 in chips)
+Seat 3: d6fa32f5 ($5.48 in chips)
+Seat 4: 9a54057b ($23.05 in chips)
+Seat 5: 1f2f4356 ($6.2 in chips)
+Seat 6: 34cc8109 ($3.96 in chips)
+1d738552: posts small blind $0.02
+d6fa32f5: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to Hero [3h 8c]
+Dealt to 1d738552 
+Dealt to d6fa32f5 
+Dealt to 9a54057b 
+Dealt to 1f2f4356 
+Dealt to 34cc8109 
+9a54057b: raises $0.08 to $0.13
+1f2f4356: folds
+34cc8109: folds
+Hero: folds
+1d738552: folds
+d6fa32f5: calls $0.08
+*** FLOP *** [Th As Jh]
+d6fa32f5: checks
+9a54057b: bets $0.12
+d6fa32f5: folds
+Uncalled bet ($0.12) returned to 9a54057b
+*** SHOWDOWN ***
+9a54057b collected $0.27 from pot
+*** SUMMARY ***
+Total pot $0.28 | Rake $0.01 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Board [Th As Jh]
+Seat 1: Hero (button) folded before Flop (didn't bet)
+Seat 2: 1d738552 (small blind) folded before Flop
+Seat 3: d6fa32f5 (big blind) folded on the Flop
+Seat 4: 9a54057b won ($0.27)
+Seat 5: 1f2f4356 folded before Flop (didn't bet)
+Seat 6: 34cc8109 folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792512589: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:24:17
+Table 'RushAndCash10407849' 6-max Seat #1 is the button
+Seat 1: 5d4b0548 ($5.6 in chips)
+Seat 2: Hero ($9.38 in chips)
+Seat 3: 95a546b1 ($5.11 in chips)
+Seat 4: aa668536 ($2.65 in chips)
+Seat 5: 9812bb22 ($4.58 in chips)
+Seat 6: 62ecaa0a ($10.7 in chips)
+Hero: posts small blind $0.02
+95a546b1: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to 5d4b0548 
+Dealt to Hero [2s As]
+Dealt to 95a546b1 
+Dealt to aa668536 
+Dealt to 9812bb22 
+Dealt to 62ecaa0a 
+aa668536: folds
+9812bb22: folds
+62ecaa0a: raises $0.06 to $0.11
+5d4b0548: folds
+Hero: folds
+95a546b1: folds
+Uncalled bet ($0.06) returned to 62ecaa0a
+*** SHOWDOWN ***
+62ecaa0a collected $0.12 from pot
+*** SUMMARY ***
+Total pot $0.12 | Rake $0 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: 5d4b0548 (button) folded before Flop (didn't bet)
+Seat 2: Hero (small blind) folded before Flop
+Seat 3: 95a546b1 (big blind) folded before Flop
+Seat 4: aa668536 folded before Flop (didn't bet)
+Seat 5: 9812bb22 folded before Flop (didn't bet)
+Seat 6: 62ecaa0a collected ($0.12)
+
+
+Poker Hand #RC3792512468: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:24:03
+Table 'RushAndCash10407728' 6-max Seat #1 is the button
+Seat 1: c23d8b00 ($6.4 in chips)
+Seat 2: 1a1e414b ($5.67 in chips)
+Seat 3: Hero ($9.43 in chips)
+Seat 4: f4cafa0 ($2 in chips)
+Seat 5: cda7bded ($6.11 in chips)
+Seat 6: 26651eac ($5.6 in chips)
+1a1e414b: posts small blind $0.02
+Hero: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to c23d8b00 
+Dealt to 1a1e414b 
+Dealt to Hero [6h 5s]
+Dealt to f4cafa0 
+Dealt to cda7bded 
+Dealt to 26651eac 
+f4cafa0: raises $0.15 to $0.2
+cda7bded: folds
+26651eac: folds
+c23d8b00: folds
+1a1e414b: folds
+Hero: folds
+Uncalled bet ($0.15) returned to f4cafa0
+*** SHOWDOWN ***
+f4cafa0 collected $0.12 from pot
+*** SUMMARY ***
+Total pot $0.12 | Rake $0 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: c23d8b00 (button) folded before Flop (didn't bet)
+Seat 2: 1a1e414b (small blind) folded before Flop
+Seat 3: Hero (big blind) folded before Flop
+Seat 4: f4cafa0 collected ($0.12)
+Seat 5: cda7bded folded before Flop (didn't bet)
+Seat 6: 26651eac folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792512438: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:23:59
+Table 'RushAndCash10407698' 6-max Seat #1 is the button
+Seat 1: 55ef5288 ($5.11 in chips)
+Seat 2: d3b52470 ($5 in chips)
+Seat 3: 4081f46d ($5.25 in chips)
+Seat 4: Hero ($9.43 in chips)
+Seat 5: c2ad7641 ($5.14 in chips)
+Seat 6: 2c5786e9 ($7.87 in chips)
+d3b52470: posts small blind $0.02
+4081f46d: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to 55ef5288 
+Dealt to d3b52470 
+Dealt to 4081f46d 
+Dealt to Hero [2c Th]
+Dealt to c2ad7641 
+Dealt to 2c5786e9 
+Hero: folds
+c2ad7641: folds
+2c5786e9: folds
+55ef5288: folds
+d3b52470: folds
+Uncalled bet ($0.03) returned to 4081f46d
+*** SHOWDOWN ***
+4081f46d collected $0.04 from pot
+*** SUMMARY ***
+Total pot $0.04 | Rake $0 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: 55ef5288 (button) folded before Flop (didn't bet)
+Seat 2: d3b52470 (small blind) folded before Flop
+Seat 3: 4081f46d (big blind) collected ($0.04)
+Seat 4: Hero folded before Flop (didn't bet)
+Seat 5: c2ad7641 folded before Flop (didn't bet)
+Seat 6: 2c5786e9 folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792512264: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:23:39
+Table 'RushAndCash10407524' 6-max Seat #1 is the button
+Seat 1: Hero ($9.27 in chips)
+Seat 2: e5cfb23e ($5.29 in chips)
+Seat 3: 55ef5288 ($5.26 in chips)
+Seat 4: 3528db6d ($4.7 in chips)
+Seat 5: fd16e948 ($5 in chips)
+Seat 6: 41439e5a ($6.05 in chips)
+e5cfb23e: posts small blind $0.02
+55ef5288: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to Hero [Th Kd]
+Dealt to e5cfb23e 
+Dealt to 55ef5288 
+Dealt to 3528db6d 
+Dealt to fd16e948 
+Dealt to 41439e5a 
+3528db6d: folds
+fd16e948: folds
+41439e5a: folds
+Hero: raises $0.1 to $0.15
+e5cfb23e: folds
+55ef5288: calls $0.1
+*** FLOP *** [2c Kh Ac]
+55ef5288: checks
+Hero: bets $0.11
+55ef5288: folds
+Uncalled bet ($0.11) returned to Hero
+*** SHOWDOWN ***
+Hero collected $0.31 from pot
+*** SUMMARY ***
+Total pot $0.32 | Rake $0.01 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Board [2c Kh Ac]
+Seat 1: Hero (button) won ($0.31)
+Seat 2: e5cfb23e (small blind) folded before Flop
+Seat 3: 55ef5288 (big blind) folded on the Flop
+Seat 4: 3528db6d folded before Flop (didn't bet)
+Seat 5: fd16e948 folded before Flop (didn't bet)
+Seat 6: 41439e5a folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792512239: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:23:36
+Table 'RushAndCash10407499' 6-max Seat #1 is the button
+Seat 1: 6092c440 ($6.88 in chips)
+Seat 2: 9a54057b ($22.95 in chips)
+Seat 3: fe7a9ce9 ($6.42 in chips)
+Seat 4: d2d4e2ea ($7.15 in chips)
+Seat 5: 2627423a ($11.05 in chips)
+Seat 6: Hero ($9.27 in chips)
+9a54057b: posts small blind $0.02
+fe7a9ce9: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to 6092c440 
+Dealt to 9a54057b 
+Dealt to fe7a9ce9 
+Dealt to d2d4e2ea 
+Dealt to 2627423a 
+Dealt to Hero [8s 7h]
+d2d4e2ea: folds
+2627423a: raises $0.05 to $0.1
+Hero: folds
+6092c440: folds
+9a54057b: folds
+fe7a9ce9: folds
+Uncalled bet ($0.05) returned to 2627423a
+*** SHOWDOWN ***
+2627423a collected $0.12 from pot
+*** SUMMARY ***
+Total pot $0.12 | Rake $0 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: 6092c440 (button) folded before Flop (didn't bet)
+Seat 2: 9a54057b (small blind) folded before Flop
+Seat 3: fe7a9ce9 (big blind) folded before Flop
+Seat 4: d2d4e2ea folded before Flop (didn't bet)
+Seat 5: 2627423a collected ($0.12)
+Seat 6: Hero folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792512214: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:23:32
+Table 'RushAndCash10407474' 6-max Seat #1 is the button
+Seat 1: 2a7bfc2f ($5 in chips)
+Seat 2: 5dff1851 ($5 in chips)
+Seat 3: 5d18a07c ($5.77 in chips)
+Seat 4: ee7d1cda ($5 in chips)
+Seat 5: f53ca389 ($10.85 in chips)
+Seat 6: Hero ($9.27 in chips)
+5dff1851: posts small blind $0.02
+5d18a07c: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to 2a7bfc2f 
+Dealt to 5dff1851 
+Dealt to 5d18a07c 
+Dealt to ee7d1cda 
+Dealt to f53ca389 
+Dealt to Hero [Ts 9h]
+ee7d1cda: raises $0.05 to $0.1
+f53ca389: folds
+Hero: folds
+2a7bfc2f: folds
+5dff1851: folds
+5d18a07c: folds
+Uncalled bet ($0.05) returned to ee7d1cda
+*** SHOWDOWN ***
+ee7d1cda collected $0.12 from pot
+*** SUMMARY ***
+Total pot $0.12 | Rake $0 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: 2a7bfc2f (button) folded before Flop (didn't bet)
+Seat 2: 5dff1851 (small blind) folded before Flop
+Seat 3: 5d18a07c (big blind) folded before Flop
+Seat 4: ee7d1cda collected ($0.12)
+Seat 5: f53ca389 folded before Flop (didn't bet)
+Seat 6: Hero folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792511785: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:22:40
+Table 'RushAndCash10407045' 6-max Seat #1 is the button
+Seat 1: b00bb98b ($8.33 in chips)
+Seat 2: Hero ($9.37 in chips)
+Seat 3: fd16e948 ($5.07 in chips)
+Seat 4: acd51b53 ($5.97 in chips)
+Seat 5: c10d4277 ($7.83 in chips)
+Seat 6: 84ff4816 ($13.59 in chips)
+Hero: posts small blind $0.02
+fd16e948: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to b00bb98b 
+Dealt to Hero [Jh Ad]
+Dealt to fd16e948 
+Dealt to acd51b53 
+Dealt to c10d4277 
+Dealt to 84ff4816 
+acd51b53: folds
+c10d4277: folds
+84ff4816: folds
+b00bb98b: folds
+Hero: raises $0.1 to $0.15
+fd16e948: raises $0.45 to $0.6
+Hero: calls $0.45
+*** FLOP *** [Qs Ah Jc]
+Hero: checks
+fd16e948: checks
+*** TURN *** [Qs Ah Jc] [Th]
+Hero: checks
+fd16e948: bets $0.9
+Hero: calls $0.9
+*** RIVER *** [Qs Ah Jc Th] [Ks]
+Hero: bets $7.87 and is all-in
+fd16e948: calls $3.57 and is all-in
+Uncalled bet ($4.3) returned to Hero
+Hero: shows [Jh Ad] (a straight, Ace to Ten)
+fd16e948: shows [Qc 5c] (a straight, Ace to Ten)
+*** SHOWDOWN ***
+Hero collected $4.97 from pot
+fd16e948 collected $4.96 from pot
+*** SUMMARY ***
+Total pot $10.14 | Rake $0.14 | Jackpot $0.07 | Bingo $0 | Fortune $0 | Tax $0
+Board [Qs Ah Jc Th Ks]
+Seat 1: b00bb98b (button) folded before Flop (didn't bet)
+Seat 2: Hero (small blind) showed [Jh Ad] and won ($4.97) with a straight, Ace to Ten
+Seat 3: fd16e948 (big blind) showed [Qc 5c] and won ($4.96) with a straight, Ace to Ten
+Seat 4: acd51b53 folded before Flop (didn't bet)
+Seat 5: c10d4277 folded before Flop (didn't bet)
+Seat 6: 84ff4816 folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792511752: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:22:36
+Table 'RushAndCash10407012' 6-max Seat #1 is the button
+Seat 1: 5e6fb252 ($7.58 in chips)
+Seat 2: c5086bd2 ($5.02 in chips)
+Seat 3: Hero ($9.42 in chips)
+Seat 4: d63bba8b ($5.23 in chips)
+Seat 5: 51acbfa6 ($5.96 in chips)
+Seat 6: 6112f2e1 ($6.54 in chips)
+c5086bd2: posts small blind $0.02
+Hero: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to 5e6fb252 
+Dealt to c5086bd2 
+Dealt to Hero [3d 2h]
+Dealt to d63bba8b 
+Dealt to 51acbfa6 
+Dealt to 6112f2e1 
+d63bba8b: raises $0.08 to $0.13
+51acbfa6: folds
+6112f2e1: folds
+5e6fb252: folds
+c5086bd2: folds
+Hero: folds
+Uncalled bet ($0.08) returned to d63bba8b
+*** SHOWDOWN ***
+d63bba8b collected $0.12 from pot
+*** SUMMARY ***
+Total pot $0.12 | Rake $0 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: 5e6fb252 (button) folded before Flop (didn't bet)
+Seat 2: c5086bd2 (small blind) folded before Flop
+Seat 3: Hero (big blind) folded before Flop
+Seat 4: d63bba8b collected ($0.12)
+Seat 5: 51acbfa6 folded before Flop (didn't bet)
+Seat 6: 6112f2e1 folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792511721: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:22:32
+Table 'RushAndCash10406981' 6-max Seat #1 is the button
+Seat 1: 1ebe301 ($10.17 in chips)
+Seat 2: a2be1665 ($4.66 in chips)
+Seat 3: a0ca0c7 ($6.63 in chips)
+Seat 4: 82e725b ($6.67 in chips)
+Seat 5: 2a4c35de ($9.19 in chips)
+Seat 6: Hero ($9.42 in chips)
+a2be1665: posts small blind $0.02
+a0ca0c7: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to 1ebe301 
+Dealt to a2be1665 
+Dealt to a0ca0c7 
+Dealt to 82e725b 
+Dealt to 2a4c35de 
+Dealt to Hero [Qc 9c]
+82e725b: folds
+2a4c35de: folds
+Hero: folds
+1ebe301: raises $0.06 to $0.11
+a2be1665: folds
+a0ca0c7: folds
+Uncalled bet ($0.06) returned to 1ebe301
+*** SHOWDOWN ***
+1ebe301 collected $0.12 from pot
+*** SUMMARY ***
+Total pot $0.12 | Rake $0 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: 1ebe301 (button) collected ($0.12)
+Seat 2: a2be1665 (small blind) folded before Flop
+Seat 3: a0ca0c7 (big blind) folded before Flop
+Seat 4: 82e725b folded before Flop (didn't bet)
+Seat 5: 2a4c35de folded before Flop (didn't bet)
+Seat 6: Hero folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792511688: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:22:29
+Table 'RushAndCash10406948' 6-max Seat #1 is the button
+Seat 1: a8acf665 ($5.69 in chips)
+Seat 2: 1a1e414b ($5.91 in chips)
+Seat 3: d0f07860 ($7.26 in chips)
+Seat 4: Hero ($9.42 in chips)
+Seat 5: a2dc32b6 ($5.73 in chips)
+Seat 6: ade3e0e0 ($5.19 in chips)
+1a1e414b: posts small blind $0.02
+d0f07860: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to a8acf665 
+Dealt to 1a1e414b 
+Dealt to d0f07860 
+Dealt to Hero [Th 2c]
+Dealt to a2dc32b6 
+Dealt to ade3e0e0 
+Hero: folds
+a2dc32b6: folds
+ade3e0e0: folds
+a8acf665: raises $0.05 to $0.1
+1a1e414b: folds
+d0f07860: calls $0.05
+*** FLOP *** [6s Ts Jd]
+d0f07860: checks
+a8acf665: bets $0.05
+d0f07860: folds
+Uncalled bet ($0.05) returned to a8acf665
+*** SHOWDOWN ***
+a8acf665 collected $0.21 from pot
+*** SUMMARY ***
+Total pot $0.22 | Rake $0.01 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Board [6s Ts Jd]
+Seat 1: a8acf665 (button) won ($0.21)
+Seat 2: 1a1e414b (small blind) folded before Flop
+Seat 3: d0f07860 (big blind) folded on the Flop
+Seat 4: Hero folded before Flop (didn't bet)
+Seat 5: a2dc32b6 folded before Flop (didn't bet)
+Seat 6: ade3e0e0 folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792511008: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:21:09
+Table 'RushAndCash10406268' 6-max Seat #1 is the button
+Seat 1: Hero ($10.47 in chips)
+Seat 2: 7f006b7c ($5 in chips)
+Seat 3: 1ebe301 ($10.13 in chips)
+Seat 4: 5252e74d ($5.02 in chips)
+Seat 5: 22e8621e ($1.44 in chips)
+Seat 6: 6902b838 ($5.02 in chips)
+7f006b7c: posts small blind $0.02
+1ebe301: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to Hero [4h Ah]
+Dealt to 7f006b7c 
+Dealt to 1ebe301 
+Dealt to 5252e74d 
+Dealt to 22e8621e 
+Dealt to 6902b838 
+5252e74d: folds
+22e8621e: folds
+6902b838: folds
+Hero: raises $0.1 to $0.15
+7f006b7c: calls $0.13
+1ebe301: folds
+*** FLOP *** [Th Ts Qd]
+7f006b7c: bets $0.14
+Hero: raises $0.76 to $0.9
+7f006b7c: calls $0.76
+*** TURN *** [Th Ts Qd] [6h]
+7f006b7c: checks
+Hero: checks
+*** RIVER *** [Th Ts Qd 6h] [4c]
+7f006b7c: checks
+Hero: checks
+7f006b7c: shows [8c Tc] (three of a kind, Tens)
+Hero: shows [4h Ah] (two pair, Tens and Fours)
+*** SHOWDOWN ***
+7f006b7c collected $1.98 from pot
+*** SUMMARY ***
+Total pot $2.15 | Rake $0.1 | Jackpot $0.07 | Bingo $0 | Fortune $0 | Tax $0
+Board [Th Ts Qd 6h 4c]
+Seat 1: Hero (button) showed [4h Ah] and lost with two pair, Tens and Fours
+Seat 2: 7f006b7c (small blind) showed [8c Tc] and won ($1.98) with three of a kind, Tens
+Seat 3: 1ebe301 (big blind) folded before Flop
+Seat 4: 5252e74d folded before Flop (didn't bet)
+Seat 5: 22e8621e folded before Flop (didn't bet)
+Seat 6: 6902b838 folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792510375: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:19:50
+Table 'RushAndCash10405635' 6-max Seat #1 is the button
+Seat 1: ce721cbc ($13.8 in chips)
+Seat 2: 88587e65 ($10.4 in chips)
+Seat 3: Hero ($10.02 in chips)
+Seat 4: 2dd7b048 ($5.14 in chips)
+Seat 5: 27e5280d ($6.31 in chips)
+Seat 6: 14754c7d ($10.42 in chips)
+88587e65: posts small blind $0.02
+Hero: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to ce721cbc 
+Dealt to 88587e65 
+Dealt to Hero [3h 7h]
+Dealt to 2dd7b048 
+Dealt to 27e5280d 
+Dealt to 14754c7d 
+2dd7b048: folds
+27e5280d: folds
+14754c7d: folds
+ce721cbc: folds
+88587e65: raises $0.1 to $0.15
+Hero: calls $0.1
+*** FLOP *** [6s 5c 2h]
+88587e65: bets $0.1
+Hero: raises $0.25 to $0.35
+88587e65: calls $0.25
+*** TURN *** [6s 5c 2h] [4d]
+88587e65: checks
+Hero: bets $0.9
+88587e65: folds
+Uncalled bet ($0.9) returned to Hero
+*** SHOWDOWN ***
+Hero collected $0.95 from pot
+*** SUMMARY ***
+Total pot $1 | Rake $0.05 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Board [6s 5c 2h 4d]
+Seat 1: ce721cbc (button) folded before Flop (didn't bet)
+Seat 2: 88587e65 (small blind) folded on the Turn
+Seat 3: Hero (big blind) won ($0.95)
+Seat 4: 2dd7b048 folded before Flop (didn't bet)
+Seat 5: 27e5280d folded before Flop (didn't bet)
+Seat 6: 14754c7d folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792510342: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:19:46
+Table 'RushAndCash10405602' 6-max Seat #1 is the button
+Seat 1: 1f2f4356 ($6.4 in chips)
+Seat 2: 170c5863 ($6.75 in chips)
+Seat 3: a96e9c52 ($5.33 in chips)
+Seat 4: Hero ($10.02 in chips)
+Seat 5: 83928c0f ($5 in chips)
+Seat 6: 45d2d2a3 ($5.31 in chips)
+170c5863: posts small blind $0.02
+a96e9c52: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to 1f2f4356 
+Dealt to 170c5863 
+Dealt to a96e9c52 
+Dealt to Hero [Ad 4h]
+Dealt to 83928c0f 
+Dealt to 45d2d2a3 
+Hero: folds
+83928c0f: folds
+45d2d2a3: raises $0.07 to $0.12
+1f2f4356: folds
+170c5863: raises $0.4 to $0.52
+a96e9c52: folds
+45d2d2a3: folds
+Uncalled bet ($0.4) returned to 170c5863
+*** SHOWDOWN ***
+170c5863 collected $0.28 from pot
+*** SUMMARY ***
+Total pot $0.29 | Rake $0.01 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: 1f2f4356 (button) folded before Flop (didn't bet)
+Seat 2: 170c5863 (small blind) collected ($0.28)
+Seat 3: a96e9c52 (big blind) folded before Flop
+Seat 4: Hero folded before Flop (didn't bet)
+Seat 5: 83928c0f folded before Flop (didn't bet)
+Seat 6: 45d2d2a3 folded before Flop
+
+
+Poker Hand #RC3792510206: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:19:28
+Table 'RushAndCash10405466' 6-max Seat #1 is the button
+Seat 1: d4f1c9d8 ($5.14 in chips)
+Seat 2: Hero ($10.04 in chips)
+Seat 3: 4389ed09 ($5.9 in chips)
+Seat 4: b7ffd127 ($5.21 in chips)
+Seat 5: 4e7c4c0c ($5.46 in chips)
+Seat 6: 737df6 ($5.11 in chips)
+Hero: posts small blind $0.02
+4389ed09: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to d4f1c9d8 
+Dealt to Hero [3c 4h]
+Dealt to 4389ed09 
+Dealt to b7ffd127 
+Dealt to 4e7c4c0c 
+Dealt to 737df6 
+b7ffd127: folds
+4e7c4c0c: raises $0.05 to $0.1
+737df6: calls $0.1
+d4f1c9d8: folds
+Hero: folds
+4389ed09: calls $0.05
+*** FLOP *** [Ks Qh 8s]
+4389ed09: checks
+4e7c4c0c: bets $0.13
+737df6: folds
+4389ed09: folds
+Uncalled bet ($0.13) returned to 4e7c4c0c
+*** SHOWDOWN ***
+4e7c4c0c collected $0.31 from pot
+*** SUMMARY ***
+Total pot $0.32 | Rake $0.01 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Board [Ks Qh 8s]
+Seat 1: d4f1c9d8 (button) folded before Flop (didn't bet)
+Seat 2: Hero (small blind) folded before Flop
+Seat 3: 4389ed09 (big blind) folded on the Flop
+Seat 4: b7ffd127 folded before Flop (didn't bet)
+Seat 5: 4e7c4c0c won ($0.31)
+Seat 6: 737df6 folded on the Flop
+
+
+Poker Hand #RC3792510167: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:19:23
+Table 'RushAndCash10405427' 6-max Seat #1 is the button
+Seat 1: 85daf2a ($12.31 in chips)
+Seat 2: fef651e3 ($5.24 in chips)
+Seat 3: d5db0220 ($6.97 in chips)
+Seat 4: 3a17093b ($5 in chips)
+Seat 5: e7861585 ($5 in chips)
+Seat 6: Hero ($10.04 in chips)
+fef651e3: posts small blind $0.02
+d5db0220: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to 85daf2a 
+Dealt to fef651e3 
+Dealt to d5db0220 
+Dealt to 3a17093b 
+Dealt to e7861585 
+Dealt to Hero [2h Qd]
+3a17093b: folds
+e7861585: raises $0.05 to $0.1
+Hero: folds
+85daf2a: folds
+fef651e3: folds
+d5db0220: folds
+Uncalled bet ($0.05) returned to e7861585
+*** SHOWDOWN ***
+e7861585 collected $0.12 from pot
+*** SUMMARY ***
+Total pot $0.12 | Rake $0 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: 85daf2a (button) folded before Flop (didn't bet)
+Seat 2: fef651e3 (small blind) folded before Flop
+Seat 3: d5db0220 (big blind) folded before Flop
+Seat 4: 3a17093b folded before Flop (didn't bet)
+Seat 5: e7861585 collected ($0.12)
+Seat 6: Hero folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792510139: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:19:20
+Table 'RushAndCash10405399' 6-max Seat #1 is the button
+Seat 1: c23d8b00 ($5 in chips)
+Seat 2: faf7e05b ($5.83 in chips)
+Seat 3: 72b796ef ($9.95 in chips)
+Seat 4: 3528db6d ($4.48 in chips)
+Seat 5: ea75fc96 ($5.78 in chips)
+Seat 6: Hero ($10.04 in chips)
+faf7e05b: posts small blind $0.02
+72b796ef: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to c23d8b00 
+Dealt to faf7e05b 
+Dealt to 72b796ef 
+Dealt to 3528db6d 
+Dealt to ea75fc96 
+Dealt to Hero [Td Ks]
+3528db6d: folds
+ea75fc96: folds
+Hero: folds
+c23d8b00: folds
+faf7e05b: folds
+Uncalled bet ($0.03) returned to 72b796ef
+*** SHOWDOWN ***
+72b796ef collected $0.04 from pot
+*** SUMMARY ***
+Total pot $0.04 | Rake $0 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: c23d8b00 (button) folded before Flop (didn't bet)
+Seat 2: faf7e05b (small blind) folded before Flop
+Seat 3: 72b796ef (big blind) collected ($0.04)
+Seat 4: 3528db6d folded before Flop (didn't bet)
+Seat 5: ea75fc96 folded before Flop (didn't bet)
+Seat 6: Hero folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792510110: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:19:16
+Table 'RushAndCash10405370' 6-max Seat #1 is the button
+Seat 1: f2293b1e ($5 in chips)
+Seat 2: c259e7c5 ($6.54 in chips)
+Seat 3: 12be8e96 ($7.59 in chips)
+Seat 4: Hero ($10.04 in chips)
+Seat 5: 5e9c7412 ($5.75 in chips)
+Seat 6: 8701e86 ($9.36 in chips)
+c259e7c5: posts small blind $0.02
+12be8e96: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to f2293b1e 
+Dealt to c259e7c5 
+Dealt to 12be8e96 
+Dealt to Hero [Jc 4c]
+Dealt to 5e9c7412 
+Dealt to 8701e86 
+Hero: folds
+5e9c7412: folds
+8701e86: folds
+f2293b1e: folds
+c259e7c5: raises $0.1 to $0.15
+12be8e96: raises $0.45 to $0.6
+c259e7c5: calls $0.45
+*** FLOP *** [Th 2s 9h]
+c259e7c5: checks
+12be8e96: bets $0.6
+c259e7c5: folds
+Uncalled bet ($0.6) returned to 12be8e96
+*** SHOWDOWN ***
+12be8e96 collected $1.14 from pot
+*** SUMMARY ***
+Total pot $1.2 | Rake $0.06 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Board [Th 2s 9h]
+Seat 1: f2293b1e (button) folded before Flop (didn't bet)
+Seat 2: c259e7c5 (small blind) folded on the Flop
+Seat 3: 12be8e96 (big blind) won ($1.14)
+Seat 4: Hero folded before Flop (didn't bet)
+Seat 5: 5e9c7412 folded before Flop (didn't bet)
+Seat 6: 8701e86 folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792510045: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:19:08
+Table 'RushAndCash10405305' 6-max Seat #1 is the button
+Seat 1: 997a2c4c ($5 in chips)
+Seat 2: Hero ($10.06 in chips)
+Seat 3: c259e7c5 ($6.59 in chips)
+Seat 4: fdfe4887 ($9.35 in chips)
+Seat 5: e5654f67 ($5.04 in chips)
+Seat 6: 4389ed09 ($5.85 in chips)
+Hero: posts small blind $0.02
+c259e7c5: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to 997a2c4c 
+Dealt to Hero [Tc Kh]
+Dealt to c259e7c5 
+Dealt to fdfe4887 
+Dealt to e5654f67 
+Dealt to 4389ed09 
+fdfe4887: folds
+e5654f67: folds
+4389ed09: raises $0.07 to $0.12
+997a2c4c: folds
+Hero: folds
+c259e7c5: folds
+Uncalled bet ($0.07) returned to 4389ed09
+*** SHOWDOWN ***
+4389ed09 collected $0.12 from pot
+*** SUMMARY ***
+Total pot $0.12 | Rake $0 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: 997a2c4c (button) folded before Flop (didn't bet)
+Seat 2: Hero (small blind) folded before Flop
+Seat 3: c259e7c5 (big blind) folded before Flop
+Seat 4: fdfe4887 folded before Flop (didn't bet)
+Seat 5: e5654f67 folded before Flop (didn't bet)
+Seat 6: 4389ed09 collected ($0.12)
+
+
+Poker Hand #RC3792509951: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:18:56
+Table 'RushAndCash10405211' 6-max Seat #1 is the button
+Seat 1: a03b925 ($4.65 in chips)
+Seat 2: 118e47e1 ($17.7 in chips)
+Seat 3: Hero ($10.04 in chips)
+Seat 4: 6213ba71 ($5 in chips)
+Seat 5: 2fb17654 ($5 in chips)
+Seat 6: 1a043916 ($7.93 in chips)
+118e47e1: posts small blind $0.02
+Hero: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to a03b925 
+Dealt to 118e47e1 
+Dealt to Hero [Td 4s]
+Dealt to 6213ba71 
+Dealt to 2fb17654 
+Dealt to 1a043916 
+6213ba71: folds
+2fb17654: folds
+1a043916: folds
+a03b925: folds
+118e47e1: folds
+Uncalled bet ($0.03) returned to Hero
+*** SHOWDOWN ***
+Hero collected $0.04 from pot
+*** SUMMARY ***
+Total pot $0.04 | Rake $0 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: a03b925 (button) folded before Flop (didn't bet)
+Seat 2: 118e47e1 (small blind) folded before Flop
+Seat 3: Hero (big blind) collected ($0.04)
+Seat 4: 6213ba71 folded before Flop (didn't bet)
+Seat 5: 2fb17654 folded before Flop (didn't bet)
+Seat 6: 1a043916 folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792509700: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:18:23
+Table 'RushAndCash10404960' 6-max Seat #1 is the button
+Seat 1: ff5f4ef3 ($11.77 in chips)
+Seat 2: 16db53eb ($7.07 in chips)
+Seat 3: afc1327c ($5.1 in chips)
+Seat 4: Hero ($9.93 in chips)
+Seat 5: aaea483c ($5.93 in chips)
+Seat 6: e7861585 ($5 in chips)
+16db53eb: posts small blind $0.02
+afc1327c: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to ff5f4ef3 
+Dealt to 16db53eb 
+Dealt to afc1327c 
+Dealt to Hero [Qd Jd]
+Dealt to aaea483c 
+Dealt to e7861585 
+Hero: raises $0.05 to $0.1
+aaea483c: folds
+e7861585: folds
+ff5f4ef3: folds
+16db53eb: folds
+afc1327c: calls $0.05
+*** FLOP *** [4s 4c 2h]
+afc1327c: checks
+Hero: bets $0.25
+afc1327c: folds
+Uncalled bet ($0.25) returned to Hero
+*** SHOWDOWN ***
+Hero collected $0.21 from pot
+*** SUMMARY ***
+Total pot $0.22 | Rake $0.01 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Board [4s 4c 2h]
+Seat 1: ff5f4ef3 (button) folded before Flop (didn't bet)
+Seat 2: 16db53eb (small blind) folded before Flop
+Seat 3: afc1327c (big blind) folded on the Flop
+Seat 4: Hero won ($0.21)
+Seat 5: aaea483c folded before Flop (didn't bet)
+Seat 6: e7861585 folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792509672: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:18:19
+Table 'RushAndCash10404932' 6-max Seat #1 is the button
+Seat 1: 6f598792 ($8.77 in chips)
+Seat 2: eaf06068 ($5.24 in chips)
+Seat 3: 64f7193d ($7.17 in chips)
+Seat 4: Hero ($9.93 in chips)
+Seat 5: 2a1f90ea ($5 in chips)
+Seat 6: a4ff5192 ($5.65 in chips)
+eaf06068: posts small blind $0.02
+64f7193d: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to 6f598792 
+Dealt to eaf06068 
+Dealt to 64f7193d 
+Dealt to Hero [9h 6d]
+Dealt to 2a1f90ea 
+Dealt to a4ff5192 
+Hero: folds
+2a1f90ea: raises $0.08 to $0.13
+a4ff5192: folds
+6f598792: folds
+eaf06068: folds
+64f7193d: folds
+Uncalled bet ($0.08) returned to 2a1f90ea
+*** SHOWDOWN ***
+2a1f90ea collected $0.12 from pot
+*** SUMMARY ***
+Total pot $0.12 | Rake $0 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: 6f598792 (button) folded before Flop (didn't bet)
+Seat 2: eaf06068 (small blind) folded before Flop
+Seat 3: 64f7193d (big blind) folded before Flop
+Seat 4: Hero folded before Flop (didn't bet)
+Seat 5: 2a1f90ea collected ($0.12)
+Seat 6: a4ff5192 folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792509253: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:17:26
+Table 'RushAndCash10404513' 6-max Seat #1 is the button
+Seat 1: Hero ($9.55 in chips)
+Seat 2: 2cdb4be3 ($5.59 in chips)
+Seat 3: eaf06068 ($5.64 in chips)
+Seat 4: c6574f9f ($5.02 in chips)
+Seat 5: 8243cf91 ($2.32 in chips)
+Seat 6: 1aaec44f ($5 in chips)
+2cdb4be3: posts small blind $0.02
+eaf06068: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to Hero [8h 5d]
+Dealt to 2cdb4be3 
+Dealt to eaf06068 
+Dealt to c6574f9f 
+Dealt to 8243cf91 
+Dealt to 1aaec44f 
+c6574f9f: folds
+8243cf91: folds
+1aaec44f: folds
+Hero: raises $0.1 to $0.15
+2cdb4be3: folds
+eaf06068: calls $0.1
+*** FLOP *** [Jh Ah 7h]
+eaf06068: checks
+Hero: bets $0.25
+eaf06068: calls $0.25
+*** TURN *** [Jh Ah 7h] [7c]
+eaf06068: checks
+Hero: bets $0.82
+eaf06068: folds
+Uncalled bet ($0.82) returned to Hero
+*** SHOWDOWN ***
+Hero collected $0.78 from pot
+*** SUMMARY ***
+Total pot $0.82 | Rake $0.04 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Board [Jh Ah 7h 7c]
+Seat 1: Hero (button) won ($0.78)
+Seat 2: 2cdb4be3 (small blind) folded before Flop
+Seat 3: eaf06068 (big blind) folded on the Turn
+Seat 4: c6574f9f folded before Flop (didn't bet)
+Seat 5: 8243cf91 folded before Flop (didn't bet)
+Seat 6: 1aaec44f folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792508630: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:16:08
+Table 'RushAndCash10403890' 6-max Seat #1 is the button
+Seat 1: 3ce6cbc8 ($6.86 in chips)
+Seat 2: 58b646c2 ($5.01 in chips)
+Seat 3: Hero ($4.83 in chips)
+Seat 4: 99d0d115 ($5.98 in chips)
+Seat 5: b8e63322 ($5.02 in chips)
+Seat 6: 24956de7 ($5.07 in chips)
+58b646c2: posts small blind $0.02
+Hero: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to 3ce6cbc8 
+Dealt to 58b646c2 
+Dealt to Hero [Ah Ad]
+Dealt to 99d0d115 
+Dealt to b8e63322 
+Dealt to 24956de7 
+99d0d115: folds
+b8e63322: folds
+24956de7: folds
+3ce6cbc8: raises $0.06 to $0.11
+58b646c2: raises $0.36 to $0.47
+Hero: raises $0.53 to $1
+3ce6cbc8: folds
+58b646c2: raises $4.01 to $5.01 and is all-in
+Hero: calls $3.83 and is all-in
+Uncalled bet ($0.18) returned to 58b646c2
+58b646c2: shows [Qd Qs]
+Hero: shows [Ah Ad]
+*** FLOP *** [5c 4c 4d]
+*** TURN *** [5c 4c 4d] [2s]
+*** RIVER *** [5c 4c 4d 2s] [3d]
+*** SHOWDOWN ***
+Hero collected $9.55 from pot
+*** SUMMARY ***
+Total pot $9.77 | Rake $0.15 | Jackpot $0.07 | Bingo $0 | Fortune $0 | Tax $0
+Board [5c 4c 4d 2s 3d]
+Seat 1: 3ce6cbc8 (button) folded before Flop
+Seat 2: 58b646c2 (small blind) showed [Qd Qs] and lost with two pair, Queens and Fours
+Seat 3: Hero (big blind) showed [Ah Ad] and won ($9.55) with a straight, Ace to Five
+Seat 4: 99d0d115 folded before Flop (didn't bet)
+Seat 5: b8e63322 folded before Flop (didn't bet)
+Seat 6: 24956de7 folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792508602: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:16:04
+Table 'RushAndCash10403862' 6-max Seat #1 is the button
+Seat 1: 2132daad ($17.37 in chips)
+Seat 2: 48791f7b ($5.54 in chips)
+Seat 3: 1aaec44f ($5 in chips)
+Seat 4: b8e63322 ($5.02 in chips)
+Seat 5: Hero ($4.83 in chips)
+Seat 6: ecda52b8 ($5.58 in chips)
+48791f7b: posts small blind $0.02
+1aaec44f: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to 2132daad 
+Dealt to 48791f7b 
+Dealt to 1aaec44f 
+Dealt to b8e63322 
+Dealt to Hero [Ad 3d]
+Dealt to ecda52b8 
+b8e63322: folds
+Hero: folds
+ecda52b8: raises $0.05 to $0.1
+2132daad: raises $0.21 to $0.31
+48791f7b: folds
+1aaec44f: folds
+ecda52b8: folds
+Uncalled bet ($0.21) returned to 2132daad
+*** SHOWDOWN ***
+2132daad collected $0.26 from pot
+*** SUMMARY ***
+Total pot $0.27 | Rake $0.01 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: 2132daad (button) collected ($0.26)
+Seat 2: 48791f7b (small blind) folded before Flop
+Seat 3: 1aaec44f (big blind) folded before Flop
+Seat 4: b8e63322 folded before Flop (didn't bet)
+Seat 5: Hero folded before Flop (didn't bet)
+Seat 6: ecda52b8 folded before Flop
+
+
+Poker Hand #RC3792508438: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:15:45
+Table 'RushAndCash10403698' 6-max Seat #1 is the button
+Seat 1: Hero ($4.76 in chips)
+Seat 2: 831710f1 ($8.8 in chips)
+Seat 3: 4a7dfdb4 ($5.59 in chips)
+Seat 4: 1ca2c6cc ($5.64 in chips)
+Seat 5: 49bb754c ($5.24 in chips)
+Seat 6: 1f9d1659 ($7.76 in chips)
+831710f1: posts small blind $0.02
+4a7dfdb4: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to Hero [6d 4s]
+Dealt to 831710f1 
+Dealt to 4a7dfdb4 
+Dealt to 1ca2c6cc 
+Dealt to 49bb754c 
+Dealt to 1f9d1659 
+1ca2c6cc: folds
+49bb754c: folds
+1f9d1659: folds
+Hero: raises $0.05 to $0.1
+831710f1: folds
+4a7dfdb4: folds
+Uncalled bet ($0.05) returned to Hero
+*** SHOWDOWN ***
+Hero collected $0.12 from pot
+*** SUMMARY ***
+Total pot $0.12 | Rake $0 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: Hero (button) collected ($0.12)
+Seat 2: 831710f1 (small blind) folded before Flop
+Seat 3: 4a7dfdb4 (big blind) folded before Flop
+Seat 4: 1ca2c6cc folded before Flop (didn't bet)
+Seat 5: 49bb754c folded before Flop (didn't bet)
+Seat 6: 1f9d1659 folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792508124: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:15:07
+Table 'RushAndCash10403384' 6-max Seat #1 is the button
+Seat 1: 6150ae77 ($5.55 in chips)
+Seat 2: Hero ($4.25 in chips)
+Seat 3: 370a09f1 ($5 in chips)
+Seat 4: 899a1452 ($5 in chips)
+Seat 5: 4e607c47 ($0.73 in chips)
+Seat 6: acd51b53 ($6.87 in chips)
+Hero: posts small blind $0.02
+370a09f1: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to 6150ae77 
+Dealt to Hero [5c 5d]
+Dealt to 370a09f1 
+Dealt to 899a1452 
+Dealt to 4e607c47 
+Dealt to acd51b53 
+899a1452: raises $0.06 to $0.11
+4e607c47: folds
+acd51b53: folds
+6150ae77: folds
+Hero: calls $0.09
+370a09f1: folds
+*** FLOP *** [5h 4s 3c]
+Hero: checks
+899a1452: checks
+*** TURN *** [5h 4s 3c] [Ad]
+Hero: checks
+899a1452: checks
+*** RIVER *** [5h 4s 3c Ad] [9d]
+Hero: bets $0.4
+899a1452: calls $0.4
+Hero: shows [5c 5d] (three of a kind, Fives)
+899a1452: shows [Ac Jh] (a pair of Aces)
+*** SHOWDOWN ***
+Hero collected $1.02 from pot
+*** SUMMARY ***
+Total pot $1.07 | Rake $0.05 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Board [5h 4s 3c Ad 9d]
+Seat 1: 6150ae77 (button) folded before Flop (didn't bet)
+Seat 2: Hero (small blind) showed [5c 5d] and won ($1.02) with three of a kind, Fives
+Seat 3: 370a09f1 (big blind) folded before Flop
+Seat 4: 899a1452 showed [Ac Jh] and lost with a pair of Aces
+Seat 5: 4e607c47 folded before Flop (didn't bet)
+Seat 6: acd51b53 folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792508098: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:15:04
+Table 'RushAndCash10403358' 6-max Seat #1 is the button
+Seat 1: 84a1e9e ($5.27 in chips)
+Seat 2: fb77d6fa ($9.88 in chips)
+Seat 3: 70ed18fd ($5.37 in chips)
+Seat 4: ffa28e83 ($5.94 in chips)
+Seat 5: Hero ($4.25 in chips)
+Seat 6: 2fff7b46 ($11.33 in chips)
+fb77d6fa: posts small blind $0.02
+70ed18fd: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to 84a1e9e 
+Dealt to fb77d6fa 
+Dealt to 70ed18fd 
+Dealt to ffa28e83 
+Dealt to Hero [9s As]
+Dealt to 2fff7b46 
+ffa28e83: folds
+Hero: folds
+2fff7b46: folds
+84a1e9e: folds
+fb77d6fa: folds
+Uncalled bet ($0.03) returned to 70ed18fd
+*** SHOWDOWN ***
+70ed18fd collected $0.04 from pot
+*** SUMMARY ***
+Total pot $0.04 | Rake $0 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: 84a1e9e (button) folded before Flop (didn't bet)
+Seat 2: fb77d6fa (small blind) folded before Flop
+Seat 3: 70ed18fd (big blind) collected ($0.04)
+Seat 4: ffa28e83 folded before Flop (didn't bet)
+Seat 5: Hero folded before Flop (didn't bet)
+Seat 6: 2fff7b46 folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792508072: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:15:00
+Table 'RushAndCash10403332' 6-max Seat #1 is the button
+Seat 1: 16579ee1 ($5.07 in chips)
+Seat 2: 219e6fe2 ($10.23 in chips)
+Seat 3: 88330b42 ($5.07 in chips)
+Seat 4: Hero ($4.25 in chips)
+Seat 5: 3cb8a715 ($2.09 in chips)
+Seat 6: 899a1452 ($5 in chips)
+219e6fe2: posts small blind $0.02
+88330b42: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to 16579ee1 
+Dealt to 219e6fe2 
+Dealt to 88330b42 
+Dealt to Hero [3h 7h]
+Dealt to 3cb8a715 
+Dealt to 899a1452 
+Hero: folds
+3cb8a715: folds
+899a1452: folds
+16579ee1: raises $0.05 to $0.1
+219e6fe2: folds
+88330b42: folds
+Uncalled bet ($0.05) returned to 16579ee1
+*** SHOWDOWN ***
+16579ee1 collected $0.12 from pot
+*** SUMMARY ***
+Total pot $0.12 | Rake $0 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: 16579ee1 (button) collected ($0.12)
+Seat 2: 219e6fe2 (small blind) folded before Flop
+Seat 3: 88330b42 (big blind) folded before Flop
+Seat 4: Hero folded before Flop (didn't bet)
+Seat 5: 3cb8a715 folded before Flop (didn't bet)
+Seat 6: 899a1452 folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792508043: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:14:56
+Table 'RushAndCash10403303' 6-max Seat #1 is the button
+Seat 1: e5c0abdc ($6.88 in chips)
+Seat 2: 109345e8 ($4.11 in chips)
+Seat 3: 37741d69 ($5 in chips)
+Seat 4: Hero ($4.25 in chips)
+Seat 5: 1b348ab3 ($6.73 in chips)
+Seat 6: c2be5fe8 ($5.55 in chips)
+109345e8: posts small blind $0.02
+37741d69: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to e5c0abdc 
+Dealt to 109345e8 
+Dealt to 37741d69 
+Dealt to Hero [7d Qh]
+Dealt to 1b348ab3 
+Dealt to c2be5fe8 
+Hero: folds
+1b348ab3: folds
+c2be5fe8: raises $0.07 to $0.12
+e5c0abdc: folds
+109345e8: folds
+37741d69: folds
+Uncalled bet ($0.07) returned to c2be5fe8
+*** SHOWDOWN ***
+c2be5fe8 collected $0.12 from pot
+*** SUMMARY ***
+Total pot $0.12 | Rake $0 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: e5c0abdc (button) folded before Flop (didn't bet)
+Seat 2: 109345e8 (small blind) folded before Flop
+Seat 3: 37741d69 (big blind) folded before Flop
+Seat 4: Hero folded before Flop (didn't bet)
+Seat 5: 1b348ab3 folded before Flop (didn't bet)
+Seat 6: c2be5fe8 collected ($0.12)
+
+
+Poker Hand #RC3792508015: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:14:52
+Table 'RushAndCash10403275' 6-max Seat #1 is the button
+Seat 1: Hero ($4.25 in chips)
+Seat 2: a768ac55 ($8.56 in chips)
+Seat 3: 5cdaca4b ($3.86 in chips)
+Seat 4: f8d532c7 ($6.51 in chips)
+Seat 5: 4af130be ($7.69 in chips)
+Seat 6: dfabc6f3 ($7.34 in chips)
+a768ac55: posts small blind $0.02
+5cdaca4b: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to Hero [7s Kc]
+Dealt to a768ac55 
+Dealt to 5cdaca4b 
+Dealt to f8d532c7 
+Dealt to 4af130be 
+Dealt to dfabc6f3 
+f8d532c7: folds
+4af130be: folds
+dfabc6f3: folds
+Hero: folds
+a768ac55: raises $0.1 to $0.15
+5cdaca4b: calls $0.1
+*** FLOP *** [Ks 6d 6h]
+a768ac55: bets $0.1
+5cdaca4b: folds
+Uncalled bet ($0.1) returned to a768ac55
+*** SHOWDOWN ***
+a768ac55 collected $0.29 from pot
+*** SUMMARY ***
+Total pot $0.3 | Rake $0.01 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Board [Ks 6d 6h]
+Seat 1: Hero (button) folded before Flop (didn't bet)
+Seat 2: a768ac55 (small blind) won ($0.29)
+Seat 3: 5cdaca4b (big blind) folded on the Flop
+Seat 4: f8d532c7 folded before Flop (didn't bet)
+Seat 5: 4af130be folded before Flop (didn't bet)
+Seat 6: dfabc6f3 folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792507729: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:14:17
+Table 'RushAndCash10402989' 6-max Seat #1 is the button
+Seat 1: f53ca389 ($10.69 in chips)
+Seat 2: Hero ($5 in chips)
+Seat 3: e8b6de31 ($3.18 in chips)
+Seat 4: 90812513 ($9.56 in chips)
+Seat 5: 55f362c3 ($8.02 in chips)
+Seat 6: 70ed18fd ($5 in chips)
+Hero: posts small blind $0.02
+e8b6de31: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to f53ca389 
+Dealt to Hero [Ac Th]
+Dealt to e8b6de31 
+Dealt to 90812513 
+Dealt to 55f362c3 
+Dealt to 70ed18fd 
+90812513: folds
+55f362c3: calls $0.05
+70ed18fd: folds
+f53ca389: raises $0.15 to $0.2
+Hero: raises $0.55 to $0.75
+e8b6de31: folds
+55f362c3: folds
+f53ca389: raises $9.94 to $10.69 and is all-in
+Hero: folds
+Uncalled bet ($9.94) returned to f53ca389
+*** SHOWDOWN ***
+f53ca389 collected $1.46 from pot
+*** SUMMARY ***
+Total pot $1.6 | Rake $0.07 | Jackpot $0.07 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: f53ca389 (button) collected ($1.46)
+Seat 2: Hero (small blind) folded before Flop
+Seat 3: e8b6de31 (big blind) folded before Flop
+Seat 4: 90812513 folded before Flop (didn't bet)
+Seat 5: 55f362c3 folded before Flop
+Seat 6: 70ed18fd folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792507425: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:13:37
+Table 'RushAndCash10402685' 6-max Seat #1 is the button
+Seat 1: ce721cbc ($14.3 in chips)
+Seat 2: 3d18e9f1 ($10.12 in chips)
+Seat 3: Hero ($2.83 in chips)
+Seat 4: 26cfe3f5 ($5.07 in chips)
+Seat 5: 31296ad5 ($4.68 in chips)
+Seat 6: bbc703f7 ($5.4 in chips)
+3d18e9f1: posts small blind $0.02
+Hero: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to ce721cbc 
+Dealt to 3d18e9f1 
+Dealt to Hero [Jd Ks]
+Dealt to 26cfe3f5 
+Dealt to 31296ad5 
+Dealt to bbc703f7 
+26cfe3f5: folds
+31296ad5: folds
+bbc703f7: raises $0.05 to $0.1
+ce721cbc: folds
+3d18e9f1: folds
+Hero: calls $0.05
+*** FLOP *** [4c Js 6c]
+Hero: checks
+bbc703f7: bets $0.08
+Hero: raises $0.29 to $0.37
+bbc703f7: folds
+Uncalled bet ($0.29) returned to Hero
+*** SHOWDOWN ***
+Hero collected $0.37 from pot
+*** SUMMARY ***
+Total pot $0.38 | Rake $0.01 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Board [4c Js 6c]
+Seat 1: ce721cbc (button) folded before Flop (didn't bet)
+Seat 2: 3d18e9f1 (small blind) folded before Flop
+Seat 3: Hero (big blind) won ($0.37)
+Seat 4: 26cfe3f5 folded before Flop (didn't bet)
+Seat 5: 31296ad5 folded before Flop (didn't bet)
+Seat 6: bbc703f7 folded on the Flop
+
+
+Poker Hand #RC3792507399: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:13:34
+Table 'RushAndCash10402659' 6-max Seat #1 is the button
+Seat 1: 83928c0f ($5.05 in chips)
+Seat 2: 723b5be5 ($5.02 in chips)
+Seat 3: 230c387a ($5.53 in chips)
+Seat 4: 962e8b3d ($7.94 in chips)
+Seat 5: 991e4089 ($5 in chips)
+Seat 6: Hero ($2.83 in chips)
+723b5be5: posts small blind $0.02
+230c387a: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to 83928c0f 
+Dealt to 723b5be5 
+Dealt to 230c387a 
+Dealt to 962e8b3d 
+Dealt to 991e4089 
+Dealt to Hero [2d 3s]
+962e8b3d: folds
+991e4089: folds
+Hero: folds
+83928c0f: folds
+723b5be5: raises $0.09 to $0.14
+230c387a: folds
+Uncalled bet ($0.09) returned to 723b5be5
+*** SHOWDOWN ***
+723b5be5 collected $0.1 from pot
+*** SUMMARY ***
+Total pot $0.1 | Rake $0 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: 83928c0f (button) folded before Flop (didn't bet)
+Seat 2: 723b5be5 (small blind) collected ($0.1)
+Seat 3: 230c387a (big blind) folded before Flop
+Seat 4: 962e8b3d folded before Flop (didn't bet)
+Seat 5: 991e4089 folded before Flop (didn't bet)
+Seat 6: Hero folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792507370: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:13:30
+Table 'RushAndCash10402630' 6-max Seat #1 is the button
+Seat 1: a158e6d8 ($5.14 in chips)
+Seat 2: 7e8615cb ($5.11 in chips)
+Seat 3: bd68add9 ($5.3 in chips)
+Seat 4: 55e4fa0 ($5.93 in chips)
+Seat 5: efdb1a28 ($5.18 in chips)
+Seat 6: Hero ($2.83 in chips)
+7e8615cb: posts small blind $0.02
+bd68add9: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to a158e6d8 
+Dealt to 7e8615cb 
+Dealt to bd68add9 
+Dealt to 55e4fa0 
+Dealt to efdb1a28 
+Dealt to Hero [Jc 2h]
+55e4fa0: raises $0.05 to $0.1
+efdb1a28: folds
+Hero: folds
+a158e6d8: folds
+7e8615cb: folds
+bd68add9: calls $0.05
+*** FLOP *** [3h Ks 6h]
+bd68add9: checks
+55e4fa0: bets $0.07
+bd68add9: folds
+Uncalled bet ($0.07) returned to 55e4fa0
+*** SHOWDOWN ***
+55e4fa0 collected $0.21 from pot
+*** SUMMARY ***
+Total pot $0.22 | Rake $0.01 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Board [3h Ks 6h]
+Seat 1: a158e6d8 (button) folded before Flop (didn't bet)
+Seat 2: 7e8615cb (small blind) folded before Flop
+Seat 3: bd68add9 (big blind) folded on the Flop
+Seat 4: 55e4fa0 won ($0.21)
+Seat 5: efdb1a28 folded before Flop (didn't bet)
+Seat 6: Hero folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792507006: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:12:45
+Table 'RushAndCash10402266' 6-max Seat #1 is the button
+Seat 1: Hero ($2.52 in chips)
+Seat 2: 14537c2e ($5.17 in chips)
+Seat 3: a158e6d8 ($5.46 in chips)
+Seat 4: 1f8aa7ed ($10.7 in chips)
+Seat 5: ddd130a4 ($15.03 in chips)
+Seat 6: c41ee824 ($6.41 in chips)
+14537c2e: posts small blind $0.02
+a158e6d8: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to Hero [8s 9c]
+Dealt to 14537c2e 
+Dealt to a158e6d8 
+Dealt to 1f8aa7ed 
+Dealt to ddd130a4 
+Dealt to c41ee824 
+1f8aa7ed: folds
+ddd130a4: folds
+c41ee824: folds
+Hero: raises $0.05 to $0.1
+14537c2e: folds
+a158e6d8: raises $0.22 to $0.32
+Hero: calls $0.22
+*** FLOP *** [Jh 5c Jd]
+a158e6d8: checks
+Hero: bets $0.5
+a158e6d8: folds
+Uncalled bet ($0.5) returned to Hero
+*** SHOWDOWN ***
+Hero collected $0.63 from pot
+*** SUMMARY ***
+Total pot $0.66 | Rake $0.03 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Board [Jh 5c Jd]
+Seat 1: Hero (button) won ($0.63)
+Seat 2: 14537c2e (small blind) folded before Flop
+Seat 3: a158e6d8 (big blind) folded on the Flop
+Seat 4: 1f8aa7ed folded before Flop (didn't bet)
+Seat 5: ddd130a4 folded before Flop (didn't bet)
+Seat 6: c41ee824 folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792506979: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:12:41
+Table 'RushAndCash10402239' 6-max Seat #1 is the button
+Seat 1: 7faa9625 ($5.3 in chips)
+Seat 2: 893ff0e9 ($11.09 in chips)
+Seat 3: bcecaf0 ($5.5 in chips)
+Seat 4: 2226f382 ($26.21 in chips)
+Seat 5: Hero ($2.52 in chips)
+Seat 6: df270bf9 ($8.96 in chips)
+893ff0e9: posts small blind $0.02
+bcecaf0: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to 7faa9625 
+Dealt to 893ff0e9 
+Dealt to bcecaf0 
+Dealt to 2226f382 
+Dealt to Hero [3c 5c]
+Dealt to df270bf9 
+2226f382: raises $0.08 to $0.13
+Hero: folds
+df270bf9: folds
+7faa9625: raises $0.25 to $0.38
+893ff0e9: folds
+bcecaf0: folds
+2226f382: calls $0.25
+*** FLOP *** [Qh Th 2c]
+2226f382: checks
+7faa9625: bets $0.28
+2226f382: folds
+Uncalled bet ($0.28) returned to 7faa9625
+*** SHOWDOWN ***
+7faa9625 collected $0.79 from pot
+*** SUMMARY ***
+Total pot $0.83 | Rake $0.04 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Board [Qh Th 2c]
+Seat 1: 7faa9625 (button) won ($0.79)
+Seat 2: 893ff0e9 (small blind) folded before Flop
+Seat 3: bcecaf0 (big blind) folded before Flop
+Seat 4: 2226f382 folded on the Flop
+Seat 5: Hero folded before Flop (didn't bet)
+Seat 6: df270bf9 folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792506891: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:12:30
+Table 'RushAndCash10402151' 6-max Seat #1 is the button
+Seat 1: 254b379b ($20.44 in chips)
+Seat 2: Hero ($2.54 in chips)
+Seat 3: e8b6de31 ($3.2 in chips)
+Seat 4: d4f1c9d8 ($5.68 in chips)
+Seat 5: 2fff7b46 ($12.16 in chips)
+Seat 6: ffdc9a1b ($3.18 in chips)
+Hero: posts small blind $0.02
+e8b6de31: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to 254b379b 
+Dealt to Hero [Qs 2c]
+Dealt to e8b6de31 
+Dealt to d4f1c9d8 
+Dealt to 2fff7b46 
+Dealt to ffdc9a1b 
+d4f1c9d8: folds
+2fff7b46: raises $0.05 to $0.1
+ffdc9a1b: raises $0.21 to $0.31
+254b379b: folds
+Hero: folds
+e8b6de31: folds
+2fff7b46: folds
+Uncalled bet ($0.21) returned to ffdc9a1b
+*** SHOWDOWN ***
+ffdc9a1b collected $0.26 from pot
+*** SUMMARY ***
+Total pot $0.27 | Rake $0.01 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: 254b379b (button) folded before Flop (didn't bet)
+Seat 2: Hero (small blind) folded before Flop
+Seat 3: e8b6de31 (big blind) folded before Flop
+Seat 4: d4f1c9d8 folded before Flop (didn't bet)
+Seat 5: 2fff7b46 folded before Flop
+Seat 6: ffdc9a1b collected ($0.26)
+
+
+Poker Hand #RC3792506603: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:11:56
+Table 'RushAndCash10401863' 6-max Seat #1 is the button
+Seat 1: 265f1eb4 ($5.82 in chips)
+Seat 2: c6574f9f ($5.09 in chips)
+Seat 3: Hero ($2.33 in chips)
+Seat 4: 2fff7b46 ($12.37 in chips)
+Seat 5: 36dc1dab ($5 in chips)
+Seat 6: a3d0c91d ($2.15 in chips)
+c6574f9f: posts small blind $0.02
+Hero: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to 265f1eb4 
+Dealt to c6574f9f 
+Dealt to Hero [5h 5c]
+Dealt to 2fff7b46 
+Dealt to 36dc1dab 
+Dealt to a3d0c91d 
+2fff7b46: raises $0.05 to $0.1
+36dc1dab: folds
+a3d0c91d: folds
+265f1eb4: folds
+c6574f9f: folds
+Hero: calls $0.05
+*** FLOP *** [Qc 5d 9c]
+Hero: checks
+2fff7b46: bets $0.11
+Hero: raises $0.33 to $0.44
+2fff7b46: folds
+Uncalled bet ($0.33) returned to Hero
+*** SHOWDOWN ***
+Hero collected $0.42 from pot
+*** SUMMARY ***
+Total pot $0.44 | Rake $0.02 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Board [Qc 5d 9c]
+Seat 1: 265f1eb4 (button) folded before Flop (didn't bet)
+Seat 2: c6574f9f (small blind) folded before Flop
+Seat 3: Hero (big blind) won ($0.42)
+Seat 4: 2fff7b46 folded on the Flop
+Seat 5: 36dc1dab folded before Flop (didn't bet)
+Seat 6: a3d0c91d folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792506577: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:11:52
+Table 'RushAndCash10401837' 6-max Seat #1 is the button
+Seat 1: c44254f2 ($11.33 in chips)
+Seat 2: 4975e4d0 ($6.75 in chips)
+Seat 3: 6a802440 ($8.48 in chips)
+Seat 4: 1b348ab3 ($7.16 in chips)
+Seat 5: a8f742f ($5.53 in chips)
+Seat 6: Hero ($2.33 in chips)
+4975e4d0: posts small blind $0.02
+6a802440: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to c44254f2 
+Dealt to 4975e4d0 
+Dealt to 6a802440 
+Dealt to 1b348ab3 
+Dealt to a8f742f 
+Dealt to Hero [9s 7d]
+1b348ab3: raises $0.05 to $0.1
+a8f742f: raises $0.3 to $0.4
+Hero: folds
+c44254f2: folds
+4975e4d0: folds
+6a802440: folds
+1b348ab3: folds
+Uncalled bet ($0.3) returned to a8f742f
+*** SHOWDOWN ***
+a8f742f collected $0.26 from pot
+*** SUMMARY ***
+Total pot $0.27 | Rake $0.01 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: c44254f2 (button) folded before Flop (didn't bet)
+Seat 2: 4975e4d0 (small blind) folded before Flop
+Seat 3: 6a802440 (big blind) folded before Flop
+Seat 4: 1b348ab3 folded before Flop
+Seat 5: a8f742f collected ($0.26)
+Seat 6: Hero folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792505935: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:10:29
+Table 'RushAndCash10401195' 6-max Seat #1 is the button
+Seat 1: 6c00ebc9 ($5.79 in chips)
+Seat 2: d54db777 ($5.05 in chips)
+Seat 3: 6cc83243 ($5.11 in chips)
+Seat 4: Hero ($7.44 in chips)
+Seat 5: 95c12a74 ($5.04 in chips)
+Seat 6: 9d72cc00 ($5.27 in chips)
+d54db777: posts small blind $0.02
+6cc83243: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to 6c00ebc9 
+Dealt to d54db777 
+Dealt to 6cc83243 
+Dealt to Hero [Kh Jh]
+Dealt to 95c12a74 
+Dealt to 9d72cc00 
+Hero: calls $0.05
+95c12a74: folds
+9d72cc00: folds
+6c00ebc9: folds
+d54db777: calls $0.03
+6cc83243: checks
+*** FLOP *** [Ah 4h Th]
+d54db777: checks
+6cc83243: checks
+Hero: checks
+*** TURN *** [Ah 4h Th] [4c]
+d54db777: checks
+6cc83243: bets $0.05
+Hero: raises $0.25 to $0.3
+d54db777: folds
+6cc83243: raises $0.6 to $0.9
+Hero: raises $0.98 to $1.88
+6cc83243: calls $0.98
+*** RIVER *** [Ah 4h Th 4c] [Js]
+6cc83243: bets $3.18 and is all-in
+Hero: calls $3.18
+6cc83243: shows [4s 4d] (four of a kind, Fours)
+Hero: shows [Kh Jh] (a flush Ace high)
+*** SHOWDOWN ***
+6cc83243 collected $10.05 from pot
+*** SUMMARY ***
+Total pot $10.27 | Rake $0.15 | Jackpot $0.07 | Bingo $0 | Fortune $0 | Tax $0
+Board [Ah 4h Th 4c Js]
+Seat 1: 6c00ebc9 (button) folded before Flop (didn't bet)
+Seat 2: d54db777 (small blind) folded on the Turn
+Seat 3: 6cc83243 (big blind) showed [4s 4d] and won ($10.05) with four of a kind, Fours
+Seat 4: Hero showed [Kh Jh] and lost with a flush Ace high
+Seat 5: 95c12a74 folded before Flop (didn't bet)
+Seat 6: 9d72cc00 folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792505904: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:10:25
+Table 'RushAndCash10401164' 6-max Seat #1 is the button
+Seat 1: 254b379b ($20.7 in chips)
+Seat 2: 2226f382 ($21.65 in chips)
+Seat 3: c5145b99 ($5.33 in chips)
+Seat 4: bfa2de8a ($5.21 in chips)
+Seat 5: Hero ($7.44 in chips)
+Seat 6: 652b934a ($10.77 in chips)
+2226f382: posts small blind $0.02
+c5145b99: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to 254b379b 
+Dealt to 2226f382 
+Dealt to c5145b99 
+Dealt to bfa2de8a 
+Dealt to Hero [6h Ad]
+Dealt to 652b934a 
+bfa2de8a: folds
+Hero: folds
+652b934a: raises $0.05 to $0.1
+254b379b: calls $0.1
+2226f382: folds
+c5145b99: folds
+*** FLOP *** [5c Qc 5s]
+652b934a: bets $0.21
+254b379b: calls $0.21
+*** TURN *** [5c Qc 5s] [6d]
+652b934a: bets $0.52
+254b379b: calls $0.52
+*** RIVER *** [5c Qc 5s 6d] [6c]
+652b934a: checks
+254b379b: checks
+652b934a: shows [Ac 7c] (a flush Ace high)
+254b379b: shows [Kd Qs] (two pair, Queens and Sixes)
+*** SHOWDOWN ***
+652b934a collected $1.58 from pot
+*** SUMMARY ***
+Total pot $1.73 | Rake $0.08 | Jackpot $0.07 | Bingo $0 | Fortune $0 | Tax $0
+Board [5c Qc 5s 6d 6c]
+Seat 1: 254b379b (button) showed [Kd Qs] and lost with two pair, Queens and Sixes
+Seat 2: 2226f382 (small blind) folded before Flop
+Seat 3: c5145b99 (big blind) folded before Flop
+Seat 4: bfa2de8a folded before Flop (didn't bet)
+Seat 5: Hero folded before Flop (didn't bet)
+Seat 6: 652b934a showed [Ac 7c] and won ($1.58) with a flush Ace high
+
+
+Poker Hand #RC3792505877: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:10:22
+Table 'RushAndCash10401137' 6-max Seat #1 is the button
+Seat 1: 26651eac ($4.93 in chips)
+Seat 2: 1a1e414b ($6.65 in chips)
+Seat 3: a9bc3d85 ($7.32 in chips)
+Seat 4: 9df750fe ($5.9 in chips)
+Seat 5: bfa2de8a ($5.21 in chips)
+Seat 6: Hero ($7.44 in chips)
+1a1e414b: posts small blind $0.02
+a9bc3d85: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to 26651eac 
+Dealt to 1a1e414b 
+Dealt to a9bc3d85 
+Dealt to 9df750fe 
+Dealt to bfa2de8a 
+Dealt to Hero [Th 2s]
+9df750fe: folds
+bfa2de8a: folds
+Hero: folds
+26651eac: raises $0.05 to $0.1
+1a1e414b: folds
+a9bc3d85: calls $0.05
+*** FLOP *** [Qs 9h Ad]
+a9bc3d85: checks
+26651eac: bets $0.06
+a9bc3d85: calls $0.06
+*** TURN *** [Qs 9h Ad] [Jc]
+a9bc3d85: checks
+26651eac: checks
+*** RIVER *** [Qs 9h Ad Jc] [5c]
+a9bc3d85: checks
+26651eac: checks
+a9bc3d85: shows [Jd Kd] (a pair of Jacks)
+26651eac: shows [9d Td] (a pair of Nines)
+*** SHOWDOWN ***
+a9bc3d85 collected $0.33 from pot
+*** SUMMARY ***
+Total pot $0.34 | Rake $0.01 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Board [Qs 9h Ad Jc 5c]
+Seat 1: 26651eac (button) showed [9d Td] and lost with a pair of Nines
+Seat 2: 1a1e414b (small blind) folded before Flop
+Seat 3: a9bc3d85 (big blind) showed [Jd Kd] and won ($0.33) with a pair of Jacks
+Seat 4: 9df750fe folded before Flop (didn't bet)
+Seat 5: bfa2de8a folded before Flop (didn't bet)
+Seat 6: Hero folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792505475: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:09:32
+Table 'RushAndCash10400735' 6-max Seat #1 is the button
+Seat 1: 9df750fe ($5 in chips)
+Seat 2: 82e725b ($5.02 in chips)
+Seat 3: Hero ($7.96 in chips)
+Seat 4: bbc703f7 ($5.01 in chips)
+Seat 5: 85f7f21 ($12.01 in chips)
+Seat 6: bcaac7ee ($5.27 in chips)
+82e725b: posts small blind $0.02
+Hero: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to 9df750fe 
+Dealt to 82e725b 
+Dealt to Hero [As 8d]
+Dealt to bbc703f7 
+Dealt to 85f7f21 
+Dealt to bcaac7ee 
+bbc703f7: folds
+85f7f21: folds
+bcaac7ee: folds
+9df750fe: raises $0.08 to $0.13
+82e725b: calls $0.11
+Hero: raises $0.39 to $0.52
+9df750fe: calls $0.39
+82e725b: calls $0.39
+*** FLOP *** [5c 9c 7d]
+82e725b: checks
+Hero: checks
+9df750fe: bets $0.78
+82e725b: folds
+Hero: folds
+Uncalled bet ($0.78) returned to 9df750fe
+*** SHOWDOWN ***
+9df750fe collected $1.42 from pot
+*** SUMMARY ***
+Total pot $1.56 | Rake $0.07 | Jackpot $0.07 | Bingo $0 | Fortune $0 | Tax $0
+Board [5c 9c 7d]
+Seat 1: 9df750fe (button) won ($1.42)
+Seat 2: 82e725b (small blind) folded on the Flop
+Seat 3: Hero (big blind) folded on the Flop
+Seat 4: bbc703f7 folded before Flop (didn't bet)
+Seat 5: 85f7f21 folded before Flop (didn't bet)
+Seat 6: bcaac7ee folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792505361: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:09:19
+Table 'RushAndCash10400621' 6-max Seat #1 is the button
+Seat 1: Hero ($7.96 in chips)
+Seat 2: d51593bc ($5.62 in chips)
+Seat 3: d484d6f ($4.99 in chips)
+Seat 4: dd61b5a0 ($8.55 in chips)
+Seat 5: bb5fb090 ($24.88 in chips)
+Seat 6: e7861585 ($5.07 in chips)
+d51593bc: posts small blind $0.02
+d484d6f: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to Hero [Kc Qs]
+Dealt to d51593bc 
+Dealt to d484d6f 
+Dealt to dd61b5a0 
+Dealt to bb5fb090 
+Dealt to e7861585 
+dd61b5a0: raises $0.06 to $0.11
+bb5fb090: folds
+e7861585: raises $0.23 to $0.34
+Hero: folds
+d51593bc: folds
+d484d6f: calls $0.29
+dd61b5a0: calls $0.23
+*** FLOP *** [8h 3s 4d]
+d484d6f: checks
+dd61b5a0: checks
+e7861585: bets $0.8
+d484d6f: folds
+dd61b5a0: folds
+Uncalled bet ($0.8) returned to e7861585
+*** SHOWDOWN ***
+e7861585 collected $0.99 from pot
+*** SUMMARY ***
+Total pot $1.04 | Rake $0.05 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Board [8h 3s 4d]
+Seat 1: Hero (button) folded before Flop (didn't bet)
+Seat 2: d51593bc (small blind) folded before Flop
+Seat 3: d484d6f (big blind) folded on the Flop
+Seat 4: dd61b5a0 folded on the Flop
+Seat 5: bb5fb090 folded before Flop (didn't bet)
+Seat 6: e7861585 won ($0.99)
+
+
+Poker Hand #RC3792505279: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:09:09
+Table 'RushAndCash10400539' 6-max Seat #1 is the button
+Seat 1: 4cb07749 ($2.78 in chips)
+Seat 2: Hero ($7.98 in chips)
+Seat 3: b863afdc ($8.59 in chips)
+Seat 4: b1c6ca5e ($5.46 in chips)
+Seat 5: c259e7c5 ($5.13 in chips)
+Seat 6: 2a1f90ea ($5.17 in chips)
+Hero: posts small blind $0.02
+b863afdc: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to 4cb07749 
+Dealt to Hero [3s 5h]
+Dealt to b863afdc 
+Dealt to b1c6ca5e 
+Dealt to c259e7c5 
+Dealt to 2a1f90ea 
+b1c6ca5e: folds
+c259e7c5: folds
+2a1f90ea: raises $0.08 to $0.13
+4cb07749: folds
+Hero: folds
+b863afdc: folds
+Uncalled bet ($0.08) returned to 2a1f90ea
+*** SHOWDOWN ***
+2a1f90ea collected $0.12 from pot
+*** SUMMARY ***
+Total pot $0.12 | Rake $0 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: 4cb07749 (button) folded before Flop (didn't bet)
+Seat 2: Hero (small blind) folded before Flop
+Seat 3: b863afdc (big blind) folded before Flop
+Seat 4: b1c6ca5e folded before Flop (didn't bet)
+Seat 5: c259e7c5 folded before Flop (didn't bet)
+Seat 6: 2a1f90ea collected ($0.12)
+
+
+Poker Hand #RC3792504866: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:08:14
+Table 'RushAndCash10400126' 6-max Seat #1 is the button
+Seat 1: 6ba5f65a ($6.14 in chips)
+Seat 2: 514e07fb ($34.67 in chips)
+Seat 3: 4cb07749 ($3.17 in chips)
+Seat 4: b55ed753 ($5 in chips)
+Seat 5: 29f031a3 ($5 in chips)
+Seat 6: Hero ($7.24 in chips)
+514e07fb: posts small blind $0.02
+4cb07749: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to 6ba5f65a 
+Dealt to 514e07fb 
+Dealt to 4cb07749 
+Dealt to b55ed753 
+Dealt to 29f031a3 
+Dealt to Hero [Kh Jh]
+b55ed753: raises $0.1 to $0.15
+29f031a3: folds
+Hero: calls $0.15
+6ba5f65a: folds
+514e07fb: folds
+4cb07749: raises $0.24 to $0.39
+b55ed753: calls $0.24
+Hero: calls $0.24
+*** FLOP *** [9s 6d Kc]
+4cb07749: checks
+b55ed753: checks
+Hero: checks
+*** TURN *** [9s 6d Kc] [7d]
+4cb07749: checks
+b55ed753: checks
+Hero: bets $0.4
+4cb07749: folds
+b55ed753: folds
+Uncalled bet ($0.4) returned to Hero
+*** SHOWDOWN ***
+Hero collected $1.13 from pot
+*** SUMMARY ***
+Total pot $1.19 | Rake $0.06 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Board [9s 6d Kc 7d]
+Seat 1: 6ba5f65a (button) folded before Flop (didn't bet)
+Seat 2: 514e07fb (small blind) folded before Flop
+Seat 3: 4cb07749 (big blind) folded on the Turn
+Seat 4: b55ed753 folded on the Turn
+Seat 5: 29f031a3 folded before Flop (didn't bet)
+Seat 6: Hero won ($1.13)
+
+
+Poker Hand #RC3792504836: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:08:10
+Table 'RushAndCash10400096' 6-max Seat #1 is the button
+Seat 1: 776764c9 ($5.81 in chips)
+Seat 2: b863afdc ($8.69 in chips)
+Seat 3: 514e07fb ($34.72 in chips)
+Seat 4: Hero ($7.24 in chips)
+Seat 5: 3b59ae06 ($6.55 in chips)
+Seat 6: 254b379b ($20.43 in chips)
+b863afdc: posts small blind $0.02
+514e07fb: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to 776764c9 
+Dealt to b863afdc 
+Dealt to 514e07fb 
+Dealt to Hero [7h 3s]
+Dealt to 3b59ae06 
+Dealt to 254b379b 
+Hero: folds
+3b59ae06: folds
+254b379b: folds
+776764c9: folds
+b863afdc: folds
+Uncalled bet ($0.03) returned to 514e07fb
+*** SHOWDOWN ***
+514e07fb collected $0.04 from pot
+*** SUMMARY ***
+Total pot $0.04 | Rake $0 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: 776764c9 (button) folded before Flop (didn't bet)
+Seat 2: b863afdc (small blind) folded before Flop
+Seat 3: 514e07fb (big blind) collected ($0.04)
+Seat 4: Hero folded before Flop (didn't bet)
+Seat 5: 3b59ae06 folded before Flop (didn't bet)
+Seat 6: 254b379b folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792444655: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:07:48
+Table 'RushAndCash10399915' 6-max Seat #1 is the button
+Seat 1: Hero ($7.17 in chips)
+Seat 2: e1ce0386 ($5.97 in chips)
+Seat 3: 94034043 ($3.55 in chips)
+Seat 4: e466ad2e ($7.62 in chips)
+Seat 5: 58b646c2 ($5.09 in chips)
+Seat 6: 8967d422 ($10.15 in chips)
+e1ce0386: posts small blind $0.02
+94034043: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to Hero [8d 5h]
+Dealt to e1ce0386 
+Dealt to 94034043 
+Dealt to e466ad2e 
+Dealt to 58b646c2 
+Dealt to 8967d422 
+e466ad2e: folds
+58b646c2: folds
+8967d422: folds
+Hero: raises $0.07 to $0.12
+e1ce0386: folds
+94034043: folds
+Uncalled bet ($0.07) returned to Hero
+*** SHOWDOWN ***
+Hero collected $0.12 from pot
+*** SUMMARY ***
+Total pot $0.12 | Rake $0 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: Hero (button) collected ($0.12)
+Seat 2: e1ce0386 (small blind) folded before Flop
+Seat 3: 94034043 (big blind) folded before Flop
+Seat 4: e466ad2e folded before Flop (didn't bet)
+Seat 5: 58b646c2 folded before Flop (didn't bet)
+Seat 6: 8967d422 folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792444575: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:07:39
+Table 'RushAndCash10399835' 6-max Seat #1 is the button
+Seat 1: fe38c07f ($5.71 in chips)
+Seat 2: Hero ($7.19 in chips)
+Seat 3: beec79b7 ($5.95 in chips)
+Seat 4: 877b9c78 ($4.45 in chips)
+Seat 5: cc1292b6 ($10.04 in chips)
+Seat 6: b863afdc ($8.76 in chips)
+Hero: posts small blind $0.02
+beec79b7: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to fe38c07f 
+Dealt to Hero [Qh 4h]
+Dealt to beec79b7 
+Dealt to 877b9c78 
+Dealt to cc1292b6 
+Dealt to b863afdc 
+877b9c78: raises $0.05 to $0.1
+cc1292b6: folds
+b863afdc: folds
+fe38c07f: folds
+Hero: folds
+beec79b7: folds
+Uncalled bet ($0.05) returned to 877b9c78
+*** SHOWDOWN ***
+877b9c78 collected $0.12 from pot
+*** SUMMARY ***
+Total pot $0.12 | Rake $0 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: fe38c07f (button) folded before Flop (didn't bet)
+Seat 2: Hero (small blind) folded before Flop
+Seat 3: beec79b7 (big blind) folded before Flop
+Seat 4: 877b9c78 collected ($0.12)
+Seat 5: cc1292b6 folded before Flop (didn't bet)
+Seat 6: b863afdc folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792444453: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:07:24
+Table 'RushAndCash10399713' 6-max Seat #1 is the button
+Seat 1: 6f45b7d9 ($6.37 in chips)
+Seat 2: a5d3d27c ($6.39 in chips)
+Seat 3: Hero ($7.24 in chips)
+Seat 4: abdcb38f ($8.83 in chips)
+Seat 5: 84ff4816 ($18.09 in chips)
+Seat 6: 141120b8 ($5.96 in chips)
+a5d3d27c: posts small blind $0.02
+Hero: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to 6f45b7d9 
+Dealt to a5d3d27c 
+Dealt to Hero [3d 9s]
+Dealt to abdcb38f 
+Dealt to 84ff4816 
+Dealt to 141120b8 
+abdcb38f: folds
+84ff4816: folds
+141120b8: folds
+6f45b7d9: folds
+a5d3d27c: raises $0.07 to $0.12
+Hero: folds
+Uncalled bet ($0.07) returned to a5d3d27c
+*** SHOWDOWN ***
+a5d3d27c collected $0.1 from pot
+*** SUMMARY ***
+Total pot $0.1 | Rake $0 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: 6f45b7d9 (button) folded before Flop (didn't bet)
+Seat 2: a5d3d27c (small blind) collected ($0.1)
+Seat 3: Hero (big blind) folded before Flop
+Seat 4: abdcb38f folded before Flop (didn't bet)
+Seat 5: 84ff4816 folded before Flop (didn't bet)
+Seat 6: 141120b8 folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792444421: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:07:20
+Table 'RushAndCash10399681' 6-max Seat #1 is the button
+Seat 1: 73bb6d44 ($5 in chips)
+Seat 2: ee5b0b0 ($5 in chips)
+Seat 3: faf7e05b ($5.41 in chips)
+Seat 4: 22429f47 ($5.44 in chips)
+Seat 5: 5dff1851 ($5.11 in chips)
+Seat 6: Hero ($7.24 in chips)
+ee5b0b0: posts small blind $0.02
+faf7e05b: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to 73bb6d44 
+Dealt to ee5b0b0 
+Dealt to faf7e05b 
+Dealt to 22429f47 
+Dealt to 5dff1851 
+Dealt to Hero [Qs 5d]
+22429f47: folds
+5dff1851: folds
+Hero: folds
+73bb6d44: folds
+ee5b0b0: folds
+Uncalled bet ($0.03) returned to faf7e05b
+*** SHOWDOWN ***
+faf7e05b collected $0.04 from pot
+*** SUMMARY ***
+Total pot $0.04 | Rake $0 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: 73bb6d44 (button) folded before Flop (didn't bet)
+Seat 2: ee5b0b0 (small blind) folded before Flop
+Seat 3: faf7e05b (big blind) collected ($0.04)
+Seat 4: 22429f47 folded before Flop (didn't bet)
+Seat 5: 5dff1851 folded before Flop (didn't bet)
+Seat 6: Hero folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792444393: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:07:17
+Table 'RushAndCash10399653' 6-max Seat #1 is the button
+Seat 1: 7e68fc12 ($16.33 in chips)
+Seat 2: a3f6f94e ($5.3 in chips)
+Seat 3: a8203b6f ($5.23 in chips)
+Seat 4: Hero ($7.24 in chips)
+Seat 5: dd61b5a0 ($8.62 in chips)
+Seat 6: d47b4cc4 ($4.21 in chips)
+a3f6f94e: posts small blind $0.02
+a8203b6f: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to 7e68fc12 
+Dealt to a3f6f94e 
+Dealt to a8203b6f 
+Dealt to Hero [Ks 6c]
+Dealt to dd61b5a0 
+Dealt to d47b4cc4 
+Hero: folds
+dd61b5a0: folds
+d47b4cc4: folds
+7e68fc12: folds
+a3f6f94e: raises $0.1 to $0.15
+a8203b6f: folds
+Uncalled bet ($0.1) returned to a3f6f94e
+*** SHOWDOWN ***
+a3f6f94e collected $0.1 from pot
+*** SUMMARY ***
+Total pot $0.1 | Rake $0 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: 7e68fc12 (button) folded before Flop (didn't bet)
+Seat 2: a3f6f94e (small blind) collected ($0.1)
+Seat 3: a8203b6f (big blind) folded before Flop
+Seat 4: Hero folded before Flop (didn't bet)
+Seat 5: dd61b5a0 folded before Flop (didn't bet)
+Seat 6: d47b4cc4 folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792444360: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:07:13
+Table 'RushAndCash10399620' 6-max Seat #1 is the button
+Seat 1: da80bcb3 ($2.19 in chips)
+Seat 2: a8f742f ($6.39 in chips)
+Seat 3: e78f4471 ($5.75 in chips)
+Seat 4: Hero ($7.24 in chips)
+Seat 5: 4fda4afe ($8.53 in chips)
+Seat 6: f722391b ($5.21 in chips)
+a8f742f: posts small blind $0.02
+e78f4471: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to da80bcb3 
+Dealt to a8f742f 
+Dealt to e78f4471 
+Dealt to Hero [6h 2h]
+Dealt to 4fda4afe 
+Dealt to f722391b 
+Hero: folds
+4fda4afe: folds
+f722391b: folds
+da80bcb3: folds
+a8f742f: folds
+Uncalled bet ($0.03) returned to e78f4471
+*** SHOWDOWN ***
+e78f4471 collected $0.04 from pot
+*** SUMMARY ***
+Total pot $0.04 | Rake $0 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: da80bcb3 (button) folded before Flop (didn't bet)
+Seat 2: a8f742f (small blind) folded before Flop
+Seat 3: e78f4471 (big blind) collected ($0.04)
+Seat 4: Hero folded before Flop (didn't bet)
+Seat 5: 4fda4afe folded before Flop (didn't bet)
+Seat 6: f722391b folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792444298: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:07:06
+Table 'RushAndCash10399558' 6-max Seat #1 is the button
+Seat 1: Hero ($7.24 in chips)
+Seat 2: e30470d5 ($5.48 in chips)
+Seat 3: 98e062b0 ($15.04 in chips)
+Seat 4: 346965b2 ($5.28 in chips)
+Seat 5: 3b43d65b ($16.46 in chips)
+Seat 6: e411e842 ($5 in chips)
+e30470d5: posts small blind $0.02
+98e062b0: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to Hero [8c 2c]
+Dealt to e30470d5 
+Dealt to 98e062b0 
+Dealt to 346965b2 
+Dealt to 3b43d65b 
+Dealt to e411e842 
+346965b2: folds
+3b43d65b: folds
+e411e842: folds
+Hero: folds
+e30470d5: folds
+Uncalled bet ($0.03) returned to 98e062b0
+*** SHOWDOWN ***
+98e062b0 collected $0.04 from pot
+*** SUMMARY ***
+Total pot $0.04 | Rake $0 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: Hero (button) folded before Flop (didn't bet)
+Seat 2: e30470d5 (small blind) folded before Flop
+Seat 3: 98e062b0 (big blind) collected ($0.04)
+Seat 4: 346965b2 folded before Flop (didn't bet)
+Seat 5: 3b43d65b folded before Flop (didn't bet)
+Seat 6: e411e842 folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792444186: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:06:53
+Table 'RushAndCash10399446' 6-max Seat #1 is the button
+Seat 1: 7d60e576 ($5.89 in chips)
+Seat 2: Hero ($7.26 in chips)
+Seat 3: b9a1c5eb ($5.64 in chips)
+Seat 4: 862612ec ($15.61 in chips)
+Seat 5: cdf6c8d2 ($7.32 in chips)
+Seat 6: 8887165b ($9.46 in chips)
+Hero: posts small blind $0.02
+b9a1c5eb: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to 7d60e576 
+Dealt to Hero [8h 2s]
+Dealt to b9a1c5eb 
+Dealt to 862612ec 
+Dealt to cdf6c8d2 
+Dealt to 8887165b 
+862612ec: folds
+cdf6c8d2: raises $0.05 to $0.1
+8887165b: folds
+7d60e576: folds
+Hero: folds
+b9a1c5eb: calls $0.05
+*** FLOP *** [6h 4s Qh]
+b9a1c5eb: checks
+cdf6c8d2: bets $0.15
+b9a1c5eb: folds
+Uncalled bet ($0.15) returned to cdf6c8d2
+*** SHOWDOWN ***
+cdf6c8d2 collected $0.21 from pot
+*** SUMMARY ***
+Total pot $0.22 | Rake $0.01 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Board [6h 4s Qh]
+Seat 1: 7d60e576 (button) folded before Flop (didn't bet)
+Seat 2: Hero (small blind) folded before Flop
+Seat 3: b9a1c5eb (big blind) folded on the Flop
+Seat 4: 862612ec folded before Flop (didn't bet)
+Seat 5: cdf6c8d2 won ($0.21)
+Seat 6: 8887165b folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792444029: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:06:35
+Table 'RushAndCash10399289' 6-max Seat #1 is the button
+Seat 1: 6a679c6d ($5.42 in chips)
+Seat 2: 21a227ec ($6.34 in chips)
+Seat 3: Hero ($7.31 in chips)
+Seat 4: 8b894729 ($12.15 in chips)
+Seat 5: 371639ba ($5.07 in chips)
+Seat 6: 3f1e18e ($0.9 in chips)
+21a227ec: posts small blind $0.02
+Hero: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to 6a679c6d 
+Dealt to 21a227ec 
+Dealt to Hero [Ad 7h]
+Dealt to 8b894729 
+Dealt to 371639ba 
+Dealt to 3f1e18e 
+8b894729: folds
+371639ba: raises $0.07 to $0.12
+3f1e18e: raises $0.31 to $0.43
+6a679c6d: folds
+21a227ec: folds
+Hero: folds
+371639ba: folds
+Uncalled bet ($0.31) returned to 3f1e18e
+*** SHOWDOWN ***
+3f1e18e collected $0.3 from pot
+*** SUMMARY ***
+Total pot $0.31 | Rake $0.01 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: 6a679c6d (button) folded before Flop (didn't bet)
+Seat 2: 21a227ec (small blind) folded before Flop
+Seat 3: Hero (big blind) folded before Flop
+Seat 4: 8b894729 folded before Flop (didn't bet)
+Seat 5: 371639ba folded before Flop
+Seat 6: 3f1e18e collected ($0.3)
+
+
+Poker Hand #RC3792443824: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:06:10
+Table 'RushAndCash10399084' 6-max Seat #1 is the button
+Seat 1: 9812bb22 ($5.45 in chips)
+Seat 2: 3f1e18e ($1 in chips)
+Seat 3: 7a665448 ($9.59 in chips)
+Seat 4: 88587e65 ($11.62 in chips)
+Seat 5: Hero ($7.17 in chips)
+Seat 6: 3851b762 ($5.14 in chips)
+3f1e18e: posts small blind $0.02
+7a665448: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to 9812bb22 
+Dealt to 3f1e18e 
+Dealt to 7a665448 
+Dealt to 88587e65 
+Dealt to Hero [Th Ts]
+Dealt to 3851b762 
+88587e65: folds
+Hero: raises $0.05 to $0.1
+3851b762: folds
+9812bb22: folds
+3f1e18e: calls $0.08
+7a665448: folds
+*** FLOP *** [9c 4d 7s]
+3f1e18e: checks
+Hero: bets $0.19
+3f1e18e: folds
+Uncalled bet ($0.19) returned to Hero
+*** SHOWDOWN ***
+Hero collected $0.24 from pot
+*** SUMMARY ***
+Total pot $0.25 | Rake $0.01 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Board [9c 4d 7s]
+Seat 1: 9812bb22 (button) folded before Flop (didn't bet)
+Seat 2: 3f1e18e (small blind) folded on the Flop
+Seat 3: 7a665448 (big blind) folded before Flop
+Seat 4: 88587e65 folded before Flop (didn't bet)
+Seat 5: Hero won ($0.24)
+Seat 6: 3851b762 folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792443790: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:06:06
+Table 'RushAndCash10399050' 6-max Seat #1 is the button
+Seat 1: 5858af1b ($5.43 in chips)
+Seat 2: d4f1c9d8 ($6.17 in chips)
+Seat 3: 6c00ebc9 ($5.6 in chips)
+Seat 4: 1f9d1659 ($8.04 in chips)
+Seat 5: Hero ($7.17 in chips)
+Seat 6: 8a05a7b3 ($5 in chips)
+d4f1c9d8: posts small blind $0.02
+6c00ebc9: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to 5858af1b 
+Dealt to d4f1c9d8 
+Dealt to 6c00ebc9 
+Dealt to 1f9d1659 
+Dealt to Hero [Qd 4d]
+Dealt to 8a05a7b3 
+1f9d1659: folds
+Hero: folds
+8a05a7b3: raises $0.05 to $0.1
+5858af1b: folds
+d4f1c9d8: raises $0.4 to $0.5
+6c00ebc9: folds
+8a05a7b3: folds
+Uncalled bet ($0.4) returned to d4f1c9d8
+*** SHOWDOWN ***
+d4f1c9d8 collected $0.24 from pot
+*** SUMMARY ***
+Total pot $0.25 | Rake $0.01 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: 5858af1b (button) folded before Flop (didn't bet)
+Seat 2: d4f1c9d8 (small blind) collected ($0.24)
+Seat 3: 6c00ebc9 (big blind) folded before Flop
+Seat 4: 1f9d1659 folded before Flop (didn't bet)
+Seat 5: Hero folded before Flop (didn't bet)
+Seat 6: 8a05a7b3 folded before Flop
+
+
+Poker Hand #RC3792443761: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:06:02
+Table 'RushAndCash10399021' 6-max Seat #1 is the button
+Seat 1: 404f65f1 ($2.21 in chips)
+Seat 2: afbf26e4 ($8.08 in chips)
+Seat 3: a76ffb91 ($12.61 in chips)
+Seat 4: ebb796a1 ($5.33 in chips)
+Seat 5: c6d2d361 ($5.13 in chips)
+Seat 6: Hero ($7.17 in chips)
+afbf26e4: posts small blind $0.02
+a76ffb91: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to 404f65f1 
+Dealt to afbf26e4 
+Dealt to a76ffb91 
+Dealt to ebb796a1 
+Dealt to c6d2d361 
+Dealt to Hero [Qs 9h]
+ebb796a1: folds
+c6d2d361: folds
+Hero: folds
+404f65f1: folds
+afbf26e4: folds
+Uncalled bet ($0.03) returned to a76ffb91
+*** SHOWDOWN ***
+a76ffb91 collected $0.04 from pot
+*** SUMMARY ***
+Total pot $0.04 | Rake $0 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: 404f65f1 (button) folded before Flop (didn't bet)
+Seat 2: afbf26e4 (small blind) folded before Flop
+Seat 3: a76ffb91 (big blind) collected ($0.04)
+Seat 4: ebb796a1 folded before Flop (didn't bet)
+Seat 5: c6d2d361 folded before Flop (didn't bet)
+Seat 6: Hero folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792443682: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:05:52
+Table 'RushAndCash10398942' 6-max Seat #1 is the button
+Seat 1: Hero ($7.17 in chips)
+Seat 2: 4df89862 ($5.03 in chips)
+Seat 3: b2d4ab67 ($5.15 in chips)
+Seat 4: cae35045 ($3.45 in chips)
+Seat 5: 1c594eaa ($8.94 in chips)
+Seat 6: 2ac228df ($6.07 in chips)
+4df89862: posts small blind $0.02
+b2d4ab67: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to Hero [Js 2h]
+Dealt to 4df89862 
+Dealt to b2d4ab67 
+Dealt to cae35045 
+Dealt to 1c594eaa 
+Dealt to 2ac228df 
+cae35045: folds
+1c594eaa: folds
+2ac228df: folds
+Hero: folds
+4df89862: raises $0.1 to $0.15
+b2d4ab67: folds
+Uncalled bet ($0.1) returned to 4df89862
+*** SHOWDOWN ***
+4df89862 collected $0.1 from pot
+*** SUMMARY ***
+Total pot $0.1 | Rake $0 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: Hero (button) folded before Flop (didn't bet)
+Seat 2: 4df89862 (small blind) collected ($0.1)
+Seat 3: b2d4ab67 (big blind) folded before Flop
+Seat 4: cae35045 folded before Flop (didn't bet)
+Seat 5: 1c594eaa folded before Flop (didn't bet)
+Seat 6: 2ac228df folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792443622: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:05:46
+Table 'RushAndCash10398882' 6-max Seat #1 is the button
+Seat 1: 9300f10d ($9.2 in chips)
+Seat 2: Hero ($7.19 in chips)
+Seat 3: 8df0d0cd ($5.14 in chips)
+Seat 4: c89fee04 ($7.09 in chips)
+Seat 5: f78e8c54 ($10.42 in chips)
+Seat 6: f8d532c7 ($6.26 in chips)
+Hero: posts small blind $0.02
+8df0d0cd: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to 9300f10d 
+Dealt to Hero [3h Kd]
+Dealt to 8df0d0cd 
+Dealt to c89fee04 
+Dealt to f78e8c54 
+Dealt to f8d532c7 
+c89fee04: raises $0.05 to $0.1
+f78e8c54: folds
+f8d532c7: folds
+9300f10d: folds
+Hero: folds
+8df0d0cd: calls $0.05
+*** FLOP *** [2c 8d Qd]
+8df0d0cd: checks
+c89fee04: checks
+*** TURN *** [2c 8d Qd] [9c]
+8df0d0cd: checks
+c89fee04: checks
+*** RIVER *** [2c 8d Qd 9c] [7c]
+8df0d0cd: bets $0.05
+c89fee04: folds
+Uncalled bet ($0.05) returned to 8df0d0cd
+*** SHOWDOWN ***
+8df0d0cd collected $0.21 from pot
+*** SUMMARY ***
+Total pot $0.22 | Rake $0.01 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Board [2c 8d Qd 9c 7c]
+Seat 1: 9300f10d (button) folded before Flop (didn't bet)
+Seat 2: Hero (small blind) folded before Flop
+Seat 3: 8df0d0cd (big blind) won ($0.21)
+Seat 4: c89fee04 folded on the River
+Seat 5: f78e8c54 folded before Flop (didn't bet)
+Seat 6: f8d532c7 folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792443456: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:05:25
+Table 'RushAndCash10398716' 6-max Seat #1 is the button
+Seat 1: 191f09db ($5.49 in chips)
+Seat 2: cae35045 ($3.52 in chips)
+Seat 3: Hero ($7.24 in chips)
+Seat 4: 6f598792 ($10.17 in chips)
+Seat 5: 2a4c35de ($8.34 in chips)
+Seat 6: 7a0d216f ($5.33 in chips)
+cae35045: posts small blind $0.02
+Hero: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to 191f09db 
+Dealt to cae35045 
+Dealt to Hero [6h Jc]
+Dealt to 6f598792 
+Dealt to 2a4c35de 
+Dealt to 7a0d216f 
+6f598792: folds
+2a4c35de: folds
+7a0d216f: raises $0.07 to $0.12
+191f09db: folds
+cae35045: folds
+Hero: folds
+Uncalled bet ($0.07) returned to 7a0d216f
+*** SHOWDOWN ***
+7a0d216f collected $0.12 from pot
+*** SUMMARY ***
+Total pot $0.12 | Rake $0 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: 191f09db (button) folded before Flop (didn't bet)
+Seat 2: cae35045 (small blind) folded before Flop
+Seat 3: Hero (big blind) folded before Flop
+Seat 4: 6f598792 folded before Flop (didn't bet)
+Seat 5: 2a4c35de folded before Flop (didn't bet)
+Seat 6: 7a0d216f collected ($0.12)
+
+
+Poker Hand #RC3792443427: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:05:21
+Table 'RushAndCash10398687' 6-max Seat #1 is the button
+Seat 1: 577b4d06 ($5.4 in chips)
+Seat 2: 814bd6f5 ($16.34 in chips)
+Seat 3: d631a319 ($6.47 in chips)
+Seat 4: Hero ($7.24 in chips)
+Seat 5: f91758f0 ($6.48 in chips)
+Seat 6: a9a00dce ($5.26 in chips)
+814bd6f5: posts small blind $0.02
+d631a319: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to 577b4d06 
+Dealt to 814bd6f5 
+Dealt to d631a319 
+Dealt to Hero [Tc 4h]
+Dealt to f91758f0 
+Dealt to a9a00dce 
+Hero: folds
+f91758f0: raises $0.06 to $0.11
+a9a00dce: folds
+577b4d06: folds
+814bd6f5: folds
+d631a319: folds
+Uncalled bet ($0.06) returned to f91758f0
+*** SHOWDOWN ***
+f91758f0 collected $0.12 from pot
+*** SUMMARY ***
+Total pot $0.12 | Rake $0 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: 577b4d06 (button) folded before Flop (didn't bet)
+Seat 2: 814bd6f5 (small blind) folded before Flop
+Seat 3: d631a319 (big blind) folded before Flop
+Seat 4: Hero folded before Flop (didn't bet)
+Seat 5: f91758f0 collected ($0.12)
+Seat 6: a9a00dce folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792443394: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:05:18
+Table 'RushAndCash10398654' 6-max Seat #1 is the button
+Seat 1: 62bf0f3e ($5.24 in chips)
+Seat 2: 236e1ca9 ($5.5 in chips)
+Seat 3: 512072ac ($5 in chips)
+Seat 4: Hero ($7.24 in chips)
+Seat 5: d631a319 ($6.47 in chips)
+Seat 6: fd029725 ($10.61 in chips)
+236e1ca9: posts small blind $0.02
+512072ac: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to 62bf0f3e 
+Dealt to 236e1ca9 
+Dealt to 512072ac 
+Dealt to Hero [3s Qd]
+Dealt to d631a319 
+Dealt to fd029725 
+Hero: folds
+d631a319: folds
+fd029725: folds
+62bf0f3e: folds
+236e1ca9: folds
+Uncalled bet ($0.03) returned to 512072ac
+*** SHOWDOWN ***
+512072ac collected $0.04 from pot
+*** SUMMARY ***
+Total pot $0.04 | Rake $0 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: 62bf0f3e (button) folded before Flop (didn't bet)
+Seat 2: 236e1ca9 (small blind) folded before Flop
+Seat 3: 512072ac (big blind) collected ($0.04)
+Seat 4: Hero folded before Flop (didn't bet)
+Seat 5: d631a319 folded before Flop (didn't bet)
+Seat 6: fd029725 folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792443364: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:05:14
+Table 'RushAndCash10398624' 6-max Seat #1 is the button
+Seat 1: baedc80f ($4.81 in chips)
+Seat 2: 45d2d2a3 ($5.13 in chips)
+Seat 3: fd029725 ($10.66 in chips)
+Seat 4: Hero ($7.24 in chips)
+Seat 5: 512072ac ($5 in chips)
+Seat 6: cae35045 ($3.52 in chips)
+45d2d2a3: posts small blind $0.02
+fd029725: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to baedc80f 
+Dealt to 45d2d2a3 
+Dealt to fd029725 
+Dealt to Hero [4c Qs]
+Dealt to 512072ac 
+Dealt to cae35045 
+Hero: folds
+512072ac: folds
+cae35045: folds
+baedc80f: raises $0.08 to $0.13
+45d2d2a3: folds
+fd029725: folds
+Uncalled bet ($0.08) returned to baedc80f
+*** SHOWDOWN ***
+baedc80f collected $0.12 from pot
+*** SUMMARY ***
+Total pot $0.12 | Rake $0 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: baedc80f (button) collected ($0.12)
+Seat 2: 45d2d2a3 (small blind) folded before Flop
+Seat 3: fd029725 (big blind) folded before Flop
+Seat 4: Hero folded before Flop (didn't bet)
+Seat 5: 512072ac folded before Flop (didn't bet)
+Seat 6: cae35045 folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792443334: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:05:11
+Table 'RushAndCash10398594' 6-max Seat #1 is the button
+Seat 1: 1e97a5e4 ($11.31 in chips)
+Seat 2: 62bf0f3e ($5.31 in chips)
+Seat 3: a5d3d27c ($5 in chips)
+Seat 4: 981255d ($3.65 in chips)
+Seat 5: cd724bfe ($15.36 in chips)
+Seat 6: Hero ($7.24 in chips)
+62bf0f3e: posts small blind $0.02
+a5d3d27c: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to 1e97a5e4 
+Dealt to 62bf0f3e 
+Dealt to a5d3d27c 
+Dealt to 981255d 
+Dealt to cd724bfe 
+Dealt to Hero [7s 7d]
+981255d: calls $0.05
+cd724bfe: folds
+Hero: folds
+1e97a5e4: folds
+62bf0f3e: folds
+a5d3d27c: checks
+*** FLOP *** [As Jd Qc]
+a5d3d27c: checks
+981255d: checks
+*** TURN *** [As Jd Qc] [Kd]
+a5d3d27c: bets $0.12
+981255d: folds
+Uncalled bet ($0.12) returned to a5d3d27c
+*** SHOWDOWN ***
+a5d3d27c collected $0.12 from pot
+*** SUMMARY ***
+Total pot $0.12 | Rake $0 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Board [As Jd Qc Kd]
+Seat 1: 1e97a5e4 (button) folded before Flop (didn't bet)
+Seat 2: 62bf0f3e (small blind) folded before Flop
+Seat 3: a5d3d27c (big blind) won ($0.12)
+Seat 4: 981255d folded on the Turn
+Seat 5: cd724bfe folded before Flop (didn't bet)
+Seat 6: Hero folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792443298: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:05:06
+Table 'RushAndCash10398558' 6-max Seat #1 is the button
+Seat 1: e6c7ab5a ($5.44 in chips)
+Seat 2: Hero ($7.26 in chips)
+Seat 3: e455fcc2 ($5 in chips)
+Seat 4: b13b0a2e ($5 in chips)
+Seat 5: 4c44e6cd ($5.95 in chips)
+Seat 6: 7196a63a ($5.41 in chips)
+Hero: posts small blind $0.02
+e455fcc2: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to e6c7ab5a 
+Dealt to Hero [6c 8d]
+Dealt to e455fcc2 
+Dealt to b13b0a2e 
+Dealt to 4c44e6cd 
+Dealt to 7196a63a 
+b13b0a2e: folds
+4c44e6cd: folds
+7196a63a: raises $0.05 to $0.1
+e6c7ab5a: folds
+Hero: folds
+e455fcc2: folds
+Uncalled bet ($0.05) returned to 7196a63a
+*** SHOWDOWN ***
+7196a63a collected $0.12 from pot
+*** SUMMARY ***
+Total pot $0.12 | Rake $0 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: e6c7ab5a (button) folded before Flop (didn't bet)
+Seat 2: Hero (small blind) folded before Flop
+Seat 3: e455fcc2 (big blind) folded before Flop
+Seat 4: b13b0a2e folded before Flop (didn't bet)
+Seat 5: 4c44e6cd folded before Flop (didn't bet)
+Seat 6: 7196a63a collected ($0.12)
+
+
+Poker Hand #RC3792443043: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:04:37
+Table 'RushAndCash10398303' 6-max Seat #1 is the button
+Seat 1: 94a9bd1a ($3.86 in chips)
+Seat 2: 5b50b67f ($5.75 in chips)
+Seat 3: Hero ($7.15 in chips)
+Seat 4: 4c44e6cd ($6.05 in chips)
+Seat 5: 63660286 ($16.34 in chips)
+Seat 6: a9a00dce ($5.33 in chips)
+5b50b67f: posts small blind $0.02
+Hero: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to 94a9bd1a 
+Dealt to 5b50b67f 
+Dealt to Hero [4h 3d]
+Dealt to 4c44e6cd 
+Dealt to 63660286 
+Dealt to a9a00dce 
+4c44e6cd: raises $0.05 to $0.1
+63660286: folds
+a9a00dce: folds
+94a9bd1a: folds
+5b50b67f: folds
+Hero: calls $0.05
+*** FLOP *** [4d Jc 9d]
+Hero: checks
+4c44e6cd: checks
+*** TURN *** [4d Jc 9d] [2s]
+Hero: bets $0.17
+4c44e6cd: folds
+Uncalled bet ($0.17) returned to Hero
+*** SHOWDOWN ***
+Hero collected $0.21 from pot
+*** SUMMARY ***
+Total pot $0.22 | Rake $0.01 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Board [4d Jc 9d 2s]
+Seat 1: 94a9bd1a (button) folded before Flop (didn't bet)
+Seat 2: 5b50b67f (small blind) folded before Flop
+Seat 3: Hero (big blind) won ($0.21)
+Seat 4: 4c44e6cd folded on the Turn
+Seat 5: 63660286 folded before Flop (didn't bet)
+Seat 6: a9a00dce folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792442943: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:04:25
+Table 'RushAndCash10398203' 6-max Seat #1 is the button
+Seat 1: Hero ($7.15 in chips)
+Seat 2: 1a9bddb5 ($7.46 in chips)
+Seat 3: 90fba996 ($6.71 in chips)
+Seat 4: f702415e ($5.07 in chips)
+Seat 5: 7bcf4b58 ($5.07 in chips)
+Seat 6: 17eda858 ($6.12 in chips)
+1a9bddb5: posts small blind $0.02
+90fba996: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to Hero [2d Ks]
+Dealt to 1a9bddb5 
+Dealt to 90fba996 
+Dealt to f702415e 
+Dealt to 7bcf4b58 
+Dealt to 17eda858 
+f702415e: folds
+7bcf4b58: folds
+17eda858: folds
+Hero: folds
+1a9bddb5: folds
+Uncalled bet ($0.03) returned to 90fba996
+*** SHOWDOWN ***
+90fba996 collected $0.04 from pot
+*** SUMMARY ***
+Total pot $0.04 | Rake $0 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: Hero (button) folded before Flop (didn't bet)
+Seat 2: 1a9bddb5 (small blind) folded before Flop
+Seat 3: 90fba996 (big blind) collected ($0.04)
+Seat 4: f702415e folded before Flop (didn't bet)
+Seat 5: 7bcf4b58 folded before Flop (didn't bet)
+Seat 6: 17eda858 folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792442915: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:04:22
+Table 'RushAndCash10398175' 6-max Seat #1 is the button
+Seat 1: 3b59ae06 ($6.59 in chips)
+Seat 2: e5c0abdc ($6.42 in chips)
+Seat 3: 483b43ed ($5.31 in chips)
+Seat 4: Hero ($7.15 in chips)
+Seat 5: 3a752de8 ($7.8 in chips)
+Seat 6: e129bbab ($6.41 in chips)
+e5c0abdc: posts small blind $0.02
+483b43ed: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to 3b59ae06 
+Dealt to e5c0abdc 
+Dealt to 483b43ed 
+Dealt to Hero [7c 2h]
+Dealt to 3a752de8 
+Dealt to e129bbab 
+Hero: folds
+3a752de8: folds
+e129bbab: raises $0.05 to $0.1
+3b59ae06: calls $0.1
+e5c0abdc: folds
+483b43ed: folds
+*** FLOP *** [6h Jd 8c]
+e129bbab: checks
+3b59ae06: checks
+*** TURN *** [6h Jd 8c] [Kd]
+e129bbab: checks
+3b59ae06: checks
+*** RIVER *** [6h Jd 8c Kd] [3s]
+e129bbab: checks
+3b59ae06: bets $0.14
+e129bbab: calls $0.14
+3b59ae06: shows [9s Js] (a pair of Jacks)
+e129bbab: shows [Ts Ad] (Ace high)
+*** SHOWDOWN ***
+3b59ae06 collected $0.53 from pot
+*** SUMMARY ***
+Total pot $0.55 | Rake $0.02 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Board [6h Jd 8c Kd 3s]
+Seat 1: 3b59ae06 (button) showed [9s Js] and won ($0.53) with a pair of Jacks
+Seat 2: e5c0abdc (small blind) folded before Flop
+Seat 3: 483b43ed (big blind) folded before Flop
+Seat 4: Hero folded before Flop (didn't bet)
+Seat 5: 3a752de8 folded before Flop (didn't bet)
+Seat 6: e129bbab showed [Ts Ad] and lost with Ace high
+
+
+Poker Hand #RC3792442883: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:04:18
+Table 'RushAndCash10398143' 6-max Seat #1 is the button
+Seat 1: e129bbab ($6.41 in chips)
+Seat 2: 85ab9776 ($9.9 in chips)
+Seat 3: 13c250af ($14.23 in chips)
+Seat 4: Hero ($7.15 in chips)
+Seat 5: 963bea82 ($7.78 in chips)
+Seat 6: 7d18b9f8 ($6.72 in chips)
+85ab9776: posts small blind $0.02
+13c250af: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to e129bbab 
+Dealt to 85ab9776 
+Dealt to 13c250af 
+Dealt to Hero [4c 2h]
+Dealt to 963bea82 
+Dealt to 7d18b9f8 
+Hero: folds
+963bea82: raises $0.05 to $0.1
+7d18b9f8: folds
+e129bbab: folds
+85ab9776: folds
+13c250af: calls $0.05
+*** FLOP *** [6h 3h 5h]
+13c250af: checks
+963bea82: checks
+*** TURN *** [6h 3h 5h] [8d]
+13c250af: checks
+963bea82: checks
+*** RIVER *** [6h 3h 5h 8d] [3d]
+13c250af: checks
+963bea82: checks
+13c250af: shows [Ts 9s] (a pair of Threes)
+963bea82: shows [As Js] (a pair of Threes)
+*** SHOWDOWN ***
+963bea82 collected $0.21 from pot
+*** SUMMARY ***
+Total pot $0.22 | Rake $0.01 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Board [6h 3h 5h 8d 3d]
+Seat 1: e129bbab (button) folded before Flop (didn't bet)
+Seat 2: 85ab9776 (small blind) folded before Flop
+Seat 3: 13c250af (big blind) showed [Ts 9s] and lost with a pair of Threes
+Seat 4: Hero folded before Flop (didn't bet)
+Seat 5: 963bea82 showed [As Js] and won ($0.21) with a pair of Threes
+Seat 6: 7d18b9f8 folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792442771: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:04:03
+Table 'RushAndCash10398031' 6-max Seat #1 is the button
+Seat 1: Hero ($7.15 in chips)
+Seat 2: 314d0610 ($5.31 in chips)
+Seat 3: f303f0e6 ($4.7 in chips)
+Seat 4: 4975e4d0 ($5.64 in chips)
+Seat 5: 3ce6cbc8 ($12.39 in chips)
+Seat 6: 6b094315 ($5.43 in chips)
+314d0610: posts small blind $0.02
+f303f0e6: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to Hero [4s Th]
+Dealt to 314d0610 
+Dealt to f303f0e6 
+Dealt to 4975e4d0 
+Dealt to 3ce6cbc8 
+Dealt to 6b094315 
+4975e4d0: folds
+3ce6cbc8: folds
+6b094315: folds
+Hero: folds
+314d0610: raises $0.05 to $0.1
+f303f0e6: folds
+Uncalled bet ($0.05) returned to 314d0610
+*** SHOWDOWN ***
+314d0610 collected $0.1 from pot
+*** SUMMARY ***
+Total pot $0.1 | Rake $0 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: Hero (button) folded before Flop (didn't bet)
+Seat 2: 314d0610 (small blind) collected ($0.1)
+Seat 3: f303f0e6 (big blind) folded before Flop
+Seat 4: 4975e4d0 folded before Flop (didn't bet)
+Seat 5: 3ce6cbc8 folded before Flop (didn't bet)
+Seat 6: 6b094315 folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792442678: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:03:52
+Table 'RushAndCash10397938' 6-max Seat #1 is the button
+Seat 1: fd029725 ($5.21 in chips)
+Seat 2: Hero ($7.17 in chips)
+Seat 3: 9002f1fb ($5.17 in chips)
+Seat 4: e5c0abdc ($6.47 in chips)
+Seat 5: e7861585 ($5.74 in chips)
+Seat 6: 9d72cc00 ($5 in chips)
+Hero: posts small blind $0.02
+9002f1fb: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to fd029725 
+Dealt to Hero [5c Jh]
+Dealt to 9002f1fb 
+Dealt to e5c0abdc 
+Dealt to e7861585 
+Dealt to 9d72cc00 
+e5c0abdc: folds
+e7861585: folds
+9d72cc00: raises $0.1 to $0.15
+fd029725: folds
+Hero: folds
+9002f1fb: folds
+Uncalled bet ($0.1) returned to 9d72cc00
+*** SHOWDOWN ***
+9d72cc00 collected $0.12 from pot
+*** SUMMARY ***
+Total pot $0.12 | Rake $0 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: fd029725 (button) folded before Flop (didn't bet)
+Seat 2: Hero (small blind) folded before Flop
+Seat 3: 9002f1fb (big blind) folded before Flop
+Seat 4: e5c0abdc folded before Flop (didn't bet)
+Seat 5: e7861585 folded before Flop (didn't bet)
+Seat 6: 9d72cc00 collected ($0.12)
+
+
+Poker Hand #RC3792442528: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:03:33
+Table 'RushAndCash10397788' 6-max Seat #1 is the button
+Seat 1: f3679c23 ($11.14 in chips)
+Seat 2: 383fc235 ($20.49 in chips)
+Seat 3: Hero ($7.22 in chips)
+Seat 4: 7561560d ($7.45 in chips)
+Seat 5: e5654f67 ($5.55 in chips)
+Seat 6: 8a05a7b3 ($5.38 in chips)
+383fc235: posts small blind $0.02
+Hero: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to f3679c23 
+Dealt to 383fc235 
+Dealt to Hero [5c Ks]
+Dealt to 7561560d 
+Dealt to e5654f67 
+Dealt to 8a05a7b3 
+7561560d: folds
+e5654f67: raises $0.05 to $0.1
+8a05a7b3: raises $0.22 to $0.32
+f3679c23: calls $0.32
+383fc235: folds
+Hero: folds
+e5654f67: calls $0.22
+*** FLOP *** [8s 9h 5d]
+e5654f67: checks
+8a05a7b3: checks
+f3679c23: bets $0.4
+e5654f67: folds
+8a05a7b3: folds
+Uncalled bet ($0.4) returned to f3679c23
+*** SHOWDOWN ***
+f3679c23 collected $0.98 from pot
+*** SUMMARY ***
+Total pot $1.03 | Rake $0.05 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Board [8s 9h 5d]
+Seat 1: f3679c23 (button) won ($0.98)
+Seat 2: 383fc235 (small blind) folded before Flop
+Seat 3: Hero (big blind) folded before Flop
+Seat 4: 7561560d folded before Flop (didn't bet)
+Seat 5: e5654f67 folded on the Flop
+Seat 6: 8a05a7b3 folded on the Flop
+
+
+Poker Hand #RC3792442498: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:03:29
+Table 'RushAndCash10397758' 6-max Seat #1 is the button
+Seat 1: 1bdc2b7c ($8.35 in chips)
+Seat 2: 8a05a7b3 ($5.4 in chips)
+Seat 3: 383fc235 ($20.54 in chips)
+Seat 4: Hero ($7.22 in chips)
+Seat 5: 42ac3f13 ($3.42 in chips)
+Seat 6: a3f6f94e ($5.01 in chips)
+8a05a7b3: posts small blind $0.02
+383fc235: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to 1bdc2b7c 
+Dealt to 8a05a7b3 
+Dealt to 383fc235 
+Dealt to Hero [4h 7h]
+Dealt to 42ac3f13 
+Dealt to a3f6f94e 
+Hero: folds
+42ac3f13: raises $0.05 to $0.1
+a3f6f94e: folds
+1bdc2b7c: folds
+8a05a7b3: folds
+383fc235: folds
+Uncalled bet ($0.05) returned to 42ac3f13
+*** SHOWDOWN ***
+42ac3f13 collected $0.12 from pot
+*** SUMMARY ***
+Total pot $0.12 | Rake $0 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: 1bdc2b7c (button) folded before Flop (didn't bet)
+Seat 2: 8a05a7b3 (small blind) folded before Flop
+Seat 3: 383fc235 (big blind) folded before Flop
+Seat 4: Hero folded before Flop (didn't bet)
+Seat 5: 42ac3f13 collected ($0.12)
+Seat 6: a3f6f94e folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792442467: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:03:25
+Table 'RushAndCash10397727' 6-max Seat #1 is the button
+Seat 1: ef57d722 ($5.8 in chips)
+Seat 2: ac59d659 ($0.61 in chips)
+Seat 3: a84457aa ($4.73 in chips)
+Seat 4: Hero ($7.22 in chips)
+Seat 5: f40309ce ($6.19 in chips)
+Seat 6: 93a015c6 ($10.21 in chips)
+ac59d659: posts small blind $0.02
+a84457aa: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to ef57d722 
+Dealt to ac59d659 
+Dealt to a84457aa 
+Dealt to Hero [9h Ks]
+Dealt to f40309ce 
+Dealt to 93a015c6 
+Hero: folds
+f40309ce: folds
+93a015c6: folds
+ef57d722: raises $0.1 to $0.15
+ac59d659: calls $0.13
+a84457aa: folds
+*** FLOP *** [Tc 4h 5c]
+ac59d659: bets $0.18
+ef57d722: calls $0.18
+*** TURN *** [Tc 4h 5c] [6d]
+ac59d659: bets $0.28 and is all-in
+ef57d722: calls $0.28
+ac59d659: shows [4d 4c] (three of a kind, Fours)
+ef57d722: shows [Kc Jh] (King high)
+*** RIVER *** [Tc 4h 5c 6d] [Kh]
+*** SHOWDOWN ***
+ac59d659 collected $1.2 from pot
+*** SUMMARY ***
+Total pot $1.27 | Rake $0.07 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Board [Tc 4h 5c 6d Kh]
+Seat 1: ef57d722 (button) showed [Kc Jh] and lost with a pair of Kings
+Seat 2: ac59d659 (small blind) showed [4d 4c] and won ($1.2) with three of a kind, Fours
+Seat 3: a84457aa (big blind) folded before Flop
+Seat 4: Hero folded before Flop (didn't bet)
+Seat 5: f40309ce folded before Flop (didn't bet)
+Seat 6: 93a015c6 folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792442435: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:03:21
+Table 'RushAndCash10397695' 6-max Seat #1 is the button
+Seat 1: d229229a ($2.78 in chips)
+Seat 2: 6347217 ($2.29 in chips)
+Seat 3: 4bc5dd2 ($5.26 in chips)
+Seat 4: 9038f1e3 ($5.67 in chips)
+Seat 5: 1f8aa7ed ($10.7 in chips)
+Seat 6: Hero ($7.22 in chips)
+6347217: posts small blind $0.02
+4bc5dd2: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to d229229a 
+Dealt to 6347217 
+Dealt to 4bc5dd2 
+Dealt to 9038f1e3 
+Dealt to 1f8aa7ed 
+Dealt to Hero [4c Td]
+9038f1e3: folds
+1f8aa7ed: folds
+Hero: folds
+d229229a: raises $0.08 to $0.13
+6347217: calls $0.11
+4bc5dd2: folds
+*** FLOP *** [Jd 5h 2s]
+6347217: bets $0.16
+d229229a: folds
+Uncalled bet ($0.16) returned to 6347217
+*** SHOWDOWN ***
+6347217 collected $0.3 from pot
+*** SUMMARY ***
+Total pot $0.31 | Rake $0.01 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Board [Jd 5h 2s]
+Seat 1: d229229a (button) folded on the Flop
+Seat 2: 6347217 (small blind) won ($0.3)
+Seat 3: 4bc5dd2 (big blind) folded before Flop
+Seat 4: 9038f1e3 folded before Flop (didn't bet)
+Seat 5: 1f8aa7ed folded before Flop (didn't bet)
+Seat 6: Hero folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792442259: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:03:00
+Table 'RushAndCash10397519' 6-max Seat #1 is the button
+Seat 1: Hero ($7.22 in chips)
+Seat 2: c97bb460 ($13.75 in chips)
+Seat 3: 6c33ba25 ($5.02 in chips)
+Seat 4: cd607d85 ($7.12 in chips)
+Seat 5: 1a0d68e2 ($1.24 in chips)
+Seat 6: 6d0a5874 ($4.59 in chips)
+c97bb460: posts small blind $0.02
+6c33ba25: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to Hero [5c 8s]
+Dealt to c97bb460 
+Dealt to 6c33ba25 
+Dealt to cd607d85 
+Dealt to 1a0d68e2 
+Dealt to 6d0a5874 
+cd607d85: folds
+1a0d68e2: folds
+6d0a5874: folds
+Hero: folds
+c97bb460: folds
+Uncalled bet ($0.03) returned to 6c33ba25
+*** SHOWDOWN ***
+6c33ba25 collected $0.04 from pot
+*** SUMMARY ***
+Total pot $0.04 | Rake $0 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: Hero (button) folded before Flop (didn't bet)
+Seat 2: c97bb460 (small blind) folded before Flop
+Seat 3: 6c33ba25 (big blind) collected ($0.04)
+Seat 4: cd607d85 folded before Flop (didn't bet)
+Seat 5: 1a0d68e2 folded before Flop (didn't bet)
+Seat 6: 6d0a5874 folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792442179: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:02:50
+Table 'RushAndCash10397439' 6-max Seat #1 is the button
+Seat 1: 87c24888 ($8.31 in chips)
+Seat 2: Hero ($7.24 in chips)
+Seat 3: 284a071a ($20.15 in chips)
+Seat 4: 190c2072 ($5.58 in chips)
+Seat 5: 8fce321a ($4.89 in chips)
+Seat 6: 3cfafb83 ($4.58 in chips)
+Hero: posts small blind $0.02
+284a071a: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to 87c24888 
+Dealt to Hero [3s Qs]
+Dealt to 284a071a 
+Dealt to 190c2072 
+Dealt to 8fce321a 
+Dealt to 3cfafb83 
+190c2072: raises $0.05 to $0.1
+8fce321a: folds
+3cfafb83: folds
+87c24888: folds
+Hero: folds
+284a071a: folds
+Uncalled bet ($0.05) returned to 190c2072
+*** SHOWDOWN ***
+190c2072 collected $0.12 from pot
+*** SUMMARY ***
+Total pot $0.12 | Rake $0 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: 87c24888 (button) folded before Flop (didn't bet)
+Seat 2: Hero (small blind) folded before Flop
+Seat 3: 284a071a (big blind) folded before Flop
+Seat 4: 190c2072 collected ($0.12)
+Seat 5: 8fce321a folded before Flop (didn't bet)
+Seat 6: 3cfafb83 folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792442053: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:02:36
+Table 'RushAndCash10397313' 6-max Seat #1 is the button
+Seat 1: b2fd82d6 ($8.91 in chips)
+Seat 2: b6a25fb3 ($5 in chips)
+Seat 3: Hero ($7.29 in chips)
+Seat 4: f6e0532c ($5.07 in chips)
+Seat 5: d97c3453 ($10.33 in chips)
+Seat 6: ee6e3573 ($4.1 in chips)
+b6a25fb3: posts small blind $0.02
+Hero: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to b2fd82d6 
+Dealt to b6a25fb3 
+Dealt to Hero [Qs 2h]
+Dealt to f6e0532c 
+Dealt to d97c3453 
+Dealt to ee6e3573 
+f6e0532c: folds
+d97c3453: folds
+ee6e3573: raises $0.08 to $0.13
+b2fd82d6: folds
+b6a25fb3: folds
+Hero: folds
+Uncalled bet ($0.08) returned to ee6e3573
+*** SHOWDOWN ***
+ee6e3573 collected $0.12 from pot
+*** SUMMARY ***
+Total pot $0.12 | Rake $0 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: b2fd82d6 (button) folded before Flop (didn't bet)
+Seat 2: b6a25fb3 (small blind) folded before Flop
+Seat 3: Hero (big blind) folded before Flop
+Seat 4: f6e0532c folded before Flop (didn't bet)
+Seat 5: d97c3453 folded before Flop (didn't bet)
+Seat 6: ee6e3573 collected ($0.12)
+
+
+Poker Hand #RC3792442020: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:02:32
+Table 'RushAndCash10397280' 6-max Seat #1 is the button
+Seat 1: f38975fa ($4.72 in chips)
+Seat 2: 63660286 ($16.46 in chips)
+Seat 3: a2349379 ($5.14 in chips)
+Seat 4: 1f9d1659 ($7.68 in chips)
+Seat 5: 679d248a ($5.44 in chips)
+Seat 6: Hero ($7.29 in chips)
+63660286: posts small blind $0.02
+a2349379: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to f38975fa 
+Dealt to 63660286 
+Dealt to a2349379 
+Dealt to 1f9d1659 
+Dealt to 679d248a 
+Dealt to Hero [2h Kc]
+1f9d1659: folds
+679d248a: folds
+Hero: folds
+f38975fa: raises $0.05 to $0.1
+63660286: folds
+a2349379: folds
+Uncalled bet ($0.05) returned to f38975fa
+*** SHOWDOWN ***
+f38975fa collected $0.12 from pot
+*** SUMMARY ***
+Total pot $0.12 | Rake $0 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: f38975fa (button) collected ($0.12)
+Seat 2: 63660286 (small blind) folded before Flop
+Seat 3: a2349379 (big blind) folded before Flop
+Seat 4: 1f9d1659 folded before Flop (didn't bet)
+Seat 5: 679d248a folded before Flop (didn't bet)
+Seat 6: Hero folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792441994: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:02:28
+Table 'RushAndCash10397254' 6-max Seat #1 is the button
+Seat 1: 171133 ($4.56 in chips)
+Seat 2: 3335204c ($10.52 in chips)
+Seat 3: 2132daad ($14.93 in chips)
+Seat 4: 25c1b287 ($5 in chips)
+Seat 5: Hero ($7.29 in chips)
+Seat 6: c89fee04 ($6.95 in chips)
+3335204c: posts small blind $0.02
+2132daad: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to 171133 
+Dealt to 3335204c 
+Dealt to 2132daad 
+Dealt to 25c1b287 
+Dealt to Hero [Ks 2h]
+Dealt to c89fee04 
+25c1b287: folds
+Hero: folds
+c89fee04: raises $0.05 to $0.1
+171133: folds
+3335204c: folds
+2132daad: folds
+Uncalled bet ($0.05) returned to c89fee04
+*** SHOWDOWN ***
+c89fee04 collected $0.12 from pot
+*** SUMMARY ***
+Total pot $0.12 | Rake $0 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: 171133 (button) folded before Flop (didn't bet)
+Seat 2: 3335204c (small blind) folded before Flop
+Seat 3: 2132daad (big blind) folded before Flop
+Seat 4: 25c1b287 folded before Flop (didn't bet)
+Seat 5: Hero folded before Flop (didn't bet)
+Seat 6: c89fee04 collected ($0.12)
+
+
+Poker Hand #RC3792441961: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:02:25
+Table 'RushAndCash10397221' 6-max Seat #1 is the button
+Seat 1: a9bc3d85 ($7.48 in chips)
+Seat 2: 6f598792 ($10.27 in chips)
+Seat 3: 88e1aa95 ($7.93 in chips)
+Seat 4: d4f1c9d8 ($6.31 in chips)
+Seat 5: 6baca7ae ($1.8 in chips)
+Seat 6: Hero ($7.29 in chips)
+6f598792: posts small blind $0.02
+88e1aa95: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to a9bc3d85 
+Dealt to 6f598792 
+Dealt to 88e1aa95 
+Dealt to d4f1c9d8 
+Dealt to 6baca7ae 
+Dealt to Hero [6h 7s]
+d4f1c9d8: folds
+6baca7ae: folds
+Hero: folds
+a9bc3d85: folds
+6f598792: folds
+Uncalled bet ($0.03) returned to 88e1aa95
+*** SHOWDOWN ***
+88e1aa95 collected $0.04 from pot
+*** SUMMARY ***
+Total pot $0.04 | Rake $0 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: a9bc3d85 (button) folded before Flop (didn't bet)
+Seat 2: 6f598792 (small blind) folded before Flop
+Seat 3: 88e1aa95 (big blind) collected ($0.04)
+Seat 4: d4f1c9d8 folded before Flop (didn't bet)
+Seat 5: 6baca7ae folded before Flop (didn't bet)
+Seat 6: Hero folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792441925: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:02:21
+Table 'RushAndCash10397185' 6-max Seat #1 is the button
+Seat 1: 8d187102 ($4.92 in chips)
+Seat 2: 424b873e ($5 in chips)
+Seat 3: 84ff4816 ($19.17 in chips)
+Seat 4: Hero ($7.29 in chips)
+Seat 5: 9bd433da ($8.62 in chips)
+Seat 6: f341ac70 ($9.49 in chips)
+424b873e: posts small blind $0.02
+84ff4816: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to 8d187102 
+Dealt to 424b873e 
+Dealt to 84ff4816 
+Dealt to Hero [8c 3c]
+Dealt to 9bd433da 
+Dealt to f341ac70 
+Hero: folds
+9bd433da: folds
+f341ac70: raises $0.1 to $0.15
+8d187102: folds
+424b873e: folds
+84ff4816: folds
+Uncalled bet ($0.1) returned to f341ac70
+*** SHOWDOWN ***
+f341ac70 collected $0.12 from pot
+*** SUMMARY ***
+Total pot $0.12 | Rake $0 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: 8d187102 (button) folded before Flop (didn't bet)
+Seat 2: 424b873e (small blind) folded before Flop
+Seat 3: 84ff4816 (big blind) folded before Flop
+Seat 4: Hero folded before Flop (didn't bet)
+Seat 5: 9bd433da folded before Flop (didn't bet)
+Seat 6: f341ac70 collected ($0.12)
+
+
+Poker Hand #RC3792441581: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:01:38
+Table 'RushAndCash10396841' 6-max Seat #1 is the button
+Seat 1: Hero ($6.48 in chips)
+Seat 2: e0680574 ($11.42 in chips)
+Seat 3: 8d187102 ($5.21 in chips)
+Seat 4: f2bf8e49 ($8.76 in chips)
+Seat 5: 3ce6cbc8 ($12 in chips)
+Seat 6: 155f8785 ($6.15 in chips)
+e0680574: posts small blind $0.02
+8d187102: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to Hero [As 6s]
+Dealt to e0680574 
+Dealt to 8d187102 
+Dealt to f2bf8e49 
+Dealt to 3ce6cbc8 
+Dealt to 155f8785 
+f2bf8e49: folds
+3ce6cbc8: folds
+155f8785: folds
+Hero: raises $0.05 to $0.1
+e0680574: calls $0.08
+8d187102: calls $0.05
+*** FLOP *** [6d Ad 7c]
+e0680574: bets $0.05
+8d187102: raises $0.14 to $0.19
+Hero: raises $0.37 to $0.56
+e0680574: calls $0.51
+8d187102: folds
+*** TURN *** [6d Ad 7c] [3s]
+e0680574: checks
+Hero: bets $2
+e0680574: folds
+Uncalled bet ($2) returned to Hero
+*** SHOWDOWN ***
+Hero collected $1.47 from pot
+*** SUMMARY ***
+Total pot $1.61 | Rake $0.07 | Jackpot $0.07 | Bingo $0 | Fortune $0 | Tax $0
+Board [6d Ad 7c 3s]
+Seat 1: Hero (button) won ($1.47)
+Seat 2: e0680574 (small blind) folded on the Turn
+Seat 3: 8d187102 (big blind) folded on the Flop
+Seat 4: f2bf8e49 folded before Flop (didn't bet)
+Seat 5: 3ce6cbc8 folded before Flop (didn't bet)
+Seat 6: 155f8785 folded before Flop (didn't bet)
+
+
+Poker Hand #RC3792440785: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 23:00:00
+Table 'RushAndCash10396045' 6-max Seat #1 is the button
+Seat 1: 109345e8 ($5.44 in chips)
+Seat 2: Hero ($5.14 in chips)
+Seat 3: 8a05a7b3 ($5.19 in chips)
+Seat 4: 3786c4fb ($4.93 in chips)
+Seat 5: c97bb460 ($13.82 in chips)
+Seat 6: 3ce6cbc8 ($13.5 in chips)
+Hero: posts small blind $0.02
+8a05a7b3: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to 109345e8 
+Dealt to Hero [Qc Qh]
+Dealt to 8a05a7b3 
+Dealt to 3786c4fb 
+Dealt to c97bb460 
+Dealt to 3ce6cbc8 
+3786c4fb: folds
+c97bb460: folds
+3ce6cbc8: raises $0.06 to $0.11
+109345e8: folds
+Hero: raises $0.27 to $0.38
+8a05a7b3: folds
+3ce6cbc8: raises $0.52 to $0.9
+Hero: calls $0.52
+*** FLOP *** [9s Jc Qd]
+Hero: checks
+3ce6cbc8: bets $0.6
+Hero: calls $0.6
+*** TURN *** [9s Jc Qd] [Jd]
+Hero: checks
+3ce6cbc8: checks
+*** RIVER *** [9s Jc Qd Jd] [2c]
+Hero: bets $3.64 and is all-in
+3ce6cbc8: folds
+Uncalled bet ($3.64) returned to Hero
+*** SHOWDOWN ***
+Hero collected $2.84 from pot
+*** SUMMARY ***
+Total pot $3.05 | Rake $0.14 | Jackpot $0.07 | Bingo $0 | Fortune $0 | Tax $0
+Board [9s Jc Qd Jd 2c]
+Seat 1: 109345e8 (button) folded before Flop (didn't bet)
+Seat 2: Hero (small blind) won ($2.84)
+Seat 3: 8a05a7b3 (big blind) folded before Flop
+Seat 4: 3786c4fb folded before Flop (didn't bet)
+Seat 5: c97bb460 folded before Flop (didn't bet)
+Seat 6: 3ce6cbc8 folded on the River
+
+
+Poker Hand #RC3792440599: Hold'em No Limit ($0.02/$0.05) - 2025/08/08 22:59:37
+Table 'RushAndCash10395859' 6-max Seat #1 is the button
+Seat 1: 72b796ef ($5.73 in chips)
+Seat 2: ddd130a4 ($16.18 in chips)
+Seat 3: Hero ($5 in chips)
+Seat 4: 37741d69 ($5 in chips)
+Seat 5: 93fe791b ($6.75 in chips)
+Seat 6: 1394456e ($12.1 in chips)
+ddd130a4: posts small blind $0.02
+Hero: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to 72b796ef 
+Dealt to ddd130a4 
+Dealt to Hero [Js Jh]
+Dealt to 37741d69 
+Dealt to 93fe791b 
+Dealt to 1394456e 
+37741d69: folds
+93fe791b: folds
+1394456e: folds
+72b796ef: folds
+ddd130a4: raises $0.1 to $0.15
+Hero: raises $0.3 to $0.45
+ddd130a4: folds
+Uncalled bet ($0.3) returned to Hero
+*** SHOWDOWN ***
+Hero collected $0.29 from pot
+*** SUMMARY ***
+Total pot $0.3 | Rake $0.01 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+Seat 1: 72b796ef (button) folded before Flop (didn't bet)
+Seat 2: ddd130a4 (small blind) folded before Flop
+Seat 3: Hero (big blind) collected ($0.29)
+Seat 4: 37741d69 folded before Flop (didn't bet)
+Seat 5: 93fe791b folded before Flop (didn't bet)
+Seat 6: 1394456e folded before Flop (didn't bet)
+
+
