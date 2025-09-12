@@ -76,6 +76,9 @@
 ├── index.html              \# 主 HTML 檔案  
 ├── package.json            \# 專案依賴與腳本  
 ├── vite.config.js          \# Vite 設定檔  
+├── demo_data/
+│   ├── lite_data/          \# 輕量版本測試的手牌資訊100手左右
+│   └── 10000_data/         \# 一萬手的手牌資訊
 └── src/  
     ├── main.js             \# 應用程式主進入點  
     ├── style.css           \# CSS 樣式  

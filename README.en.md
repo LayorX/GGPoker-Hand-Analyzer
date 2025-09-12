@@ -76,6 +76,9 @@ We have a grand vision for this tool and, with the community's help, we plan to 
 ├── index.html              \# Main HTML file  
 ├── package.json            \# Project dependencies and scripts  
 ├── vite.config.js          \# Vite config file  
+├── demo_data/
+│   ├── lite_data/          \# Hand history data for lightweight testing (approx. 100 hands)
+│   └── 10000_data/         \# Hand history data for 10,000 hands
 └── src/  
     ├── main.js             \# App entry point  
     ├── style.css           \# CSS styles  
