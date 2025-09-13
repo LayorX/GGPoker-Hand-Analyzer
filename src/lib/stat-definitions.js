@@ -79,6 +79,44 @@ export const STAT_DEFINITIONS = {
         }
     },
 
+    total_profit_with_rake: {
+        nameKey: 'total_profit_with_rake',
+        tooltipKey: 'tooltip_total_profit_with_rake',
+        type: 'money',
+        category: 'win_rate',
+        init: () => ({ value: 0 }),
+        process: (handContext, stat) => {
+            stat.value += handContext.hero.result;
+        }
+    },
+
+    bb_with_rake_per_100: {
+        nameKey: 'bb_with_rake_per_100',
+        tooltipKey: 'tooltip_bb_with_rake_per_100',
+        type: 'bb',
+        category: 'win_rate',
+    },
+
+    profit_with_rake_bb: {
+        nameKey: 'profit_with_rake_bb',
+        tooltipKey: 'tooltip_profit_with_rake_bb',
+        type: 'bb',
+        category: 'win_rate',
+    },
+
+    total_jackpot: {
+        nameKey: 'total_jackpot',
+        tooltipKey: 'tooltip_total_jackpot',
+        type: 'money',
+        category: 'win_rate',
+        init: () => ({ value: 0 }),
+        process: (handContext, stat) => {
+            if (handContext.isHeroWinner) {
+                stat.value += (handContext.hand.info.jackpot || 0);
+            }
+        }
+    },
+
     // --- Session 資訊 ---
     total_hands: {
         nameKey: 'total_hands',
@@ -101,6 +139,12 @@ export const STAT_DEFINITIONS = {
     profit_per_hour: {
         nameKey: 'profit_per_hour',
         tooltipKey: 'tooltip_profit_per_hour',
+        type: 'money',
+        category: 'session'
+    },
+    profit_with_rake_per_hour: {
+        nameKey: 'profit_with_rake_per_hour',
+        tooltipKey: 'tooltip_profit_with_rake_per_hour',
         type: 'money',
         category: 'session'
     },
@@ -296,10 +340,18 @@ export const STAT_DEFINITIONS = {
         category: 'postflop_aggressor',
         init: () => ({ opportunities: 0, actions: 0 }),
         process: (handContext, stat) => {
+            // **修正 CBet 邏輯**
             if (handContext.hero.isPreflopAggressor) {
-                stat.opportunities++;
-                if (handContext.flop.heroActions.some(a => a.action === 'bets')) {
-                    stat.actions++;
+                // CBet 機會只有在 Hero 是第一個行動，或是前面所有人都 check 給他時才成立
+                const heroActionIndex = handContext.flop.actions.findIndex(a => a.seat === handContext.hero.seat);
+                const actionsBeforeHero = heroActionIndex > -1 ? handContext.flop.actions.slice(0, heroActionIndex) : [];
+                const canCbet = actionsBeforeHero.every(a => a.action === 'checks');
+
+                if (canCbet) {
+                    stat.opportunities++;
+                    if (handContext.flop.heroActions.some(a => a.action === 'bets')) {
+                        stat.actions++;
+                    }
                 }
             }
         }
@@ -571,3 +623,4 @@ export const STAT_DEFINITIONS = {
         }
     }
 };
+

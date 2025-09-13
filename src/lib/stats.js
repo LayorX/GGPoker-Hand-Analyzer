@@ -74,9 +74,14 @@ function createHandContext(hand) {
     const heroPreflopActions = preflopActions.filter(a => a.seat === heroSeat);
     const lastPreflopRaiser = [...preflopActions].filter(a => a.action === 'raises').pop();
     const preflopAggressorSeat = lastPreflopRaiser ? lastPreflopRaiser.seat : null;
+    
     const firstActionIndex = preflopActions.findIndex(a => a.seat === heroSeat);
     const actionsBeforeHero = firstActionIndex > -1 ? preflopActions.slice(0, firstActionIndex) : [];
+    
     const raisesBeforeHero = actionsBeforeHero.filter(a => a.action === 'raises');
+    // **修正 Squeeze 邏輯**: 正確計算 Hero 前的跟注者
+    const callsBeforeHero = actionsBeforeHero.filter(a => a.action === 'calls' && a.seat !== heroSeat);
+    
     const facedPreflopRaise = raisesBeforeHero.length > 0;
     const raisesAfterHero = firstActionIndex > -1 && heroPreflopActions.some(a => a.action === 'raises') ? preflopActions.slice(firstActionIndex + 1).filter(a => a.action === 'raises') : [];
     
@@ -86,27 +91,28 @@ function createHandContext(hand) {
     const sawRiver = sawTurn && hand.streets.river.board.length > 0;
     const reachedShowdown = sawRiver && !hand.streets.river.actions.some(a => a.seat === heroSeat && a.action === 'folds');
 
-    // HERO'S ROLE
-    const isHeroPreflopAggressor = sawFlop && heroSeat === preflopAggressorSeat;
-    const heroCalledPreflop = heroPreflopActions.some(a => a.action === 'calls');
-    const isHeroPreflopCaller = sawFlop && preflopAggressorSeat !== null && heroSeat !== preflopAggressorSeat && heroCalledPreflop;
+    // **修正角色判斷邏輯**
+    const isHeroPreflopAggressor = sawFlop && preflopAggressorSeat === heroSeat;
+    const heroMadeVPIPAction = heroPreflopActions.some(a => a.action === 'calls' || a.action === 'raises');
+    const isHeroPreflopCaller = sawFlop && heroMadeVPIPAction && !isHeroPreflopAggressor;
+
 
     // FLOP CONTEXT
     const flopActions = hand.streets.flop.actions;
     const heroFlopActions = flopActions.filter(a => a.seat === heroSeat);
     const aggressorActionOnFlop = flopActions.find(a => a.seat === preflopAggressorSeat);
-    const aggressorCBet = !!(aggressorActionOnFlop && aggressorActionOnFlop.action === 'bets');
-    const aggressorMissedCBet = !!(aggressorActionOnFlop && aggressorActionOnFlop.action === 'checks');
+    const aggressorCBet = !!(isHeroPreflopAggressor === false && aggressorActionOnFlop && aggressorActionOnFlop.action === 'bets');
+    const aggressorMissedCBet = !!(isHeroPreflopAggressor === false && aggressorActionOnFlop && aggressorActionOnFlop.action === 'checks');
     const flopCheckedThrough = sawFlop && flopActions.length > 0 && flopActions.every(a => a.action === 'checks');
 
     // POSITION CONTEXT
     let isHeroInPosition = false;
     if (sawFlop && preflopAggressorSeat && preflopAggressorSeat !== heroSeat) {
-        const aggressorActionIndex = flopActions.findIndex(a => a.seat === preflopAggressorSeat);
-        const heroActionIndex = flopActions.findIndex(a => a.seat === heroSeat);
+        const aggressorActionIndex = flopActions.map(a=>a.seat).indexOf(preflopAggressorSeat);
+        const heroActionIndex = flopActions.map(a=>a.seat).indexOf(heroSeat);
         if (aggressorActionIndex > -1 && heroActionIndex > -1) {
             isHeroInPosition = heroActionIndex > aggressorActionIndex;
-        } else if (hand.players.length === 2) { // Headsup pot fallback
+        } else if (hand.players.length === 2) { 
              isHeroInPosition = hand.hero.position === 'BTN';
         }
     }
@@ -118,14 +124,14 @@ function createHandContext(hand) {
             position: heroPos,
             result: hand.hero.result,
             isVpipOpportunity: heroPos !== 'BB' || facedPreflopRaise,
-            isPreflopAggressor,
-            isPreflopCaller,
+            isPreflopAggressor: isHeroPreflopAggressor,
+            isPreflopCaller: isHeroPreflopCaller,
         },
         preflop: {
             actions: preflopActions,
             heroActions: heroPreflopActions,
             raisesBeforeHero,
-            callsBeforeHero: actionsBeforeHero.filter(a => a.action === 'calls'),
+            callsBeforeHero,
             facedRaise: facedPreflopRaise,
             faced3Bet: raisesAfterHero.length > 0
         },
@@ -286,14 +292,19 @@ export function finalizeStats(stats) {
             final[`${key}_p`] = toPercent(totalAgg, totalActions);
         }
     }
-    
+    final.total_profit_with_rake = { value: final.total_profit.value + final.total_rake.value };
+    final.total_jackpot = { value: final.total_jackpot.value };
     final.bb_per_100 = { value: totalHands > 0 ? (final.total_profit.value / stats.bbSize) / (totalHands / 100) : 0 };
+    final.bb_with_rake_per_100 = { value: totalHands > 0 ? ((final.total_profit.value+final.total_rake.value) / stats.bbSize) / (totalHands / 100) : 0 };
     final.profit_bb = { value: stats.bbSize > 0 ? (final.total_profit.value / stats.bbSize) : 0 };
+    final.profit_with_rake_bb = { value: stats.bbSize > 0 ? ((final.total_profit.value +final.total_rake.value)/ stats.bbSize) : 0 };
     
     const durationInHours = stats.actualPlayingDurationMinutes / 60;
     final.total_duration = { value: stats.actualPlayingDurationMinutes };
     final.hands_per_hour = { value: durationInHours > 0.01 ? totalHands / durationInHours : 0 };
     final.profit_per_hour = { value: durationInHours > 0.01 ? final.total_profit.value / durationInHours : 0 };
+    final.profit_with_rake_per_hour = { value: durationInHours > 0.01 ? final.total_profit_with_rake.value / durationInHours : 0 };
+
 
     // --- 計算各位置的衍生數據 ---
     Object.keys(final.byPosition).forEach(pos => {
@@ -324,3 +335,4 @@ export function finalizeStats(stats) {
 
     return final;
 }
+

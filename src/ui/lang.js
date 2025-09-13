@@ -43,12 +43,17 @@ const translations = {
         total_profit: "總營利", tooltip_total_profit: "您的總盈利或虧損金額。",
         bb_per_100: "BB/100", tooltip_bb_per_100: "每100手牌的平均盈利（以大盲為單位）。這是衡量您真實勝率的核心指標。",
         profit_bb: "總盈虧(BB)", tooltip_profit_bb: "以大盲注為單位的總盈利或虧損。",
-        total_rake: "總水錢", tooltip_total_rake: "您在此會話中貢獻的總水錢金額。",
-        
+        total_rake: "總水錢", tooltip_total_rake: "您在此會話中貢獻的總水錢金額(包含基本抽水加上Jackpot抽水)。",
+        total_profit_with_rake: "總營利 (含水錢)", tooltip_total_profit_with_rake: "您的總營利或虧損金額，包含您贏得的底池和貢獻的水錢。",
+        bb_with_rake_per_100: "BB/100 (含水錢)", tooltip_bb_with_rake_per_100: "每100手牌的平均盈利（以大盲為單位），已將水錢計入。這是衡量您真實勝率的核心指標。",
+        profit_with_rake_bb: "總盈虧 (含水錢，BB)", tooltip_profit_with_rake_bb: "以大盲注為單位的總盈利或虧損，包含水錢。",
+        total_jackpot: "總Jackpot", tooltip_total_jackpot: "您在牌局中累積的 Jackpot 總金額。",
+        profit_with_rake_per_hour: "時薪 (含水錢, $)", tooltip_profit_with_rake_per_hour: "以美金計算的平均每小時盈利，已將水錢計入。",
+
         vpip: "VPIP", tooltip_vpip: "自願投錢入池率 (Voluntarily Put in Pot)。衡量您玩牌鬆緊的關鍵指標。理想範圍約在 20-28%。",
         pfr: "PFR", tooltip_pfr: "翻前加注率 (Pre-Flop Raise)。衡量您翻前攻擊性的指標。理想範圍約在 15-23%。",
         limp: "溜入率", tooltip_limp: "在無人加注的情況下，您第一個入池的方式是跟注而非加注的頻率。高水平玩家此數據趨近於0。",
-        
+
         "3bet": "3Bet PF", tooltip_3bet: "翻前再加注率。面對一個開局加注時，您再加注的頻率。理想範圍約在 7-12%。",
         "4bet": "4Bet PF", tooltip_4bet: "翻前4Bet率。面對一個3-Bet時，您再加注的頻率。",
         fold_vs_3bet: "棄牌給3Bet", tooltip_fold_vs_3bet: "您在開局加注後，面對3-Bet時棄牌的頻率。過高 (>65%) 表示您的開局範圍易受攻擊。",
@@ -174,12 +179,19 @@ const translations = {
         winrate_by_weekday: "Win Rate by Day of the Week (BB/100)", winrate_by_hour: "Win Rate by Hour (BB/100)",
         player_style_radar: "Player Style Radar Chart",
 
+
         // --- Metrics & Tooltips ---
         total_hands: "Total Hands", tooltip_total_hands: "The total number of hands analyzed.",
         total_profit: "Total Profit", tooltip_total_profit: "Your total profit or loss amount.",
         bb_per_100: "BB/100", tooltip_bb_per_100: "Average profit per 100 hands in big blinds. This is a core metric for your true win rate.",
         profit_bb: "Total Profit (BB)", tooltip_profit_bb: "Total profit or loss in terms of big blinds.",
-        total_rake: "Total Rake", tooltip_total_rake: "The total amount of rake you contributed.",
+        total_rake: "Total Rake", tooltip_total_rake: "The total amount of rake you contributed(w/ Rake & Jackpot).",
+        total_profit_with_rake: "Total Profit (w/ Rake)", tooltip_total_profit_with_rake: "Your total profit or loss, including pots won and rake contributed.",
+        bb_with_rake_per_100: "BB/100 (w/ Rake)", tooltip_bb_with_rake_per_100: "Average profit per 100 hands in big blinds, with rake considered. This is a core metric for your true win rate.",
+        profit_with_rake_bb: "Total Profit (w/ Rake, BB)", tooltip_profit_with_rake_bb: "Your total profit or loss in big blinds, including rake.",
+        total_jackpot: "Total Jackpot", tooltip_total_jackpot: "The total jackpot amount you've accumulated in your hands.",
+        
+
 
         vpip: "VPIP", tooltip_vpip: "Voluntarily Put in Pot. Measures how loose/tight you play. Ideal range is around 20-28%.",
         pfr: "PFR", tooltip_pfr: "Pre-Flop Raise. Measures your preflop aggression. Ideal range is around 15-23%.",
@@ -221,6 +233,8 @@ const translations = {
         total_duration: "Total Duration", tooltip_total_duration: "Total duration of all sessions. A new session starts after a 45-minute break.",
         hands_per_hour: "Hands/Hour", tooltip_hands_per_hour: "Average number of hands played per hour.",
         profit_per_hour: "Profit/Hour ($)", tooltip_profit_per_hour: "Average profit per hour in USD.",
+        profit_with_rake_per_hour: "Profit/Hour (w/ Rake, $)", tooltip_profit_with_rake_per_hour: "Average profit per hour in USD, with rake considered.",
+
         tooltip_delete_file: "Delete this file",
 
         // --- Recommendations ---
@@ -272,7 +286,7 @@ const translations = {
     }
 };
 
-let currentLanguage = 'zh';
+let currentLanguage = 'en';
 
 export function setLanguage(lang) {
     return new Promise((resolve) => {

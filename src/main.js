@@ -208,7 +208,6 @@ function handleAnalyzeAllFiles() {
             }
             
             jsonFiles.length>0?AppState.rawStats = mergeStats(...allStatsToMerge):console.dir(allStatsToMerge);
-            console.dir(AppState.rawStats);
             runAnalysisAndRender();
 
         } catch (error) {
