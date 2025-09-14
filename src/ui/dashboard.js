@@ -23,9 +23,7 @@ const chartInstances = {};
 const UI_CONFIG = {
     overview: {
         sections: [
-            { titleKey: 'win_rate_stats', grid: 'grid-cols-2 md:grid-cols-4', statIds: ['total_profit', 'bb_per_100', 'profit_bb', 'total_rake',
-                    'total_profit_with_rake', 'bb_with_rake_per_100', 'profit_with_rake_bb', 'total_jackpot']
-            },
+            { titleKey: 'win_rate_stats', grid: 'grid-cols-2 md:grid-cols-4', statIds: ['total_profit_with_rake', 'bb_with_rake_per_100', 'profit_with_rake_per_hour', 'profit_with_rake_bb'] },
             { titleKey: 'preflop_style', grid: 'grid-cols-2 md:grid-cols-4', statIds: ['vpip', 'pfr', '3bet', 'steal_attempt'] },
             { titleKey: 'postflop_play', grid: 'grid-cols-2 md:grid-cols-4', statIds: ['cbet_flop', 'wtsd', 'wtsd_won', 'afq_flop'] },
             { titleKey: 'session_info', grid: 'grid-cols-2 md:grid-cols-4', statIds: ['total_hands', 'total_duration', 'hands_per_hour', 'total_rake'] },
@@ -325,37 +323,40 @@ export function renderAboutTab() {
     if (!container) return;
     container.innerHTML = `
         <div class="surface p-6 rounded-lg shadow-md prose prose-neutral dark:prose-invert max-w-none">
+            <a href="https://github.com/Layorx/GGPoker-Hand-Analyzer" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2 text-dim hover:text-inherit no-underline mb-6 not-prose">
+                <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 fill-current"><title>GitHub</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297 24 5.67 18.627.297 12 .297z"/></svg>
+                <span data-lang="about_github_link"></span>
+            </a>
             <h2 data-lang="about_title"></h2>
             <p data-lang="about_p1"></p>
-            <p data-lang="about_p2"></p>
-            <h4 class="text-xl font-semibold mt-6" data-lang="report_strengths_title">工具優勢 (Strengths)</h4>
+            <h4 class="text-xl font-semibold mt-6" data-lang="report_strengths_title"></h4>
             <ul>
-                <li data-lang="report_strength1"><strong>完全免費且開源：</strong> 無任何使用成本，程式碼透明，具備高度信任感。</li>
-                <li data-lang="report_strength2"><strong>高度隱私保護：</strong> 所有運算均在使用者本機端完成，手牌數據不經過任何伺服器，無數據外洩風險。</li>
-                <li data-lang="report_strength3"><strong>跨平台、免安裝：</strong> 只需要瀏覽器即可運作，方便在任何裝置上使用。</li>
-                <li data-lang="report_strength4"><strong>數據可攜與累積：</strong> 分析結果可匯出成 JSON 檔案，方便使用者自行備份，並可在下次合併分析，實現長期數據追蹤。</li>
-                 <li data-lang="report_strength5"><strong>直觀的數據視覺化：</strong> 提供圖表化呈現，比單純閱讀文字檔更易於理解自己的表現趨勢。</li>
+                <li data-lang="report_strength1"></li>
+                <li data-lang="report_strength2"></li>
+                <li data-lang="report_strength3"></li>
+                <li data-lang="report_strength4"></li>
+                <li data-lang="report_strength5"></li>
             </ul>
-            <h4 class="text-xl font-semibold mt-6" data-lang="report_weaknesses_title">工具劣勢 (Weaknesses)</h4>
+            <h4 class="text-xl font-semibold mt-6" data-lang="report_weaknesses_title"></h4>
             <ul>
-                <li data-lang="report_weakness1"><strong>無即時 HUD 功能：</strong> 與專業軟體 (如 PT4, HM3) 相比，無法在牌桌上即時顯示對手數據。</li>
-                <li data-lang="report_weakness2"><strong>依賴手動上傳：</strong> 需要手動從 GGPoker 客戶端導出紀錄並上傳，操作上不如自動匯入的軟體便利。</li>
-                <li data-lang="report_weakness3"><strong>數據維度較基礎：</strong> 目前提供的數據指標雖然核心，但與專業軟體相比仍不夠細緻 (例如：缺少特定牌型組合的獲利分析)。</li>
-                <li data-lang="report_weakness4"><strong>前端計算效能瓶頸：</strong> 當手牌數量達到數十萬甚至百萬級別時，純前端 JavaScript 計算可能遇到效能瓶頸，導致分析時間過長或瀏覽器卡頓。</li>
-                <li data-lang="report_weakness5"><strong>缺乏對手分析功能：</strong> 工具完全聚焦在使用者 (Hero) 本身的數據，無法建立對手資料庫進行針對性分析。</li>
+                <li data-lang="report_weakness1"></li>
+                <li data-lang="report_weakness2"></li>
+                <li data-lang="report_weakness3"></li>
+                <li data-lang="report_weakness4"></li>
+                <li data-lang="report_weakness5"></li>
             </ul>
-            <h4 class="text-xl font-semibold mt-6" data-lang="report_future_title">未來 10 個優化與新增方向</h4>
+            <h4 class="text-xl font-semibold mt-6" data-lang="report_future_title"></h4>
             <ol class="list-decimal list-inside space-y-2">
-                <li data-lang="report_future1"><strong>雲端後端整合 (Firebase/Netlify)：</strong> 將計算密集型的解析與統計工作移至後端 Functions 處理，解決前端效能瓶頸，並為使用者帳號系統做準備。</li>
-                <li data-lang="report_future2"><strong>使用者帳號與數據同步：</strong> 引入 Firebase Authentication 與 Firestore，讓使用者可以註冊帳號，並將分析結果自動儲存於雲端，實現跨裝置數據同步。</li>
-                <li data-lang="report_future3"><strong>手牌視覺化重播功能：</strong> 增加一個功能，可以點擊單一手牌紀錄，以圖形介面重播該手牌的完整過程。</li>
-                <li data-lang="report_future4"><strong>進階數據篩選器：</strong> 允許使用者根據位置、起手牌、牌局結果等多維度篩選數據，進行更深入的專項分析。</li>
-                <li data-lang="report_future5"><strong>起手牌矩陣 (Matrix) 熱圖：</strong> 以 13x13 的矩陣圖顯示所有起手牌的 VPIP、PFR、獲利等數據，一目了然地看出自己的起手牌選擇策略與漏洞。</li>
-                <li data-lang="report_future6"><strong>特定賽事/盲注等級分析：</strong> 增加篩選功能，讓使用者可以只分析特定盲注等級或特定賽事類型 (如 Rush & Cash) 的手牌。</li>
-                <li data-lang="report_future7"><strong>更豐富的圖表類型：</strong> 除了現有的線性圖與長條圖，可以增加圓餅圖 (例如：各位置行動分佈)、雷達圖 (評估玩家風格的全面性) 等。</li>
-                <li data-lang="report_future8"><strong>簡易對手數據標記：</strong> 雖然無法做到完整 HUD，但可以讓使用者在分析時，針對特定對手 ID 加上標籤 (例如：魚、緊兇)，並在未來的手牌中顯示這些標籤。</li>
-                <li data-lang="report_future9"><strong>目標導向的學習模組：</strong> 根據分析出的數據弱點，自動推薦相關的撲克學習資源或文章連結，例如「如何應對 3-Bet」、「偷盲與反偷盲策略」等。</li>
-                <li data-lang="report_future10"><strong>與社群分享報告：</strong> 產生一個可分享的唯讀報告頁面連結 (不包含敏感手牌細節)，讓使用者可以方便地與教練或朋友討論自己的數據。</li>
+                <li data-lang="report_future1"></li>
+                <li data-lang="report_future2"></li>
+                <li data-lang="report_future3"></li>
+                <li data-lang="report_future4"></li>
+                <li data-lang="report_future5"></li>
+                <li data-lang="report_future6"></li>
+                <li data-lang="report_future7"></li>
+                <li data-lang="report_future8"></li>
+                <li data-lang="report_future9"></li>
+                <li data-lang="report_future10"></li>
             </ol>
         </div>
     `;
@@ -617,3 +618,4 @@ export function clearAllTabs() {
 }
 
 window.addEventListener('themeChanged', updateChartsForTheme);
+

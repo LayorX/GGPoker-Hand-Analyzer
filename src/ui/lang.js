@@ -25,7 +25,7 @@ const translations = {
         
         // --- 分頁 ---
         tab_overview: "儀表總覽", tab_preflop: "翻前", tab_postflop: "翻後",
-        tab_position: "位置", tab_time: "時間", tab_recommendations: "建議", tab_about: "關於我們",
+        tab_position: "位置", tab_time: "時間", tab_recommendations: "建議", tab_about: "關於",
 
         // --- 區塊標題 ---
         win_rate_stats: "盈利能力", preflop_style: "翻前風格", postflop_play: "翻後打法",
@@ -111,34 +111,33 @@ const translations = {
         rec_wtsd_high_wtsd_won_low: "💸 **避免成為跟注站**：您的攤牌率過高，但攤牌贏率卻很低。這表示您用太多弱牌跟注到底了。學會做出艱難的棄牌，能為您省下大筆資金。",
         rec_afq_low: "🕊️ **提升翻後攻擊性 (AFq)**：您的翻後攻擊頻率偏低，打法過於和平。在有利可圖的時機，多用下注和加注來代替被動的過牌和跟注。",
 
-        // --- About Page ---
-        about_title: "關於我們",
-        about_p1: "GGPoker 手牌分析儀不僅是數據工具，更是您的專屬撲克教練。我們專注於將複雜的牌譜數據轉化為直觀、可操作的洞見，幫助您在牌桌上做出更優質的決策。",
-        about_p2: "與市面上其他需要複雜設定和訂閱費的追蹤軟體（如 PokerTracker, Hold'em Manager）不同，本工具完全免費、基於瀏覽器且重視隱私。所有分析均在您的本機完成，無需上傳數據，讓您能快速、安全地覆盤，找到自己的優勢與待改進之處。",
-        report_strengths_title: "工具優勢 (Strengths)",
+        // --- About Page (Updated) ---
+        about_github_link: "查看 GitHub 專案",
+        about_title: "關於本專案",
+        about_p1: "與市面上需要複雜設定和訂閱費的專業追蹤軟體（如 PokerTracker, Hold'em Manager）不同，本工具的目標是提供一個**輕量、快速、免費且安全**的替代方案。我們專注於**網頁體驗**，讓您不需要安裝任何軟體，只需打開瀏覽器，無論是在電腦前還是在移動裝置上，都能隨時隨地快速覆盤，找到自己的優勢與待改進之處。",
+        report_strengths_title: "優勢 (Strengths)",
         report_strength1: "<strong>完全免費且開源：</strong> 無任何使用成本，程式碼透明，具備高度信任感。",
         report_strength2: "<strong>高度隱私保護：</strong> 所有運算均在使用者本機端完成，手牌數據不經過任何伺服器，無數據外洩風險。",
         report_strength3: "<strong>跨平台、免安裝：</strong> 只需要瀏覽器即可運作，方便在任何裝置上使用。",
         report_strength4: "<strong>數據可攜與累積：</strong> 分析結果可匯出成 JSON 檔案，方便使用者自行備份，並可在下次合併分析，實現長期數據追蹤。",
         report_strength5: "<strong>直觀的數據視覺化：</strong> 提供圖表化呈現，比單純閱讀文字檔更易於理解自己的表現趨勢。",
-        report_weaknesses_title: "工具劣勢 (Weaknesses)",
-        report_weakness1: "<strong>無即時 HUD 功能：</strong> 與專業軟體 (如 PT4, HM3) 相比，無法在牌桌上即時顯示對手數據。",
+        report_weaknesses_title: "挑戰 (Challenges)",
+        report_weakness1: "<strong>無即時 HUD 功能：</strong> 與專業軟體相比，無法在牌桌上即時顯示對手數據。",
         report_weakness2: "<strong>依賴手動上傳：</strong> 需要手動從 GGPoker 客戶端導出紀錄並上傳，操作上不如自動匯入的軟體便利。",
         report_weakness3: "<strong>數據維度較基礎：</strong> 目前提供的數據指標雖然核心，但與專業軟體相比仍不夠細緻 (例如：缺少特定牌型組合的獲利分析)。",
-        report_weakness4: "<strong>前端計算效能瓶頸：</strong> 當手牌數量達到數十萬甚至百萬級別時，純前端 JavaScript 計算可能遇到效能瓶頸，導致分析時間過長或瀏覽器卡頓。",
+        report_weakness4: "<strong>前端計算效能瓶頸：</strong> 當手牌數量達到數十萬級別時，純前端 JavaScript 計算可能遇到效能瓶頸。",
         report_weakness5: "<strong>缺乏對手分析功能：</strong> 工具完全聚焦在使用者 (Hero) 本身的數據，無法建立對手資料庫進行針對性分析。",
-        report_future_title: "未來 10 個優化與新增方向",
-        report_future1: "<strong>雲端後端整合 (Firebase/Netlify)：</strong> 將計算密集型的解析與統計工作移至後端 Functions 處理，解決前端效能瓶頸，並為使用者帳號系統做準備。",
-        report_future2: "<strong>使用者帳號與數據同步：</strong> 引入 Firebase Authentication 與 Firestore，讓使用者可以註冊帳號，並將分析結果自動儲存於雲端，實現跨裝置數據同步。",
-        report_future3: "<strong>手牌視覺化重播功能：</strong> 增加一個功能，可以點擊單一手牌紀錄，以圖形介面重播該手牌的完整過程。",
-        report_future4: "<strong>進階數據篩選器：</strong> 允許使用者根據位置、起手牌、牌局結果等多維度篩選數據，進行更深入的專項分析。",
-        report_future5: "<strong>起手牌矩陣 (Matrix) 熱圖：</strong> 以 13x13 的矩陣圖顯示所有起手牌的 VPIP、PFR、獲利等數據，一目了然地看出自己的起手牌選擇策略與漏洞。",
-        report_future6: "<strong>特定賽事/盲注等級分析：</strong> 增加篩選功能，讓使用者可以只分析特定盲注等級或特定賽事類型 (如 Rush & Cash) 的手牌。",
-        report_future7: "<strong>更豐富的圖表類型：</strong> 除了現有的線性圖與長條圖，可以增加圓餅圖 (例如：各位置行動分佈)、雷達圖 (評估玩家風格的全面性) 等。",
-        report_future8: "<strong>簡易對手數據標記：</strong> 雖然無法做到完整 HUD，但可以讓使用者在分析時，針對特定對手 ID 加上標籤 (例如：魚、緊兇)，並在未來的手牌中顯示這些標籤。",
-        report_future9: "<strong>目標導向的學習模組：</strong> 根據分析出的數據弱點，自動推薦相關的撲克學習資源或文章連結，例如「如何應對 3-Bet」、「偷盲與反偷盲策略」等。",
-        report_future10: "<strong>與社群分享報告：</strong> 產生一個可分享的唯讀報告頁面連結 (不包含敏感手牌細節)，讓使用者可以方便地與教練或朋友討論自己的數據。",
-
+        report_future_title: "未來藍圖 (Future Roadmap)",
+        report_future1: "<strong>雲端後端整合：</strong> 將計算密集型的解析與統計工作移至後端，解決前端效能瓶頸。",
+        report_future2: "<strong>使用者帳號系統：</strong> 引入帳號系統，讓使用者可以將分析結果自動儲存於雲端，實現跨裝置數據同步。",
+        report_future3: "<strong>手牌視覺化重播：</strong> 點擊單一手牌紀錄，以圖形介面重播該手牌的完整過程。",
+        report_future4: "<strong>進階數據篩選器：</strong> 允許使用者根據位置、起手牌、牌局結果等多維度篩選數據。",
+        report_future5: "<strong>起手牌矩陣熱圖：</strong> 以 13x13 的矩陣圖顯示所有起手牌的 VPIP、PFR、獲利等數據。",
+        report_future6: "<strong>特定賽事/盲注分析：</strong> 增加篩選功能，可只分析特定盲注等級或賽事類型 (如 Rush & Cash)。",
+        report_future7: "<strong>更豐富的圖表類型：</strong> 增加圓餅圖 (行動分佈)、雷達圖 (玩家風格評估) 等。",
+        report_future8: "<strong>簡易對手數據標記：</strong> 允許使用者在分析時，針對特定對手 ID 加上標籤 (如：魚、緊兇)。",
+        report_future9: "<strong>目標導向學習模組：</strong> 根據數據弱點，自動推薦相關的撲克學習資源或文章連結。",
+        report_future10: "<strong>社群分享報告：</strong> 產生一個可分享的唯讀報告頁面連結，方便與教練或朋友討論數據。",
     },
     en: {
         // --- General UI ---
@@ -166,7 +165,7 @@ const translations = {
         
         // --- Tabs ---
         tab_overview: "Dashboard", tab_preflop: "Preflop", tab_postflop: "Postflop",
-        tab_position: "Position", tab_time: "Time", tab_recommendations: "Recommendations", tab_about: "About Us",
+        tab_position: "Position", tab_time: "Time", tab_recommendations: "Recommendations", tab_about: "About",
 
         // --- Block Titles ---
         win_rate_stats: "Profitability", preflop_style: "Preflop Style", postflop_play: "Postflop Play",
@@ -191,8 +190,6 @@ const translations = {
         profit_with_rake_bb: "Total Profit (w/ Rake, BB)", tooltip_profit_with_rake_bb: "Your total profit or loss in big blinds, including rake.",
         total_jackpot: "Total Jackpot", tooltip_total_jackpot: "The total jackpot amount you've accumulated in your hands.",
         
-
-
         vpip: "VPIP", tooltip_vpip: "Voluntarily Put in Pot. Measures how loose/tight you play. Ideal range is around 20-28%.",
         pfr: "PFR", tooltip_pfr: "Pre-Flop Raise. Measures your preflop aggression. Ideal range is around 15-23%.",
         limp: "Limp %", tooltip_limp: "Frequency of entering the pot by calling instead of raising. High-level players have this stat close to 0.",
@@ -256,33 +253,33 @@ const translations = {
         rec_wtsd_high_wtsd_won_low: "💸 **Avoid Being a Calling Station**: Your WTSD is high, but your W$SD is low. This indicates you're calling down with too many weak hands. Learn to make tough folds to save money.",
         rec_afq_low: "🕊️ **Increase Postflop Aggression (AFq)**: Your postflop aggression is low. Look for more opportunities to bet and raise instead of passively checking and calling.",
 
-        // --- About Page ---
-        about_title: "About Us",
-        about_p1: "GGPoker Hand Analyzer is not just a data tool; it's your personal poker coach. We focus on transforming complex hand history data into intuitive, actionable insights to help you make superior decisions at the table.",
-        about_p2: "Unlike other tracking software like PokerTracker or Hold'em Manager, which require complex setups and subscriptions, this tool is completely free, browser-based, and privacy-focused. All analysis is done locally on your machine—no data is uploaded—allowing you to quickly and securely review your sessions to find your edge and plug your leaks.",
-        report_strengths_title: "Tool Strengths",
-        report_strength1: "<strong>Completely free and open source:</strong> No cost, transparent code, highly trustworthy.",
-        report_strength2: "<strong>High privacy protection:</strong> All calculations are done on the user's local machine, ensuring no data leaks.",
-        report_strength3: "<strong>Cross-platform, no installation needed:</strong> Works in any modern browser on any device.",
-        report_strength4: "<strong>Data portability and accumulation:</strong> Results can be exported to JSON for backup and merged for long-term tracking.",
-        report_strength5: "<strong>Intuitive data visualization:</strong> Charts make it easier to understand performance trends than reading text files.",
-        report_weaknesses_title: "Tool Weaknesses",
-        report_weakness1: "<strong>No real-time HUD:</strong> Unlike professional software (e.g., PT4, HM3), it can't display opponent stats on the table in real-time.",
-        report_weakness2: "<strong>Manual uploads required:</strong> Requires manually exporting and uploading hand histories, less convenient than automatic import.",
-        report_weakness3: "<strong>Basic data dimensions:</strong> Key metrics are provided, but lack the granularity of professional tools (e.g., no profit analysis for specific hand combos).",
-        report_weakness4: "<strong>Frontend performance bottleneck:</strong> Analyzing hundreds of thousands of hands might cause performance issues or browser crashes.",
-        report_weakness5: "<strong>No opponent analysis:</strong> The tool focuses solely on the user's (Hero's) data, without the ability to build an opponent database.",
-        report_future_title: "10 Future Optimization & Feature Suggestions",
-        report_future1: "<strong>Cloud Backend Integration (Firebase/Netlify):</strong> Move heavy computation to backend functions to resolve frontend performance issues and prepare for a user account system.",
-        report_future2: "<strong>User Accounts & Data Syncing:</strong> Implement Firebase Authentication and Firestore for user registration and cloud data storage, enabling cross-device synchronization.",
-        report_future3: "<strong>Visual Hand Replayer:</strong> Add a feature to graphically replay the entire course of a selected hand history.",
-        report_future4: "<strong>Advanced Data Filters:</strong> Allow users to filter data by position, starting hands, game outcomes, etc., for deeper specific analysis.",
-        report_future5: "<strong>Starting Hand Matrix Heatmap:</strong> Display VPIP, PFR, profit, etc., for all starting hands in a 13x13 matrix for an at-a-glance strategy overview.",
-        report_future6: "<strong>Specific Game/Stake Level Analysis:</strong> Add filters for analyzing specific stake levels or game types (e.g., Rush & Cash).",
-        report_future7: "<strong>Richer Chart Types:</strong> Introduce pie charts (e.g., action distribution by position) and radar charts (to assess player style comprehensiveness).",
-        report_future8: "<strong>Simple Opponent Tagging:</strong> While not a full HUD, allow users to tag specific opponent IDs (e.g., fish, TAG) for display in future hand analyses.",
-        report_future9: "<strong>Goal-Oriented Learning Modules:</strong> Automatically recommend relevant poker learning resources based on identified data weaknesses, such as 'How to Counter 3-Bets'.",
-        report_future10: "<strong>Shareable Report Links:</strong> Generate read-only report page links (without sensitive details) for easy discussion with coaches or friends.",
+        // --- About Page (Updated) ---
+        about_github_link: "View Project on GitHub",
+        about_title: "About This Project",
+        about_p1: "Unlike professional tracking software like PokerTracker or Hold'em Manager, which require complex setups and subscriptions, this tool aims to be a **lightweight, fast, free, and secure** alternative. We focus on the **web experience**, so you don't need to install anything. Just open your browser—on your desktop or mobile device—to quickly review your sessions anytime, anywhere, and find your edge.",
+        report_strengths_title: "Strengths",
+        report_strength1: "<strong>Completely Free & Open-Source:</strong> No costs involved. The code is transparent and trustworthy.",
+        report_strength2: "<strong>High Privacy Protection:</strong> All computations are done locally on your device. Hand data never touches a server, eliminating the risk of data leaks.",
+        report_strength3: "<strong>Cross-Platform & No Installation:</strong> Works in any modern browser, making it accessible on any device.",
+        report_strength4: "<strong>Data Portability & Accumulation:</strong> Analysis results can be exported as a JSON file for personal backup and can be re-imported to merge with new sessions for long-term tracking.",
+        report_strength5: "<strong>Intuitive Visualization:</strong> Charts and graphs make it easier to understand your performance trends than reading raw text files.",
+        report_weaknesses_title: "Challenges",
+        report_weakness1: "<strong>No Real-time HUD:</strong> Unlike professional software, it cannot display opponent stats on the table in real-time.",
+        report_weakness2: "<strong>Manual Upload Required:</strong> You need to manually export hand histories from the GGPoker client and upload them.",
+        report_weakness3: "<strong>Basic Metrics:</strong> While covering core stats, the level of detail is less granular than professional tools (e.g., no profit analysis by specific holdings).",
+        report_weakness4: "<strong>Frontend Performance Bottleneck:</strong> With hundreds of thousands of hands, client-side JavaScript calculation might slow down or cause the browser to lag.",
+        report_weakness5: "<strong>No Opponent Analysis:</strong> The tool is entirely focused on 'Hero's' data and does not build a database for analyzing specific opponents.",
+        report_future_title: "Future Roadmap",
+        report_future1: "<strong>Cloud Backend Integration:</strong> Move computation-heavy tasks to a backend service to resolve frontend performance issues.",
+        report_future2: "<strong>User Accounts & Data Sync:</strong> Introduce user accounts to automatically save analysis results to the cloud, enabling cross-device data synchronization.",
+        report_future3: "<strong>Visual Hand Replayer:</strong> Add a feature to replay a selected hand graphically from start to finish.",
+        report_future4: "<strong>Advanced Data Filters:</strong> Allow users to filter data by position, starting hands, pot size, and more for deeper analysis.",
+        report_future5: "<strong>Starting Hand Matrix Heatmap:</strong> Display VPIP, PFR, and profit data for all starting hands on a 13x13 grid.",
+        report_future6: "<strong>Specific Game/Stake Analysis:</strong> Add filters for specific stake levels or game types (e.g., Rush & Cash).",
+        report_future7: "<strong>More Chart Types:</strong> Introduce pie charts (e.g., action distribution by position) and radar charts (for a holistic view of a player's style).",
+        report_future8: "<strong>Simple Opponent Tagging:</strong> While not a full HUD, allow users to add tags (e.g., Fish, TAG) to opponent IDs during review.",
+        report_future9: "<strong>Goal-Oriented Learning Modules:</strong> Recommend relevant poker learning resources based on identified statistical weaknesses.",
+        report_future10: "<strong>Shareable Reports:</strong> Generate a shareable, read-only link to a report page (excluding sensitive details) for discussions with coaches or friends.",
     }
 };
 
