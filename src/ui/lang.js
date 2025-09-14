@@ -114,7 +114,7 @@ const translations = {
         // --- About Page (Updated) ---
         about_github_link: "查看 GitHub 專案",
         about_title: "關於本專案",
-        about_p1: "與市面上需要複雜設定和訂閱費的專業追蹤軟體（如 PokerTracker, Hold'em Manager）不同，本工具的目標是提供一個**輕量、快速、免費且安全**的替代方案。我們專注於**網頁體驗**，讓您不需要安裝任何軟體，只需打開瀏覽器，無論是在電腦前還是在移動裝置上，都能隨時隨地快速覆盤，找到自己的優勢與待改進之處。",
+        about_p1: "與市面上需要複雜設定和訂閱費的專業追蹤軟體（如 PokerTracker, Hold'em Manager）不同，本工具的目標是提供一個<strong>輕量、快速、免費且安全</strong>的替代方案。我們專注於<strong>網頁體驗</strong>，讓您不需要安裝任何軟體，只需打開瀏覽器，無論是在電腦前還是在移動裝置上，都能隨時隨地快速覆盤，找到自己的優勢與待改進之處。",
         report_strengths_title: "優勢 (Strengths)",
         report_strength1: "<strong>完全免費且開源：</strong> 無任何使用成本，程式碼透明，具備高度信任感。",
         report_strength2: "<strong>高度隱私保護：</strong> 所有運算均在使用者本機端完成，手牌數據不經過任何伺服器，無數據外洩風險。",
@@ -256,7 +256,7 @@ const translations = {
         // --- About Page (Updated) ---
         about_github_link: "View Project on GitHub",
         about_title: "About This Project",
-        about_p1: "Unlike professional tracking software like PokerTracker or Hold'em Manager, which require complex setups and subscriptions, this tool aims to be a **lightweight, fast, free, and secure** alternative. We focus on the **web experience**, so you don't need to install anything. Just open your browser—on your desktop or mobile device—to quickly review your sessions anytime, anywhere, and find your edge.",
+        about_p1: "Unlike professional tracking software like PokerTracker or Hold'em Manager, which require complex setups and subscriptions, this tool aims to be a <strong>lightweight, fast, free, and secure</strong> alternative. We focus on the <strong>web experience</strong>, so you don't need to install anything. Just open your browser—on your desktop or mobile device—to quickly review your sessions anytime, anywhere, and find your edge.",
         report_strengths_title: "Strengths",
         report_strength1: "<strong>Completely Free & Open-Source:</strong> No costs involved. The code is transparent and trustworthy.",
         report_strength2: "<strong>High Privacy Protection:</strong> All computations are done locally on your device. Hand data never touches a server, eliminating the risk of data leaks.",
