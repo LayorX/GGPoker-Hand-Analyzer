@@ -35,10 +35,16 @@
                 <p class="text-dim text-sm" data-lang="subtitle"></p>
             </div>
             <div class="flex items-center space-x-3">
+                <svg class="w-5 h-5 text-gray-600 dark:text-gray-400 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm-1-9a2 2 0 10-4 0 2 2 0 004 0zM8.5 12a1 1 0 100-2 1 1 0 000 2zM12 9a2 2 0 10-4 0 2 2 0 004 0zm2 4a1 1 0 100-2 1 1 0 000 2zM10 5a2 2 0 10-4 0 2 2 0 004 0z" clip-rule="evenodd" />
+                    </svg>
                 <select id="language-switcher"
                     class="surface border border-gray-300 dark:border-gray-600 rounded-md px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-primary">
-                    <option value="zh">🇹🇼 中文 (繁體)</option>
+                    <option value="zh" selected>🇹🇼 中文 (繁體)</option>
                     <option value="en">🇺🇸 English</option>
+                    <option value="es">🇪🇸 Español</option>
+                    <option value="ko">🇰🇷 한국어</option>
+                    <option value="ja">🇯🇵 日本語</option>
                 </select>
                 <button id="theme-switcher" title="Toggle Theme"
                     class="surface p-2 rounded-md hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors">
