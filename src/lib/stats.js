@@ -174,10 +174,10 @@ export function calculateStats(parsedHands) {
     stats.rawData = sortedHands;
 
     let cumulativeProfit = 0;
+    let cumulativeProfitWithRake = 0;
     let sessionStartTime = null;
     let lastHandTime = null;
     let totalDuration = 0;
-
     for (const hand of sortedHands) {
         if (!hand.hero || !hand.hero.position || hand.players.length < 2) continue;
 
@@ -198,14 +198,14 @@ export function calculateStats(parsedHands) {
 
         // --- 2. 建立手牌上下文 ---
         const context = createHandContext(hand);
-        
         // --- 3. 更新基本和維度數據 ---
         stats.gameTypes.add(hand.info.gameType);
         stats.bbSize = hand.info.bb > 0 ? hand.info.bb : stats.bbSize;
 
         cumulativeProfit += context.hero.result;
-        stats.profitHistory.push({ hand: stats.rawData.indexOf(hand) + 1, profit: cumulativeProfit });
-
+        cumulativeProfitWithRake += context.hero.result>0? context.hero.result + (hand.info.rake || 0) + (hand.info.jackpot || 0): context.hero.result;
+        stats.profitHistory.push({ hand: stats.rawData.indexOf(hand) + 1, profit: cumulativeProfit,profit_with_rake: cumulativeProfitWithRake  });
+        
         const dayKey = handStartTime.toISOString().split('T')[0];
         if (!stats.byTime.byDay[dayKey]) stats.byTime.byDay[dayKey] = { hands: 0, profit: 0 };
         stats.byTime.byDay[dayKey].hands++;

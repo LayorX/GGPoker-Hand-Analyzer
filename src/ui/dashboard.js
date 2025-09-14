@@ -382,6 +382,13 @@ function renderProfitChart(stats) {
                 borderColor: '#14b8a6',
                 fill: true,
                 pointRadius: 0,
+            }, {
+                label: getLang('total_profit_with_rake'),
+                data: stats.profitHistory.map(p => p.profit_with_rake.toFixed(2)),
+                backgroundColor: 'rgba(59, 130, 246, 0.1)',
+                borderColor: '#3b82f6',
+                fill: true,
+                pointRadius: 0,
             }]
         },
         options: getChartOptions()
@@ -494,8 +501,10 @@ function renderPlayerStyleRadarChart(stats) {
     const textColor = isDark ? '#e5e7eb' : '#374151';
     const gridColor = isDark ? 'rgba(255, 255, 255, 0.2)' : 'rgba(0, 0, 0, 0.1)';
     const angleLineColor = isDark ? 'rgba(255, 255, 255, 0.2)' : 'rgba(0, 0, 0, 0.1)';
-
+    // console.log("stats for radar chart:")
+    // console.log(stats)
     const vpip = stats.vpip_p ?? 0;
+    const bb_with_rake_per_100 = stats.bb_with_rake_per_100 ?? 0;
     const pfr = stats.pfr_p ?? 0;
     const afq = stats.afq_flop_p ?? 0;
     const wtsd = stats.wtsd_p ?? 0;
@@ -503,7 +512,7 @@ function renderPlayerStyleRadarChart(stats) {
 
     const data = {
         labels: [
-            getLang('vpip'),
+            getLang('bb_with_rake_per_100'),
             getLang('preflop_aggression'),
             getLang('3bet'),
             getLang('afq_flop'),
@@ -512,7 +521,7 @@ function renderPlayerStyleRadarChart(stats) {
         datasets: [{
             label: 'Player Style',
             data: [
-                vpip,
+                bb_with_rake_per_100? Math.max(bb_with_rake_per_100.value, 0) : 0,
                 vpip > 0 ? (pfr / vpip) * 100 : 0,
                 threeBet * 5, // Scale 3bet to be more visible (common values are 5-15)
                 afq,
