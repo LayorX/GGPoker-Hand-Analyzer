@@ -236,7 +236,7 @@ export const STAT_DEFINITIONS = {
         ranges: { good: [-1, 5], warn: [5, 10] }, // 越低越好
         init: () => ({ opportunities: 0, actions: 0 }),
         process: (handContext, stat) => {
-            if (!handContext.preflop.facedRaise) {
+            if (!handContext.preflop.facedRaise&&handContext.hero.isVpipOpportunity) {
                 stat.opportunities++;
                 if (handContext.preflop.heroActions.some(a => a.action === 'calls')) {
                     stat.actions++;
@@ -431,7 +431,7 @@ export const STAT_DEFINITIONS = {
         ranges: { good: [25, 32], warn: [23, 35] },
         init: () => ({ opportunities: 0, actions: 0 }),
         process: (handContext, stat) => {
-            if (handContext.sawFlop) {
+            if (handContext.is_WTSD_base_hand) {
                 stat.opportunities++;
                 if (handContext.reachedShowdown) {
                     stat.actions++;
@@ -460,7 +460,7 @@ export const STAT_DEFINITIONS = {
         type: 'percent',
         init: () => ({ opportunities: 0, actions: 0 }),
         process: (handContext, stat) => {
-            if (handContext.sawFlop) {
+            if (handContext.is_WTSD_base_hand) {
                 stat.opportunities++;
                 if (handContext.isHeroWinner) {
                     stat.actions++;

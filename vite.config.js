@@ -22,7 +22,8 @@ export default defineConfig({
         background_color: '#0c0a18',
         display: 'standalone',
         orientation: 'portrait-primary',
-        start_url: '/',
+        start_url: './index.html',
+        scope: './',
         icons: [
           {
             src: 'icons/android-chrome-192x192.png',

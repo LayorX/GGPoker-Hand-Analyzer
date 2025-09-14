@@ -71,6 +71,7 @@ function createHandContext(hand) {
 
     // PREFLOP CONTEXT
     const preflopActions = hand.streets.preflop.actions;
+    const isHeroPreFlopRaiser = preflopActions.some(a => a.seat === heroSeat && a.action === 'raises');
     const heroPreflopActions = preflopActions.filter(a => a.seat === heroSeat);
     const lastPreflopRaiser = [...preflopActions].filter(a => a.action === 'raises').pop();
     const preflopAggressorSeat = lastPreflopRaiser ? lastPreflopRaiser.seat : null;
@@ -84,12 +85,14 @@ function createHandContext(hand) {
     
     const facedPreflopRaise = raisesBeforeHero.length > 0;
     const raisesAfterHero = firstActionIndex > -1 && heroPreflopActions.some(a => a.action === 'raises') ? preflopActions.slice(firstActionIndex + 1).filter(a => a.action === 'raises') : [];
-    
+    const isVpipOpportunity = heroPos !== 'BB' || facedPreflopRaise || (isHeroPreFlopRaiser&&heroPos==='BB')
+
     // POSTFLOP GENERAL
-    const sawFlop = hand.streets.flop.board.length > 0;
+    const sawFlop = hand.streets.flop.board.length > 0 ;
     const sawTurn = sawFlop && hand.streets.turn.board.length > 0;
     const sawRiver = sawTurn && hand.streets.river.board.length > 0;
     const reachedShowdown = sawRiver && !hand.streets.river.actions.some(a => a.seat === heroSeat && a.action === 'folds');
+    const is_WTSD_base_hand = sawFlop && isVpipOpportunity;
 
     // **修正角色判斷邏輯**
     const isHeroPreflopAggressor = sawFlop && preflopAggressorSeat === heroSeat;
@@ -123,7 +126,7 @@ function createHandContext(hand) {
             seat: heroSeat,
             position: heroPos,
             result: hand.hero.result,
-            isVpipOpportunity: heroPos !== 'BB' || facedPreflopRaise,
+            isVpipOpportunity: isVpipOpportunity,
             isPreflopAggressor: isHeroPreflopAggressor,
             isPreflopCaller: isHeroPreflopCaller,
         },
@@ -153,6 +156,7 @@ function createHandContext(hand) {
         },
         preflopAggressorSeat,
         isHeroWinner: hand.summary.winners.some(w => w.player.includes('Hero')),
+        is_WTSD_base_hand,
         sawFlop,
         sawTurn,
         sawRiver,
