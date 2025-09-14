@@ -19,15 +19,16 @@ import { STAT_DEFINITIONS } from '../lib/stat-definitions.js';
 
 const chartInstances = {};
 
-// --- UI 組態設定 ---
+// --- UI 組態設定 (優化後) ---
 const UI_CONFIG = {
     overview: {
         sections: [
             { titleKey: 'win_rate_stats', grid: 'grid-cols-2 md:grid-cols-4', statIds: ['total_profit', 'bb_per_100', 'profit_bb', 'total_rake',
-                                                                                        'total_profit_with_rake','bb_with_rake_per_100','profit_with_rake_bb','total_jackpot'] },
-            { titleKey: 'session_info', grid: 'grid-cols-2 md:grid-cols-4', statIds: ['total_hands', 'total_duration', 'hands_per_hour', 'profit_per_hour','profit_with_rake_per_hour'] },
+                    'total_profit_with_rake', 'bb_with_rake_per_100', 'profit_with_rake_bb', 'total_jackpot']
+            },
             { titleKey: 'preflop_style', grid: 'grid-cols-2 md:grid-cols-4', statIds: ['vpip', 'pfr', '3bet', 'steal_attempt'] },
             { titleKey: 'postflop_play', grid: 'grid-cols-2 md:grid-cols-4', statIds: ['cbet_flop', 'wtsd', 'wtsd_won', 'afq_flop'] },
+            { titleKey: 'session_info', grid: 'grid-cols-2 md:grid-cols-4', statIds: ['total_hands', 'total_duration', 'hands_per_hour', 'total_rake'] },
         ],
         charts: [
             { id: 'profitChart', titleKey: 'profit_chart_title', grid: 'xl:col-span-1' },
@@ -121,6 +122,34 @@ function formatValue(value, type) {
 
 // --- 動態 UI 生成函數 ---
 
+/**
+ * 根據數據值和預設範圍決定顏色
+ * @param {number} value - 數據值
+ * @param {object} ranges - 顏色範圍定義
+ * @returns {string} - Tailwind CSS 顏色 class
+ */
+function getValueColorClass(value, ranges) {
+    if (!ranges || typeof value !== 'number' || isNaN(value)) {
+        return 'text-primary'; // 預設顏色
+    }
+    const { good, warn } = ranges;
+    // 某些數據是越高越好或越低越好
+    const isGood = good.length === 1 
+        ? (good[0] < 0 ? value <= good[0] : value >= good[0]) 
+        : (value >= good[0] && value <= good[1]);
+    
+    if (isGood) return 'text-emerald-500';
+
+    const isWarn = warn.length === 1 
+        ? (warn[0] < 0 ? value <= warn[0] : value >= warn[0]) 
+        : (value >= warn[0] && value <= warn[1]);
+
+    if (isWarn) return 'text-amber-500';
+
+    return 'text-rose-500';
+}
+
+
 function createStatCard(statId, stats) {
     let definition, value;
     
@@ -142,11 +171,13 @@ function createStatCard(statId, stats) {
         return document.createDocumentFragment();
     }
     
+    const valueColorClass = getValueColorClass(value, definition.ranges);
+    
     const card = document.createElement('div');
     card.className = 'surface p-3 rounded-lg text-center cursor-pointer hover:shadow-lg hover:-translate-y-1 transition-all duration-200';
     card.innerHTML = `
         <div class="text-xs text-dim truncate" data-lang="${definition.nameKey}">${getLang(definition.nameKey)}</div>
-        <div class="text-xl font-bold mt-1 text-primary">${formatValue(value, definition.type)}</div>
+        <div class="text-xl font-bold mt-1 ${valueColorClass}">${formatValue(value, definition.type)}</div>
     `;
     card.addEventListener('click', () => showTooltip(definition.nameKey, definition.tooltipKey));
     return card;
@@ -246,7 +277,7 @@ export function renderRecommendations(stats) {
     ];
 
     const finalRecs = recKeys.filter(r => {
-        const getStat = (key) => (typeof stats[key] === 'number' ? stats[key] : -1);
+        const getStat = (key) => (typeof stats[key] === 'number' ? stats[key] : (stats[key]?.value ?? -1));
 
         if (r.type === 'eval') {
             if (r.key === 'wtsd_high_won_low') {
@@ -332,14 +363,31 @@ export function renderAboutTab() {
 }
 
 
-// --- 圖表渲染 (與原版類似，保持不變) ---
+// --- 圖表渲染 (優化後) ---
 const getChartOptions = () => {
     const isDark = document.documentElement.classList.contains('dark');
     const textColor = isDark ? '#e5e7eb' : '#374151';
     const gridColor = isDark ? 'rgba(255, 255, 255, 0.1)' : 'rgba(0, 0, 0, 0.1)';
     return {
         responsive: true, maintainAspectRatio: false,
-        plugins: { legend: { display: false, labels: { color: textColor } }, tooltip: { /* ... */ } },
+        plugins: { 
+            legend: { 
+                display: false, // 預設關閉，在需要時開啟
+                labels: { color: textColor } 
+            }, 
+            tooltip: { // 優化 Tooltip
+                mode: 'index',
+                intersect: false,
+                backgroundColor: isDark ? 'rgba(31, 41, 55, 0.8)' : 'rgba(255, 255, 255, 0.9)',
+                titleColor: textColor,
+                bodyColor: textColor,
+                borderColor: gridColor,
+                borderWidth: 1,
+                padding: 10,
+                cornerRadius: 8,
+                boxPadding: 4,
+             } 
+        },
         scales: { x: { ticks: { color: textColor, maxRotation: 0, autoSkip: true, maxTicksLimit: 10 }, grid: { color: gridColor, drawOnChartArea: false } }, y: { ticks: { color: textColor }, grid: { color: gridColor } } },
         elements: { line: { tension: 0.3 }, bar: { borderRadius: 4 } }
     };
@@ -370,6 +418,9 @@ function renderProfitChart(stats) {
     destroyChart(chartId);
     const ctx = document.getElementById(chartId)?.getContext('2d');
     if (!ctx) return;
+    
+    const options = getChartOptions();
+    options.plugins.legend.display = true; // 明確開啟此圖的圖例
 
     chartInstances[chartId] = new Chart(ctx, {
         type: 'line',
@@ -378,20 +429,20 @@ function renderProfitChart(stats) {
             datasets: [{
                 label: getLang('total_profit'),
                 data: stats.profitHistory.map(p => p.profit.toFixed(2)),
-                backgroundColor: 'rgba(20, 184, 166, 0.1)',
-                borderColor: '#14b8a6',
+                backgroundColor: 'rgba(239, 68, 68, 0.1)', // Red-ish
+                borderColor: '#ef4444',
                 fill: true,
                 pointRadius: 0,
             }, {
                 label: getLang('total_profit_with_rake'),
                 data: stats.profitHistory.map(p => p.profit_with_rake.toFixed(2)),
-                backgroundColor: 'rgba(59, 130, 246, 0.1)',
-                borderColor: '#3b82f6',
+                backgroundColor: 'rgba(20, 184, 166, 0.1)', // Teal
+                borderColor: '#14b8a6',
                 fill: true,
                 pointRadius: 0,
             }]
         },
-        options: getChartOptions()
+        options: options
     });
 }
 

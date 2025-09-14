@@ -9,32 +9,16 @@
  * - nameKey: (string) 用於多國語言翻譯的鍵值 (對應 lang.js)。
  * - tooltipKey: (string) 數據提示的翻譯鍵值。
  * - type: (string) 數據的格式化類型 ('percent', 'money', 'bb', 'int', 'string')。
- * - category: (string) 數據分類，用於在 UI 上分組。
  * - init: (function) 回傳該數據的初始狀態物件，通常是 { opportunities: 0, actions: 0 }。
  * - process: (function) 核心處理函數，接收 (handContext, stat) 兩個參數。
  * - handContext: 預先計算好的單手牌上下文，包含 Hero 資訊、各街道資訊等。
  * - stat: 該數據目前的統計物件。
  * 此函數根據 handContext 的內容來更新 stat 的值。
+ * - ranges: (object) [新增] 用於UI顏色標示的理想範圍 { good: [min, max], warn: [min, max] }
  */
 
 // --- 輔助函數 ---
 
-/**
- * 檢查 Hero 是否為翻牌前的最後一個加注者 (攻擊者)
- * @param {object} preflopContext - 翻前上下文
- * @param {number} heroSeat - Hero 的座位號
- * @returns {boolean}
- */
-const wasHeroPreflopAggressor = (preflopContext, heroSeat) => {
-    const lastRaiser = [...preflopContext.actions].filter(a => a.action === 'raises').pop();
-    return lastRaiser?.seat === heroSeat;
-};
-
-/**
- * 檢查 Hero 是否為翻牌前的跟注者並看到了翻牌
- * @param {object} handContext - 完整的手牌上下文
- * @returns {boolean}
- */
 const wasHeroPreflopCaller = (handContext) => {
     return handContext.hero.isPreflopCaller;
 };
@@ -48,7 +32,6 @@ export const STAT_DEFINITIONS = {
         nameKey: 'total_profit',
         tooltipKey: 'tooltip_total_profit',
         type: 'money',
-        category: 'win_rate',
         init: () => ({ value: 0 }),
         process: (handContext, stat) => {
             stat.value += handContext.hero.result;
@@ -58,19 +41,17 @@ export const STAT_DEFINITIONS = {
         nameKey: 'bb_per_100',
         tooltipKey: 'tooltip_bb_per_100',
         type: 'bb',
-        category: 'win_rate',
+        ranges: { good: [5], warn: [0] } // 越高越好
     },
     profit_bb: {
         nameKey: 'profit_bb',
         tooltipKey: 'tooltip_profit_bb',
         type: 'bb',
-        category: 'win_rate',
     },
     total_rake: {
         nameKey: 'total_rake',
         tooltipKey: 'tooltip_total_rake',
         type: 'money',
-        category: 'win_rate',
         init: () => ({ value: 0 }),
         process: (handContext, stat) => {
             if (handContext.isHeroWinner) {
@@ -83,7 +64,6 @@ export const STAT_DEFINITIONS = {
         nameKey: 'total_profit_with_rake',
         tooltipKey: 'tooltip_total_profit_with_rake',
         type: 'money',
-        category: 'win_rate',
         init: () => ({ value: 0 }),
         process: (handContext, stat) => {
             stat.value += handContext.hero.result;
@@ -94,21 +74,19 @@ export const STAT_DEFINITIONS = {
         nameKey: 'bb_with_rake_per_100',
         tooltipKey: 'tooltip_bb_with_rake_per_100',
         type: 'bb',
-        category: 'win_rate',
+        ranges: { good: [8], warn: [2] } // 越高越好
     },
 
     profit_with_rake_bb: {
         nameKey: 'profit_with_rake_bb',
         tooltipKey: 'tooltip_profit_with_rake_bb',
         type: 'bb',
-        category: 'win_rate',
     },
 
     total_jackpot: {
         nameKey: 'total_jackpot',
         tooltipKey: 'tooltip_total_jackpot',
         type: 'money',
-        category: 'win_rate',
         init: () => ({ value: 0 }),
         process: (handContext, stat) => {
             if (handContext.isHeroWinner) {
@@ -118,43 +96,18 @@ export const STAT_DEFINITIONS = {
     },
 
     // --- Session 資訊 ---
-    total_hands: {
-        nameKey: 'total_hands',
-        tooltipKey: 'tooltip_total_hands',
-        type: 'int',
-        category: 'session'
-    },
-    total_duration: {
-        nameKey: 'total_duration',
-        tooltipKey: 'tooltip_total_duration',
-        type: 'string',
-        category: 'session'
-    },
-    hands_per_hour: {
-        nameKey: 'hands_per_hour',
-        tooltipKey: 'tooltip_hands_per_hour',
-        type: 'int',
-        category: 'session'
-    },
-    profit_per_hour: {
-        nameKey: 'profit_per_hour',
-        tooltipKey: 'tooltip_profit_per_hour',
-        type: 'money',
-        category: 'session'
-    },
-    profit_with_rake_per_hour: {
-        nameKey: 'profit_with_rake_per_hour',
-        tooltipKey: 'tooltip_profit_with_rake_per_hour',
-        type: 'money',
-        category: 'session'
-    },
+    total_hands: { nameKey: 'total_hands', tooltipKey: 'tooltip_total_hands', type: 'int' },
+    total_duration: { nameKey: 'total_duration', tooltipKey: 'tooltip_total_duration', type: 'string' },
+    hands_per_hour: { nameKey: 'hands_per_hour', tooltipKey: 'tooltip_hands_per_hour', type: 'int' },
+    profit_per_hour: { nameKey: 'profit_per_hour', tooltipKey: 'tooltip_profit_per_hour', type: 'money' },
+    profit_with_rake_per_hour: { nameKey: 'profit_with_rake_per_hour', tooltipKey: 'tooltip_profit_with_rake_per_hour', type: 'money' },
 
     // --- 翻前 Pre-flop ---
     vpip: {
         nameKey: 'vpip',
         tooltipKey: 'tooltip_vpip',
         type: 'percent',
-        category: 'preflop_open',
+        ranges: { good: [20, 28], warn: [18, 32] },
         init: () => ({ opportunities: 0, actions: 0 }),
         process: (handContext, stat) => {
             if (handContext.hero.isVpipOpportunity) {
@@ -169,7 +122,7 @@ export const STAT_DEFINITIONS = {
         nameKey: 'pfr',
         tooltipKey: 'tooltip_pfr',
         type: 'percent',
-        category: 'preflop_open',
+        ranges: { good: [15, 23], warn: [13, 26] },
         init: () => ({ opportunities: 0, actions: 0 }),
         process: (handContext, stat) => {
             if (!handContext.preflop.facedRaise) {
@@ -184,7 +137,7 @@ export const STAT_DEFINITIONS = {
         nameKey: '3bet',
         tooltipKey: 'tooltip_3bet',
         type: 'percent',
-        category: 'preflop_vs_raise',
+        ranges: { good: [7, 12], warn: [5, 14] },
         init: () => ({ opportunities: 0, actions: 0 }),
         process: (handContext, stat) => {
             if (handContext.preflop.raisesBeforeHero.length === 1) {
@@ -199,7 +152,6 @@ export const STAT_DEFINITIONS = {
         nameKey: '4bet',
         tooltipKey: 'tooltip_4bet',
         type: 'percent',
-        category: 'preflop_vs_raise',
         init: () => ({ opportunities: 0, actions: 0 }),
         process: (handContext, stat) => {
              if (handContext.preflop.raisesBeforeHero.length === 2 || handContext.preflop.faced3Bet) {
@@ -214,7 +166,7 @@ export const STAT_DEFINITIONS = {
         nameKey: 'fold_vs_3bet',
         tooltipKey: 'tooltip_fold_vs_3bet',
         type: 'percent',
-        category: 'preflop_vs_raise',
+        ranges: { good: [35, 55], warn: [30, 65] },
         init: () => ({ opportunities: 0, actions: 0 }),
         process: (handContext, stat) => {
             const { preflop } = handContext;
@@ -230,7 +182,6 @@ export const STAT_DEFINITIONS = {
         nameKey: 'fold_vs_4bet',
         tooltipKey: 'tooltip_fold_vs_4bet',
         type: 'percent',
-        category: 'preflop_vs_raise',
         init: () => ({ opportunities: 0, actions: 0 }),
         process: (handContext, stat) => {
             const { preflop, hero } = handContext;
@@ -252,7 +203,6 @@ export const STAT_DEFINITIONS = {
         nameKey: 'cold_call',
         tooltipKey: 'tooltip_cold_call',
         type: 'percent',
-        category: 'preflop_vs_raise',
         init: () => ({ opportunities: 0, actions: 0 }),
         process: (handContext, stat) => {
             const { raisesBeforeHero, callsBeforeHero } = handContext.preflop;
@@ -268,7 +218,6 @@ export const STAT_DEFINITIONS = {
         nameKey: 'squeeze',
         tooltipKey: 'tooltip_squeeze',
         type: 'percent',
-        category: 'preflop_vs_raise',
         init: () => ({ opportunities: 0, actions: 0 }),
         process: (handContext, stat) => {
             const { raisesBeforeHero, callsBeforeHero } = handContext.preflop;
@@ -284,7 +233,7 @@ export const STAT_DEFINITIONS = {
         nameKey: 'limp',
         tooltipKey: 'tooltip_limp',
         type: 'percent',
-        category: 'preflop_open',
+        ranges: { good: [-1, 5], warn: [5, 10] }, // 越低越好
         init: () => ({ opportunities: 0, actions: 0 }),
         process: (handContext, stat) => {
             if (!handContext.preflop.facedRaise) {
@@ -299,7 +248,7 @@ export const STAT_DEFINITIONS = {
         nameKey: 'steal_attempt',
         tooltipKey: 'tooltip_steal_attempt',
         type: 'percent',
-        category: 'steal_dynamics',
+        ranges: { good: [35], warn: [30] }, // 越高越好
         init: () => ({ opportunities: 0, actions: 0 }),
         process: (handContext, stat) => {
             const { hero, preflop } = handContext;
@@ -315,7 +264,7 @@ export const STAT_DEFINITIONS = {
         nameKey: 'fold_to_steal',
         tooltipKey: 'tooltip_fold_to_steal',
         type: 'percent',
-        category: 'steal_dynamics',
+        ranges: { good: [-75], warn: [-80] }, // 越低越好
         init: () => ({ opportunities: 0, actions: 0 }),
         process: (handContext, stat) => {
             const { hero, preflop, hand } = handContext;
@@ -337,12 +286,10 @@ export const STAT_DEFINITIONS = {
         nameKey: 'cbet_flop',
         tooltipKey: 'tooltip_cbet_flop',
         type: 'percent',
-        category: 'postflop_aggressor',
+        ranges: { good: [50, 75], warn: [45, 80] },
         init: () => ({ opportunities: 0, actions: 0 }),
         process: (handContext, stat) => {
-            // **修正 CBet 邏輯**
             if (handContext.hero.isPreflopAggressor) {
-                // CBet 機會只有在 Hero 是第一個行動，或是前面所有人都 check 給他時才成立
                 const heroActionIndex = handContext.flop.actions.findIndex(a => a.seat === handContext.hero.seat);
                 const actionsBeforeHero = heroActionIndex > -1 ? handContext.flop.actions.slice(0, heroActionIndex) : [];
                 const canCbet = actionsBeforeHero.every(a => a.action === 'checks');
@@ -360,7 +307,6 @@ export const STAT_DEFINITIONS = {
         nameKey: 'cbet_turn',
         tooltipKey: 'tooltip_cbet_turn',
         type: 'percent',
-        category: 'postflop_aggressor',
         init: () => ({ opportunities: 0, actions: 0 }),
         process: (handContext, stat) => {
             const { hero, turn } = handContext;
@@ -377,7 +323,6 @@ export const STAT_DEFINITIONS = {
         nameKey: 'cbet_river',
         tooltipKey: 'tooltip_cbet_river',
         type: 'percent',
-        category: 'postflop_aggressor',
         init: () => ({ opportunities: 0, actions: 0 }),
         process: (handContext, stat) => {
             const { hero, turn, river } = handContext;
@@ -395,7 +340,6 @@ export const STAT_DEFINITIONS = {
         nameKey: 'fold_to_cbet_flop',
         tooltipKey: 'tooltip_fold_to_cbet_flop',
         type: 'percent',
-        category: 'postflop_caller',
         init: () => ({ opportunities: 0, actions: 0 }),
         process: (handContext, stat) => {
             if (wasHeroPreflopCaller(handContext) && handContext.flop.aggressorCBet) {
@@ -410,7 +354,6 @@ export const STAT_DEFINITIONS = {
         nameKey: 'raise_cbet_flop',
         tooltipKey: 'tooltip_raise_cbet_flop',
         type: 'percent',
-        category: 'postflop_caller',
         init: () => ({ opportunities: 0, actions: 0 }),
         process: (handContext, stat) => {
             if (wasHeroPreflopCaller(handContext) && handContext.flop.aggressorCBet) {
@@ -425,7 +368,6 @@ export const STAT_DEFINITIONS = {
         nameKey: 'check_raise_flop',
         tooltipKey: 'tooltip_check_raise_flop',
         type: 'percent',
-        category: 'postflop_caller',
         init: () => ({ opportunities: 0, actions: 0 }),
         process: (handContext, stat) => {
             if (!wasHeroPreflopCaller(handContext) || handContext.flop.isHeroInPosition) return;
@@ -442,7 +384,6 @@ export const STAT_DEFINITIONS = {
         nameKey: 'donk_bet_flop',
         tooltipKey: 'tooltip_donk_bet_flop',
         type: 'percent',
-        category: 'postflop_caller',
         init: () => ({ opportunities: 0, actions: 0 }),
         process: (handContext, stat) => {
             if (wasHeroPreflopCaller(handContext) && !handContext.flop.isHeroInPosition) {
@@ -457,7 +398,6 @@ export const STAT_DEFINITIONS = {
         nameKey: 'bet_vs_missed_cbet',
         tooltipKey: 'tooltip_bet_vs_missed_cbet',
         type: 'percent',
-        category: 'postflop_caller',
         init: () => ({ opportunities: 0, actions: 0 }),
         process: (handContext, stat) => {
             if (wasHeroPreflopCaller(handContext) && handContext.flop.aggressorMissedCBet) {
@@ -472,7 +412,6 @@ export const STAT_DEFINITIONS = {
         nameKey: 'probe_bet_turn',
         tooltipKey: 'tooltip_probe_bet_turn',
         type: 'percent',
-        category: 'postflop_caller',
         init: () => ({ opportunities: 0, actions: 0 }),
         process: (handContext, stat) => {
             if (wasHeroPreflopCaller(handContext) && handContext.sawTurn && handContext.flop.wasCheckedThrough) {
@@ -489,7 +428,7 @@ export const STAT_DEFINITIONS = {
         nameKey: 'wtsd',
         tooltipKey: 'tooltip_wtsd',
         type: 'percent',
-        category: 'showdown',
+        ranges: { good: [25, 32], warn: [23, 35] },
         init: () => ({ opportunities: 0, actions: 0 }),
         process: (handContext, stat) => {
             if (handContext.sawFlop) {
@@ -504,7 +443,7 @@ export const STAT_DEFINITIONS = {
         nameKey: 'wtsd_won',
         tooltipKey: 'tooltip_wtsd_won',
         type: 'percent',
-        category: 'showdown',
+        ranges: { good: [50], warn: [48] }, // 越高越好
         init: () => ({ opportunities: 0, actions: 0 }),
         process: (handContext, stat) => {
             if (handContext.reachedShowdown) {
@@ -519,7 +458,6 @@ export const STAT_DEFINITIONS = {
         nameKey: 'wwsf',
         tooltipKey: 'tooltip_wwsf',
         type: 'percent',
-        category: 'showdown',
         init: () => ({ opportunities: 0, actions: 0 }),
         process: (handContext, stat) => {
             if (handContext.sawFlop) {
@@ -534,7 +472,6 @@ export const STAT_DEFINITIONS = {
         nameKey: 'wtsd_after_cbet',
         tooltipKey: 'tooltip_wtsd_after_cbet',
         type: 'percent',
-        category: 'showdown',
         init: () => ({ opportunities: 0, actions: 0 }),
         process: (handContext, stat) => {
             if (handContext.hero.isPreflopAggressor && handContext.flop.heroActions.some(a => a.action === 'bets')) {
@@ -545,12 +482,7 @@ export const STAT_DEFINITIONS = {
             }
         }
     },
-    wwsf_as_pfr: {
-        nameKey: 'wwsf_as_pfr',
-        tooltipKey: 'tooltip_wwsf_as_pfr',
-        type: 'percent',
-        category: 'showdown',
-        init: () => ({ opportunities: 0, actions: 0 }),
+    wwsf_as_pfr: { nameKey: 'wwsf_as_pfr', tooltipKey: 'tooltip_wwsf_as_pfr', type: 'percent', init: () => ({ opportunities: 0, actions: 0 }),
         process: (handContext, stat) => {
             if (handContext.hero.isPreflopAggressor) {
                 stat.opportunities++;
@@ -560,12 +492,7 @@ export const STAT_DEFINITIONS = {
             }
         }
     },
-    wwsf_as_caller: {
-        nameKey: 'wwsf_as_caller',
-        tooltipKey: 'tooltip_wwsf_as_caller',
-        type: 'percent',
-        category: 'showdown',
-        init: () => ({ opportunities: 0, actions: 0 }),
+    wwsf_as_caller: { nameKey: 'wwsf_as_caller', tooltipKey: 'tooltip_wwsf_as_caller', type: 'percent', init: () => ({ opportunities: 0, actions: 0 }),
         process: (handContext, stat) => {
             if (wasHeroPreflopCaller(handContext)) {
                 stat.opportunities++;
@@ -581,7 +508,6 @@ export const STAT_DEFINITIONS = {
         nameKey: 'afq_flop',
         tooltipKey: 'tooltip_afq_flop',
         type: 'percent',
-        category: 'showdown',
         init: () => ({ bets: 0, raises: 0, calls: 0, checks: 0 }),
         process: (handContext, stat) => {
             handContext.flop.heroActions.forEach(a => {
@@ -596,7 +522,6 @@ export const STAT_DEFINITIONS = {
         nameKey: 'afq_turn',
         tooltipKey: 'tooltip_afq_turn',
         type: 'percent',
-        category: 'showdown',
         init: () => ({ bets: 0, raises: 0, calls: 0, checks: 0 }),
         process: (handContext, stat) => {
             handContext.turn.heroActions.forEach(a => {
@@ -611,7 +536,6 @@ export const STAT_DEFINITIONS = {
         nameKey: 'afq_river',
         tooltipKey: 'tooltip_afq_river',
         type: 'percent',
-        category: 'showdown',
         init: () => ({ bets: 0, raises: 0, calls: 0, checks: 0 }),
         process: (handContext, stat) => {
             handContext.river.heroActions.forEach(a => {
@@ -623,4 +547,3 @@ export const STAT_DEFINITIONS = {
         }
     }
 };
-
