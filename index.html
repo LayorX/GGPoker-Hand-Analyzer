@@ -30,9 +30,18 @@
     <div id="app" class="max-w-screen-2xl mx-auto">
         <!-- Header -->
         <header class="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-6 gap-4">
-            <div>
-                <h1 class="text-2xl lg:text-3xl font-bold" data-lang="title"></h1>
-                <p class="text-dim text-sm" data-lang="subtitle"></p>
+                        <!-- Logo 和文字容器 -->
+            <div class="flex items-center gap-4">
+                <!-- 圖像容器，使用 Flexbox 讓其高度與標題容器對齊 -->
+                <div class="flex items-center flex-shrink-0" style="height: 100%;">
+                    <img src="./icons/page-icon.png" alt="Project Banner" style="border-radius: 10px; margin-top: 10px; margin-bottom: 10px;">
+
+                </div>
+                <!-- 標題和副標題容器 -->
+                <div>
+                    <h1 class="text-2xl lg:text-3xl font-bold" data-lang="title">玩家風格分析</h1>
+                    <p class="text-dim text-sm" data-lang="subtitle">專業撲克數據分析儀表板</p>
+                </div>
             </div>
             <div class="flex items-center space-x-3">
                 <svg class="w-5 h-5 text-gray-600 dark:text-gray-400 mr-2" fill="currentColor" viewBox="0 0 20 20">

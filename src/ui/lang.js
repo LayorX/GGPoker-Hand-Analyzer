@@ -84,7 +84,8 @@ const translations = {
         afq_flop: "AFq翻牌", tooltip_afq_flop: "翻牌圈攻擊頻率: (Bets + Raises) / (Bets + Raises + Calls + Checks)。衡量您翻後攻擊性的指標。",
         afq_turn: "AFq轉牌", tooltip_afq_turn: "轉牌圈攻擊頻率。",
         afq_river: "AFq河牌", tooltip_afq_river: "河牌圈攻擊頻率。",
-        preflop_aggression: "翻前攻擊性",
+        preflop_aggression: "翻前攻擊性", tooltip_preflop_aggression: "翻前攻擊指標 (PFR/VPIP)。此數值越高代表您的翻前風格越具攻擊性，較少被動跟注。理想值約在 70-90%。",
+        afq_all: "綜合翻後攻擊性", tooltip_afq_all: "綜合翻後攻擊頻率。為翻牌、轉牌、河牌三條街攻擊頻率(AFq)的平均值，綜合衡量您在翻後的整體攻擊性。",
         
         total_duration: "總時長", tooltip_total_duration: "所有獨立遊戲Session的總時長。相鄰牌局間隔超過45分鐘即視為新的Session。",
         hands_per_hour: "手牌/小時", tooltip_hands_per_hour: "平均每小時玩的手牌數量。",
@@ -226,7 +227,8 @@ const translations = {
         afq_flop: "AFq Flop", tooltip_afq_flop: "Aggression Frequency on the Flop: (Bets + Raises) / (Bets + Raises + Calls + Checks).",
         afq_turn: "AFq Turn", tooltip_afq_turn: "Aggression Frequency on the Turn.",
         afq_river: "AFq River", tooltip_afq_river: "Aggression Frequency on the River.",
-        preflop_aggression: "Preflop Aggression",
+        preflop_aggression: "Preflop Aggression", tooltip_preflop_aggression: "Preflop Aggression Factor (PFR/VPIP). A higher value indicates a more aggressive preflop style with less passive calling. An ideal value is around 70-90%.",
+        afq_all: "Overall Post-flop Aggression", tooltip_afq_all: "Overall Postflop Aggression. The average of Aggression Frequency (AFq) across the flop, turn, and river, measuring your overall postflop aggressiveness.",
         
         total_duration: "Total Duration", tooltip_total_duration: "Total duration of all sessions. A new session starts after a 45-minute break.",
         hands_per_hour: "Hands/Hour", tooltip_hands_per_hour: "Average number of hands played per hour.",
@@ -367,7 +369,8 @@ const translations = {
         afq_flop: "AFqフロップ", tooltip_afq_flop: "フロップでのアグレッション頻度: (ベット数 + レイズ数) / (ベット数 + レイズ数 + コール数 + チェック数)。",
         afq_turn: "AFqターン", tooltip_afq_turn: "ターンでのアグレッション頻度。",
         afq_river: "AFqリバー", tooltip_afq_river: "リバーでのアグレッション頻度。",
-        preflop_aggression: "プリフロップアグレッション",
+        preflop_aggression: "プリフロップアグレッション", tooltip_preflop_aggression: "プリフロップアグレッション指標 (PFR/VPIP)。この数値が高いほど、プリフロップでのスタイルがより攻撃的で、受動的なコールが少ないことを示します。理想値は約70〜90%です。",
+        afq_all: "総合ポストフロップアグレッション", tooltip_afq_all: "総合ポストフロップアグレッション頻度。フロップ、ターン、リバーの3つのストリートでのアグレッション頻度(AFq)の平均値で、ポストフロップでの全体的な攻撃性を総合的に測定します。",
         
         total_duration: "合計時間", tooltip_total_duration: "すべての独立したゲームセッションの合計時間。45分以上間隔が空くと新しいセッションと見なされます。",
         hands_per_hour: "ハンド数/時間", tooltip_hands_per_hour: "1時間あたりにプレイした平均ハンド数。",
@@ -508,7 +511,8 @@ const translations = {
         afq_flop: "AFq 플랍", tooltip_afq_flop: "플랍 공격성 빈도: (베팅 + 레이즈) / (베팅 + 레이즈 + 콜 + 체크).",
         afq_turn: "AFq 턴", tooltip_afq_turn: "턴 공격성 빈도.",
         afq_river: "AFq 리버", tooltip_afq_river: "리버 공격성 빈도.",
-        preflop_aggression: "프리플랍 공격성",
+        preflop_aggression: "프리플랍 공격성", tooltip_preflop_aggression: "프리플랍 공격성 지표 (PFR/VPIP). 이 수치가 높을수록 프리플랍 스타일이 더 공격적이며 수동적인 콜이 적다는 것을 의미합니다. 이상적인 값은 약 70-90%입니다.",
+        afq_all: "종합 포스트플랍 공격성", tooltip_afq_all: "종합 포스트플랍 공격성 빈도. 플랍, 턴, 리버 세 스트리트의 공격성 빈도(AFq)의 평균값으로, 포스트플랍에서의 전반적인 공격성을 종합적으로 측정합니다.",
         
         total_duration: "총 시간", tooltip_total_duration: "모든 개별 게임 세션의 총 시간. 인접한 핸드 사이에 45분 이상 간격이 있으면 새로운 세션으로 간주됩니다.",
         hands_per_hour: "핸드 수/시간", tooltip_hands_per_hour: "시간당 플레이한 평균 핸드 수입니다.",
@@ -649,7 +653,8 @@ const translations = {
         afq_flop: "AFq Flop", tooltip_afq_flop: "Frecuencia de agresividad en el flop: (Apuestas + Raises) / (Apuestas + Raises + Calls + Checks).",
         afq_turn: "AFq Turn", tooltip_afq_turn: "Frecuencia de agresividad en el turn.",
         afq_river: "AFq River", tooltip_afq_river: "Frecuencia de agresividad en el river.",
-        preflop_aggression: "Agresividad Preflop",
+        preflop_aggression: "Agresividad Preflop", tooltip_preflop_aggression: "Factor de Agresividad Preflop (PFR/VPIP). Un valor más alto indica un estilo preflop más agresivo con menos calls pasivos. Un valor ideal es de alrededor del 70-90%.",
+        afq_all: "Agresividad Postflop General", tooltip_afq_all: "Agresividad Postflop General. El promedio de la Frecuencia de Agresión (AFq) en el flop, turn y river, midiendo su agresividad postflop general.",
         
         total_duration: "Duración Total", tooltip_total_duration: "Duración total de todas las sesiones de juego. Se considera una nueva sesión después de un descanso de 45 minutos.",
         hands_per_hour: "Manos/Hora", tooltip_hands_per_hour: "Número promedio de manos jugadas por hora.",

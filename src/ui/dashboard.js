@@ -23,7 +23,9 @@ const chartInstances = {};
 const UI_CONFIG = {
     overview: {
         sections: [
-            { titleKey: 'win_rate_stats', grid: 'grid-cols-2 md:grid-cols-4', statIds: ['total_profit_with_rake', 'bb_with_rake_per_100', 'profit_with_rake_per_hour', 'profit_with_rake_bb'] },
+            { titleKey: 'win_rate_stats', grid: 'grid-cols-2 md:grid-cols-4', statIds: ['total_profit', 'bb_per_100', 'profit_bb', 'total_rake',
+                    'total_profit_with_rake', 'bb_with_rake_per_100', 'profit_with_rake_bb', 'total_jackpot']
+            },
             { titleKey: 'preflop_style', grid: 'grid-cols-2 md:grid-cols-4', statIds: ['vpip', 'pfr', '3bet', 'steal_attempt'] },
             { titleKey: 'postflop_play', grid: 'grid-cols-2 md:grid-cols-4', statIds: ['cbet_flop', 'wtsd', 'wtsd_won', 'afq_flop'] },
             { titleKey: 'session_info', grid: 'grid-cols-2 md:grid-cols-4', statIds: ['total_hands', 'total_duration', 'hands_per_hour', 'total_rake'] },
@@ -542,7 +544,7 @@ function renderPositionCharts(stats) {
         options: optionsStyle,
     });
 }
-
+/*
 function renderPlayerStyleRadarChart(stats) {
     const chartId = 'playerStyleRadarChart';
     destroyChart(chartId);
@@ -553,21 +555,20 @@ function renderPlayerStyleRadarChart(stats) {
     const textColor = isDark ? '#e5e7eb' : '#374151';
     const gridColor = isDark ? 'rgba(255, 255, 255, 0.2)' : 'rgba(0, 0, 0, 0.1)';
     const angleLineColor = isDark ? 'rgba(255, 255, 255, 0.2)' : 'rgba(0, 0, 0, 0.1)';
-    // console.log("stats for radar chart:")
-    // console.log(stats)
     const vpip = stats.vpip_p ?? 0;
     const bb_with_rake_per_100 = stats.bb_with_rake_per_100 ?? 0;
     const pfr = stats.pfr_p ?? 0;
     const afq = stats.afq_flop_p ?? 0;
     const wtsd = stats.wtsd_p ?? 0;
-    const threeBet = stats['3bet_p'] ?? 0;
+    const afq_all = (stats.afq_flop_p + stats.afq_turn_p + stats.afq_river_p )?? 0;
 
+    {tooltip_bb_with_rake_per_100, tooltip_preflop_aggression, tooltip_3bet, tooltip_afq_all, tooltip_wtsd幫我新增}
     const data = {
         labels: [
             getLang('bb_with_rake_per_100'),
             getLang('preflop_aggression'),
             getLang('3bet'),
-            getLang('afq_flop'),
+            getLang('afq_all'),
             getLang('wtsd'),
         ],
         datasets: [{
@@ -575,8 +576,8 @@ function renderPlayerStyleRadarChart(stats) {
             data: [
                 bb_with_rake_per_100? Math.max(bb_with_rake_per_100.value, 0) : 0,
                 vpip > 0 ? (pfr / vpip) * 100 : 0,
-                threeBet * 5, // Scale 3bet to be more visible (common values are 5-15)
-                afq,
+                afq_all * 5, // Scale 3bet to be more visible (common values are 5-15)
+                '3bet',
                 wtsd
             ],
             backgroundColor: 'rgba(20, 184, 166, 0.2)',
@@ -592,7 +593,36 @@ function renderPlayerStyleRadarChart(stats) {
         responsive: true,
         maintainAspectRatio: false,
         plugins: {
-            legend: { display: false }
+            legend: { display: false },
+            // 新增 tooltip 設定
+            tooltip: {
+                backgroundColor: 'rgba(0, 0, 0, 0.7)',
+                titleColor: '#fff',
+                bodyColor: '#fff',
+                bodyFont: { size: 14 },
+                padding: 12,
+                displayColors: false, // 隱藏工具提示中的顏色方塊
+                callbacks: {
+                    // 客製化 tooltip 標籤的文字
+                    label: function(context) {
+                        const index = context.dataIndex;
+                        const value = context.parsed.r;
+                        return [
+                            `${context.label}: ${value.toFixed(2)}%`,
+                            tooltipTexts[index]
+                        ];
+                    }
+                }
+            },
+            title: {
+              display: true,
+              text: '玩家風格分析',
+              font: {
+                size: 18,
+                weight: 'bold'
+              },
+              color: textColor
+            }
         },
         scales: {
             r: {
@@ -608,6 +638,165 @@ function renderPlayerStyleRadarChart(stats) {
     };
 
     chartInstances[chartId] = new Chart(ctx, { type: 'radar', data: data, options: options });
+}*/
+
+
+function renderPlayerStyleRadarChart(stats) {
+    console.log('renderPlayerStyleRadarChart');
+    console.log(stats);
+    const chartId = 'playerStyleRadarChart';
+    destroyChart(chartId);
+    const ctx = document.getElementById(chartId)?.getContext('2d');
+    if (!ctx) return;
+
+    const isDark = document.documentElement.classList.contains('dark');
+    const textColor = isDark ? '#e5e7eb' : '#374151';
+    const gridColor = isDark ? 'rgba(255, 255, 255, 0.2)' : 'rgba(0, 0, 0, 0.1)';
+    const angleLineColor = isDark ? 'rgba(255, 255, 255, 0.2)' : 'rgba(0, 0, 0, 0.1)';
+
+    // --- 數據計算與標準化 (0-100) ---
+    const vpip = stats.vpip_p ?? 0;
+    const pfr = stats.pfr_p ?? 0;
+    const three_bet_p = stats['3bet_p'] ?? 0;
+    const afq_all_p = (stats.afq_river_p + stats.afq_turn_p + stats.afq_flop_p)/3?? 0;
+    const wtsd_p = stats.wtsd_p ?? 0;
+    const wtsd_won_p = stats.wtsd_won_p ?? 0;
+    const bb_per_100 = stats.bb_with_rake_per_100.value ?? 0;
+
+    // 1. 勝率分數: 將 BB/100 從 [-10, 40] 映射到 [0, 100]
+    const win_rate_score = Math.min(Math.max(bb_per_100, -10), 40) * 2 + 20;
+    // 2. 翻前攻擊性: PFR / VPIP
+    const preflop_agg_score = vpip > 0 ? (pfr / vpip) * 100 : 0;
+    // 3. 3Bet 頻率: 乘以 5 以在圖表上更清晰地顯示
+    const three_bet_score = Math.max(three_bet_p * 5,100);
+    // 4. 翻後攻擊性: 三條街 AFq 
+    const postflop_agg_score = calculateP2Score(afq_all_p,40,15) ;
+    // 5. 攤牌率
+    const wtsd_score = calculateP2Score(wtsd_p,28.5);
+
+    const data = {
+        labels: [
+            getLang('bb_with_rake_per_100'),
+            getLang('preflop_aggression'),
+            getLang('3bet'),
+            getLang('afq_all'),
+            getLang('wtsd'),
+        ],
+        datasets: [{
+            label: getLang('player_style_radar'),
+            data: [
+                win_rate_score,
+                preflop_agg_score,
+                three_bet_score,
+                postflop_agg_score,
+                wtsd_score
+            ],
+            backgroundColor: 'rgba(20, 184, 166, 0.2)',
+            borderColor: '#14b8a6',
+            pointBackgroundColor: '#14b8a6',
+            pointBorderColor: '#fff',
+            pointHoverBackgroundColor: '#fff',
+            pointHoverBorderColor: '#14b8a6'
+        }]
+    };
+
+    const options = {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+            legend: { display: false },
+            tooltip: {
+                callbacks: {
+                    label: function(context) {
+                        const originalLabel = context.label;
+                        let rawValueText;
+
+                        // 根據標籤顯示原始數據，而不是標準化後的分數
+                        if (originalLabel === getLang('bb_with_rake_per_100')) {
+                            rawValueText = bb_per_100.toFixed(2) + ' BB';
+                        } else if (originalLabel === getLang('preflop_aggression')) {
+                            rawValueText = preflop_agg_score.toFixed(2) + '%';
+                        } else if (originalLabel === getLang('3bet')) {
+                            rawValueText = three_bet_p.toFixed(2) + '%';
+                        } else if (originalLabel === getLang('afq_all')) {
+                            rawValueText = afq_all_p.toFixed(2) + '%';
+                        } else if (originalLabel === getLang('wtsd')) {
+                            rawValueText = wtsd_p.toFixed(2) + '%';
+                        } else {
+                            rawValueText = context.raw.toFixed(2);
+                        }
+                        
+                        return `${context.label}: ${rawValueText}`;
+                    },
+                    afterLabel: function(context) {
+                        const labelKey = context.label;
+                        let tooltipKey;
+                        if (labelKey === getLang('bb_with_rake_per_100')) tooltipKey = 'tooltip_bb_with_rake_per_100';
+                        else if (labelKey === getLang('preflop_aggression')) tooltipKey = 'tooltip_preflop_aggression';
+                        else if (labelKey === getLang('3bet')) tooltipKey = 'tooltip_3bet';
+                        else if (labelKey === getLang('afq_all')) tooltipKey = 'tooltip_afq_all';
+                        else if (labelKey === getLang('wtsd')) tooltipKey = 'tooltip_wtsd';
+                        
+                        if (tooltipKey) {
+                            // 將說明文字按句號分割成多行，以獲得更好的可讀性
+                            return getLang(tooltipKey).split('。').map(s => s.trim()).filter(s => s);
+                        }
+                        return '';
+                    }
+                }
+            }
+        },
+        scales: {
+            r: {
+                angleLines: { color: angleLineColor },
+                grid: { color: gridColor },
+                pointLabels: { color: textColor, font: { size: 12 } },
+                ticks: {
+                    display: false, // 隱藏刻度數字，讓圖表更簡潔
+                    stepSize: 25
+                },
+                min: 0,
+                max: 100,
+            }
+        },
+        elements: { line: { borderWidth: 2 } }
+    };
+
+    chartInstances[chartId] = new Chart(ctx, { type: 'radar', data: data, options: options });
+}
+
+/**
+ * 該函數使用高斯分佈（鐘形曲線）來實現更平滑的分數遞減。
+ * 在 ?% 的理想範圍內，分數為 100。
+ * 在理想範圍之外，分數會根據高斯曲線從 100 平滑地遞減。
+ * c: 決定曲線的寬度，數值越大，分數下降越慢。這裡設定為 25。
+ * @param {number} p - 百分比。
+ * @param {number} idealcenter - 理想範圍中心點
+ * @returns {number|null} - 轉換後的分數 (0-100)，如果輸入無效則返回 null。
+ */
+function calculateP2Score(p,idealcenter,c=25) {
+    // 檢查輸入是否為有效數字
+    if (isNaN(p) || p < 0) {
+        return null;
+    }
+
+    let center = idealcenter;
+    let wtsd_score;
+
+    // 如果在理想範圍內，分數為 100
+    if (p >= center*0.99 && p <= center) {
+        wtsd_score = 100;
+    } else {
+        // 使用高斯分佈曲線來計算分數
+        // 鐘形曲線公式: y = A * e^(-((x-b)/c)^2)
+        // A: 最大分數 (100)
+        // b: 理想範圍的中心點 (idealcenter)
+        // c: 決定曲線的寬度，數值越大，分數下降越慢。這裡設定為 25。
+        wtsd_score = 100 * Math.exp(-Math.pow((p - center) / c, 2));
+    }
+
+    // 確保分數在 0 到 100 之間
+    return Math.max(0, Math.min(100, Math.round(wtsd_score)));
 }
 
 export function clearAllTabs() {
