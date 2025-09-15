@@ -125,30 +125,43 @@ function formatValue(value, type) {
 /**
  * 根據數據值和預設範圍決定顏色
  * @param {number} value - 數據值
- * @param {object} ranges - 顏色範圍定義
+ * @param {object} ranges - 顏色範圍定義，包含 good, acceptable, warn
  * @returns {string} - Tailwind CSS 顏色 class
  */
 function getValueColorClass(value, ranges) {
     if (!ranges || typeof value !== 'number' || isNaN(value)) {
         return 'text-primary'; // 預設顏色
     }
-    const { good, warn } = ranges;
-    // 某些數據是越高越好或越低越好
-    const isGood = good.length === 1 
-        ? (good[0] < 0 ? value <= good[0] : value >= good[0]) 
-        : (value >= good[0] && value <= good[1]);
-    
-    if (isGood) return 'text-emerald-500';
 
-    const isWarn = warn.length === 1 
-        ? (warn[0] < 0 ? value <= warn[0] : value >= warn[0]) 
-        : (value >= warn[0] && value <= warn[1]);
+    const { good, acceptable, warn } = ranges;
 
-    if (isWarn) return 'text-amber-500';
+    // 檢查 "優秀" 範圍
+    if (good) {
+        const isGood = good.length === 1
+            ? (good[0] < 0 ? value <= good[0] : value >= good[0])
+            : (value >= good[0] && value <= good[1]);
+        if (isGood) return 'text-green-500';
+    }
 
+    // 檢查 "良好" 範圍
+    if (acceptable) {
+        const isAcceptable = acceptable.length === 1
+            ? (acceptable[0] < 0 ? value <= acceptable[0] : value >= acceptable[0])
+            : (value >= acceptable[0] && value <= acceptable[1]);
+        if (isAcceptable) return 'text-emerald-500';
+    }
+
+    // 檢查 "警告" 範圍
+    if (warn) {
+        const isWarn = warn.length === 1
+            ? (warn[0] < 0 ? value <= warn[0] : value >= warn[0])
+            : (value >= warn[0] && value <= warn[1]);
+        if (isWarn) return 'text-amber-400';
+    }
+
+    // 如果不屬於任何定義的範圍，則歸為 "糟糕"
     return 'text-rose-500';
 }
-
 
 function createStatCard(statId, stats) {
     let definition, value;

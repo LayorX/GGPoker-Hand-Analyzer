@@ -41,12 +41,13 @@ export const STAT_DEFINITIONS = {
         nameKey: 'bb_per_100',
         tooltipKey: 'tooltip_bb_per_100',
         type: 'bb',
-        ranges: { good: [5], warn: [0] } // 越高越好
+        ranges: { good: [12,100],acceptable:[5,12], warn: [-5,5] } // 越高越好
     },
     profit_bb: {
         nameKey: 'profit_bb',
         tooltipKey: 'tooltip_profit_bb',
         type: 'bb',
+        
     },
     total_rake: {
         nameKey: 'total_rake',
@@ -74,7 +75,7 @@ export const STAT_DEFINITIONS = {
         nameKey: 'bb_with_rake_per_100',
         tooltipKey: 'tooltip_bb_with_rake_per_100',
         type: 'bb',
-        ranges: { good: [8], warn: [2] } // 越高越好
+        ranges: { good: [25,100],acceptable:[10,25], warn: [0,10] } // 越高越好
     },
 
     profit_with_rake_bb: {
@@ -107,7 +108,7 @@ export const STAT_DEFINITIONS = {
         nameKey: 'vpip',
         tooltipKey: 'tooltip_vpip',
         type: 'percent',
-        ranges: { good: [20, 28], warn: [18, 32] },
+        ranges: { good: [20, 25],acceptable:[18,28], warn: [15, 32] },
         init: () => ({ opportunities: 0, actions: 0 }),
         process: (handContext, stat) => {
             if (handContext.hero.isVpipOpportunity) {
@@ -122,7 +123,7 @@ export const STAT_DEFINITIONS = {
         nameKey: 'pfr',
         tooltipKey: 'tooltip_pfr',
         type: 'percent',
-        ranges: { good: [15, 23], warn: [13, 26] },
+        ranges: { good: [15, 23],acceptable:[13,26], warn: [10, 30] },
         init: () => ({ opportunities: 0, actions: 0 }),
         process: (handContext, stat) => {
             if (!handContext.preflop.facedRaise) {
@@ -137,7 +138,7 @@ export const STAT_DEFINITIONS = {
         nameKey: '3bet',
         tooltipKey: 'tooltip_3bet',
         type: 'percent',
-        ranges: { good: [7, 12], warn: [5, 14] },
+        ranges: { good: [8, 13],acceptable:[6,15], warn: [3, 17] },
         init: () => ({ opportunities: 0, actions: 0 }),
         process: (handContext, stat) => {
             if (handContext.preflop.raisesBeforeHero.length === 1) {
@@ -166,7 +167,7 @@ export const STAT_DEFINITIONS = {
         nameKey: 'fold_vs_3bet',
         tooltipKey: 'tooltip_fold_vs_3bet',
         type: 'percent',
-        ranges: { good: [35, 55], warn: [30, 65] },
+        ranges: { good: [35, 55],acceptable:[30,60], warn: [25, 65] },
         init: () => ({ opportunities: 0, actions: 0 }),
         process: (handContext, stat) => {
             const { preflop } = handContext;
@@ -203,6 +204,7 @@ export const STAT_DEFINITIONS = {
         nameKey: 'cold_call',
         tooltipKey: 'tooltip_cold_call',
         type: 'percent',
+        ranges: { good: [-1, 9],acceptable:[9,13], warn: [13, 15] }, // 越低越好
         init: () => ({ opportunities: 0, actions: 0 }),
         process: (handContext, stat) => {
             const { raisesBeforeHero, callsBeforeHero } = handContext.preflop;
@@ -219,6 +221,7 @@ export const STAT_DEFINITIONS = {
         tooltipKey: 'tooltip_squeeze',
         type: 'percent',
         init: () => ({ opportunities: 0, actions: 0 }),
+        ranges: { good: [8, 13],acceptable:[6], warn: [4] }, 
         process: (handContext, stat) => {
             const { raisesBeforeHero, callsBeforeHero } = handContext.preflop;
             if (raisesBeforeHero.length === 1 && callsBeforeHero.length > 0) {
@@ -233,7 +236,7 @@ export const STAT_DEFINITIONS = {
         nameKey: 'limp',
         tooltipKey: 'tooltip_limp',
         type: 'percent',
-        ranges: { good: [-1, 5], warn: [5, 10] }, // 越低越好
+        ranges: { good: [-1, 5],acceptable:[5,8], warn: [8, 12] }, // 越低越好
         init: () => ({ opportunities: 0, actions: 0 }),
         process: (handContext, stat) => {
             if (!handContext.preflop.facedRaise&&handContext.hero.isVpipOpportunity) {
@@ -248,7 +251,7 @@ export const STAT_DEFINITIONS = {
         nameKey: 'steal_attempt',
         tooltipKey: 'tooltip_steal_attempt',
         type: 'percent',
-        ranges: { good: [35], warn: [30] }, // 越高越好
+        ranges: { good: [40],acceptable: [35], warn: [30] }, // 越高越好
         init: () => ({ opportunities: 0, actions: 0 }),
         process: (handContext, stat) => {
             const { hero, preflop } = handContext;
@@ -264,7 +267,7 @@ export const STAT_DEFINITIONS = {
         nameKey: 'fold_to_steal',
         tooltipKey: 'tooltip_fold_to_steal',
         type: 'percent',
-        ranges: { good: [-75], warn: [-80] }, // 越低越好
+        ranges: { good: [20,35],acceptable:[15,45], warn: [10,55] }, // 越低越好
         init: () => ({ opportunities: 0, actions: 0 }),
         process: (handContext, stat) => {
             const { hero, preflop, hand } = handContext;
@@ -286,7 +289,7 @@ export const STAT_DEFINITIONS = {
         nameKey: 'cbet_flop',
         tooltipKey: 'tooltip_cbet_flop',
         type: 'percent',
-        ranges: { good: [50, 75], warn: [45, 80] },
+        ranges: { good: [50, 75],acceptable:[40,80], warn: [30, 85] },
         init: () => ({ opportunities: 0, actions: 0 }),
         process: (handContext, stat) => {
             if (handContext.hero.isPreflopAggressor) {
@@ -385,6 +388,7 @@ export const STAT_DEFINITIONS = {
         tooltipKey: 'tooltip_donk_bet_flop',
         type: 'percent',
         init: () => ({ opportunities: 0, actions: 0 }),
+        ranges: { good: [0, 5],acceptable:[5,8], warn: [8, 10] },// 基本上不要有
         process: (handContext, stat) => {
             if (wasHeroPreflopCaller(handContext) && !handContext.flop.isHeroInPosition) {
                 stat.opportunities++;
@@ -428,7 +432,7 @@ export const STAT_DEFINITIONS = {
         nameKey: 'wtsd',
         tooltipKey: 'tooltip_wtsd',
         type: 'percent',
-        ranges: { good: [25, 32], warn: [23, 35] },
+        ranges: { good: [25, 28],acceptable:[23,35], warn: [20, 40] },
         init: () => ({ opportunities: 0, actions: 0 }),
         process: (handContext, stat) => {
             if (handContext.is_WTSD_base_hand) {
@@ -443,7 +447,7 @@ export const STAT_DEFINITIONS = {
         nameKey: 'wtsd_won',
         tooltipKey: 'tooltip_wtsd_won',
         type: 'percent',
-        ranges: { good: [50], warn: [48] }, // 越高越好
+        ranges: { good: [55],acceptable: [50,55], warn: [48] }, // 越高越好
         init: () => ({ opportunities: 0, actions: 0 }),
         process: (handContext, stat) => {
             if (handContext.reachedShowdown) {
@@ -458,6 +462,7 @@ export const STAT_DEFINITIONS = {
         nameKey: 'wwsf',
         tooltipKey: 'tooltip_wwsf',
         type: 'percent',
+        ranges: { good: [40],acceptable:[30,40], warn: [25, 30] },
         init: () => ({ opportunities: 0, actions: 0 }),
         process: (handContext, stat) => {
             if (handContext.is_WTSD_base_hand) {
@@ -509,6 +514,7 @@ export const STAT_DEFINITIONS = {
         tooltipKey: 'tooltip_afq_flop',
         type: 'percent',
         init: () => ({ bets: 0, raises: 0, calls: 0, checks: 0 }),
+        ranges: { good: [25, 35],acceptable:[20,40], warn: [15, 50] },
         process: (handContext, stat) => {
             handContext.flop.heroActions.forEach(a => {
                 if (a.action === 'bets') stat.bets++;
@@ -523,6 +529,7 @@ export const STAT_DEFINITIONS = {
         tooltipKey: 'tooltip_afq_turn',
         type: 'percent',
         init: () => ({ bets: 0, raises: 0, calls: 0, checks: 0 }),
+        ranges: { good: [25, 35],acceptable:[20,40], warn: [15, 50] },
         process: (handContext, stat) => {
             handContext.turn.heroActions.forEach(a => {
                 if (a.action === 'bets') stat.bets++;
@@ -537,6 +544,7 @@ export const STAT_DEFINITIONS = {
         tooltipKey: 'tooltip_afq_river',
         type: 'percent',
         init: () => ({ bets: 0, raises: 0, calls: 0, checks: 0 }),
+        ranges: { good: [25, 35],acceptable:[20,40], warn: [15, 50] },
         process: (handContext, stat) => {
             handContext.river.heroActions.forEach(a => {
                 if (a.action === 'bets') stat.bets++;
