@@ -88,10 +88,10 @@ function createHandContext(hand) {
     const isVpipOpportunity = heroPos !== 'BB' || facedPreflopRaise || (isHeroPreFlopRaiser&&heroPos==='BB')
 
     // POSTFLOP GENERAL
-    const sawFlop = hand.streets.flop.board.length > 0 ;
-    const sawTurn = sawFlop && hand.streets.turn.board.length > 0;
-    const sawRiver = sawTurn && hand.streets.river.board.length > 0;
-    const reachedShowdown = sawRiver && !hand.streets.river.actions.some(a => a.seat === heroSeat && a.action === 'folds');
+    const sawFlop =  hand.streets.flop.actions.some(a=>a.seat === heroSeat);
+    const sawTurn = sawFlop && hand.streets.turn.actions.some(a=>a.seat === heroSeat);
+    const sawRiver = sawTurn && hand.streets.river.actions.some(a=>a.seat === heroSeat);
+    const reachedShowdown = sawRiver && !hand.streets.river.actions.some(a => a.seat === heroSeat && (a.action === 'call'|| a.action === 'check'));
     const is_WTSD_base_hand = sawFlop && isVpipOpportunity;
 
     // **修正角色判斷邏輯**
