@@ -267,7 +267,7 @@ export const STAT_DEFINITIONS = {
         nameKey: 'fold_to_steal',
         tooltipKey: 'tooltip_fold_to_steal',
         type: 'percent',
-        ranges: { good: [20,35],acceptable:[15,45], warn: [10,55] }, // 越低越好
+        ranges: { good: [60,75],acceptable:[50,80], warn: [45,85] }, // 理想值低於75 
         init: () => ({ opportunities: 0, actions: 0 }),
         process: (handContext, stat) => {
             const { hero, preflop, hand } = handContext;

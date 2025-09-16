@@ -35,6 +35,7 @@ const translations = {
         showdown_stats: "攤牌數據", aggression_stats: "各街道攻擊性",
         positional_profit: "各位置盈利能力 (BB/100)",
         positional_style: "各位置遊戲風格", positional_aggression: "各位置 3-Bet 頻率",
+        positional_cbet: "各位置 C-Bet 頻率", positional_wtsd: "各位置攤牌率",
         winrate_by_weekday: "按星期分析勝率 (BB/100)", winrate_by_hour: "按小時分析勝率 (BB/100)",
         player_style_radar: "玩家風格雷達圖",
 
@@ -177,6 +178,7 @@ const translations = {
         showdown_stats: "Showdown Stats", aggression_stats: "Aggression by Street",
         positional_profit: "Positional Profitability (BB/100)",
         positional_style: "Positional Play Style", positional_aggression: "Positional 3-Bet Freq.",
+        positional_cbet: "Positional C-Bet Freq.", positional_wtsd: "Positional WTSD %",
         winrate_by_weekday: "Win Rate by Day of the Week (BB/100)", winrate_by_hour: "Win Rate by Hour (BB/100)",
         player_style_radar: "Player Style Radar Chart",
 
@@ -320,6 +322,7 @@ const translations = {
         showdown_stats: "ショーダウン統計", aggression_stats: "ストリートごとのアグレッション",
         positional_profit: "ポジション別収益性 (BB/100)",
         positional_style: "ポジション別プレイスタイル", positional_aggression: "ポジション別3ベット頻度",
+        positional_cbet: "ポジション別C-Bet頻度", positional_wtsd: "ポジション別ショーダウン率", 
         winrate_by_weekday: "曜日別勝率 (BB/100)", winrate_by_hour: "時間別勝率 (BB/100)",
         player_style_radar: "プレイヤースタイルレーダーチャート",
 
@@ -462,6 +465,7 @@ const translations = {
         showdown_stats: "쇼다운 통계", aggression_stats: "스트리트별 공격성",
         positional_profit: "위치별 수익성 (BB/100)",
         positional_style: "위치별 플레이 스타일", positional_aggression: "위치별 3-Bet 빈도",
+        positional_cbet: "위치별 C-Bet 빈도", positional_wtsd: "위치별 쇼다운 비율", 
         winrate_by_weekday: "요일별 승률 분석 (BB/100)", winrate_by_hour: "시간별 승률 분석 (BB/100)",
         player_style_radar: "플레이어 스타일 레이더 차트",
 
@@ -604,6 +608,7 @@ const translations = {
         showdown_stats: "Estadísticas de Showdown", aggression_stats: "Agresividad por Calle",
         positional_profit: "Rentabilidad Posicional (BB/100)",
         positional_style: "Estilo de Juego Posicional", positional_aggression: "Frecuencia de 3-Bet Posicional",
+        positional_cbet: "Frecuencia de C-Bet Posicional", positional_wtsd: "% de WTSD Posicional", 
         winrate_by_weekday: "Tasa de Ganancia por Día de la Semana (BB/100)", winrate_by_hour: "Tasa de Ganancia por Hora (BB/100)",
         player_style_radar: "Gráfico de Radar del Estilo del Jugador",
 

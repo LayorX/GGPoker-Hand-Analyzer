@@ -109,16 +109,13 @@ function createHandContext(hand) {
     const flopCheckedThrough = sawFlop && flopActions.length > 0 && flopActions.every(a => a.action === 'checks');
 
     // POSITION CONTEXT
-    let isHeroInPosition = false;
-    if (sawFlop && preflopAggressorSeat && preflopAggressorSeat !== heroSeat) {
-        const aggressorActionIndex = flopActions.map(a=>a.seat).indexOf(preflopAggressorSeat);
-        const heroActionIndex = flopActions.map(a=>a.seat).indexOf(heroSeat);
-        if (aggressorActionIndex > -1 && heroActionIndex > -1) {
-            isHeroInPosition = heroActionIndex > aggressorActionIndex;
-        } else if (hand.players.length === 2) { 
-             isHeroInPosition = hand.hero.position === 'BTN';
-        }
-    }
+    let isHeroFlopInPosition = false;
+    let isHeroRiverInPosition =false;
+    let isHeroTurnInPosition = false;
+    
+    isHeroFlopInPosition = isHeroInPosition(hand.streets.flop.actions, heroSeat);
+    isHeroTurnInPosition = isHeroInPosition(hand.streets.turn.actions, heroSeat);
+    isHeroRiverInPosition = isHeroInPosition(hand.streets.river.actions, heroSeat);
 
     return {
         hand,
@@ -144,15 +141,17 @@ function createHandContext(hand) {
             aggressorCBet,
             aggressorMissedCBet,
             wasCheckedThrough: flopCheckedThrough,
-            isHeroInPosition,
+            isHeroInPosition: isHeroFlopInPosition,
         },
         turn: {
             actions: hand.streets.turn.actions,
-            heroActions: hand.streets.turn.actions.filter(a => a.seat === heroSeat)
+            heroActions: hand.streets.turn.actions.filter(a => a.seat === heroSeat),
+            isHeroInPosition: isHeroTurnInPosition,
         },
         river: {
             actions: hand.streets.river.actions,
-            heroActions: hand.streets.river.actions.filter(a => a.seat === heroSeat)
+            heroActions: hand.streets.river.actions.filter(a => a.seat === heroSeat),
+            isHeroInPosition: isHeroRiverInPosition,
         },
         preflopAggressorSeat,
         isHeroWinner: hand.summary.winners.some(w => w.player.includes('Hero')),
@@ -340,3 +339,29 @@ export function finalizeStats(stats) {
     return final;
 }
 
+
+
+function isHeroInPosition(streetActions, heroSeat) {
+    if (!streetActions || streetActions.length === 0) {
+        return false;
+    }
+
+    const heroActionIndex = streetActions.findIndex(a => a.seat === heroSeat);
+
+    if (heroActionIndex < 0) {
+        return false; // 英雄未在該街行動，無位置可言
+    }
+
+    // 找到最後一個積極行動（下注或加注）
+    const lastBetOrRaiseAction = [...streetActions].reverse().find(a => a.action === 'bets' || a.action === 'raises');
+
+    if (!lastBetOrRaiseAction) {
+        // 全過牌的情況：最後行動者為IP
+        const lastActionSeat = streetActions[streetActions.length - 1].seat;
+        return heroSeat === lastActionSeat;
+    } else {
+        // 有下注或加注的情況：在最後積極行動者之後或就是該行動者
+        const lastBetOrRaiseIndex = streetActions.indexOf(lastBetOrRaiseAction);
+        return heroActionIndex >= lastBetOrRaiseIndex;
+    }
+}

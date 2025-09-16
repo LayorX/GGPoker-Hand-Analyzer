@@ -56,7 +56,9 @@ const UI_CONFIG = {
             { id: 'positionStyleChart', titleKey: 'positional_style', grid: 'xl:col-span-1' }
         ],
         sections: [
-             { titleKey: 'positional_aggression', grid: 'grid-cols-3 md:grid-cols-6', statIds: ['pos_ep_3bet', 'pos_mp_3bet', 'pos_co_3bet', 'pos_btn_3bet', 'pos_sb_3bet', 'pos_bb_3bet'] }
+             { titleKey: 'positional_aggression', grid: 'grid-cols-3 md:grid-cols-6', statIds: ['pos_ep_3bet', 'pos_mp_3bet', 'pos_co_3bet', 'pos_btn_3bet', 'pos_sb_3bet', 'pos_bb_3bet'] },
+             { titleKey: 'positional_cbet', grid: 'grid-cols-3 md:grid-cols-6', statIds: ['pos_ep_cbet_flop', 'pos_mp_cbet_flop', 'pos_co_cbet_flop', 'pos_btn_cbet_flop', 'pos_sb_cbet_flop', 'pos_bb_cbet_flop'] },
+             { titleKey: 'positional_wtsd', grid: 'grid-cols-3 md:grid-cols-6', statIds: ['pos_ep_wtsd', 'pos_mp_wtsd', 'pos_co_wtsd', 'pos_btn_wtsd', 'pos_sb_wtsd', 'pos_bb_wtsd'] },
         ]
     },
     time: {
@@ -171,8 +173,14 @@ function createStatCard(statId, stats) {
         const parts = statId.split('_');
         const pos = parts[1].toUpperCase();
         const key = parts.slice(2).join('_');
-        definition = { ...STAT_DEFINITIONS[key], nameKey: pos };
-        value = stats.byPosition[pos]?.[`${key}_p`];
+        const baseDefinition = STAT_DEFINITIONS[key];
+        if (!baseDefinition) {
+            console.warn(`Stat definition not found for base key: ${key}`);
+            return document.createDocumentFragment();
+        }
+        definition = { ...baseDefinition, nameKey: pos };
+        const valueKey = key + (baseDefinition.type === 'percent' ? '_p' : '');
+        value = stats.byPosition[pos]?.[valueKey];
     } else {
         definition = STAT_DEFINITIONS[statId];
         const valueKey = statId + (definition.type === 'percent' ? '_p' : '');
