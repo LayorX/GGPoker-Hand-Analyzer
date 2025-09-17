@@ -236,7 +236,7 @@ export const STAT_DEFINITIONS = {
         nameKey: 'limp',
         tooltipKey: 'tooltip_limp',
         type: 'percent',
-        ranges: { good: [-1, 5],acceptable:[5,8], warn: [8, 12] }, // 越低越好
+        ranges: { good: [-1, 3.5],acceptable:[3.5,5.5], warn: [5.5, 10] }, // 越低越好
         init: () => ({ opportunities: 0, actions: 0 }),
         process: (handContext, stat) => {
             if (!handContext.preflop.facedRaise&&handContext.hero.isVpipOpportunity) {

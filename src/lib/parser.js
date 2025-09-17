@@ -88,9 +88,11 @@ function parseSingleHand(handText) {
         postBlind: /^(.+?): posts (small|big) blind \$([\d.]+)/,
         action: /^(.+?): (folds|checks|bets|calls|raises) ?\$?([\d.]*)?(?: to \$?([\d.]*))?( and is all-in)?/,
         uncalledBet: /^Uncalled bet \(\$([\d.]+)\) returned to Hero/,
-        board: /^\*\*\* (FLOP|TURN|RIVER) \*\*\* \[(.+)]/,
+        // board: /^\*\*\* .*?(FLOP|TURN|RIVER) \*\*\* \[(.+)]/,
+        board: /^\*\*\* .*?(FLOP|TURN|RIVER) \*\*\* .*?\[(.+)]$/,
         totalPot: /^Total pot \$([\d.]+) \| Rake \$([\d.]+) \| Jackpot \$([\d.]+)?/,
         winner: /^Seat \d+: (.+?) (won|collected) \(\$([\d.]+)\)/,
+        showdown: /^(.+?) collected \$([\d.]+) from pot/,
     };
 
     let currentStreet = 'preflop';
@@ -146,8 +148,10 @@ function parseSingleHand(handText) {
             calculatePositions(hand);
             continue;
         } else if (line.startsWith('*** SUMMARY ***')) {
-            parsingStage = 'summary';
-            
+            parsingStage = 'summary';   
+            continue;
+        } else if (line.includes('SHOWDOWN')){
+            parsingStage = 'showdown';   
             continue;
         }
         // --- 根據不同階段解析 ---
@@ -195,10 +199,28 @@ function parseSingleHand(handText) {
             const boardMatch = line.match(regex.board);
             if (boardMatch) {
                 currentStreet = boardMatch[1].toLowerCase();
-                hand.streets[currentStreet].board = boardMatch[2].split(' ');
+                // TODO: handle SECOND,THIRD BOARD
+                const allBoardStrings= boardMatch[2];
+                // 移除所有方括號和空格，只保留牌名
+                const cardsArray = allBoardStrings
+                    .replace(/[\[\]]/g, '')
+                    .split(' ')
+                    .filter(card => card.length > 0); // 移除空字串
+                hand.streets[currentStreet].board =cardsArray;
                 continue;
             }
-        } else if (parsingStage === 'summary') {
+        } else if (parsingStage==='showdown'){
+            
+            const winnerMatch = line.match(regex.showdown);
+            if (winnerMatch) {
+                hand.summary.winners.push({
+                    player: winnerMatch[1],
+                    amount: parseFloat(winnerMatch[2]),
+                });
+            }
+        }
+        
+        else if (parsingStage === 'summary') {
             const potMatch = line.match(regex.totalPot);
             if (potMatch) {
                 hand.info.totalPot = parseFloat(potMatch[1]);
@@ -225,13 +247,13 @@ function parseSingleHand(handText) {
                 continue;
             }
 
-            const winnerMatch = line.match(regex.winner);
-            if (winnerMatch) {
-                hand.summary.winners.push({
-                    player: winnerMatch[1],
-                    amount: parseFloat(winnerMatch[3]),
-                });
-            }
+            // const winnerMatch = line.match(regex.winner);
+            // if (winnerMatch) {
+            //     hand.summary.winners.push({
+            //         player: winnerMatch[1],
+            //         amount: parseFloat(winnerMatch[3]),
+            //     });
+            // }
                     
         }
     }

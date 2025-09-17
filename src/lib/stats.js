@@ -87,11 +87,33 @@ function createHandContext(hand) {
     const raisesAfterHero = firstActionIndex > -1 && heroPreflopActions.some(a => a.action === 'raises') ? preflopActions.slice(firstActionIndex + 1).filter(a => a.action === 'raises') : [];
     const isVpipOpportunity = heroPos !== 'BB' || facedPreflopRaise || (isHeroPreFlopRaiser&&heroPos==='BB')
 
+    // actions
+    const flopActions = hand.streets.flop.actions;
+    const heroFlopActions = flopActions.filter(a => a.seat === heroSeat);
+    const heroTurnActions = hand.streets.turn.actions.filter(a => a.seat === heroSeat);
+
+
+    // POSITION CONTEXT
+    let isHeroFlopInPosition = false;
+    let isHeroRiverInPosition = false;
+    let isHeroTurnInPosition = false;
+
+    // isAllIn
+    const isHeroPreflopAllIn = preflopActions.some(a => a.seat === heroSeat && a.isAllIn);
+    const isOtherPreflopAllIn = preflopActions.some(a => a.seat !== heroSeat && a.isAllIn);
+    const isHeroFlopAllIn = isHeroPreflopAllIn || hand.streets.flop.actions.some(a => a.seat === heroSeat && a.isAllIn);
+    const isOtherFlopAllIn = isOtherPreflopAllIn || hand.streets.flop.actions.some(a => a.seat !== heroSeat && a.isAllIn);
+    const isHeroTurnAllIn = isHeroFlopAllIn || hand.streets.turn.actions.some(a => a.seat === heroSeat && a.isAllIn);
+    const isOtherTurnAllIn = isOtherFlopAllIn || hand.streets.turn.actions.some(a => a.seat !== heroSeat && a.isAllIn);
+    const isHeroRiverAllIn = isHeroTurnAllIn || hand.streets.river.actions.some(a => a.seat === heroSeat && a.isAllIn);
+    const isOtherRiverAllIn = isOtherTurnAllIn || hand.streets.river.actions.some(a => a.seat !== heroSeat && a.isAllIn);
+    const isHeroAllIn = isHeroPreflopAllIn || isHeroFlopAllIn || isHeroTurnAllIn || isHeroRiverAllIn;
+
     // POSTFLOP GENERAL
-    const sawFlop =  hand.streets.flop.actions.some(a=>a.seat === heroSeat);
-    const sawTurn = sawFlop && hand.streets.turn.actions.some(a=>a.seat === heroSeat);
-    const sawRiver = sawTurn && hand.streets.river.actions.some(a=>a.seat === heroSeat);
-    const reachedShowdown = sawRiver && !hand.streets.river.actions.some(a => a.seat === heroSeat && (a.action === 'call'|| a.action === 'check'));
+    const sawFlop = isHeroPreflopAllIn || hand.streets.flop.actions.some(a => a.seat === heroSeat) || isOtherPreflopAllIn && !heroPreflopActions.some(a => a.action === 'folds');
+    const sawTurn = isHeroFlopAllIn || sawFlop && hand.streets.turn.actions.some(a => a.seat === heroSeat) || isOtherFlopAllIn && !heroFlopActions.some(a => a.action === 'folds');
+    const sawRiver = isHeroTurnAllIn || sawTurn && hand.streets.river.actions.some(a => a.seat === heroSeat) || isOtherTurnAllIn && !heroTurnActions.some(a => a.action === 'folds');
+    const reachedShowdown = sawRiver && !hand.streets.river.actions.some(a => a.seat === heroSeat && (a.action === 'call' || a.action === 'check'));
     const is_WTSD_base_hand = sawFlop && isVpipOpportunity;
 
     // **修正角色判斷邏輯**
@@ -101,18 +123,15 @@ function createHandContext(hand) {
 
 
     // FLOP CONTEXT
-    const flopActions = hand.streets.flop.actions;
-    const heroFlopActions = flopActions.filter(a => a.seat === heroSeat);
+    
+
     const aggressorActionOnFlop = flopActions.find(a => a.seat === preflopAggressorSeat);
     const aggressorCBet = !!(isHeroPreflopAggressor === false && aggressorActionOnFlop && aggressorActionOnFlop.action === 'bets');
     const aggressorMissedCBet = !!(isHeroPreflopAggressor === false && aggressorActionOnFlop && aggressorActionOnFlop.action === 'checks');
     const flopCheckedThrough = sawFlop && flopActions.length > 0 && flopActions.every(a => a.action === 'checks');
 
-    // POSITION CONTEXT
-    let isHeroFlopInPosition = false;
-    let isHeroRiverInPosition =false;
-    let isHeroTurnInPosition = false;
-    
+
+
     isHeroFlopInPosition = isHeroInPosition(hand.streets.flop.actions, heroSeat);
     isHeroTurnInPosition = isHeroInPosition(hand.streets.turn.actions, heroSeat);
     isHeroRiverInPosition = isHeroInPosition(hand.streets.river.actions, heroSeat);
@@ -126,6 +145,7 @@ function createHandContext(hand) {
             isVpipOpportunity: isVpipOpportunity,
             isPreflopAggressor: isHeroPreflopAggressor,
             isPreflopCaller: isHeroPreflopCaller,
+            isAllIn: isHeroAllIn,
         },
         preflop: {
             actions: preflopActions,
@@ -133,7 +153,9 @@ function createHandContext(hand) {
             raisesBeforeHero,
             callsBeforeHero,
             facedRaise: facedPreflopRaise,
-            faced3Bet: raisesAfterHero.length > 0
+            faced3Bet: raisesAfterHero.length > 0,
+            isHeroPreflopAllIn: isHeroPreflopAllIn,
+            isOtherPreflopAllIn: isOtherPreflopAllIn,
         },
         flop: {
             actions: flopActions,
@@ -142,16 +164,22 @@ function createHandContext(hand) {
             aggressorMissedCBet,
             wasCheckedThrough: flopCheckedThrough,
             isHeroInPosition: isHeroFlopInPosition,
+            isHeroFlopAllIn: isHeroFlopAllIn,
+            isOtherFlopAllIn: isOtherFlopAllIn,
         },
         turn: {
             actions: hand.streets.turn.actions,
             heroActions: hand.streets.turn.actions.filter(a => a.seat === heroSeat),
             isHeroInPosition: isHeroTurnInPosition,
+            isHeroTurnAllIn: isHeroTurnAllIn,
+            isOtherTurnAllIn: isOtherTurnAllIn,
         },
         river: {
             actions: hand.streets.river.actions,
             heroActions: hand.streets.river.actions.filter(a => a.seat === heroSeat),
             isHeroInPosition: isHeroRiverInPosition,
+            isHeroRiverAllIn: isHeroRiverAllIn,
+            isOtherRiverAllIn: isOtherRiverAllIn,
         },
         preflopAggressorSeat,
         isHeroWinner: hand.summary.winners.some(w => w.player.includes('Hero')),
@@ -206,7 +234,7 @@ export function calculateStats(parsedHands) {
         stats.bbSize = hand.info.bb > 0 ? hand.info.bb : stats.bbSize;
 
         cumulativeProfit += context.hero.result;
-        cumulativeProfitWithRake += context.hero.result>0? context.hero.result + (hand.info.rake || 0) + (hand.info.jackpot || 0): context.hero.result;
+        cumulativeProfitWithRake += context.isHeroWinner? context.hero.result + (hand.info.rake || 0) + (hand.info.jackpot || 0): context.hero.result;
         stats.profitHistory.push({ hand: stats.rawData.indexOf(hand) + 1, profit: cumulativeProfit,profit_with_rake: cumulativeProfitWithRake  });
         
         const dayKey = handStartTime.toISOString().split('T')[0];
