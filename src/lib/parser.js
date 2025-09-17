@@ -271,20 +271,22 @@ function calculatePositions(hand) {
 function calculateHeroResult(hand) {
     let totalInvestment = 0;
     const heroSeat = hand.hero.seat;
-
+    let streetContribution;
     // 遍歷所有街道和所有行動，累加 Hero 的總投入
     for (const streetName of ['preflop', 'flop', 'turn', 'river']) {
+        streetContribution = 0;
         const heroActions = hand.streets[streetName].actions.filter(
             a => a.seat === heroSeat
         );
 
         for (const action of heroActions) {
-            
-            if (['folds','checks', 'bets', 'calls', 'raises'].includes(action.action)) {
-                // checks and folds still count cuz of BB and SB
-                totalInvestment += action.amount;
+            if (action.action === 'raises') {
+                streetContribution = action.amount;
+            } else {
+                streetContribution += action.amount;
             }
         }
+        totalInvestment += streetContribution;
     }
 
     const heroWonAmount = hand.summary.winners
@@ -309,7 +311,7 @@ function calculateHeroResult(hand) {
  * @returns {object} - 返回更新後的行動物件和盲注標誌。
  */
 function handlePreflopBlinds(action, player, handInfo, actionType, isSmallBlindPosted, isBigBlindPosted) {
-    if (actionType === 'raise') {
+    if (actionType === 'raises') {
         if (player.position === "SB" && !isSmallBlindPosted) {
             isSmallBlindPosted = true;
         }
