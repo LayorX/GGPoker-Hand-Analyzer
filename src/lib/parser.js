@@ -177,20 +177,6 @@ function parseSingleHand(handText) {
                         isSmallBlindPosted = blindUpdates.updatedIsSmallBlindPosted;
                         isBigBlindPosted = blindUpdates.updatedIsBigBlindPosted;
                     }
-                    // if (currentStreet === "preflop" && actionMatch[2] === "checks" ) {
-                    //     // BIG CHECK
-                    //     if (player.position === "BB") action.amount += action.amount===0 ? hand.info.bb:0
-                    // }else if (currentStreet === "preflop" && (actionMatch[2] === "calls"|| actionMatch[2] === "folds")) {
-                    //     // 把大小CALL
-                    //     if (player.position === "SB" && !isSmallBlindPosted) {
-                    //         action.amount += hand.info.sb;
-                    //         isSmallBlindPosted = true;
-                    //     }
-                    //     if (player.position === "BB" && !isBigBlindPosted) {
-                    //         action.amount += hand.info.bb
-                    //         isBigBlindPosted = true;
-                    //     }
-                    // }
                     hand.streets[currentStreet].actions.push(action);
 
                     if (currentStreet === 'preflop' && action.action === 'raises' && !hand.preflopRaiserSeat) {
@@ -218,7 +204,7 @@ function parseSingleHand(handText) {
                 hand.info.totalPot = parseFloat(potMatch[1]);
                 hand.info.rake = parseFloat(potMatch[2]);
                 hand.info.jackpot = potMatch[3] ? parseFloat(potMatch[3]) : 0;
-                if (!isBigBlindPosted && hand.info.totalPot === hand.info.bb) {
+                if (!isBigBlindPosted && hand.info.totalPot === hand.info.sb*2) {
                     // 其他人都folds到大盲，直接收pot
                     if (hand.players.length>1&& !isBigBlindPosted) {
                         for (const player of hand.players) {
@@ -323,6 +309,15 @@ function calculateHeroResult(hand) {
  * @returns {object} - 返回更新後的行動物件和盲注標誌。
  */
 function handlePreflopBlinds(action, player, handInfo, actionType, isSmallBlindPosted, isBigBlindPosted) {
+    if (actionType === 'raise') {
+        if (player.position === "SB" && !isSmallBlindPosted) {
+            isSmallBlindPosted = true;
+        }
+        if (player.position === "BB" && !isBigBlindPosted) {
+            isBigBlindPosted = true;
+        }
+
+    }
     // 處理大盲注玩家的過牌 (check)
     if (actionType === "checks" && player.position === "BB") {
         // 大盲注玩家在過牌時，若金額為 0，則加上大盲注的金額
