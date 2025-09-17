@@ -246,14 +246,6 @@ function parseSingleHand(handText) {
                 }
                 continue;
             }
-
-            // const winnerMatch = line.match(regex.winner);
-            // if (winnerMatch) {
-            //     hand.summary.winners.push({
-            //         player: winnerMatch[1],
-            //         amount: parseFloat(winnerMatch[3]),
-            //     });
-            // }
                     
         }
     }

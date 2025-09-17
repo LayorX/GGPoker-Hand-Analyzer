@@ -47,7 +47,7 @@ function initialize() {
     setupEventListeners();
     initializeTabs();
 
-    const savedLang = localStorage.getItem('language') || 'zh';
+    const savedLang = localStorage.getItem('language') || 'en';
     languageSwitcher.value = savedLang;
     setLanguage(savedLang).then(() => {
         if (!AppState.filteredStats) {
