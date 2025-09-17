@@ -26,7 +26,7 @@ const UI_CONFIG = {
             { titleKey: 'win_rate_stats', grid: 'grid-cols-2 md:grid-cols-4', statIds: ['total_profit', 'bb_per_100', 'profit_bb', 'total_rake',
                     'total_profit_with_rake', 'bb_with_rake_per_100', 'profit_with_rake_bb', 'total_jackpot']
             },
-            { titleKey: 'session_info', grid: 'grid-cols-2 md:grid-cols-4', statIds: ['total_hands', 'total_duration', 'hands_per_hour', 'total_rake'] },
+            { titleKey: 'session_info', grid: 'grid-cols-2 md:grid-cols-4', statIds: ['total_hands', 'total_duration', 'hands_per_hour', 'profit_per_hour'] },
             { titleKey: 'preflop_style', grid: 'grid-cols-2 md:grid-cols-4', statIds: ['vpip', 'pfr', '3bet', 'steal_attempt'] },
             { titleKey: 'postflop_play', grid: 'grid-cols-2 md:grid-cols-4', statIds: ['cbet_flop', 'wtsd', 'wtsd_won', 'afq_flop'] },
         ],
