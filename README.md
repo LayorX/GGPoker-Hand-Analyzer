@@ -16,7 +16,6 @@
 ## **✨ 線上 DEMO**
 ![Demo GIF](demo_data/demo.gif)
 **立即體驗 👉 [ggpokerAnalyzer](https://layorx.github.io/ggpokerAnalyzer/index.html)**
-![](https://i.meee.com.tw/yQeMtPA.png)
 
 ## **🚀 功能特色 (Features)**
 
