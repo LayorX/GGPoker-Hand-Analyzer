@@ -13,9 +13,10 @@
 <a href="./README.md"><strong>繁體中文 (Traditional Chinese)</strong></a>  
 </p>
 
-## **✨ LIVE DEMO**
-![Demo GIF](demo_data/demo.gif)
+## **✨ LIVE DEMO** 
 **Try it now 👉 [ggpokerAnalyzer](https://layorx.github.io/ggpokerAnalyzer/index.html)**
+![Demo GIF](demo_data/demo.gif)
+
 ![](https://i.meee.com.tw/yQeMtPA.png)
 
 ## **🚀 Features**
