@@ -14,6 +14,15 @@
 </p>
 
 ## **✨ 線上 DEMO**
+**從 Pokercraft 收集你的資料檔案**
+
+請在你的 Pokercraft 手牌區塊，點選紅色按鈕來下載「手牌歷史」（Hand histories）檔案。
+
+如果你的帳戶有太多手牌紀錄，GGNetwork 會阻止你進行大量下載，因此你可能需要分開按月或按週下載紀錄。
+
+![pokercraft_download](./demo_data/pokercraft_download.png)
+
+
 **立即體驗 👉 [ggpokerAnalyzer](https://layorx.github.io/ggpokerAnalyzer/index.html)**
 ![Demo GIF](demo_data/demo.gif)
 

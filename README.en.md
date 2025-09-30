@@ -14,6 +14,17 @@
 </p>
 
 ## **✨ LIVE DEMO** 
+**Collect your data files from Pokercraft**
+
+Download *"Game summaries"* file by your pokercraft cash game section,
+and *"Hand histories"* file by pressing red button on your pokercraft section.
+If there are too many hands records on your account, GGNetwork will prevent you from bulk downloading,
+therefore you may have to download separately monthly or weekly records.
+
+![pokercraft_download](./demo_data/pokercraft_download_en.png)
+
+
+
 **Try it now 👉 [ggpokerAnalyzer](https://layorx.github.io/ggpokerAnalyzer/index.html)**
 ![Demo GIF](demo_data/demo.gif)
 
