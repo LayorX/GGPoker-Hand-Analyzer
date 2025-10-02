@@ -15,6 +15,23 @@ This is an open-source project, and contributions of all kinds are welcome\! **W
 
 We will review your contribution as soon as possible. Thank you to everyone who dedicates their time and effort to this project\!
 
+## 🧪 Running Tests
+
+To ensure the accuracy of hand history parsing and the stability of the code, this project has integrated the [Vitest](https://vitest.dev/) unit testing framework. All new features or bug fixes should ideally be accompanied by corresponding tests.
+
+**How to run tests:**
+
+1.  Make sure you have installed the development dependencies by running `npm install`.
+2.  Run the following command in the project root directory:
+
+    ```bash
+    npm test
+    ```
+
+3.  The console will display the test results. Please ensure that all tests pass before submitting a Pull Request.
+
+Test files are located alongside the source code they are testing and have a `.test.js` suffix (e.g., `src/lib/parser.test.js`).
+
 ## **💖 歡迎貢獻 (Contributing)**
 
 這個專案是開源的，我們非常歡迎任何形式的貢獻！**無論您是經驗豐富的開發者，還是剛入門的新手，都歡迎您一起加入，讓這個工具變得更好！**
@@ -31,6 +48,23 @@ We will review your contribution as soon as possible. Thank you to everyone who 
    * 開啟一個 **Pull Request**，並詳細說明您的修改內容。
 
 我們將會盡快 review 您的貢獻。感謝所有為這個專案付出時間和精力的開發者！
+
+## 🧪 運行測試 (Running Tests)
+
+為了確保牌譜解析的準確性與程式碼的穩定性，本專案整合了 [Vitest](https://vitest.dev/) 單元測試框架。所有的新功能或錯誤修復，都應該盡可能地附上對應的測試案例。
+
+**如何運行測試：**
+
+1.  請先確保您已經透過 `npm install` 安裝了開發環境所需的依賴。
+2.  在專案根目錄下，執行以下命令：
+
+    ```bash
+    npm test
+    ```
+
+3.  控制台將會顯示測試結果。在提交 Pull Request 之前，請務必確保所有的測試都能通過。
+
+測試文件與其所測試的原始碼放在一起，並以 `.test.js` 作為後綴 (例如：`src/lib/parser.test.js`)。
 
 ## **📄 授權 (License)**
 

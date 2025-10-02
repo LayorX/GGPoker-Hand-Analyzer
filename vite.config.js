@@ -1,10 +1,13 @@
-import { defineConfig } from 'vite'
+/// <reference types="vitest" />
+import { defineConfig } from 'vitest/config'
 import { VitePWA } from 'vite-plugin-pwa';
 
 // https://vitejs.dev/config/
 export default defineConfig({
   base: './',
-  // No special config needed for this simple setup
+  test: {
+    // ...
+  },
   plugins: [
     VitePWA({
       registerType: 'autoUpdate',
