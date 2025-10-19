@@ -41,7 +41,7 @@ export const STAT_DEFINITIONS = {
         nameKey: 'bb_per_100',
         tooltipKey: 'tooltip_bb_per_100',
         type: 'bb',
-        ranges: { good: [12,100],acceptable:[5,12], warn: [-5,5] } // 越高越好
+        ranges: { good: [12,1000],acceptable:[5,12], warn: [-5,5] } // 越高越好
     },
     profit_bb: {
         nameKey: 'profit_bb',
@@ -75,7 +75,7 @@ export const STAT_DEFINITIONS = {
         nameKey: 'bb_with_rake_per_100',
         tooltipKey: 'tooltip_bb_with_rake_per_100',
         type: 'bb',
-        ranges: { good: [25,100],acceptable:[10,25], warn: [0,10] } // 越高越好
+        ranges: { good: [25,1000],acceptable:[10,25], warn: [0,10] } // 越高越好
     },
 
     profit_with_rake_bb: {
